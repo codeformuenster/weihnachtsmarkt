@@ -1,1 +1,6 @@
 .christmas-header {color:#ff3333;background-color:#eee;} 
+.searchbox {border-radius:5px;background-color:black;border:5px solid black;color:white;}
+.searchbox input {color:black;}
+.searchbox-title {float:right;}
+.searchbox-title {margin-top:8px;}
+.search-info { margin:8px;height:20px;}

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="weihnachtsApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Weinhachtsmärkte Münster</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/weihnachtsmarkt.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,46 +20,57 @@
   </head>
   <body>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js"></script>
+	<script src="js/app.js"></script>
 
     <div class="christmas-header" id="content">
       <div class="container">
-            <h1>Hello, world! Weihnachtsmarkt!</h1>
+            <h1>Weihnachtsmarkt Münster</h1>
 
-        <p>Hier könnte ein sinnvoller Einführungstext stehen. Könnte, hätte, Fahrradkette.</p>
+        <p>Mit Stände-Suchfunktion.</p>
 
       </div>
     </div>
 
     <div class="container christmas-content">
 
+	<div class="searchbox">
+	    <div class="row">
+	    	<div class="col-md-3">
+	    		<div class="searchbox-title">Stände-Suche:</div>
+	    	</div>
+	    	<div class="col-md-9">
+	    		<input class="form-control" type="text" placeholder="Suchbegriff" ng-model="search">
+	    	</div>
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="search-info">
+					<center ng-show="search">Anzeige der Suchergebnisse für: "{{search}}"</center>
+				</div>
+			</div>
+		</div>
+
+
 		<table class="table table-striped">
 		      <thead>
 		        <tr>
 		          <th>#</th>
-		          <th>First Name</th>
-		          <th>Last Name</th>
-		          <th>Username</th>
+		          <th>Aussteller</th>
+		          <th>Inhaber</th>
+		          <th>Warenangebot</th>
+		          <th>Homepage</th>
 		        </tr>
 		      </thead>
-		      <tbody>
-		        <tr>
-		          <td>1</td>
-		          <td>Mark</td>
-		          <td>Otto</td>
-		          <td>@mdo</td>
-		        </tr>
-		        <tr>
-		          <td>2</td>
-		          <td>Jacob</td>
-		          <td>Thornton</td>
-		          <td>@fat</td>
-		        </tr>
-		        <tr>
-		          <td>3</td>
-		          <td>Larry</td>
-		          <td>the Bird</td>
-		          <td>@twitter</td>
-		        </tr>
+		      <tbody ng-controller="staendeCtrl">
+				  <tr ng-repeat="stand in staende | filter:search">
+				    <td>{{stand.Standnummer}}</td>
+				    <td>{{stand.Aussteller}}</td>
+				    <td>{{stand.Inhaber}}</td>
+				    <td>{{stand.Warenangebot}}</td>
+				    <td>{{stand.Homepage}}</td>
+				  </tr>
 		      </tbody>
 		    
 		</table>
