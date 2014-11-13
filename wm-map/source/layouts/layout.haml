@@ -1,0 +1,11 @@
+!!! 5
+%html{ :"ng-app" => "DialogMapApp" }
+  %head
+    %meta{:charset => "utf-8"}
+    %title Code for Münster Weihnachtsmarkt App 2014
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0", :name => "viewport"}
+    = stylesheet_link_tag "styles", media: "all"
+    = javascript_include_tag "app"
+  %body
+    = yield
