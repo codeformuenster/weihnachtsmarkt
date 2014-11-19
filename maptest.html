@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Moin!</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <style>
+        body {padding: 0; margin: 0 }
+        html, body, #map { height: 100% }
+        #title {
+			position:absolute; top:0px; right:0px; 
+			z-index: 100;
+			opacity:0.8;
+			color:red;
+    	    font-size: 45px;
+    		line-height: 47px;
+        }
+        #title img {float:left;height:92px;}
+        #nav-overlay {
+			position:absolute; bottom:0px; left:0px; 
+			z-index: 100;
+			opacity:0.8;
+        }
+        #nav-overlay .icon {
+        	width:70px;
+        	height:70px;
+        }
+        .nav-icon { fill:red ; opacity:0.7; width:70px;height:70px;}
+        .nav-icon:hover {fill:white!important:opacity:1;background-color:white;}
+
+
+
+
+        </style>
+  </head>
+
+  <body>
+
+
+
+    <div id="nav-overlay"> 
+    	<img class="nav-icon" alt="Fressbuden" title="Fressbuden" src="icons/turkey.svg"  />
+    	<img class="nav-icon" alt="Textilien" title="Textilien" src="icons/gloves.svg"  />
+    </div>
+    <div id="title"> 
+    	<img src="icons/santa.svg"  />
+    	Weihnachtsmarkt<br /> M&uuml;nster
+    </div>
+    <div style="z-index:2" id="map"></div>
+    
+
+        <script type ="text/javascript">
+        var basemap = L.tileLayer(
+                'http://{s}.tiles.mapbox.com/v3/tomrocket.k93e7pp4/{z}/{x}/{y}.png',
+                                  {     maxZoom: 22     }
+        );
+
+        var hiStyle = {
+		    "color": "#ff3322",
+		    "weight": 3,
+		    "opacity": 1
+		};
+		var loStyle = { // highlight the feature
+		    "color": "#f8f8f8",
+		    "weight": 2,
+		    "opacity": 1,
+		        fillOpacity: 0.8
+		};
+		function highlightFeature(e) {
+            //this.openPopup();
+		    var layer = e.target;
+		    layer.setStyle(hiStyle);
+		}
+		function resetHighlight(e) {
+            //this.closePopup();
+            var layer = e.target;
+            layer.setStyle(loStyle);
+		}
+
+        $.getJSON('rathaus_staende.geojson', function(data) {
+                var geojson = L.geoJson(data, {
+                  style: loStyle,
+                  onEachFeature: function (feature, layer) {
+			        layer.on({
+			            mouseover: highlightFeature,
+			            mouseout: resetHighlight,
+//			            click: zoomToFeature,
+//			            pointToLayer: pointToLayer
+			        });
+                    layer.bindPopup( "Stand Nr. " + feature.properties.stand_nr + "<br /><b>" + feature.properties.betreiber + "</b><br /><i>" + feature.properties.warenangeb+"</i>" );
+                    console.log("hey feature",  feature.properties.stand_nr );
+                  }
+                });
+		        var map = L.map('map').setView([ 51.962, 7.629], 20);
+		        basemap.addTo(map);
+		        geojson.addTo(map);
+        });
+
+  </script>
+ </body>
+</html>
