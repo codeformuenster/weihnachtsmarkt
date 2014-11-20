@@ -1,0 +1,800 @@
+[
+  {
+    "Standnummer":"1",
+    "Aussteller":"Kinderkarussell mit Tradition",
+    "Inhaber":"Eheleute Arning-Konopczynski",
+    "Warenangebot":"Kinderkarussell",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"2",
+    "Aussteller":"Weihnachtsmarkt-Treff",
+    "Inhaber":"Margret & Arno Heitmann",
+    "Warenangebot":"Glühwein, Punschgetränke, heiße Kakaogetränke, alkoholfreie Getränke",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"3",
+    "Aussteller":"Rosemarie Höhle-Schneider - Der Nussknacker",
+    "Inhaber":"",
+    "Warenangebot":"Gebrannte Mandeln und diverse Nüsse aus aller Welt",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"5",
+    "Aussteller":"Käthe Wohlfahrt GmbH & Co.OHG",
+    "Inhaber":"Herr Harald Johannes Wohlfahrt",
+    "Warenangebot":"Weihnachtsartikel aus verschiedenen Materialien, Geschenkartikel",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"6",
+    "Aussteller":"Schmuck & Kunsthandwerk",
+    "Inhaber":"Eike Vogt",
+    "Warenangebot":"Handgefertigte Artikel aus Nepalwolle, Schmuck, Wickelröcke uvm.",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"7",
+    "Aussteller":"Stürzl's Grill",
+    "Inhaber":"Frau Heidrun-Karla Stürzl",
+    "Warenangebot":"Bratwurst, Pommes, Reibekuchen und Softdrinks",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"8",
+    "Aussteller":"Schaustellerbetrieb Kaiser",
+    "Inhaber":"Herr Marcel Kaiser",
+    "Warenangebot":"Baumstriezel",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"9",
+    "Aussteller":"Willy Kinzler jun.",
+    "Inhaber":"",
+    "Warenangebot":"Poffertjes",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"10",
+    "Aussteller":"Parpalioni´s Zuckerstübchen",
+    "Inhaber":"Frau Stefanie Parpalioni",
+    "Warenangebot":"Gebrannte Mandeln und Nüsse, Lebkuchenherzen, Popcorn und Zuckerwatte",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"11",
+    "Aussteller":"Top Trend - Gisela Reintjes- Rühling& Wolfgang Rühling GbR",
+    "Inhaber":"",
+    "Warenangebot":"Textile Accessoires: Schals, Handschuhe, Mützen, Hüte, Arm- und Beinstulpen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"12",
+    "Aussteller":"Atelier Vielweber",
+    "Inhaber":"Frau Zwemmer-Vielweber",
+    "Warenangebot":"Handgravierte Holzartikel: Frühstücksbretter, Namensschilder, Uhren, Schlüsselbretter, Baumschmuck etc.",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"13",
+    "Aussteller":"Christmas World",
+    "Inhaber":"Herr Helmut Pfäfflin",
+    "Warenangebot":"Kerzen, Düfte und Aromalampen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"14",
+    "Aussteller":"Karsten Zobel Holzarbeiten",
+    "Inhaber":"Herr Karsten Zobel",
+    "Warenangebot":"Artikel zur Vogelfütterung, Nistkästen, Insektenhäuser, Eichhörnchen-Futterkästen",
+    "Homepage":"www.vogeltreff24.de"
+  },
+  {
+    "Standnummer":"15",
+    "Aussteller":"Tucano Intern. Wohntextilien GmbH",
+    "Inhaber":"Herr Andreas Kleyboldt",
+    "Warenangebot":"Hängematten, Wohntextilien, Socken, Mützen, Schals, Stulpen, Taschen uvm.",
+    "Homepage":"www.tucano-gmbh.de"
+  },
+  {
+    "Standnummer":"16",
+    "Aussteller":"Holzwurm",
+    "Inhaber":"Herr Reinhard Sobisch",
+    "Warenangebot":"Kunsthandwerk aus Bali, fairtrade Keramikdeko, Schmuck und Kleinmöbel aus Eigenanfertigung",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"17",
+    "Aussteller":"Schalke Leder",
+    "Inhaber":"Herr Udo Schalke",
+    "Warenangebot":"Klassische Ledermützen, Kinderlederhosen, Gürtel, Lederbörsen, Ledertaschen usw.",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"18",
+    "Aussteller":"Tom Kaiser",
+    "Inhaber":"",
+    "Warenangebot":"Siegel und Werkzeuge aus feinster Schokolade",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"19",
+    "Aussteller":"Directa GmbH",
+    "Inhaber":"Herr Stefan Schaper",
+    "Warenangebot":"Nostalgische Blechschilder, Wecker und Uhren, Magnetkarten",
+    "Homepage":"www.crazy-online.de"
+  },
+  {
+    "Standnummer":"20",
+    "Aussteller":"Canto Nosso",
+    "Inhaber":"Inh. Günter Raecke",
+    "Warenangebot":"Brunnen, Skulturen, Mineralien, Tonschmuck",
+    "Homepage":"www.cantonosso.de"
+  },
+  {
+    "Standnummer":"21",
+    "Aussteller":"Alpenland Kosmetik",
+    "Inhaber":"Herr Alexander Bauer",
+    "Warenangebot":"Alpenländische Raritäten: Balsame, Kräuter- und Pflanzenseifen, Molke-Pflegeprodukte, Hirschtalg-Fußcreme etc.",
+    "Homepage":"www.alpenland-kosmetik.de"
+  },
+  {
+    "Standnummer":"22",
+    "Aussteller":"Jens Heubes",
+    "Inhaber":"",
+    "Warenangebot":"Weihnachtliche Vollwertwaren: Früchtebrot, Gebäck",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"23",
+    "Aussteller":"GLASS ART",
+    "Inhaber":"Herr Klaus Meier",
+    "Warenangebot":"Weihnachtsdekor aus Capiz-Muscheln, Fensterbilder, Sand-Art-Muschel-Schmuck",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"24",
+    "Aussteller":"Tiroler Bauernstandl",
+    "Inhaber":"Frau Rita Westhoff",
+    "Warenangebot":"Tiroler Spezialitäten wie Käse, Wurst, Brot",
+    "Homepage":"www.tirolerin-muenster.de"
+  },
+  {
+    "Standnummer":"25",
+    "Aussteller":"Stulle",
+    "Inhaber":"Frau Sabine Spanheimer",
+    "Warenangebot":"Portemonnaies aus Plane und Leder, Kindergartentaschen- und Rucksäcke, Lätzchen, Tischsets, Schlüsselbänder",
+    "Homepage":"www.stulle-berlin.de"
+  },
+  {
+    "Standnummer":"26",
+    "Aussteller":"Steffen Müller",
+    "Inhaber":"Herr Steffen Müller",
+    "Warenangebot":"Handarbeiten aus Filz z.B. Eierwärmer, Taschen",
+    "Homepage":"www.feltberg.com"
+  },
+  {
+    "Standnummer":"28",
+    "Aussteller":"Feuerzangenbowle - A. Schneider",
+    "Inhaber":"Herr August Schneider",
+    "Warenangebot":"Feuerzangenbowle, Früchtepunsch",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"29",
+    "Aussteller":"Patrick März",
+    "Inhaber":"",
+    "Warenangebot":"Gefüllte Pizzabrötchen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"30",
+    "Aussteller":"Heimatburger, Dockland GmbH",
+    "Inhaber":"Herr Pitti Duyster",
+    "Warenangebot":"Burgervariationen, Brat- / Currywurst, Pommes Frites,",
+    "Homepage":"www.heimatcut.de"
+  },
+  {
+    "Standnummer":"31",
+    "Aussteller":"Andreas Lanz",
+    "Inhaber":"",
+    "Warenangebot":"Spielzeug, Blechschilder, Autos",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"32",
+    "Aussteller":"Kinderkarussell Schneider",
+    "Inhaber":"Herr Johann Schneider",
+    "Warenangebot":"Kinderkarussell",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"33",
+    "Aussteller":"Gebrannte Mandeln -Süßwaren",
+    "Inhaber":"Cornelia & Roman Kaselowsky",
+    "Warenangebot":"Gebrannte Mandeln, Nüsse aus aller Welt, Alpenbrot, Schoko-Fruchtspieße",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"34",
+    "Aussteller":"Creperie Ueberfeld",
+    "Inhaber":"",
+    "Warenangebot":"Crêpes, Waffeln und Waffelbällchen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"35",
+    "Aussteller":"Töpferei Langerwehe Kuckertz & Rennertz GmbH",
+    "Inhaber":"",
+    "Warenangebot":"Handwerkliche Töpferwaren: Krippenfiguren, Porzellan-Lichter, Duftkeramik mit Öl, weihnachtliche Geschenkideen",
+    "Homepage":"www.toepferei-langerwehe.de"
+  },
+  {
+    "Standnummer":"36",
+    "Aussteller":"Stossno & Ankermann GbR",
+    "Inhaber":"Herr Oliver Ankermann Herr Uwe Stossno",
+    "Warenangebot":"Perlsacktiere",
+    "Homepage":"www.perlsacktiere.de"
+  },
+  {
+    "Standnummer":"37",
+    "Aussteller":"Pro Na GmbH",
+    "Inhaber":"Herrn Wolfgang Dropmann",
+    "Warenangebot":"Umweltfreundliche Schreibwaren, Karten, Geschenkpapier, Kalligraphie, Siegel",
+    "Homepage":"www.prona.de"
+  },
+  {
+    "Standnummer":"38",
+    "Aussteller":"Kunsthandwerk und Deko",
+    "Inhaber":"Frau Petra Krampe-Lütkemeier",
+    "Warenangebot":"Engel, Spielwaren, Windlichter, Schneekugeln",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"39",
+    "Aussteller":"Frau Antje Jansen",
+    "Inhaber":"",
+    "Warenangebot":"Schmuck aus Glasperlen, Halbedelsteine, Muscheln- und Süßwasserperlen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"40",
+    "Aussteller":"Herr Akram Elich",
+    "Inhaber":"",
+    "Warenangebot":"Falafel, Langos",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"41",
+    "Aussteller":"Blauweiß´chen GmbH",
+    "Inhaber":"Frau Ellen Ostendorf",
+    "Warenangebot":"Handgestochene und handgedruckte Textilien, Textilien zum Bedrucken (mit Lavendel) Blauweiß´chens feine Farben",
+    "Homepage":"www.blauweisschen.de"
+  },
+  {
+    "Standnummer":"42",
+    "Aussteller":"Frau Ramona Werdermann",
+    "Inhaber":"",
+    "Warenangebot":"Brat-, Schokoladenäpfel, Ananas, Erdbeeren, Bananen",
+    "Homepage":"www.vimeo.com/musicalhit/fruchtkrippe"
+  },
+  {
+    "Standnummer":"43",
+    "Aussteller":"Glühweintreff",
+    "Inhaber":"Herr Michael Völlmecke",
+    "Warenangebot":"Glühwein, heiße und kalte alkoholische und alkoholfreie Getränke",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"44",
+    "Aussteller":"Höhle Crepés",
+    "Inhaber":"Willi & Ilonka Höhle",
+    "Warenangebot":"Crêpes, Waffeln und Waffelbällchen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"46",
+    "Aussteller":"King Arthur's Legendary Food",
+    "Inhaber":"Herr A. Kleinwächter",
+    "Warenangebot":"Hanf-Fladen mit diversen Füllungen, süß und herzhaft",
+    "Homepage":"www.hanf-baeckerey.de"
+  },
+  {
+    "Standnummer":"47",
+    "Aussteller":"Margret Rennspiess-Hesse",
+    "Inhaber":"",
+    "Warenangebot":"Selbstgefertigter Designerschmuck, Bastelperlen, Dekomagnete, Bordüren",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"48",
+    "Aussteller":"Buckles & Gürtel nach Mass",
+    "Inhaber":"Herr Ralf Heydrich",
+    "Warenangebot":"hochwertige Lederwaren und Gürtel",
+    "Homepage":"www.ralf-heydrich.de"
+  },
+  {
+    "Standnummer":"49",
+    "Aussteller":"PAT & PATTY",
+    "Inhaber":"Frau Kerstin Dorow",
+    "Warenangebot":"Kinderbekleidung, Wärmekissen, Decken, Handpuppen, Mützen und Schals - 100% Bio-Baumwolle - Herstellung in Deutschland",
+    "Homepage":"www.patundpatty.de"
+  },
+  {
+    "Standnummer":"50",
+    "Aussteller":"Tee Kräuter Gewürze",
+    "Inhaber":"Frau Monika Steindor",
+    "Warenangebot":"Tee, Gewürze und alles was dazu gehört",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"51",
+    "Aussteller":"Chilino",
+    "Inhaber":"Frau Jonna Kriech",
+    "Warenangebot":"Chilinos",
+    "Homepage":"www.chilino.de"
+  },
+  {
+    "Standnummer":"52",
+    "Aussteller":"Savon Vivre-Handgemachte Seife",
+    "Inhaber":"Frau Melanie Storb",
+    "Warenangebot":"Handgemachte Seife aus eigener Herstellung, versch. Sorten und Größen, Seifenablagen (Olivenholz)",
+    "Homepage":"www.savon-vivre.com"
+  },
+  {
+    "Standnummer":"53",
+    "Aussteller":"Holländische Pommes",
+    "Inhaber":"Herr Hans Kurt Wimmer",
+    "Warenangebot":"Holländische Pommes, Frikadellen spezial. Backkartoffeln",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"54",
+    "Aussteller":"Mamadou Niang",
+    "Inhaber":"",
+    "Warenangebot":"Woll- und Fellartikel",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"55a",
+    "Aussteller":"Image Silver",
+    "Inhaber":"Frau Izabela Szymanska",
+    "Warenangebot":"Schmuck aus Bernstein und Silber, Bernsteinlampen, -kerzen",
+    "Homepage":"www.imagesilver.com.pl"
+  },
+  {
+    "Standnummer":"55b",
+    "Aussteller":"Frau Sabine Heuser",
+    "Inhaber":"",
+    "Warenangebot":"Socken aus Wolle, Seide und Leinen",
+    "Homepage":"www.aktivsocken.de"
+  },
+  {
+    "Standnummer":"56",
+    "Aussteller":"Jens-Petter Güttler",
+    "Inhaber":"",
+    "Warenangebot":"kunsthandwerkliche Wohn- und Gartenaccessoires im Landhausstil, Geschenkartikel",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"57",
+    "Aussteller":"Greenlife Value GmbH",
+    "Inhaber":"",
+    "Warenangebot":"Warmies, Wärmestofftiere und Wärmeschuhe für Mikrowelle und Backofen",
+    "Homepage":"www.warmies.de"
+  },
+  {
+    "Standnummer":"58",
+    "Aussteller":"Schaustellerbetrieb Kracke",
+    "Inhaber":"Herr Erich Kracke",
+    "Warenangebot":"Heißgetränke, verschiedene Milchgetränke mit und ohne Alkohol",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"59",
+    "Aussteller":"Olivino",
+    "Inhaber":"Herr Anas-Mohamed Akallal",
+    "Warenangebot":"Handgefertigte Produkte aus Olivenholz: Küchenartikel, Dekorationsartikel, Tische",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"61",
+    "Aussteller":"Steinkamp´s Mandeln",
+    "Inhaber":"Frau Gisela Steinkamp-Kohlwes",
+    "Warenangebot":"Gebrannte Mandeln, diverse Nüsse, Schokofrüchte, Zimtmandeln, Herrenmandeln mit Rum usw.",
+    "Homepage":"www.steinkamps-mandeln.de"
+  },
+  {
+    "Standnummer":"63",
+    "Aussteller":"Herr Hugo Levy",
+    "Inhaber":"",
+    "Warenangebot":"Flammlachs",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"64",
+    "Aussteller":"Bratkartoffelhütte",
+    "Inhaber":"Frau Ursula Arning- Konopczynski",
+    "Warenangebot":"Bratkartoffelspezialitäten, Ofenkartoffeln mit diversen Saucen und Dips",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"65",
+    "Aussteller":"Artusi Ristorante",
+    "Inhaber":"Frau Lydia Tinnirello",
+    "Warenangebot":"Westfälische Spezialitäten",
+    "Homepage":"www.artusi.de"
+  },
+  {
+    "Standnummer":"66",
+    "Aussteller":"Altrogge - Heitmann GBR",
+    "Inhaber":"",
+    "Warenangebot":"Glühwein, heiße und kalte alkoholische und alkoholfreie Getränke",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"67",
+    "Aussteller":"Filzwerkerin",
+    "Inhaber":"Frau Christel Orlowski",
+    "Warenangebot":"Hüte, Stulpen, Dekoration",
+    "Homepage":"www.filzwerkerin.de"
+  },
+  {
+    "Standnummer":"69",
+    "Aussteller":"Brune-Mentink",
+    "Inhaber":"",
+    "Warenangebot":"Feinsilber/Titan/Bronze/Kupfer und Gold - Ringe und Armbänder",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"70",
+    "Aussteller":"Jutta Finke-Schneider",
+    "Inhaber":"",
+    "Warenangebot":"Selbstgefertigte Keramiken (handbemalt), Spielzeug aus versch. Materialien, sonderangefertigte Schneekugeln",
+    "Homepage":"www.schneesturm-ms.de"
+  },
+  {
+    "Standnummer":"71",
+    "Aussteller":"Holzschuhmacherei Berning",
+    "Inhaber":"Frau Maria Berning",
+    "Warenangebot":"Holzschuhe mit Zubehör, Fell- und Lederartikel, Socken",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"72",
+    "Aussteller":"Frau Sabine Bertram",
+    "Inhaber":"",
+    "Warenangebot":"Silberschmuck und Accessoires so wie Geschenk- und Duftartikel",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"73",
+    "Aussteller":"Galerie Farbenspiele",
+    "Inhaber":"Frau Monika Stöcker",
+    "Warenangebot":"handgefertigte Produkte: Tassen, Schmuck",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"74",
+    "Aussteller":"Michael Bügler GmbH",
+    "Inhaber":"",
+    "Warenangebot":"lachende Tassen aus reinem Hartporzellan",
+    "Homepage":"www.lachende-tassen.de"
+  },
+  {
+    "Standnummer":"76",
+    "Aussteller":"MJM-Vertriebs GmbH",
+    "Inhaber":"Herrn Lars Grunwald",
+    "Warenangebot":"Weihnachtliche kunsthandwerkliche Artikel wie Nußknacker und Weihnachtsschlitten, Wohnaccessoires wie Kerzenleuchter und Weinflaschenhalter",
+    "Homepage":"www.steelman24.com"
+  },
+  {
+    "Standnummer":"77",
+    "Aussteller":"INCA Writing Instruments",
+    "Inhaber":"Herr Helmut Weber",
+    "Warenangebot":"Schreibgeräte, Schlüsselanhänger, Feuerzeuge, Teelichthalter, Weihnachtsdekoration",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"78",
+    "Aussteller":"Omelinchen",
+    "Inhaber":"Frau Ute Dahlke",
+    "Warenangebot":"Baby- und Kleinkindbekleidung, Kissen, Decken, Zubehör",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"79",
+    "Aussteller":"Dandos UG",
+    "Inhaber":"Herr Daniel Schmidt-Wilcke",
+    "Warenangebot":"Schmuck: Chunks, Engelsrufer",
+    "Homepage":"www.dandos.de"
+  },
+  {
+    "Standnummer":"82",
+    "Aussteller":"Lene's Kerzenhäusl",
+    "Inhaber":"Frau Marlene Schott",
+    "Warenangebot":"Kleine Keramik Miniaturhäuschen mit Fachwerk bemalt und mit Teelicht beleuchtet",
+    "Homepage":"www.lenes-kerzenhaeusl.de"
+  },
+  {
+    "Standnummer":"83",
+    "Aussteller":"Herr Ulli Gumpert",
+    "Inhaber":"",
+    "Warenangebot":"selbstgefertigte Spiele und Spielzeug aus Holz",
+    "Homepage":"www.bibahn.de"
+  },
+  {
+    "Standnummer":"84",
+    "Aussteller":"Frau Ursula Wulfert",
+    "Inhaber":"",
+    "Warenangebot":"Nürnberger Blechspielzeug und nostalgisches Spielzeug aus aller Welt",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"85",
+    "Aussteller":"Erzgebirgische Kalkkunst",
+    "Inhaber":"Herr Gisbert Hülsherger",
+    "Warenangebot":"Weihnachtliches Kunstgewerbe mit Schwerpunkt erzgebirgische Volkskunst",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"86a",
+    "Aussteller":"Herr Gerhard Peterich",
+    "Inhaber":"",
+    "Warenangebot":"Metallstempel, Stempelkissen",
+    "Homepage":"www.metall-stempel.de"
+  },
+  {
+    "Standnummer":"86b",
+    "Aussteller":"Anoa Art",
+    "Inhaber":"Frau Stefanie Fietzek",
+    "Warenangebot":"handgefertigter Schmuck",
+    "Homepage":"www.anoaart.de"
+  },
+  {
+    "Standnummer":"87",
+    "Aussteller":"ALRA Holzschnitzerei",
+    "Inhaber":"Herr Albert Rabanser",
+    "Warenangebot":"Holzschnitzereien, Krippenfiguren, Weihnachtssterne",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"89",
+    "Aussteller":"Kunsthandwerk Deipenbrock",
+    "Inhaber":"Frau Mathilde Deipenbrock",
+    "Warenangebot":"Hl. 3 Könige, Herzen und Sterne in versch. Größen aus Metall",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"90",
+    "Aussteller":"Die Töpferei",
+    "Inhaber":"Herr Michael Hartmann",
+    "Warenangebot":"Geschirr, Dekoartikel aus Porzellan, Minifiguren, Schilder (beschriftbar vor Ort)",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"91",
+    "Aussteller":"feine art - Manufaktur und Galerie",
+    "Inhaber":"Herr Wolfgang Nietan",
+    "Warenangebot":"Bilder im Galeriestil als textile Wanddekoration",
+    "Homepage":"www.feineart.de"
+  },
+  {
+    "Standnummer":"92",
+    "Aussteller":"Chri Sue",
+    "Inhaber":"Susanne Riegel",
+    "Warenangebot":"Raumschmuck im Landhausstil, Weihnachtsdeko, Küchen- und Badeartikel",
+    "Homepage":"www.chrisue.de"
+  },
+  {
+    "Standnummer":"93",
+    "Aussteller":"Larimar Idee Form Präsentation",
+    "Inhaber":"Herr Hartmut Rollink",
+    "Warenangebot":"Edelstahlwindspiele, weihnachtliche Figuren, Lichterketten",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"94",
+    "Aussteller":"Sterne vom Himmel - Bigeschke / Schade GbR",
+    "Inhaber":"Herr Udo Bigeschke Herr Klaus Schade",
+    "Warenangebot":"Papiersterne und Leuchthäuser aus handgeschöpftem Papier",
+    "Homepage":"www.sternevomhimmel.de"
+  },
+  {
+    "Standnummer":"95",
+    "Aussteller":"Isabell Hunold",
+    "Inhaber":"",
+    "Warenangebot":"Silberschmuck aus eigener Herstellung",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"97",
+    "Aussteller":"MADERA Spielzeug",
+    "Inhaber":"Herrn Norbert Stock",
+    "Warenangebot":"Handgefertigtes Holzspielzeug",
+    "Homepage":"www.madera-spielzeug.de"
+  },
+  {
+    "Standnummer":"98",
+    "Aussteller":"Firma Klaus-Peter-Köhne",
+    "Inhaber":"",
+    "Warenangebot":"Pommes Frites, Currywurst und Bratwurst, alkoholfreie Getränke",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"99",
+    "Aussteller":"QuasiOlka / Eisenglimmer",
+    "Inhaber":"Frau Katja Stobbe",
+    "Warenangebot":"Dekorationsartikel aus Rost und Stahl",
+    "Homepage":"www.quasiolka.de"
+  },
+  {
+    "Standnummer":"100",
+    "Aussteller":"Silberschmuck Mariele Gommla",
+    "Inhaber":"",
+    "Warenangebot":"Silberschmuck: Ringe, Armbänder, Ohrringe - Modeschmuck",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"101",
+    "Aussteller":"Frau Eva Olszewski",
+    "Inhaber":"",
+    "Warenangebot":"Kunsthandwerklicher Schmuck aus Halbedelsteinen, Süßwasserperlen und Edelstahl",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"102",
+    "Aussteller":"Herr Ralf Kuprat",
+    "Inhaber":"",
+    "Warenangebot":"Handgearbeitete Weihnachtskugeln und Figuren aus Glas, Lichthäuser aus Porzellan",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"103",
+    "Aussteller":"Frau Melanie Dahlhaus",
+    "Inhaber":"",
+    "Warenangebot":"Baumstriezel, Kürtos in verschiedenen Variationen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"104",
+    "Aussteller":"Hoppe - heiße Mandeln und mehr",
+    "Inhaber":"",
+    "Warenangebot":"gebrannte Mandeln, Nüsse, frisches Popcorn, Lebkuchen, schokolierte und kandierte Früchte",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"105",
+    "Aussteller":"Herr Philipp Heitmann & Sohn",
+    "Inhaber":"",
+    "Warenangebot":"Pommes Frites mit Curry- Zigeuner-und Bratwurst, Krakauer",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"106",
+    "Aussteller":"Figura Santa",
+    "Inhaber":"",
+    "Warenangebot":"Handgeschnitzte Olivenholzkrippen aus Bethlehem, Christbaumschmuck, Geschenkartikel, handgearbeitete Bienenwachskerzen",
+    "Homepage":"www.figurasanta.de"
+  },
+  {
+    "Standnummer":"107",
+    "Aussteller":"Genius Reibekuchen",
+    "Inhaber":"",
+    "Warenangebot":"Reibekuchen mit verschiedenen Beilagen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"108",
+    "Aussteller":"Ratskeller GmbH & Co. KG",
+    "Inhaber":"",
+    "Warenangebot":"Glühwein",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"109",
+    "Aussteller":"Stiftung Bürger für Münster",
+    "Inhaber":"Herr Marc Würfel-Elberg",
+    "Warenangebot":"Münster-Kalender 2014 mit neuem Konzept , div. Kleinkunst- und Gebrauchsartikel",
+    "Homepage":"www.buergerstiftung-muenster.de"
+  },
+  {
+    "Standnummer":"110",
+    "Aussteller":"Schlaf gut",
+    "Inhaber":"Frau Christiane Böcker",
+    "Warenangebot":"Designwärmeflaschen und vieles mehr zum Wohlfühlen",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"111",
+    "Aussteller":"Beck Design",
+    "Inhaber":"Frau Anna Beck",
+    "Warenangebot":"Holzprodukte: Krippen, Holzuhren, Holzfiguren ect.",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"112",
+    "Aussteller":"Gartencenter Münsterland GmbH & Co. KG",
+    "Inhaber":"",
+    "Warenangebot":"Weihnachtsfiguren, -dekoration, Holzkunstarbeiten",
+    "Homepage":"www.gartencenter-muensterland.de"
+  },
+  {
+    "Standnummer":"113",
+    "Aussteller":"Väterchen Frost",
+    "Inhaber":"",
+    "Warenangebot":"Mundgeblasenes: Winterlandschaften, handbemaltes Glas für Teelichter in versch. Farben",
+    "Homepage":"www.vaeterchen-frost.de"
+  },
+  {
+    "Standnummer":"114",
+    "Aussteller":"Siebenstein - Spiele",
+    "Inhaber":"Herr Jürgen Reiche",
+    "Warenangebot":"Geduld- und Denkspiele aus Holz und Metall (60% Eigenfertigung)",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"115a",
+    "Aussteller":"Ulrich Wagner",
+    "Inhaber":"",
+    "Warenangebot":"Felle und Fellware, Wolle und Wollware",
+    "Homepage":"www.land-und-flair.de"
+  },
+  {
+    "Standnummer":"115b",
+    "Aussteller":"Geckos Armreifenpalast",
+    "Inhaber":"Frau Silke Holtkötter",
+    "Warenangebot":"Glitzerarmreifen, Lackkunst aus Kashmir, Seidenschals",
+    "Homepage":"www.geckospalace.de"
+  },
+  {
+    "Standnummer":"116",
+    "Aussteller":"Heimat Berlin",
+    "Inhaber":"Herr Sebastian Mücke",
+    "Warenangebot":"Weihnachtssterne aus Papier",
+    "Homepage":"www.juststars.de"
+  },
+  {
+    "Standnummer":"117",
+    "Aussteller":"zazie Cologne - Schmuck & Accessoires",
+    "Inhaber":"Frau Cornelia Bartell",
+    "Warenangebot":"Handgefertigter, hochwertiger Modeschmuck aus Glaskristallen, Leder Emaille, Strass uvm.",
+    "Homepage":"www.zazie-cologne.de"
+  },
+  {
+    "Standnummer":"118",
+    "Aussteller":"Herr Heiner Leifert",
+    "Inhaber":"",
+    "Warenangebot":"Weihnachtsdekoration aus Holz von Hand bemalt, Kindergarderoben, Spielzeug",
+    "Homepage":""
+  },
+  {
+    "Standnummer":"119",
+    "Aussteller":"Puzzle-Werkststatt Unnerstall",
+    "Inhaber":"Herr Manfred Unnerstall",
+    "Warenangebot":"Selbstgefertigte Denk- und Geduldspiele aus Holz",
+    "Homepage":"www.puzzle-werkstatt.de"
+  },
+  {
+    "Standnummer":"121",
+    "Aussteller":"Idéal Café & Weinbar",
+    "Inhaber":"Herr Erkan Ular",
+    "Warenangebot":"Winzer-Glüwein, Heißgetränke, nichtalkoholische Getränke",
+    "Homepage":"www.gluehweinmanufaktur.de"
+  },
+  {
+    "Standnummer":"122",
+    "Aussteller":"Johanna Alexandra Gabriel",
+    "Inhaber":"",
+    "Warenangebot":"Wind- und Lichtspiele aus rostfreiem Edelstahl",
+    "Homepage":"www.windspiel-zauber.de"
+  },
+  {
+    "Standnummer":"123",
+    "Aussteller":"Süßwaren Süß-Sauer-Salzig",
+    "Inhaber":"Herr Gerhard Jackenkroll",
+    "Warenangebot":"Süßwaren: Hollandlakritz, Fruchtgummi, Weingummi, Kräuerbonbons",
+    "Homepage":""
+  }
+]
