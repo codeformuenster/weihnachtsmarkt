@@ -27,16 +27,14 @@ angular.module("wm-map").controller "MapController", [
             pointToLayer: $scope.geojson.pointToLayer
             data: featureCollection
 
-          focusFeatures = true
-          if focusFeatures == true
-            $timeout ->
-              leafletData.getMap('map').then (map) ->
-                bounds = L.geoJson($scope.geojson.data).getBounds()
-                map.fitBounds(bounds, { maxZoom: 21, padding: [55,55]}) if Object.keys(bounds).length isnt 0
-                return
+          $timeout ->
+            leafletData.getMap('map').then (map) ->
+              bounds = L.geoJson($scope.geojson.data).getBounds()
+              map.fitBounds(bounds, { maxZoom: 21, padding: [55,55]}) if Object.keys(bounds).length isnt 0
               return
-            ,500
-            ,false
+            return
+          ,500
+          ,false
 
         return
 
