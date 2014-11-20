@@ -62,7 +62,7 @@ angular.module("wm-map").controller "MapController", [
               map.fitBounds(bounds, { maxZoom: 21, padding: [55,55]}) if Object.keys(bounds).length isnt 0
               return
             return
-          ,500
+          ,700
           ,false
 
         return
