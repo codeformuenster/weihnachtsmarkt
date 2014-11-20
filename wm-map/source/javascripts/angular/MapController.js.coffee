@@ -12,9 +12,12 @@ angular.module("wm-map").controller "MapController", [
         lng: 7.62547
         zoom: 17
       defaults:
-        maxZoom: 21
+        minZoom: 16
+        maxZoom: 22
       tiles:
-          url: ''
+          url: 'http://{s}.tiles.mapbox.com/v3/tomrocket.k93e7pp4/{z}/{x}/{y}.png'
+          options:
+            maxZoom: 22
       search_query: ''
       geojson:
         data: { type: "FeatureCollection", features: [] }

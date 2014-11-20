@@ -1,3 +1,3 @@
 .container{ :"ng-controller" => "MapController" }
   %input{ type: "text", placeholder: "Suche:", ng_model: "search_query" }
-  %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults" }
+  %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
