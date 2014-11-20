@@ -31,6 +31,7 @@ angular.module("wm-map").controller "MapController", [
       defaults:
         minZoom: 16
         maxZoom: 22
+        attributionControl: false
       tiles:
           url: 'http://{s}.tiles.mapbox.com/v3/tomrocket.k93e7pp4/{z}/{x}/{y}.png'
           options:
