@@ -1,1 +1,3 @@
-This is the index
+.container{ :"ng-controller" => "MapController" }
+  %input{ type: "text", placeholder: "Suche:", ng_model: "search_query" }
+  %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults" }

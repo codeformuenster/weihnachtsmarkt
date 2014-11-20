@@ -1,1 +1,25 @@
 @import normalize-css
+@import mixins
+@import leaflet/dist/leaflet
+
+body
+  padding: 0
+  margin: 0
+
+html, body, .container
+  height: 100%
+
+#map
+  height: calc(100% - 48px)
+
+input[type="text"]
+  position: relative
+  height: 48px
+  border: 0px
+  padding: 0px
+  width: 100%
+  text-align: center
+  font-size: 32px
+  font-weight: 700
+  +input-placeholder
+    text-align: left
