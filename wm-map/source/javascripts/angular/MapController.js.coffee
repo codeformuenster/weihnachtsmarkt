@@ -5,6 +5,23 @@ angular.module("wm-map").controller "MapController", [
   "staendeService",
   "$timeout"
   ($scope, leafletData, searchService, staendeService, $timeout) ->
+    loStyle =
+      color: "#f8f8f8"
+      weight: 2
+      opacity: 1
+      fillOpacity: 0.8
+    hiStyle =
+      color: "#ff3322"
+      weight: 3
+      opacity: 1
+    highlightFeature = (e) ->
+      #this.openPopup();
+      layer = e.target
+      layer.setStyle hiStyle
+    resetHighlight = (e) ->
+      #this.closePopup();
+      layer = e.target
+      layer.setStyle loStyle
     # set up basic stuff
     angular.extend $scope,
       muenster:
@@ -20,7 +37,16 @@ angular.module("wm-map").controller "MapController", [
             maxZoom: 22
       search_query: ''
       geojson:
+        style: loStyle
         data: { type: "FeatureCollection", features: [] }
+        onEachFeature: (feature, layer) ->
+          layer.on
+            mouseover: highlightFeature
+            mouseout: resetHighlight
+
+          layer.bindPopup "Stand Nr. " + feature.properties.stand_nr + "<br /><b>" + feature.properties.betreiber + "</b><br /><i>" + feature.properties.warenangeb + "</i>"
+
+          return
       updateGeoJSONFromData: (featureCollection, includeChildren, focusFeatures) ->
         # Update the scope
         if !angular.equals($scope.geojson.data, featureCollection)
