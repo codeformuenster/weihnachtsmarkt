@@ -8,7 +8,7 @@
   #info{ ng_show: "show_info" }
     #overlay
     #info_panel
-      #close_info_panel.pointer{ ng_click: "show_info = false" }
+      #close_panel.pointer{ ng_click: "show_info = false" }
         &times;
       %h2 Ein Projekt von
       %a{ href: "http://codeformuenster.org", target: "_blank", title: "Code for Münster" }
@@ -18,3 +18,28 @@
       %br
       %br
       %a{ href: "https://github.com/codeformuenster/weihnachtsmarkt", target: "_blank", title: "Quelltext auf Github" } Quelltext auf Github
+  #welcome{ ng_init: "show_welcome = true", ng_show: "show_welcome"}
+    #overlay
+    #welcome_panel
+      #close_panel.pointer{ ng_click: "show_welcome = false" }
+        &times;
+      %h2 Weihnachtsmarkt-App Münster 2014
+
+      #btns{ ng_hide: "no_data", ng_init: "no_data = false"}
+        Bitte auswählen:
+        #btn.pointer
+          In meiner Nähe
+        #btn.pointer{ ng_click: "setMarktFilter('rathaus'); show_welcome = false" }
+          Rathaus
+        #btn.pointer{ ng_click: "setMarktFilter('kiepenkerl');  show_welcome = false" }
+          Kiepenkerl
+        #btn.pointer{ ng_click: "no_data = !no_data" }
+          Aegidii
+        #btn.pointer{ ng_click: "no_data = !no_data" }
+          Lamberti
+        #btn.pointer{ ng_click: "no_data = !no_data" }
+          Giebelhüüskes
+      #welcome_info_no_data{ ng_show: "no_data" }
+        Leider haben die Betreiber der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes keine Daten auf ihren Webseiten bereitgestellt.
+        .link.pointer{ ng_click: "no_data = false" }
+          zurück

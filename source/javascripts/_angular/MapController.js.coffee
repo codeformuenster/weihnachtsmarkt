@@ -7,12 +7,12 @@ angular.module("wm-map").controller "MapController", [
   ($scope, leafletData, searchService, staendeService, $timeout) ->
     loStyle =
       color: "#f8f8f8"
-      weight: 2
+      weight: 1
       opacity: 1
       fillOpacity: 0.8
     hiStyle =
       color: "#ff3322"
-      weight: 3
+      weight: 2
       opacity: 1
     highlightFeature = (e) ->
       #this.openPopup();
@@ -67,13 +67,16 @@ angular.module("wm-map").controller "MapController", [
           ,false
 
         return
+      setMarktFilter: (markt) ->
+        searchService.setFilter { markt: markt }
+        return
 
-    setAndApplyFilter = (value, oldvalue, scope) ->
-      query = $scope.search_query.trim().toLowerCase()
-      searchService.setFilter query
+    applyQuery = (value, oldvalue, scope) ->
+      query = $scope.search_query.trim()
+      searchService.setFilter { query: query }
       return
 
-    $scope.$watch 'search_query', setAndApplyFilter
+    $scope.$watch 'search_query', applyQuery
 
     # fetch the data, broadcasts map.updateFeatures event
     staendeService.fetchData()
