@@ -23,23 +23,21 @@
     #welcome_panel
       #close_panel.pointer{ ng_click: "show_welcome = false" }
         &times;
-      %h2 Weihnachtsmarkt-App Münster 2014
-
+      %h2.title Weihnachtsmarkt-App Münster 2014
+      %h3.subtitle mit Warenangebotssuche!
       #btns{ ng_hide: "no_data", ng_init: "no_data = false"}
-        Bitte auswählen:
-        #btn.pointer
+        Bitte Weihnachtsmarkt auswählen:
+        #btn.pointer{ ng_click: "findUser(); show_welcome = false" }
           In meiner Nähe
         #btn.pointer{ ng_click: "setMarktFilter('rathaus'); show_welcome = false" }
           Rathaus
         #btn.pointer{ ng_click: "setMarktFilter('kiepenkerl');  show_welcome = false" }
           Kiepenkerl
         #btn.pointer{ ng_click: "no_data = !no_data" }
-          Aegidii
-        #btn.pointer{ ng_click: "no_data = !no_data" }
-          Lamberti
-        #btn.pointer{ ng_click: "no_data = !no_data" }
-          Giebelhüüskes
+          Aegidii, Lamberti, Giebelhüüskes
       #welcome_info_no_data{ ng_show: "no_data" }
-        Leider haben die Betreiber der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes keine Daten auf ihren Webseiten bereitgestellt.
+        Daten der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes sind leider nicht verfügbar.
         .link.pointer{ ng_click: "no_data = false" }
           zurück
+      .tiny
+        Alle Angaben ohne Gewähr!

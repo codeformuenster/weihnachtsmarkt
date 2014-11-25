@@ -34,9 +34,11 @@ input[type="text"]
   font-size: 27px
   background-color: #122435
   color: #518196
+  letter-spacing: 2px
   +input-placeholder
     text-align: left
     padding-left: 5%
+    letter-spacing: 0px
   &:focus
     outline: 0
 
@@ -114,7 +116,7 @@ input[type="text"]
     text-decoration: none
 
 #welcome_panel
-  padding: 5px 0px
+  padding: 20px 0px
   #btn
     font-size: 20px
     padding: 5px 0px
@@ -127,6 +129,13 @@ input[type="text"]
       background-color: #e0e0e0
   #welcome_info_no_data
     font-size: 17px
+
+.tiny
+  color: #707070
+  font-size: 14px
+
+h2.title, h3.subtitle
+  margin: 4px
 
 @media all and (max-width: 550px)
   #info_panel, #welcome_panel
