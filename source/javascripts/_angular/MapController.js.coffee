@@ -22,6 +22,14 @@ angular.module("wm-map").controller "MapController", [
       #this.closePopup();
       layer = e.target
       layer.setStyle loStyle
+    highlightQuery = (e) ->
+      content = e.popup.getContent()
+      # transform the content
+      content = content.replace RegExp(searchService._query.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), "gi"), (match) ->
+          return "<span class='popupHighlight'>#{match}</span>"
+      , "gi"
+      e.popup.setContent(content)
+      return
     # set up basic stuff
     angular.extend $scope,
       muenster:
@@ -44,8 +52,15 @@ angular.module("wm-map").controller "MapController", [
           layer.on
             mouseover: highlightFeature
             mouseout: resetHighlight
+            popupopen: highlightQuery
 
-          layer.bindPopup "Stand Nr. " + feature.properties.stand_nr + "<br /><b>" + feature.properties.betreiber + "</b><br /><i>" + feature.properties.warenangeb + "</i>"
+          popupContent = "#{feature.properties.markt.charAt(0).toUpperCase() + feature.properties.markt.slice(1)} Stand Nr. #{feature.properties.stand_nr}"
+          if feature.properties.warenangeb != null
+             popupContent = "#{popupContent}<br />#{feature.properties.warenangeb}"
+          if feature.properties.betreiber != null
+            popupContent = "#{popupContent}<br />#{feature.properties.betreiber}"
+
+          layer.bindPopup popupContent
 
           return
       updateGeoJSONFromData: (featureCollection, includeChildren, focusFeatures) ->
