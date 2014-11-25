@@ -1,5 +1,5 @@
 .container{ :"ng-controller" => "MapController" }
-  %input{ type: "text", placeholder: "Suche:", ng_model: "search_query" }
+  %input#search_input{ type: "text", placeholder: "Suche:", ng_model: "search_query", autofocus: true}
   #reset_search.pointer{ title: "Suche zurücksetzen", ng_click: "search_query = ''", ng_show: "search_query != ''" }
     &times;
   %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
