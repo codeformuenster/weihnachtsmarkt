@@ -88,6 +88,22 @@ angular.module("wm-map").controller "MapController", [
       setMarktFilter: (markt) ->
         searchService.setFilter { markt: markt }
         return
+      findUser: ->
+        leafletData.getMap('map').then (map) ->
+          map.locate
+            watch: true,
+            setView: false,
+            enableHighAccuracy: true
+
+          map.on "locationfound", (location) ->
+            if (!$scope.userMarker)
+              $scope.userMarker = L.userMarker(location.latlng, {pulsing:true, accuracy:100, smallIcon:true}).addTo(map)
+
+            $scope.userMarker.setLatLng(location.latlng,)
+            $scope.userMarker.setAccuracy(location.accuracy)
+            return
+          return
+        return
 
     applyQuery = (value, oldvalue, scope) ->
       query = $scope.search_query.trim()
