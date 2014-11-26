@@ -25,12 +25,13 @@ angular.module("wm-map").controller "MapController", [
       layer.setStyle loStyle
       return
     highlightQuery = (e) ->
-      content = e.popup.getContent()
-      # transform the content
-      content = content.replace RegExp(searchService._query.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), "gi"), (match) ->
-          return "<span class='popupHighlight'>#{match}</span>"
-      , "gi"
-      e.popup.setContent(content)
+      if searchService._query != ""
+        content = e.popup.getContent()
+        # transform the content
+        content = content.replace RegExp(searchService._query.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), "gi"), (match) ->
+            return "<span class='popupHighlight'>#{match}</span>"
+        , "gi"
+        e.popup.setContent(content)
       return
     # set up basic stuff
     angular.extend $scope,
