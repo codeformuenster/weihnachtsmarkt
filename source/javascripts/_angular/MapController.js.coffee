@@ -93,8 +93,9 @@ angular.module("wm-map").controller "MapController", [
       searchService.setFilter { query: query }
       return
 
-    focusInput = ->
-      document.getElementById('search_input').focus()
+    focusInput = (value) ->
+      if value == false
+        document.getElementById('search_input').focus()
       return
 
     $scope.$watch 'search_query', applyQuery
