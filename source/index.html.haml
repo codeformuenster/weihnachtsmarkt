@@ -5,6 +5,8 @@
   %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
   #info_btn.pointer{ title: "Informationen", ng_init: "show_info = false", ng_click: "show_info = !show_info" }
     i
+  #menu_btn.pointer{ title: "Hauptmenü", ng_init: "show_welcome = true", ng_click: "show_welcome = true" }
+    &#x2261;
   #info{ ng_show: "show_info" }
     #overlay
     #info_panel
@@ -18,7 +20,7 @@
       %br
       %br
       %a{ href: "https://github.com/codeformuenster/weihnachtsmarkt", target: "_blank", title: "Quelltext auf Github" } Quelltext auf Github
-  #welcome{ ng_init: "show_welcome = true", ng_show: "show_welcome"}
+  #welcome{ ng_show: "show_welcome"}
     #overlay
     #welcome_panel
       #close_panel.pointer{ ng_click: "show_welcome = false" }

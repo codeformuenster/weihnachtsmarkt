@@ -9,6 +9,7 @@
   src: local('Slabo 27px'), local('Slabo27px-Regular'), url(http://fonts.gstatic.com/s/slabo27px/v2/PuwvqkdbcqU-fCZ9Ed-b7RsxEYwM7FgeyaSgU71cLG0.woff) format('woff')
 
 $search_bar_height: 48px
+$btn_size: 32px
 
 body
   padding: 0
@@ -50,20 +51,27 @@ input[type="text"]
   &:hover
     text-decoration: underline
 
-#info_btn
-  $info_btn_size: 32px
+#menu_btn, #info_btn
   position: absolute
-  height: $info_btn_size
-  width: $info_btn_size
-  bottom: 16px
-  left: 16px
+  height: $btn_size
+  width: $btn_size
   background-color: rgba(187, 187, 187, 0.6)
   text-align: center
-  line-height: $info_btn_size
-  border-radius: $info_btn_size/2
+  line-height: $btn_size
+  border-radius: $btn_size/2
   font-size: 18px
   &:hover
     background-color: rgba(187, 187, 220, 1)
+
+#info_btn
+  bottom: 16px
+  left: 16px
+
+#menu_btn
+  right: 16px
+  top: 16px + $search_bar_height
+  font-size: 28px
+  font-weight: 700
 
 #reset_search
   position: absolute
