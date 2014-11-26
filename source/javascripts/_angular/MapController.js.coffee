@@ -7,21 +7,23 @@ angular.module("wm-map").controller "MapController", [
   ($scope, leafletData, searchService, staendeService, $timeout) ->
     loStyle =
       color: "#f8f8f8"
-      weight: 1
+      weight: 0
       opacity: 1
       fillOpacity: 0.8
     hiStyle =
       color: "#ff3322"
-      weight: 2
+      weight: 1
       opacity: 1
     highlightFeature = (e) ->
       #this.openPopup();
       layer = e.target
       layer.setStyle hiStyle
+      return
     resetHighlight = (e) ->
       #this.closePopup();
       layer = e.target
       layer.setStyle loStyle
+      return
     highlightQuery = (e) ->
       content = e.popup.getContent()
       # transform the content
