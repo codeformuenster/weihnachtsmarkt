@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class='container' ng-controller='MapController'>
-      <input ng_model='search_query' placeholder='Suche:' type='text'>
+      <input autofocus id='search_input' ng_model='search_query' placeholder='Suche:' type='text'>
       <div class='pointer' id='reset_search' ng_click="search_query = ''" ng_show="search_query != ''" title='Suche zurücksetzen'>
         &times;
       </div>
@@ -18,10 +18,13 @@
       <div class='pointer' id='info_btn' ng_click='show_info = !show_info' ng_init='show_info = false' title='Informationen'>
         i
       </div>
+      <div class='pointer' id='menu_btn' ng_click='show_welcome = true' ng_init='show_welcome = true' title='Hauptmenü'>
+        &#x2261;
+      </div>
       <div id='info' ng_show='show_info'>
         <div id='overlay'></div>
         <div id='info_panel'>
-          <div class='pointer' id='close_info_panel' ng_click='show_info = false'>
+          <div class='pointer' id='close_panel' ng_click='show_info = false'>
             &times;
           </div>
           <h2>Ein Projekt von</h2>
@@ -33,6 +36,40 @@
           <br>
           <br>
           <a href='https://github.com/codeformuenster/weihnachtsmarkt' target='_blank' title='Quelltext auf Github'>Quelltext auf Github</a>
+        </div>
+      </div>
+      <div id='welcome' ng_show='show_welcome'>
+        <div id='overlay'></div>
+        <div id='welcome_panel'>
+          <div class='pointer' id='close_panel' ng_click='show_welcome = false'>
+            &times;
+          </div>
+          <h2 class='title'>Weihnachtsmarkt-App Münster 2014</h2>
+          <h3 class='subtitle'>mit Warenangebotssuche!</h3>
+          <div id='btns' ng_hide='no_data' ng_init='no_data = false'>
+            Bitte Weihnachtsmarkt auswählen:
+            <div class='pointer' id='btn' ng_click='findUser(); show_welcome = false'>
+              In meiner Nähe
+            </div>
+            <div class='pointer' id='btn' ng_click="setMarktFilter('rathaus'); show_welcome = false">
+              Rathaus
+            </div>
+            <div class='pointer' id='btn' ng_click="setMarktFilter('kiepenkerl');  show_welcome = false">
+              Kiepenkerl
+            </div>
+            <div class='pointer' id='btn' ng_click='no_data = !no_data'>
+              Aegidii, Lamberti, Giebelhüüskes
+            </div>
+          </div>
+          <div id='welcome_info_no_data' ng_show='no_data'>
+            Daten der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes sind leider nicht verfügbar.
+            <div class='link pointer' ng_click='no_data = false'>
+              zurück
+            </div>
+          </div>
+          <div class='tiny'>
+            Alle Angaben ohne Gewähr!
+          </div>
         </div>
       </div>
     </div>
