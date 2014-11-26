@@ -1,0 +1,45 @@
+.container{ :"ng-controller" => "MapController" }
+  %input#search_input{ type: "text", placeholder: "Suche:", ng_model: "search_query", autofocus: true}
+  #reset_search.pointer{ title: "Suche zurücksetzen", ng_click: "search_query = ''", ng_show: "search_query != ''" }
+    &times;
+  %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
+  #info_btn.pointer{ title: "Informationen", ng_init: "show_info = false", ng_click: "show_info = !show_info" }
+    i
+  #menu_btn.pointer{ title: "Hauptmenü", ng_init: "show_welcome = true", ng_click: "show_welcome = true" }
+    &#x2261;
+  #info{ ng_show: "show_info" }
+    #overlay
+    #info_panel
+      #close_panel.pointer{ ng_click: "show_info = false" }
+        &times;
+      %h2 Ein Projekt von
+      %a{ href: "http://codeformuenster.org", target: "_blank", title: "Code for Münster" }
+        %img{ src: "images/cfm_logo.png"}
+      %br
+      MapTiles: &copy; <a href="http://www.mapbox.com" target="_blank">MapBox</a>, MapData: &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a>
+      %br
+      %br
+      %a{ href: "https://github.com/codeformuenster/weihnachtsmarkt", target: "_blank", title: "Quelltext auf Github" } Quelltext auf Github
+  #welcome{ ng_show: "show_welcome"}
+    #overlay
+    #welcome_panel
+      #close_panel.pointer{ ng_click: "show_welcome = false" }
+        &times;
+      %h2.title Weihnachtsmarkt-App Münster 2014
+      %h3.subtitle mit Warenangebotssuche!
+      #btns{ ng_hide: "no_data", ng_init: "no_data = false"}
+        Bitte Weihnachtsmarkt auswählen:
+        #btn.pointer{ ng_click: "findUser(); show_welcome = false" }
+          In meiner Nähe
+        #btn.pointer{ ng_click: "setMarktFilter('rathaus'); show_welcome = false" }
+          Rathaus
+        #btn.pointer{ ng_click: "setMarktFilter('kiepenkerl');  show_welcome = false" }
+          Kiepenkerl
+        #btn.pointer{ ng_click: "no_data = !no_data" }
+          Aegidii, Lamberti, Giebelhüüskes
+      #welcome_info_no_data{ ng_show: "no_data" }
+        Daten der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes sind leider nicht verfügbar.
+        .link.pointer{ ng_click: "no_data = false" }
+          zurück
+      .tiny
+        Alle Angaben ohne Gewähr!
