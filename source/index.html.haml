@@ -1,17 +1,21 @@
 .container{ :"ng-controller" => "MapController" }
-  %input#search_input{ type: "text", placeholder: "Suche:", ng_model: "search_query", autofocus: true}
+  #search_container
+    #info_btn.pointer{ title: "Informationen", ng_init: "show_info = false", ng_click: "show_info = !show_info" }
+      i
+    Information
+    #menu_btn.pointer{ title: "Hauptmenü", ng_init: "show_welcome = true", ng_click: "show_welcome = true" }
+      &#x2261;
+    Weihnachtsmärkte
+    %img#lupe{ src: "images/magnifier-iconmonstr.png" }
+    %input#search_input{ type: "text", placeholder: "Angebotssuche", ng_model: "search_query"}
   #reset_search.pointer{ title: "Suche zurücksetzen", ng_click: "search_query = ''", ng_show: "search_query != ''" }
     &times;
   %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
-  #info_btn.pointer{ title: "Informationen", ng_init: "show_info = false", ng_click: "show_info = !show_info" }
-    i
-  #menu_btn.pointer{ title: "Hauptmenü", ng_init: "show_welcome = true", ng_click: "show_welcome = true" }
-    &#x2261;
   #info{ ng_show: "show_info" }
     #overlay
     #info_panel
       #close_panel.pointer{ ng_click: "show_info = false" }
-        &times;
+        ⨯
       %h2 Ein Projekt von
       %a{ href: "http://codeformuenster.org", target: "_blank", title: "Code for Münster" }
         %img{ src: "images/cfm_logo.png"}
@@ -24,7 +28,7 @@
     #overlay
     #welcome_panel
       #close_panel.pointer{ ng_click: "show_welcome = false" }
-        &times;
+        ✕
       %h2.title Weihnachtsmarkt-App Münster 2014
       %h3.subtitle mit Warenangebotssuche!
       #btns{ ng_hide: "no_data", ng_init: "no_data = false"}
@@ -43,3 +47,14 @@
           zurück
       .tiny
         Alle Angaben ohne Gewähr!
+      .tiny
+        %hr
+        .floatleft
+          Maptiles Mapbox | Mapdata OSM
+          %br
+          Code dieser Webseite auf Github
+        .floatright
+          %img.floatleft{ src:"images/cfm_logo.png", height: "32px" }
+          %b Ein Projekt von
+          %br
+          von CodeForMuenster
