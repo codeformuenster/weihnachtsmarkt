@@ -3,7 +3,7 @@
 
 ## Install
 
-You need ruby installed and then
+You need ruby 2.1.5, nodejs and npm installed and then
 
     $ bundle install
     $ npm install -g bower   
@@ -13,11 +13,13 @@ You need ruby installed and then
 
     $ bundle exec middleman
 
+Changes can be made in the `source` folder. Middleman supports autoreload.
+
 ## Deployment (on gh-pages)
 
-    $ bundle exec middleman build
-    $ bundle exec middleman deploy
+    $ bundle exec rake publish
 
 
 ## License
 
+Apache Version 2.0
