@@ -20,6 +20,8 @@ Steps to get it running:
 
 ## Deployment (on gh-pages)
 
+First make sure you don't have any outstanding commits, then
+
 	$ bundle exec rake build
 	$ bundle exec rake publish
 
