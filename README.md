@@ -11,8 +11,8 @@ Required software:
 
 Steps to get it running:
 * Clone the repository:
-	```git clone -b wm-map https://github.com/codeformuenster/weihnachtsmarkt.git```
-	```git branch gh-pages origin/gh-pages```
+	git clone -b wm-map https://github.com/codeformuenster/weihnachtsmarkt.git
+	git branch gh-pages origin/gh-pages
 * ```cd weihnachtsmarkt```
 * Install Bundle dependencies: ```bundle install```
 * Install Bower depedencies: ```bower update```
@@ -20,7 +20,8 @@ Steps to get it running:
 
 ## Deployment (on gh-pages)
 
-	```$ bundle exec rake publish```
+	$ bundle exec rake build
+	$ bundle exec rake publish
 
 ## License
 
