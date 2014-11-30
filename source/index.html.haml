@@ -1,29 +1,14 @@
 .container{ :"ng-controller" => "MapController" }
-  #search_container
-    #info_btn.pointer{ title: "Informationen", ng_init: "show_info = false", ng_click: "show_info = !show_info" }
-      i
-    Information
+  #nav_container
     #menu_btn.pointer{ title: "Hauptmenü", ng_init: "show_welcome = true", ng_click: "show_welcome = true" }
       &#x2261;
-    Weihnachtsmärkte
-    %img#lupe{ src: "images/magnifier-iconmonstr.png" }
-    %input#search_input{ type: "text", placeholder: "Angebotssuche", ng_model: "search_query"}
+      .hide_mobile
+        Weihnachtsmärkte
+    #search_container
+      %input#search_input{ type: "text", placeholder: "Angebotssuche", ng_model: "search_query"}
   #reset_search.pointer{ title: "Suche zurücksetzen", ng_click: "search_query = ''", ng_show: "search_query != ''" }
     &times;
   %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
-  #info{ ng_show: "show_info" }
-    #overlay
-    #info_panel
-      #close_panel.pointer{ ng_click: "show_info = false" }
-        ⨯
-      %h2 Ein Projekt von
-      %a{ href: "http://codeformuenster.org", target: "_blank", title: "Code for Münster" }
-        %img{ src: "images/cfm_logo.png"}
-      %br
-      MapTiles: &copy; <a href="http://www.mapbox.com" target="_blank">MapBox</a>, MapData: &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a>
-      %br
-      %br
-      %a{ href: "https://github.com/codeformuenster/weihnachtsmarkt", target: "_blank", title: "Quelltext auf Github" } Quelltext auf Github
   #welcome{ ng_show: "show_welcome"}
     #overlay
     #welcome_panel
@@ -50,11 +35,19 @@
       .tiny
         %hr
         .floatleft
-          Maptiles Mapbox | Mapdata OSM
+          Maptiles &copy;
+          %a{ href: "http://www.mapbox.com/", target: "_blank" }
+            Mapbox
           %br
-          Code dieser Webseite auf Github
+          Mapdata &copy;
+          %a{ href: "http://openstreetmap.org/", target: "_blank" }
+            OpenStreetMap contributors
+          %br
+          %a{ href: "https://github.com/codeformuenster/weihnachtsmarkt", target: "_blank" }
+            Code dieser Webseite auf Github
         .floatright
-          %img.floatleft{ src:"images/cfm_logo.png", height: "32px" }
-          %b Ein Projekt von
-          %br
-          von CodeForMuenster
+          %img#c4m{ src:"images/cfm_logo_noborder.png" }
+          %div
+            Ein Projekt von
+            %a{ href: "http://codeformuenster.org", target: "_blank" } 
+              CodeForMuenster

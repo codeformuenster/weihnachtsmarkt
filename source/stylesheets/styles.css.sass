@@ -10,7 +10,7 @@
   src: local('Slabo 27px'), local('Slabo27px-Regular'), url(http://fonts.gstatic.com/s/slabo27px/v2/PuwvqkdbcqU-fCZ9Ed-b7RsxEYwM7FgeyaSgU71cLG0.woff) format('woff')
 
 $search_bar_height: 48px
-$search_bar_max-width: 500px
+$search_bar_max-width: 100%
 $btn_size: 32px
 
 body
@@ -28,27 +28,40 @@ html, body, .container
 #map
   height: calc(100% - #{$search_bar_height})
 
-#search_container
-  padding-right: -10px
+#nav_container
   width: 100%
   font-size: 26px 
+  display: table
+
+#menu_btn, #search_container
+  display: table-cell
+
+#menu_btn
+  width: 1%
+  white-space: nowrap
+
+.hide_mobile
+  white-space: nowrap
+  display: inline-block
 
 input[type="text"]
-  position: relative
+  background-image: url("../images/magnifier-iconmonstr-20x20.png")
+  background-repeat: no-repeat
+  background-position: left center
+  background-size: 20px 20px
   height: $search_bar_height
   border: 0px
   padding: 0px
+  padding-left: 30px
+  box-sizing: border-box
   width: 100%
-  max-width: 550px
   text-align: left
   font-size: 27px
   background-color: #ccc
   color: #000
   letter-spacing: 2px
-  padding-left: 10px
   +input-placeholder
     text-align: left
-    padding-left: 5%
     letter-spacing: 0px
   &:focus
     outline: 0
@@ -56,34 +69,23 @@ input[type="text"]
 .pointer
   cursor: pointer
 
-.link
+a, .link
   color: #518196
   &:hover
     text-decoration: underline
 
-#menu_btn, #info_btn
-  //position: absolute
+#menu_btn
   height: $btn_size
-  width: $btn_size
   background-color: rgba(187, 187, 187, 0.6)
   text-align: center
   line-height: $btn_size
   border-radius: $btn_size/2
   font-size: 18px
-  display: inline-block
-  margin-left: 16px
+  padding-left: 16px
+  padding-right: 16px
+  font-size: 28px
   &:hover
     background-color: rgba(187, 187, 220, 1)
-
-#info_btn
-  top: 8px
-  right: 16px
-
-#menu_btn
-  right: 60px
-  top: 8px
-  font-size: 28px
-  font-weight: 700
 
 #reset_search
   position: absolute
@@ -97,7 +99,6 @@ input[type="text"]
   color: firebrick
   &:hover
     color: lighten(firebrick, 30)
-
 
 #info, #welcome
   position: fixed
@@ -116,7 +117,7 @@ input[type="text"]
     left: 0px
 
 #info_panel, #welcome_panel
-  padding: 20px 0px
+  padding: 5px 5px
   position: relative
   margin: 250px auto 0px
   max-width: 100%
@@ -175,16 +176,44 @@ h2.title, h3.subtitle
   #info_panel, #welcome_panel
     margin: 25% auto 0px
 
-#lupe
-  margin-left: 16px
-  height: 20px
-  width: 20px
-
 .floatleft
   float: left
-  width: 50%
+  width: 45%
   display: inline-block
+  padding: 5px
+
 .floatright
   float:right
-  width: 50%
+  width: 45%
   display: inline-block
+  vertical-align:middle
+  padding: 5px
+
+img#c4m
+  height: 35px
+  width: auto
+
+.leaflet-popup-content:first-line
+  font-weight: bold
+  font-size: 120%
+
+.leaflet-popup-content
+  font-family: 'Slabo 27px', serif
+  font-size: 16px
+
+#map .leaflet-popup-close-button
+  width: 16px
+  height: 16px
+  line-height: 12px
+  color: white
+  font-size: 24px
+  font-weight: bold
+  border: 2px solid firebrick
+  background-color: firebrick
+  border-radius: 12px
+  vertical-align: middle
+  margin: 1px
+
+@media (max-width: 600px)
+  .hide_mobile
+    display: none
