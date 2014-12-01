@@ -14,7 +14,7 @@ Steps to get it running:
 * ```cd weihnachtsmarkt```
 * Install Bundle dependencies: ```bundle install```
 * Install Bower depedencies: ```bower update```
-* Run app local: ```bundle exec middleman```
+* Run app locally: ```bundle exec middleman```
 
 ## Deployment (on gh-pages)
 
