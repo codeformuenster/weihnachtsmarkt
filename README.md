@@ -10,9 +10,7 @@ Required software:
 * [Bower](http://bower.io/): ```npm install bower```
 
 Steps to get it running:
-* Clone the repository:
-	git clone -b wm-map https://github.com/codeformuenster/weihnachtsmarkt.git
-	git branch gh-pages origin/gh-pages
+* Clone the repository: ```git clone -b wm-map https://github.com/codeformuenster/weihnachtsmarkt.git```
 * ```cd weihnachtsmarkt```
 * Install Bundle dependencies: ```bundle install```
 * Install Bower depedencies: ```bower update```
