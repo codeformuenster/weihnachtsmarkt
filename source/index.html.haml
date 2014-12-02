@@ -1,0 +1,53 @@
+.container{ :"ng-controller" => "MapController" }
+  #nav_container
+    #menu_btn.pointer{ title: "Hauptmenü", ng_init: "show_welcome = true", ng_click: "show_welcome = true" }
+      &#x2261;
+      .hide_mobile
+        Weihnachtsmärkte
+    #search_container
+      %input#search_input{ type: "text", placeholder: "Angebotssuche", ng_model: "search_query"}
+  #reset_search.pointer{ title: "Suche zurücksetzen", ng_click: "search_query = ''", ng_show: "search_query != ''" }
+    &times;
+  %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
+  #welcome{ ng_show: "show_welcome"}
+    #overlay
+    #welcome_panel
+      #close_panel.pointer{ ng_click: "show_welcome = false" }
+        ✕
+      %h2.title Weihnachtsmarkt-App Münster 2014
+      %h3.subtitle mit Warenangebotssuche!
+      #btns{ ng_hide: "no_data", ng_init: "no_data = false"}
+        Bitte Weihnachtsmarkt auswählen:
+        #btn.pointer{ ng_click: "findUser(); show_welcome = false" }
+          In meiner Nähe
+        #btn.pointer{ ng_click: "setMarktFilter('rathaus'); show_welcome = false" }
+          Rathaus
+        #btn.pointer{ ng_click: "setMarktFilter('kiepenkerl');  show_welcome = false" }
+          Kiepenkerl
+        #btn.pointer{ ng_click: "no_data = !no_data" }
+          Aegidii, Lamberti, Giebelhüüskes
+      #welcome_info_no_data{ ng_show: "no_data" }
+        Daten der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes sind leider nicht verfügbar.
+        .link.pointer{ ng_click: "no_data = false" }
+          zurück
+      .tiny
+        Alle Angaben ohne Gewähr!
+      .tiny
+        %hr
+        .floatleft
+          Maptiles &copy;
+          %a{ href: "http://www.mapbox.com/", target: "_blank" }
+            Mapbox
+          %br
+          Mapdata &copy;
+          %a{ href: "http://openstreetmap.org/", target: "_blank" }
+            OpenStreetMap contributors
+          %br
+          %a{ href: "https://github.com/codeformuenster/weihnachtsmarkt", target: "_blank" }
+            Code dieser Webseite auf Github
+        .floatright
+          %img#c4m{ src:"images/cfm_logo_noborder.png" }
+          %div
+            Ein Projekt von
+            %a{ href: "http://codeformuenster.org", target: "_blank" } 
+              CodeForMuenster

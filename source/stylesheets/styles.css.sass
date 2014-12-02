@@ -1,0 +1,217 @@
+@import normalize-css
+@import _mixins
+@import leaflet/dist/leaflet
+@import _leaflet.usermarker
+
+@font-face
+  font-family: 'Slabo 27px'
+  font-style: normal
+  font-weight: 400
+  src: local('Slabo 27px'), local('Slabo27px-Regular'), url(http://fonts.gstatic.com/s/slabo27px/v2/PuwvqkdbcqU-fCZ9Ed-b7RsxEYwM7FgeyaSgU71cLG0.woff) format('woff')
+
+$search_bar_height: 48px
+$search_bar_max-width: 100%
+$btn_size: 32px
+
+body
+  padding: 0
+  margin: 0
+
+html, body, .container
+  height: 100%
+  font-family: 'Slabo 27px', serif
+
+.container
+  text-align: left
+  background-color: #ccc
+
+#map
+  height: calc(100% - #{$search_bar_height})
+
+#nav_container
+  width: 100%
+  font-size: 26px 
+  display: table
+
+#menu_btn, #search_container
+  display: table-cell
+
+.hide_mobile
+  white-space: nowrap
+  display: inline-block
+
+input[type="text"]
+  background-image: url("../images/magnifier-iconmonstr-20x20.png")
+  background-repeat: no-repeat
+  background-position: left center
+  background-size: 20px 20px
+  height: $search_bar_height
+  border: 0px
+  padding: 0px
+  padding-left: 30px
+  box-sizing: border-box
+  width: 100%
+  text-align: left
+  font-size: 27px
+  background-color: #ccc
+  color: #000
+  letter-spacing: 2px
+  +input-placeholder
+    text-align: left
+    letter-spacing: 0px
+  &:focus
+    outline: 0
+
+.pointer
+  cursor: pointer
+
+a, .link
+  color: #518196
+  &:hover
+    text-decoration: underline
+
+#menu_btn
+  height: $btn_size
+  text-align: center
+  line-height: $btn_size
+  font-size: 18px
+  padding-left: 16px
+  padding-right: 16px
+  font-size: 28px
+  width: 1%
+  white-space: nowrap
+  &:hover
+    background-color: rgba(187, 187, 220, 1)
+
+#reset_search
+  position: absolute
+  top: 0px
+  left: $search_bar_max-width
+  height: $search_bar_height
+  width: $search_bar_height
+  line-height: $search_bar_height
+  font-size: 32px
+  font-weight: 700
+  color: firebrick
+  &:hover
+    color: lighten(firebrick, 30)
+
+#info, #welcome
+  position: fixed
+  overflow: auto
+  z-index: 10000
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  #overlay
+    position: fixed
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.4)
+    top: 0px
+    right: 0px
+    bottom: 0px
+    left: 0px
+
+#info_panel, #welcome_panel
+  padding: 5px 5px
+  position: relative
+  margin: 250px auto 0px
+  padding-top: 20px
+  max-width: 100%
+  width: 550px
+  background-color: #f3f3f3
+  z-index: 9999
+  text-align: center
+  border-radius: 15px
+  #close_panel
+    position: absolute
+    top: 5px
+    right: 5px
+    width: 25px
+    height: 25px
+    line-height: 25px
+    color: white
+    font-size: 25px
+    font-weight: bold
+    border: 2px solid firebrick
+    background-color: firebrick
+    border-radius: 15px
+    vertical-align: middle
+  a
+    text-decoration: none
+
+#welcome_panel
+  #btn
+    font-size: 20px
+    padding: 5px 0px
+    border-width: 2px 0px 0px 0px
+    border-style: solid
+    border-color: #e0e0e0
+    &:hover
+      background-color: #e8e8e8
+    &:active
+      background-color: #e0e0e0
+  #welcome_info_no_data
+    font-size: 17px
+
+.tiny
+  color: #707070
+  font-size: 14px
+
+h2.title, h3.subtitle
+  margin: 4px
+
+.popupHighlight
+  font-weight: 700
+  font-size: 125%
+
+.popup-close-link
+  position: relative
+  bottom: 10px
+  left: 18px
+
+@media all and (max-width: 550px)
+  #info_panel, #welcome_panel
+    margin: 25% auto 0px
+
+.floatleft
+  float: left
+  width: 45%
+  display: inline-block
+  padding: 5px
+
+.floatright
+  float:right
+  width: 45%
+  display: inline-block
+  vertical-align:middle
+  padding: 5px
+
+img#c4m
+  height: 35px
+  width: auto
+
+.leaflet-popup-content:first-line
+  font-weight: bold
+  font-size: 120%
+
+.leaflet-popup-content
+  font-family: 'Slabo 27px', serif
+  font-size: 16px
+
+#map .leaflet-popup-close-button
+  width: 16px
+  height: 16px
+  line-height: 12px
+  color: white
+  font-size: 24px
+  font-weight: bold
+  border: 2px solid firebrick
+  background-color: firebrick
+  border-radius: 12px
+  vertical-align: middle
+  margin: 1px
+
+@media (max-width: 600px)
+  .hide_mobile
+    display: none
