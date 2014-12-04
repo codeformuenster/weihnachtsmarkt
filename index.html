@@ -10,39 +10,26 @@
   </head>
   <body>
     <div class='container' ng-controller='MapController'>
-      <input autofocus id='search_input' ng_model='search_query' placeholder='Suche:' type='text'>
+      <div id='nav_container'>
+        <div class='pointer' id='menu_btn' ng_click='show_welcome = true' ng_init='show_welcome = true' title='Hauptmenü'>
+          &#x2261;
+          <div class='hide_mobile'>
+            Weihnachtsmärkte
+          </div>
+        </div>
+        <div id='search_container'>
+          <input id='search_input' ng_model='search_query' placeholder='Angebotssuche' type='text'>
+        </div>
+      </div>
       <div class='pointer' id='reset_search' ng_click="search_query = ''" ng_show="search_query != ''" title='Suche zurücksetzen'>
         &times;
       </div>
       <leaflet center='muenster' defaults='defaults' geojson='geojson' id='map' tiles='tiles'></leaflet>
-      <div class='pointer' id='info_btn' ng_click='show_info = !show_info' ng_init='show_info = false' title='Informationen'>
-        i
-      </div>
-      <div class='pointer' id='menu_btn' ng_click='show_welcome = true' ng_init='show_welcome = true' title='Hauptmenü'>
-        &#x2261;
-      </div>
-      <div id='info' ng_show='show_info'>
-        <div id='overlay'></div>
-        <div id='info_panel'>
-          <div class='pointer' id='close_panel' ng_click='show_info = false'>
-            &times;
-          </div>
-          <h2>Ein Projekt von</h2>
-          <a href='http://codeformuenster.org' target='_blank' title='Code for Münster'>
-            <img src='images/cfm_logo.png'>
-          </a>
-          <br>
-          MapTiles: &copy; <a href="http://www.mapbox.com" target="_blank">MapBox</a>, MapData: &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a>
-          <br>
-          <br>
-          <a href='https://github.com/codeformuenster/weihnachtsmarkt' target='_blank' title='Quelltext auf Github'>Quelltext auf Github</a>
-        </div>
-      </div>
       <div id='welcome' ng_show='show_welcome'>
         <div id='overlay'></div>
         <div id='welcome_panel'>
           <div class='pointer' id='close_panel' ng_click='show_welcome = false'>
-            &times;
+            ✕
           </div>
           <h2 class='title'>Weihnachtsmarkt-App Münster 2014</h2>
           <h3 class='subtitle'>mit Warenangebotssuche!</h3>
@@ -69,6 +56,33 @@
           </div>
           <div class='tiny'>
             Alle Angaben ohne Gewähr!
+          </div>
+          <div class='tiny'>
+            <hr>
+            <div class='floatleft'>
+              Maptiles &copy;
+              <a href='http://www.mapbox.com/' target='_blank'>
+                Mapbox
+              </a>
+              <br>
+              Mapdata &copy;
+              <a href='http://openstreetmap.org/' target='_blank'>
+                OpenStreetMap contributors
+              </a>
+              <br>
+              <a href='https://github.com/codeformuenster/weihnachtsmarkt' target='_blank'>
+                Code dieser Webseite auf Github
+              </a>
+            </div>
+            <div class='floatright'>
+              <img id='c4m' src='images/cfm_logo_noborder.png'>
+              <div>
+                Ein Projekt von
+                <a href='http://codeformuenster.org' target='_blank'>
+                  CodeForMuenster
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
