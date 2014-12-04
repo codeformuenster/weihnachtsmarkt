@@ -116,8 +116,6 @@ angular.module("wm-map").controller "MapController", [
       return
 
     $scope.$watch 'search_query', applyQuery
-    $scope.$watch 'show_info', focusInput
-    $scope.$watch 'show_welcome', focusInput
 
     # fetch the data, broadcasts map.updateFeatures event
     staendeService.fetchData()

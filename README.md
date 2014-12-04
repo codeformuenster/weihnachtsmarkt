@@ -1,24 +1,27 @@
-# Weihnachtsmarkt
+# Weihnachtsmarkt 2014 Münster
 
 
 ## Install
 
-You need ruby 2.1.5, nodejs and npm installed and then
+Required software:
+* Ruby
+* [npm](https://www.npmjs.org/)
+* [Middleman](http://middlemanapp.com/basics/getting-started/): ```npm install middleman```
+* [Bower](http://bower.io/): ```npm install bower```
 
-    $ bundle install
-    $ npm install -g bower   
-    $ bower install
-
-## Development (run it locally)
-
-    $ bundle exec middleman
-
-Changes can be made in the `source` folder. Middleman supports autoreload.
+Steps to get it running:
+* Clone the repository: ```git clone https://github.com/codeformuenster/weihnachtsmarkt.git```
+* ```cd weihnachtsmarkt```
+* Install Bundle dependencies: ```bundle install```
+* Install Bower depedencies: ```bower update```
+* Run app locally: ```bundle exec middleman```
 
 ## Deployment (on gh-pages)
 
-    $ bundle exec rake publish
+First make sure you don't have any outstanding commits, then
 
+	$ bundle exec rake build
+	$ bundle exec rake publish
 
 ## License
 
