@@ -1,3 +1,8 @@
+---
+status: semi-finished
+uri: http://codeformuenster.org/weihnachtsmarkt/
+---
+
 # Weihnachtsmarkt 2014 Münster
 
 
