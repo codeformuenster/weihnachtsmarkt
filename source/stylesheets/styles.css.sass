@@ -12,6 +12,7 @@
 $search_bar_height: 48px
 $search_bar_max-width: 100%
 $btn_size: 32px
+$control-bg-color: #ccc
 
 body
   padding: 0
@@ -23,14 +24,15 @@ html, body, .container
 
 .container
   text-align: left
-  background-color: #ccc
+  background-color: $control-bg-color
+  overflow-x: hidden
 
 #map
   height: calc(100% - #{$search_bar_height})
 
 #nav_container
   width: 100%
-  font-size: 26px 
+  font-size: 26px
   display: table
 
 #menu_btn, #search_container
@@ -53,7 +55,7 @@ input[type="text"]
   width: 100%
   text-align: left
   font-size: 27px
-  background-color: #ccc
+  background-color: $control-bg-color
   color: #000
   letter-spacing: 2px
   +input-placeholder
@@ -216,3 +218,75 @@ img#c4m
 @media (max-width: 600px)
   .hide_mobile
     display: none
+
+$initial-detailview-height: 48px
+
+#detailview
+  position: absolute
+  width: 100%
+  bottom: 0px
+  height: $initial-detailview-height
+  left: 0px
+  background-color: $control-bg-color
+  .handle
+    position: relative
+    width: 30%
+    max-width: 128px
+    background-color: $control-bg-color
+    top: -10px
+    height: 10px
+    margin: auto
+    border-radius: 5px 5px 0px 0px
+
+// bound of https://github.com/daneden/animate.css
+.animate-attention
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+  -webkit-animation-iteration-count: infinite
+  animation-iteration-count: infinite
+  -webkit-animation-name: bounce
+  animation-name: bounce
+  -webkit-transform-origin: center bottom 0px
+  -ms-transform-origin: center bottom 0px
+  transform-origin: center bottom 0px
+
+
+@-webkit-keyframes bounce
+  6%, 20%, 53%, 80%, 94%
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+    height: $initial-detailview-height + 0px
+
+  40%, 43%
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    height: $initial-detailview-height + 15px
+
+  70%
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    height: $initial-detailview-height + 7px
+
+  90%
+    height: $initial-detailview-height + 2px
+
+@keyframes bounce
+  6%, 20%, 53%, 80%, 94%
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+    height: $initial-detailview-height + 0px
+
+  40%, 43%
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    height: $initial-detailview-height + 15px
+
+  70%
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060)
+    height: $initial-detailview-height + 7px
+
+  90%
+    height: $initial-detailview-height + 2px

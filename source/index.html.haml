@@ -9,6 +9,11 @@
   #reset_search.pointer{ title: "Suche zurücksetzen", ng_click: "search_query = ''", ng_show: "search_query != ''" }
     &times;
   %leaflet#map{ center: "muenster", geojson: "geojson", defaults: "defaults", tiles: "tiles" }
+  #detailview.animate-attention
+    .handle
+    %h4 Yoloswag
+    %p
+      Der Stand verkauft dies und das, sowie auch noch jenes. Alles sehr lecker! Inhaber: Johnannes auf der Vogelweide
   #welcome{ ng_show: "show_welcome"}
     #overlay
     #welcome_panel
@@ -49,5 +54,5 @@
           %img#c4m{ src:"images/cfm_logo_noborder.png" }
           %div
             Ein Projekt von
-            %a{ href: "http://codeformuenster.org", target: "_blank" } 
+            %a{ href: "http://codeformuenster.org", target: "_blank" }
               CodeForMuenster
