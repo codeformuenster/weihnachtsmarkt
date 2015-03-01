@@ -14,6 +14,11 @@ angular.module("wm-map").controller "MapController", [
       color: "#ff3322"
       weight: 1
       opacity: 1
+    styleFun = (f) ->
+      if f.properties.match
+        return hiStyle
+      else
+        return loStyle
     highlightFeature = (e) ->
       #this.openPopup();
       layer = e.target
@@ -49,12 +54,12 @@ angular.module("wm-map").controller "MapController", [
             maxZoom: 22
       search_query: ''
       geojson:
-        style: loStyle
+        style: styleFun
         data: { type: "FeatureCollection", features: [] }
         onEachFeature: (feature, layer) ->
           layer.on
-            mouseover: highlightFeature
-            mouseout: resetHighlight
+            # mouseover: highlightFeature
+            # mouseout: resetHighlight
             popupopen: highlightQuery
 
           popupContent = "#{feature.properties.markt.charAt(0).toUpperCase() + feature.properties.markt.slice(1)} Stand Nr. #{feature.properties.stand_nr}"
@@ -68,21 +73,20 @@ angular.module("wm-map").controller "MapController", [
           return
       updateGeoJSONFromData: (featureCollection, includeChildren, focusFeatures) ->
         # Update the scope
-        if !angular.equals($scope.geojson.data, featureCollection)
-          $scope.geojson =
-            style: $scope.geojson.style
-            onEachFeature: $scope.geojson.onEachFeature
-            pointToLayer: $scope.geojson.pointToLayer
-            data: featureCollection
+        $scope.geojson =
+          style: styleFun
+          onEachFeature: $scope.geojson.onEachFeature
+          pointToLayer: $scope.geojson.pointToLayer
+          data: featureCollection
 
-          $timeout ->
-            leafletData.getMap('map').then (map) ->
-              bounds = L.geoJson($scope.geojson.data).getBounds()
-              map.fitBounds(bounds, { maxZoom: 21, padding: [25,25]}) if Object.keys(bounds).length isnt 0
-              return
+        $timeout ->
+          leafletData.getMap('map').then (map) ->
+            bounds = L.geoJson($scope.geojson.data).getBounds()
+            map.fitBounds(bounds, { maxZoom: 21, padding: [25,25]}) if Object.keys(bounds).length isnt 0
             return
-          ,700
-          ,false
+          return
+        ,700
+        ,false
 
         return
       setMarktFilter: (markt) ->
