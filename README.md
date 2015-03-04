@@ -1,10 +1,14 @@
 ---
-status: semi-finished
+status: work-in-progress
 uri: http://codeformuenster.org/weihnachtsmarkt/
+forum: http://forum.codeformuenster.org/t/weihnachtsmarkt-hilfe/28
 ---
 
-# Weihnachtsmarkt 2014 Münster
+# Weihnachtsmarkt
 
+Webseite zum Durchsuchen und Auffinden von Ständen auf den fünf Adventsmärkten in Münster.
+
+![weihnachtsmarkt-1](https://cloud.githubusercontent.com/assets/225698/6495200/1ead83f8-c2c8-11e4-80ee-3bf9a1fc4e4e.png)
 
 ## Install
 
