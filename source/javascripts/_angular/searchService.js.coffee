@@ -17,9 +17,10 @@ angular.module('wm-map').service "searchService",[
       return
     applyFilter: (features) ->
       # hide markets if set..
-      features = features.filter((f) ->
-        f.properties.markt == @_markt
-      , @)
+      if @_markt?
+        features = features.filter((f) ->
+          f.properties.markt == @_markt
+        , @)
 
       # highlight queries
       if @_query? and @_query.trim() != ""
