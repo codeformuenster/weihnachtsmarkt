@@ -24,7 +24,24 @@
       <div class='pointer' id='reset_search' ng_click="search_query = ''" ng_show="search_query != ''" title='Suche zurücksetzen'>
         &times;
       </div>
-      <leaflet center='muenster' defaults='defaults' geojson='geojson' id='map' tiles='tiles'></leaflet>
+      <leaflet center='muenster' defaults='defaults' geojson='geojson' id='map' markers='markers' tiles='tiles'></leaflet>
+      <div id='detailview' ng-swipe-left='bumpResultIndex(-1)' ng-swipe-right='bumpResultIndex(1)'>
+        <div id='left' ng_class='{disabled: results.length === 0}' ng_click='bumpResultIndex(-1)'>
+          &lsaquo;
+        </div>
+        <div class='searchResult'>
+          <p ng_hide='results.length !== 0'>
+            Hier erscheinen die Suchergebnisse
+          </p>
+          <h4>{{results[currResultIndex].heading}}</h4>
+          <p>
+            {{results[currResultIndex].text}}
+          </p>
+        </div>
+        <div id='right' ng_class='{disabled: results.length === 0}' ng_click='bumpResultIndex(1)'>
+          &rsaquo;
+        </div>
+      </div>
       <div id='welcome' ng_show='show_welcome'>
         <div id='overlay'></div>
         <div id='welcome_panel'>
@@ -33,27 +50,28 @@
           </div>
           <h2 class='title'>Weihnachtsmarkt-App Münster 2014</h2>
           <h3 class='subtitle'>mit Warenangebotssuche!</h3>
-          <div id='btns' ng_hide='no_data' ng_init='no_data = false'>
-            Bitte Weihnachtsmarkt auswählen:
-            <div class='pointer' id='btn' ng_click='findUser(); show_welcome = false'>
-              In meiner Nähe
-            </div>
-            <div class='pointer' id='btn' ng_click="setMarktFilter('rathaus'); show_welcome = false">
-              Rathaus
-            </div>
-            <div class='pointer' id='btn' ng_click="setMarktFilter('kiepenkerl');  show_welcome = false">
-              Kiepenkerl
-            </div>
-            <div class='pointer' id='btn' ng_click='no_data = !no_data'>
-              Aegidii, Lamberti, Giebelhüüskes
+          <p>
+            Diese App erlaubt es, Stände auf dem Weihnachtsmarkt in Münster zu durchsuchen. Einfach Suchbegriff oben ins Suchfeld eingeben. Passende Stände werden nun farblich markiert.
+          </p>
+          <div id='btns'>
+            <div class='pointer' id='btn' ng_click='show_welcome = false' style='border-width: 2px;'>
+              Los gehts!
             </div>
           </div>
-          <div id='welcome_info_no_data' ng_show='no_data'>
-            Daten der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes sind leider nicht verfügbar.
-            <div class='link pointer' ng_click='no_data = false'>
-              zurück
-            </div>
-          </div>
+          <!-- #btns{ ng_hide: "no_data", ng_init: "no_data = false"} -->
+          <!-- Bitte Weihnachtsmarkt auswählen: -->
+          <!-- #btn.pointer{ ng_click: "findUser(); show_welcome = false" } -->
+          <!-- In meiner Nähe -->
+          <!-- #btn.pointer{ ng_click: "setMarktFilter('rathaus'); show_welcome = false" } -->
+          <!-- Rathaus -->
+          <!-- #btn.pointer{ ng_click: "setMarktFilter('kiepenkerl');  show_welcome = false" } -->
+          <!-- Kiepenkerl -->
+          <!-- #btn.pointer{ ng_click: "no_data = !no_data" } -->
+          <!-- Aegidii, Lamberti, Giebelhüüskes -->
+          <!-- #welcome_info_no_data{ ng_show: "no_data" } -->
+          <!-- Daten der Weihnachtsmärkte Aegidii, Lamberti und Giebelhüüskes sind leider nicht verfügbar. -->
+          <!-- .link.pointer{ ng_click: "no_data = false" } -->
+          <!-- zurück -->
           <div class='tiny'>
             Alle Angaben ohne Gewähr!
           </div>
@@ -87,14 +105,5 @@
         </div>
       </div>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
-      ga('create', 'UA-47404284-2', 'codeformuenster.org');
-      ga('send', 'pageview');
-    </script>
   </body>
 </html>
