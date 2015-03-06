@@ -8,7 +8,7 @@ forum: http://forum.codeformuenster.org/t/weihnachtsmarkt-hilfe/28
 
 Webseite zum Durchsuchen und Auffinden von Ständen auf den fünf Adventsmärkten in Münster.
 
-![weihnachtsmarkt-1](https://cloud.githubusercontent.com/assets/225698/6495200/1ead83f8-c2c8-11e4-80ee-3bf9a1fc4e4e.png)
+![screen shot 2015-03-06](https://cloud.githubusercontent.com/assets/225698/6537666/7228e8c8-c459-11e4-9c0c-45167f5053be.png)
 
 ## Install
 
