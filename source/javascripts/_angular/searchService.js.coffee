@@ -16,18 +16,21 @@ angular.module('wm-map').service "searchService",[
         @applyFilter staendeService.getAll().features
       return
     applyFilter: (features) ->
-      filtered = features
+      # hide markets if set..
       if @_markt?
-        filtered = filtered.filter((f) ->
+        features = features.filter((f) ->
           f.properties.markt == @_markt
         , @)
-      if @_query?
-        regex = RegExp(@_query.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'i')
-        filtered = filtered.filter((f) ->
-          @_queryableProperties.some((q) ->
-            regex.test(f.properties[q]))
-        , @)
 
-        $rootScope.$broadcast 'map.updateFeatures', { type: "FeatureCollection", features: filtered }
+      # highlight queries
+      if @_query? and @_query.trim() != ""
+        regex = RegExp(@_query.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'i')
+      else
+        regex = /.^/
+      features = features.map (f) ->
+        f.properties.match = @_queryableProperties.some((q) -> regex.test(f.properties[q]))
+        f
+      , @ # inject this into map
+      $rootScope.$broadcast 'map.updateFeatures', { type: "FeatureCollection", features: features }
       return
 ]
