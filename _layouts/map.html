@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+<div class="container">
+      {% include nav_container.html %}
+      <div id="map"></div>
+      {% include detailview.html %}
+      {% include welcome.html %}
+    </div>
+    <script>
+      Weihnachtsmarkt.init();
+    </script>
+    {{ content }}
+  </body>
+
+</html>

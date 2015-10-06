@@ -1,0 +1,9 @@
+jekyll:
+  build: .
+  #image: ruby:onbuild
+  volumes:
+    - .:/usr/src/app
+  ports:
+    - 4000:4000
+  command: jekyll serve
+
