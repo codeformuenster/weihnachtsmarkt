@@ -6,7 +6,8 @@
   {% include vendor/pep.min.js %}
   {% include vendor/leaflet.js %}
 
-  window.Weihnachtsmarkt = {};
+  window.Weihnachtsmarkt = {_rawdata:{type:"FeatureCollection",features:[]}};
+  {% include javascript/data.js %}
   {% include javascript/util.js %}
   {% include javascript/map.js  %}
   {% include javascript/welcome_modal.js %}
