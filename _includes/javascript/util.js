@@ -1,9 +1,6 @@
 var error = function (e) {
   console.log(e);
 };
-var cloneObj = function (obj) {
-  return L.Util.extend({}, obj);
-};
 var nodeById = function (id) {
   return document.getElementById(id);
 };
