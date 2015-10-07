@@ -8,7 +8,7 @@
 
   window.Weihnachtsmarkt = {};
   {% include javascript/util.js %}
-  {% include javascript/map.js | strip | strip_newlines %}
+  {% include javascript/map.js  %}
   {% include javascript/welcome_modal.js %}
   {% include javascript/search.js %}
   {% include javascript/app.js %}
