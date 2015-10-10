@@ -9,6 +9,9 @@ twitter_username: codeformuenster
 github_username:  codeformuenster
 permalink: /staende/:title
 
+### Configurable Keys!
+
+# these keys in the properties of the stalls are considered in the search
 searchableProperties:
   - betreiber
   - angebot
@@ -21,10 +24,24 @@ strings:
     Diese App erlaubt es, Stände auf dem Weihnachtsmarkt in Münster zu durchsuchen. Einfach Suchbegriff oben ins Suchfeld eingeben. Passende Stände werden dann farblich markiert.
   letsGo: Los gehts!
   initialSearchResultView: Hier erscheinen die Suchergebnisse, einfach oben lostippen!
-  noResults: Nichts für \"{str}\" gefunden!
+  noResults: 'Nichts für \"{str}\" gefunden!'
   searchPlaceholder: Angebotssuche
   resetSearchTitle: Suche zurücksetzen
   infoButton: Info
+
+# Map config keys
+map:
+  center:
+    - 51.96144
+    - 7.6292
+  zoom: 18
+  tileLayerUrl: 'http://{s}.tiles.mapbox.com/v3/tomrocket.k93e7pp4/{z}/{x}/{y}.png'
+  normalColor: '#f8f8f8'
+  lowColor: '#B8BCC8'
+  highColor: '#ff3322'
+  resultColor: '#F57F06'
+
+### Better not change these!
 
 # Build settings
 markdown: kramdown
