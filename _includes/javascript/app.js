@@ -3,5 +3,9 @@ L.extend(window.Weihnachtsmarkt, {
     this._initMap();
     this._initWelcomeModal();
     this._initSearch();
+
+    attachClick("info_button", function () {
+      nodeById("welcome").style.display = null;
+    });
   }
 });

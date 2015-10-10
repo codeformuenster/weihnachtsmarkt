@@ -30,8 +30,8 @@ L.extend(window.Weihnachtsmarkt, {
   },
   _initMap: function () {
     var map = L.map("map",{
-      center: [51.96255, 7.62547],
-      zoom: 17,
+      center: [51.96144, 7.6292],
+      zoom: 18,
       attributionControl: false
     });
 
