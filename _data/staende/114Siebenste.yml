@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 114
+  sub_stand: 
+  betreiber: Siebenstein - Spiele, Herr Jürgen Reiche
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Geduld- und Denkspiele aus Holz und Metall (60% Eigenfertigung)
+geometry: '{"type":"Polygon","coordinates":[[[7.628558,51.961593],[7.628623,51.961582],[7.628614,51.961562],[7.628549,51.961573],[7.628558,51.961593]]]}'

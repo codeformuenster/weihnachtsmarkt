@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 61
+  sub_stand: 
+  betreiber: Steinkamp's Mandeln, Frau Gisela Steinkamp-Kohlwes, www.steinkamps-mandeln.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Gebrannte Mandeln
+  - diverse Nüsse
+  - Schokofrüchte
+  - Zimtmandeln
+  - Herrenmandeln mit Rum usw.
+geometry: '{"type":"Polygon","coordinates":[[[7.629339,51.961878],[7.629372,51.96187],[7.629346,51.961826],[7.629312,51.961834],[7.629339,51.961878]]]}'

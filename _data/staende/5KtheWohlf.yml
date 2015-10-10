@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 5
+  sub_stand: 
+  betreiber: Käthe Wohlfahrt GmbH & Co.OHG, Herr Harald Johannes Wohlfahrt
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtsartikel aus verschiedenen Materialien
+  - Geschenkartikel
+geometry: '{"type":"Polygon","coordinates":[[[7.628795,51.961046],[7.628931,51.961014],[7.628906,51.960973],[7.62877,51.961004],[7.628795,51.961046]]]}'

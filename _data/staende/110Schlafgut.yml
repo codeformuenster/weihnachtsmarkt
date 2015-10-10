@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 110
+  sub_stand: 
+  betreiber: Schlaf gut, Frau Christiane Böcker
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Designwärmeflaschen
+  - Hüllen
+  - Wellness-Hosen
+  - gehäkelte Babyschuhe und vieles mehr zum Wohlfühlen
+geometry: '{"type":"Polygon","coordinates":[[[7.628716,51.961508],[7.628701,51.96148],[7.628674,51.961486],[7.628688,51.961513],[7.628716,51.961508]]]}'

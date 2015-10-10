@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 118
+  sub_stand: 
+  betreiber: Herr Heiner Leifert
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtsdekoration aus Holz von Hand bemalt
+  - Kindergarderoben
+  - Spielzeug
+geometry: '{"type":"Polygon","coordinates":[[[7.628588,51.961396],[7.628532,51.961409],[7.628545,51.96143],[7.628547,51.961434],[7.628604,51.961421],[7.628588,51.961396]]]}'

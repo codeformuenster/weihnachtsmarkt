@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 114
+  sub_stand: b
+  betreiber: Ulrich Wagner, www.land-und-flair.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Felle und Fellware
+  - Wolle und Wollware
+geometry: '{"type":"Polygon","coordinates":[[[7.628453,51.96155],[7.628487,51.961543],[7.628472,51.96152],[7.628439,51.961528],[7.628453,51.96155]]]}'

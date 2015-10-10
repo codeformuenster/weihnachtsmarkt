@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 69
+  sub_stand: 
+  betreiber: Brune-Mentink
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Feinsilber/Titan/Bronze/Kupfer und Gold -Ringe
+  - Kerzenleuchter
+  - Arm- und Halsbänder
+geometry: '{"type":"Polygon","coordinates":[[[7.629004,51.961583],[7.629045,51.961573],[7.629033,51.961554],[7.628992,51.961564],[7.629004,51.961583]]]}'

@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 43
+  sub_stand: 
+  betreiber: Glühweintreff, Herr Michael Völlmecke
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Glühwein
+  - heiße und kalte alkoholische und alkoholfreie Getränke
+geometry: '{"type":"Polygon","coordinates":[[[7.62967,51.961788],[7.629652,51.961759],[7.629625,51.961765],[7.629557,51.961781],[7.629573,51.961807],[7.629575,51.96181],[7.62967,51.961788]]]}'

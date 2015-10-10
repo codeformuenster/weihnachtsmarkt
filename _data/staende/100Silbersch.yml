@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 100
+  sub_stand: 
+  betreiber: Silberschmuck Mariele Gommla
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Silberschmuck: Ringe'
+  - Armbänder
+  - Ohrringe - Modeschmuck
+geometry: '{"type":"Polygon","coordinates":[[[7.628818,51.96148],[7.628824,51.961478],[7.628851,51.961472],[7.62883,51.961436],[7.628796,51.961443],[7.628818,51.96148]]]}'

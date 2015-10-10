@@ -1,10 +1,14 @@
+---
+type: Feature
 properties:
   stand_nr: 10
+  sub_stand: 
   betreiber: Parpalioni's Zuckerstübchen, Frau Stefanie Parpalioni
-  angebot:
-    - Gebrannte Mandeln und Nüsse
-    - Lebkuchenherzen
-    - Popcorn und Zuckerwatte
+  warenangeb: 
+  glueh_prei: 
   markt: rathaus
+  angebot:
+  - Gebrannte Mandeln und Nüsse
+  - Lebkuchenherzen
+  - Popcorn und Zuckerwatte
 geometry: '{"type":"Polygon","coordinates":[[[7.629245,51.961027],[7.629255,51.961043],[7.629345,51.961044],[7.629344,51.961022],[7.629245,51.961021],[7.629245,51.961027]]]}'
-

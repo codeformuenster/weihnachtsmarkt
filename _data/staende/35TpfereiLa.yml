@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 35
+  sub_stand: 
+  betreiber: Töpferei Langerwehe, Kuckertz & Rennertz GmbH, www.toepferei-langerwehe.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Handwerkliche Töpferwaren: Krippenfiguren'
+  - Porzellan-Lichter
+  - Duftkeramik mit Öl
+  - weihnachtliche Geschenkideen
+geometry: '{"type":"Polygon","coordinates":[[[7.630696,51.961958],[7.630678,51.961945],[7.63063,51.961972],[7.63065,51.961985],[7.630696,51.961958]]]}'

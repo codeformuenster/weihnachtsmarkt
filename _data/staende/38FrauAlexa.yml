@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 38
+  sub_stand: b
+  betreiber: Frau Alexandra Schneider
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Champignons
+  - Blumenkohl
+  - Maiskolben
+  - Camembert und Baguettes
+geometry: '{"type":"Polygon","coordinates":[[[7.630507,51.962219],[7.630538,51.962201],[7.630489,51.962168],[7.630458,51.962186],[7.630507,51.962219]]]}'

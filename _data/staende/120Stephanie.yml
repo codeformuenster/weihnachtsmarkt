@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 120
+  sub_stand: 
+  betreiber: Stephanie Dörrbecker u. Gabriele Fleischmann
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Nürnberger Elisen Lebkuchen
+  - Früchtebrot
+geometry: '{"type":"Polygon","coordinates":[[[7.62849,51.961419],[7.628456,51.961427],[7.628478,51.961464],[7.628513,51.961456],[7.62849,51.961419]]]}'

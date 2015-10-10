@@ -1,0 +1,18 @@
+---
+type: Feature
+properties:
+  stand_nr: 60
+  sub_stand: 
+  betreiber: Naturbürsten, Herr Emil Oswald, http://www.haushaltsartikel.de/
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Naturbürsten
+  - Massagebürsten
+  - Haarbürsten
+  - Haushaltsbürsten
+  - Besen
+  - Backformen
+  - Holzartikel für die Küche
+geometry: '{"type":"Polygon","coordinates":[[[7.629343,51.961822],[7.629322,51.961786],[7.629287,51.961794],[7.62931,51.961829],[7.629343,51.961822]]]}'

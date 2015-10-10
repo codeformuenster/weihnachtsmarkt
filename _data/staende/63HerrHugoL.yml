@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 63
+  sub_stand: 
+  betreiber: Herr Hugo Levy
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Flammlachs
+geometry: '{"type":"Polygon","coordinates":[[[7.629145,51.961958],[7.629234,51.961937],[7.629219,51.961913],[7.629131,51.961933],[7.629145,51.961958]]]}'

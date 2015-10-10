@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 3
+  sub_stand: 
+  betreiber: Rosemarie Höhle-Schneider - Der Nussknacker
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Gebrannte Mandeln und diverse Nüsse aus aller Welt
+geometry: '{"type":"Polygon","coordinates":[[[7.628717,51.961108],[7.62873,51.961129],[7.628846,51.961102],[7.628834,51.961081],[7.628717,51.961108]]]}'

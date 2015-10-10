@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 116
+  sub_stand: 
+  betreiber: Heimat Berlin, Herr Sebastian Mücke, www.juststars.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtssterne aus Papier
+geometry: '{"type":"Polygon","coordinates":[[[7.628529,51.961488],[7.628569,51.96148],[7.628558,51.961459],[7.628518,51.961467],[7.628529,51.961488]]]}'

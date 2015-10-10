@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 38
+  sub_stand: c
+  betreiber: Kunsthandwerk und Deko, Frau Petra Krampe-Lütkemeier
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Engel
+  - Spielwaren
+  - Windlichter
+  - Schneekugeln
+geometry: '{"type":"Polygon","coordinates":[[[7.630565,51.962258],[7.630596,51.962241],[7.630548,51.962207],[7.630517,51.962225],[7.630565,51.962258]]]}'

@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 14
+  sub_stand: 
+  betreiber: Karsten Zobel Holzarbeiten, Herr Karsten Zobel, www.vogeltreff24.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Artikel zur Vogelfütterung
+  - Nistkästen
+  - Insektenhäuser
+  - Eichhörnchen- Futterkästen
+geometry: '{"type":"Polygon","coordinates":[[[7.629499,51.960979],[7.629525,51.960973],[7.62951,51.960948],[7.629483,51.960954],[7.629499,51.960979]]]}'

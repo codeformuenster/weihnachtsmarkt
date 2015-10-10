@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 107
+  sub_stand: 
+  betreiber: Genius Reibekuchen
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Reibekuchen mit verschiedenen Beilagen
+geometry: '{"type":"Polygon","coordinates":[[[7.628911,51.961624],[7.628835,51.961642],[7.628851,51.961667],[7.628946,51.961645],[7.628931,51.96162],[7.628911,51.961624],[7.628911,51.961624]]]}'

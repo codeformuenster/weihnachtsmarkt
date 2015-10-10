@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 74
+  sub_stand: 
+  betreiber: Michael Bügler GmbH, www.lachende-tassen.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - lachende Tassen aus reinem Hartporzellan
+geometry: '{"type":"Polygon","coordinates":[[[7.629252,51.961491],[7.629306,51.961478],[7.629293,51.961457],[7.629239,51.96147],[7.629252,51.961491]]]}'

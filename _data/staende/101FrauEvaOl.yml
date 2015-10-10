@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 101
+  sub_stand: 
+  betreiber: Frau Eva Olszewski
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kunsthandwerklicher Schmuck aus Halbedelsteinen
+  - Süßwasserperlen und Edelstahl
+geometry: '{"type":"Polygon","coordinates":[[[7.628851,51.961472],[7.628824,51.961478],[7.628841,51.961505],[7.628868,51.961499],[7.628851,51.961472],[7.628851,51.961472]]]}'

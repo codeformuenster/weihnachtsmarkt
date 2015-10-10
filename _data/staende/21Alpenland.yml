@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 21
+  sub_stand: 
+  betreiber: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Tiroler Raritäten: Balsame'
+  - Kräuter- und Pflanzenseifen
+  - Molke-Pflegeprodukte
+  - Hirschtalg-Fußcreme etc.
+geometry: '{"type":"Polygon","coordinates":[[[7.629774,51.96137],[7.629801,51.961365],[7.629783,51.961336],[7.629756,51.961342],[7.629774,51.96137]]]}'

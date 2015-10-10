@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 33
+  sub_stand: 
+  betreiber: Gebrannte Mandeln -Süßwaren, Cornelia & Roman Kaselowsky
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Gebrannte Mandeln
+  - Nüsse aus aller Welt
+  - Alpenbrot
+  - Schoko-Fruchtspieße
+geometry: '{"type":"Polygon","coordinates":[[[7.630825,51.961851],[7.63075,51.961892],[7.630774,51.961909],[7.63085,51.961867],[7.630825,51.961851]]]}'

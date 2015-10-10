@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 58
+  sub_stand: 
+  betreiber: Schaustellerbetrieb Kracke, Herr Erich Kracke
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Heißgetränke
+  - verschiedene Milchgetränke mit und ohne Alkohol
+geometry: '{"type":"Polygon","coordinates":[[[7.629303,51.961756],[7.629261,51.961687],[7.629227,51.961695],[7.629269,51.961764],[7.629276,51.961763],[7.629303,51.961756]]]}'

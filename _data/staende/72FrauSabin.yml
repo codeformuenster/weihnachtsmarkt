@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 72
+  sub_stand: 
+  betreiber: Frau Sabine Bertram
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Silberschmuck
+  - Accessoires
+  - Antikschmuck und Schals
+geometry: '{"type":"Polygon","coordinates":[[[7.629137,51.961512],[7.629192,51.9615],[7.629182,51.961483],[7.629127,51.961495],[7.629137,51.961512]]]}'

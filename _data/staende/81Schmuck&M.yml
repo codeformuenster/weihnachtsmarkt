@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 81
+  sub_stand: 
+  betreiber: Schmuck & Mineralien, Herr Edip Turunc, http://www.turunc-gems.de/
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Rohmineralien
+  - Fossilien
+  - Edelsteinwaren
+  - Edelsteinschmuck
+geometry: '{"type":"Polygon","coordinates":[[[7.629154,51.961453],[7.629237,51.961435],[7.629223,51.961413],[7.629142,51.961433],[7.629142,51.961433],[7.629154,51.961453]]]}'

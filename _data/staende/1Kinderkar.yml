@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 1
+  sub_stand: 
+  betreiber: Kinderkarussell mit Tradition, Eheleute Arning-Konopczynski
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kinderkarussell
+geometry: '{"type":"Polygon","coordinates":[[[7.628746,51.96103],[7.628735,51.961005],[7.628706,51.960987],[7.628666,51.96098],[7.628626,51.960987],[7.628596,51.961005],[7.628586,51.96103],[7.628596,51.961054],[7.628626,51.961072],[7.628666,51.961079],[7.628706,51.961072],[7.628735,51.961054],[7.628746,51.96103]]]}'

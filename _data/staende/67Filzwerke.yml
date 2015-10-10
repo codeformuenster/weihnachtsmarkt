@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 67
+  sub_stand: 
+  betreiber: Filzwerkerin, Frau Christel Orlowski, www.filzwerkerin.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Hüte
+  - Stulpen
+  - Dekoration
+geometry: '{"type":"Polygon","coordinates":[[[7.629072,51.961759],[7.629099,51.961753],[7.629089,51.961735],[7.629062,51.961742],[7.629072,51.961759]]]}'

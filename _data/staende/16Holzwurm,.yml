@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 16
+  sub_stand: 
+  betreiber: Holzwurm, Herr Reinhard Sobisch
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kunsthandwerk aus Bali
+  - fairtrade Keramikdeko
+  - Schmuck und Kleinmöbel aus Eigenanfertigung
+geometry: '{"type":"Polygon","coordinates":[[[7.62966,51.961163],[7.629688,51.961156],[7.629666,51.961121],[7.629639,51.961127],[7.62966,51.961163]]]}'

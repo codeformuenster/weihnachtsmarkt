@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 32
+  sub_stand: 
+  betreiber: Kinderkarussell Schneider, Herr Johann Schneider
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kinderkarussell
+geometry: '{"type":"Polygon","coordinates":[[[7.630624,51.961881],[7.630617,51.961865],[7.630599,51.961854],[7.630573,51.961849],[7.630548,51.961854],[7.630529,51.961865],[7.630523,51.961881],[7.630529,51.961896],[7.630548,51.961908],[7.630573,51.961912],[7.630599,51.961908],[7.630617,51.961896],[7.630624,51.961881]]]}'

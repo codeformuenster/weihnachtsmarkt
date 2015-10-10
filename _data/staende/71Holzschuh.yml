@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 71
+  sub_stand: 
+  betreiber: Holzschuhmacherei Berning, Frau Maria Berning
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Holzschuhe mit Zubehör
+  - Fell- und Lederartikel
+  - Socken
+geometry: '{"type":"Polygon","coordinates":[[[7.629093,51.96154],[7.629128,51.961532],[7.629103,51.961491],[7.629069,51.961499],[7.629093,51.96154]]]}'

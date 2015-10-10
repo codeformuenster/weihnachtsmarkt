@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 105
+  sub_stand: 
+  betreiber: Herr Philipp Heitmann & Sohn
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Pommes Frites mit Curry- Zigeuner-und Bratwurst
+  - Krakauer
+geometry: '{"type":"Polygon","coordinates":[[[7.628807,51.961606],[7.628848,51.961597],[7.628889,51.961587],[7.628922,51.96158],[7.628907,51.961556],[7.628793,51.961583],[7.628807,51.961606]]]}'

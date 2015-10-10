@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 117
+  sub_stand: 
+  betreiber: zazie Cologne - Schmuck & Accessoires, Frau Cornelia Bartell, www.zazie-cologne.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handgefertigter
+  - hochwertiger Modeschmuck aus Glaskristallen
+  - Leder Emaille
+  - Strass uvm.
+geometry: '{"type":"Polygon","coordinates":[[[7.628606,51.961426],[7.628641,51.961418],[7.628622,51.961388],[7.628588,51.961396],[7.628604,51.961421],[7.628606,51.961426]]]}'

@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 73
+  sub_stand: 
+  betreiber: Galerie Farbenspiele, Frau Monika Stöcker
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'handgefertigte Produkte: Taschen'
+  - Schmuck
+  - Filzaccessoires
+  - Mützen
+  - Schals
+geometry: '{"type":"Polygon","coordinates":[[[7.629182,51.961483],[7.629195,51.961504],[7.629242,51.961493],[7.629229,51.961472],[7.629182,51.961483]]]}'

@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 77
+  sub_stand: 
+  betreiber: INCA Writing Instruments, Herr Helmut Weber
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Schreibgeräte
+  - Schlüsselanhänger
+  - Feuerzeuge
+  - Teelichthalter
+  - Weihnachtsdekoration
+geometry: '{"type":"Polygon","coordinates":[[[7.629307,51.961404],[7.629342,51.961396],[7.62932,51.961362],[7.629286,51.96137],[7.629307,51.961404]]]}'

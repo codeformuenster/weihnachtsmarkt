@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 54
+  sub_stand: 
+  betreiber: Mamadou Niang
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Woll- und Fellartikel
+geometry: '{"type":"Polygon","coordinates":[[[7.629652,51.961759],[7.629626,51.961717],[7.629599,51.961723],[7.629625,51.961765],[7.629652,51.961759]]]}'

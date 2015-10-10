@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 106
+  sub_stand: 
+  betreiber: Figura Santa, www.figurasanta.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handgeschnitzte Olivenholzkrippen aus Bethlehem
+  - Christbaumschmuck
+  - Geschenkartikel
+  - handgearbeitete Bienenwachskerzen
+geometry: '{"type":"Polygon","coordinates":[[[7.628889,51.961587],[7.628911,51.961624],[7.628911,51.961624],[7.628931,51.96162],[7.628944,51.961616],[7.628922,51.96158],[7.628889,51.961587]]]}'

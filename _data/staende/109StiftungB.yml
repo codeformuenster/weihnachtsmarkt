@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 109
+  sub_stand: 
+  betreiber: Stiftung Bürger für Münster, Herr Marc Würfel-Elberg, www.buergerstiftung-muenster.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kalender rätselhaftes Münster 2014
+  - div. Kleinkunst- und Gebrauchsartikel
+geometry: '{"type":"Polygon","coordinates":[[[7.628697,51.961531],[7.628724,51.961525],[7.628716,51.961508],[7.628688,51.961513],[7.628697,51.961531]]]}'

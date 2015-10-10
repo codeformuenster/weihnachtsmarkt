@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 22
+  sub_stand: 
+  betreiber: Jens Heubes
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Weihnachtliche Vollwertwaren: Früchtebrot'
+  - Gebäck
+geometry: '{"type":"Polygon","coordinates":[[[7.629801,51.961417],[7.629832,51.961409],[7.629811,51.961376],[7.629781,51.961383],[7.629801,51.961417]]]}'

@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 41
+  sub_stand: 
+  betreiber: Blauweiß'chen GmbH, Frau Ellen Ostendorf, www.blauweisschen.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handgestochene und handgedruckte Textilien
+  - Textilien zum Bedrucken (mit Lavendel) Blauweiß'chens feine Farben
+geometry: '{"type":"Polygon","coordinates":[[[7.629934,51.961724],[7.629921,51.961703],[7.629865,51.961716],[7.629877,51.961737],[7.629934,51.961724]]]}'

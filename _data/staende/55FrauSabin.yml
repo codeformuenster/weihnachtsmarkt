@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 55
+  sub_stand: b
+  betreiber: Frau Sabine Heuser, www.aktivsocken.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Socken aus Wolle
+  - Seide und Leinen
+geometry: '{"type":"Polygon","coordinates":[[[7.62953,51.961654],[7.629517,51.961634],[7.629483,51.961641],[7.629495,51.961662],[7.62953,51.961654]]]}'

@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 55
+  sub_stand: a
+  betreiber: Image Silver, Frau Izabela Szymanska, www.imagesilver.com.pl
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Schmuck aus Bernstein und Silber
+  - Bernsteinlampen
+  - "-kerzen"
+geometry: '{"type":"Polygon","coordinates":[[[7.629532,51.961648],[7.629573,51.961639],[7.629563,51.961622],[7.629523,51.961632],[7.629532,51.961648]]]}'

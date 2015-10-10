@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 92
+  sub_stand: 
+  betreiber: Chri Sue, Susanne Riegel, www.chrisue.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Raumschmuck im Landhausstil
+  - Weihnachtsdeko
+  - Küchen- und Badeartikel
+geometry: '{"type":"Polygon","coordinates":[[[7.62892,51.961448],[7.628918,51.961448],[7.628891,51.961454],[7.628913,51.961491],[7.628941,51.961484],[7.62892,51.961448]]]}'

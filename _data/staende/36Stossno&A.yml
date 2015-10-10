@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 36
+  sub_stand: 
+  betreiber: Stossno & Ankermann GbR, Herr Oliver AnkermannHerr Uwe Stossno, www.perlsacktiere.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Perlsacktiere
+geometry: '{"type":"Polygon","coordinates":[[[7.630643,51.961988],[7.630621,51.961974],[7.630572,51.962002],[7.630594,51.962016],[7.630643,51.961988]]]}'

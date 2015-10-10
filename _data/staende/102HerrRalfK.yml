@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 102
+  sub_stand: 
+  betreiber: Herr Ralf Kuprat
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handgearbeitete Weihnachtskugeln und Figuren aus Glas
+  - Lichthäuser aus Porzellan
+geometry: '{"type":"Polygon","coordinates":[[[7.628801,51.961461],[7.628792,51.961445],[7.628752,51.961454],[7.628762,51.96147],[7.628801,51.961461]]]}'

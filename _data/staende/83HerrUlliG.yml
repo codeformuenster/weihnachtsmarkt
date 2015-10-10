@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 83
+  sub_stand: 
+  betreiber: Herr Ulli Gumpert www.bibahn.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - selbstgefertigte Spiele und Spielzeug aus Holz
+geometry: '{"type":"Polygon","coordinates":[[[7.629036,51.96138],[7.629007,51.961386],[7.629027,51.96142],[7.629056,51.961413],[7.629036,51.96138]]]}'

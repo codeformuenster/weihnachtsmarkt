@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 97
+  sub_stand: 
+  betreiber: MADERA Spielzeug, Herrn Norbert Stock, www.madera-spielzeug.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handgefertigtes Holzspielzeug
+geometry: '{"type":"Polygon","coordinates":[[[7.628853,51.961341],[7.628836,51.961313],[7.628802,51.961321],[7.62882,51.961349],[7.628826,51.961348],[7.628826,51.961347],[7.628853,51.961341],[7.628853,51.961341]]]}'

@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 23
+  sub_stand: 
+  betreiber: GLASS ART, Herr Klaus Meier
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtsdekor aus Capiz-Muscheln
+  - Fensterbilder
+  - Sand-Art-Muschel-Schmuck
+geometry: '{"type":"Polygon","coordinates":[[[7.629858,51.961509],[7.629885,51.961503],[7.62987,51.961477],[7.629843,51.961483],[7.629858,51.961509]]]}'

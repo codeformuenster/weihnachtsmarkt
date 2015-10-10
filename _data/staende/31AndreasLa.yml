@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 31
+  sub_stand: 
+  betreiber: Andreas Lanz
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Spielzeug
+  - Blechschilder
+  - Autos
+geometry: '{"type":"Polygon","coordinates":[[[7.630492,51.961965],[7.630523,51.961948],[7.630494,51.961927],[7.630463,51.961945],[7.630492,51.961965]]]}'

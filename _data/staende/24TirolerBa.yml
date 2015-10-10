@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 24
+  sub_stand: 
+  betreiber: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Tiroler Spezialitäten wie Käse
+  - Wurst
+  - Brot
+geometry: '{"type":"Polygon","coordinates":[[[7.629884,51.961551],[7.62992,51.961543],[7.629901,51.961512],[7.629866,51.961521],[7.629884,51.961551]]]}'

@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 93
+  sub_stand: 
+  betreiber: Larimar Idee Form Präsentation, Herr Hartmut Rollink
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Edelstahlwindspiele
+  - weihnachtliche Figuren
+  - Lichterketten
+geometry: '{"type":"Polygon","coordinates":[[[7.628918,51.961448],[7.628902,51.961423],[7.6289,51.961423],[7.628875,51.961429],[7.628891,51.961454],[7.628891,51.961454],[7.628918,51.961448]]]}'

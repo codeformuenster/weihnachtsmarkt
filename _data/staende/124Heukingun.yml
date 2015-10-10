@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 124
+  sub_stand: 
+  betreiber: Heuking und Malade GbR
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Heiße Maronen
+geometry: '{"type":"Polygon","coordinates":[[[7.628637,51.961319],[7.628667,51.961312],[7.628657,51.961295],[7.628626,51.961302],[7.628637,51.961319]]]}'

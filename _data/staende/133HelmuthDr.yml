@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 133
+  sub_stand: 
+  betreiber: Helmuth Dörrbecker / Thomas Philip
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtsdekoration
+  - Windlicht Häuser aus Porzellan
+  - Textilien
+  - Schals
+  - Handschuhe und Mützen
+geometry: '{"type":"Polygon","coordinates":[[[7.630131,51.9608],[7.630183,51.960781],[7.630114,51.960713],[7.630063,51.960732],[7.630131,51.9608]]]}'

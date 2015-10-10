@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 13
+  sub_stand: 
+  betreiber: Christmas World, Herr Helmut Pfäfflin
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kerzen
+  - Düfte und Aromalampen
+geometry: '{"type":"Polygon","coordinates":[[[7.629475,51.960949],[7.629509,51.960941],[7.629477,51.960889],[7.629443,51.960896],[7.629475,51.960949]]]}'

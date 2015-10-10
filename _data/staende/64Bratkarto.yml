@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 64
+  sub_stand: 
+  betreiber: Bratkartoffelhütte, Frau Ursula Arning- Konopczynski
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Bratkartoffelspezialitäten
+  - Ofenkartoffeln mit diversen Saucen und Dips
+geometry: '{"type":"Polygon","coordinates":[[[7.629078,51.961942],[7.629113,51.961933],[7.62908,51.961878],[7.629045,51.961887],[7.629078,51.961942]]]}'

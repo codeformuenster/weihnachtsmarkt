@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 7
+  sub_stand: 
+  betreiber: Stürzl's Grill, Frau Heidrun-Karla Stürzl
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Bratwurst
+  - Pommes
+  - Reibekuchen und Softdrinks
+geometry: '{"type":"Polygon","coordinates":[[[7.629151,51.961005],[7.629187,51.961002],[7.629172,51.960935],[7.629136,51.960939],[7.629151,51.961005]]]}'

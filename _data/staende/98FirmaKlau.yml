@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 98
+  sub_stand: 
+  betreiber: Firma Klaus-Peter-Köhne
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Pommes Frites
+  - Currywurst und Bratwurst
+  - alkoholfreie Getränke
+geometry: '{"type":"Polygon","coordinates":[[[7.628794,51.961377],[7.628771,51.961339],[7.628703,51.961355],[7.628726,51.961393],[7.628794,51.961377]]]}'

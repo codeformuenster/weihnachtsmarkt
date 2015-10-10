@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 86
+  sub_stand: b
+  betreiber: Herr Gerhard Peterich, www.metall-stempel.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Metallstempel
+  - Stempelkissen
+geometry: '{"type":"Polygon","coordinates":[[[7.628871,51.961336],[7.628887,51.961361],[7.628914,51.961355],[7.628898,51.961329],[7.628898,51.961329],[7.628898,51.961329],[7.628871,51.961336],[7.628871,51.961336],[7.628871,51.961336]]]}'

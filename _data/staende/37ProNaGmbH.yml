@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 37
+  sub_stand: 
+  betreiber: Pro Na GmbH, Herrn Wolfgang Dropmann, www.prona.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Umweltfreundliche Schreibwaren
+  - Karten
+  - Geschenkpapier
+  - Kalligraphie
+  - Siegel
+geometry: '{"type":"Polygon","coordinates":[[[7.630555,51.962004],[7.630507,51.962031],[7.630526,51.962044],[7.630574,51.962017],[7.630555,51.962004]]]}'

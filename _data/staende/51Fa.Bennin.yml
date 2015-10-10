@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 51
+  sub_stand: 
+  betreiber: Fa. Benning, Herr Sven Benning
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Süßwaren: selbstgemachte Bonbons'
+  - Zuckerstangen
+  - Kräuterbonbons
+geometry: '{"type":"Polygon","coordinates":[[[7.629449,51.961733],[7.629517,51.961717],[7.629504,51.961697],[7.629436,51.961713],[7.629449,51.961733]]]}'

@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 50
+  sub_stand: 
+  betreiber: Tee Kräuter Gewürze, Frau Monika Steindor
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Tee
+  - Gewürze und alles was dazu gehört
+geometry: '{"type":"Polygon","coordinates":[[[7.629374,51.961746],[7.629431,51.961733],[7.62942,51.961716],[7.629364,51.96173],[7.629374,51.961746]]]}'

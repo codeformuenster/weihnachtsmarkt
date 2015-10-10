@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 28
+  sub_stand: 
+  betreiber: Feuerzangenbowle - A. Schneider, Herr August Schneider
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Feuerzangenbowle
+  - Früchtepunsch
+geometry: '{"type":"Polygon","coordinates":[[[7.630383,51.961966],[7.630451,51.96195],[7.630414,51.961891],[7.630346,51.961908],[7.630383,51.961966]]]}'

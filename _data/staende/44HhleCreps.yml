@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 44
+  sub_stand: 
+  betreiber: Höhle Crepés, Willi & Ilonka Höhle
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Crêpes
+  - Waffeln und Waffelbällchen
+geometry: '{"type":"Polygon","coordinates":[[[7.629573,51.961807],[7.629498,51.961824],[7.629511,51.961845],[7.629586,51.961828],[7.629575,51.96181],[7.629575,51.96181],[7.629573,51.961807]]]}'

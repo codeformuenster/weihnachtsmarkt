@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 86
+  sub_stand: a
+  betreiber: Anoa Art, Frau Stefanie Fietzek, www.anoaart.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'handgefertigter Schmuck: Ringe'
+  - Ketten
+  - Ohrringe
+  - Armbänder
+geometry: '{"type":"Polygon","coordinates":[[[7.628882,51.961304],[7.628856,51.96131],[7.628871,51.961336],[7.628898,51.961329],[7.628882,51.961304]]]}'

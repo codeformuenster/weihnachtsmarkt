@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 12
+  sub_stand: 
+  betreiber: Atelier Vielweber, Frau Zwemmer-Vielweber
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Handgravierte Holzartikel: Frühstücksbretter'
+  - Namensschilder
+  - Uhren
+  - Schlüsselbretter
+  - Baumschmuck etc.
+geometry: '{"type":"Polygon","coordinates":[[[7.629393,51.960967],[7.629427,51.96096],[7.629399,51.960914],[7.629366,51.960922],[7.629393,51.960967]]]}'

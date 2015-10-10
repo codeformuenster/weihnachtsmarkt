@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 59
+  sub_stand: 
+  betreiber: Olivino, Herr Anas-Mohamed Akallal
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Handgefertigte Produkte aus Olivenholz: Küchenartikel'
+  - Dekorationsartikel
+  - Tische
+geometry: '{"type":"Polygon","coordinates":[[[7.629276,51.961763],[7.629293,51.96179],[7.62932,51.961784],[7.629303,51.961756],[7.629303,51.961756],[7.629303,51.961756],[7.629276,51.961763]]]}'

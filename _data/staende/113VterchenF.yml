@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 113
+  sub_stand: 
+  betreiber: Väterchen Frost, www.vaeterchen-frost.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Mundgeblasenes: Winterlandschaften'
+  - handbemaltes Glas für Teelichter in versch. Farben
+geometry: '{"type":"Polygon","coordinates":[[[7.628631,51.96158],[7.628693,51.96157],[7.628684,51.961552],[7.628624,51.961562],[7.628631,51.96158]]]}'

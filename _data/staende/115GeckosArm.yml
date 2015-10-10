@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 115
+  sub_stand: a
+  betreiber: Geckos Armreifenpalast, Frau Silke Holtkötter, www.geckospalace.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Glitzerarmreifen
+  - Lackkunst aus Kashmir
+  - Seidenschals
+geometry: '{"type":"Polygon","coordinates":[[[7.628473,51.961585],[7.628508,51.961577],[7.628487,51.961543],[7.628453,51.96155],[7.628473,51.961585]]]}'

@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 104
+  sub_stand: 
+  betreiber: Hoppe - heiße Mandeln und mehr
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - gebrannte Mandeln
+  - Nüsse
+  - frisches Popcorn
+  - Lebkuchen
+  - schokolierte und kandierte Früchte
+geometry: '{"type":"Polygon","coordinates":[[[7.628808,51.961541],[7.628883,51.961524],[7.628872,51.961504],[7.628797,51.961522],[7.628808,51.961541]]]}'

@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 122
+  sub_stand: 
+  betreiber: Johanna Alexandra Gabriel, www.windspiel-zauber.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Wind- und Lichtspiele aus rostfreiem Edelstahl
+geometry: '{"type":"Polygon","coordinates":[[[7.628499,51.961356],[7.628552,51.961342],[7.628538,51.961322],[7.628484,51.961336],[7.628499,51.961356]]]}'

@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 40
+  sub_stand: 
+  betreiber: Herr Akram Elich
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Falafel
+  - Langos
+geometry: '{"type":"Polygon","coordinates":[[[7.629916,51.961841],[7.629905,51.961825],[7.629879,51.961831],[7.629889,51.961847],[7.629916,51.961841]]]}'

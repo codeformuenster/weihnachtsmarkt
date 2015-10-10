@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 27
+  sub_stand: 
+  betreiber: Chilino GmbH, Frau Jonna Kriech, www.chilino.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Chilinos - vielseitiges Accessoir - zu verwenden als: als Halstuch'
+  - Schal
+  - Decke
+geometry: '{"type":"Polygon","coordinates":[[[7.629966,51.961687],[7.629993,51.961681],[7.629977,51.961657],[7.629951,51.961662],[7.629966,51.961687]]]}'

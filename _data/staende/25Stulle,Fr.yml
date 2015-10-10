@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 25
+  sub_stand: 
+  betreiber: Stulle, Frau Sabine Spanheimer, www.stulle-berlin.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Portemonnaies aus Plane und Leder
+  - Kindergartentaschen- und Rucksäcke
+  - Lätzchen
+  - Tischsets
+  - Schlüsselbänder
+geometry: '{"type":"Polygon","coordinates":[[[7.62991,51.961596],[7.629937,51.96159],[7.62992,51.961562],[7.629893,51.961568],[7.62991,51.961596]]]}'

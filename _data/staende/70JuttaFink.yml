@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 70
+  sub_stand: 
+  betreiber: Jutta Finke-Schneider, www.schneesturm-ms.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Selbstgefertigte Keramiken (handbemalt)
+  - Spielzeug aus versch. Materialien
+  - sonderangefertigte Schneekugeln
+geometry: '{"type":"Polygon","coordinates":[[[7.629045,51.961573],[7.629045,51.961574],[7.6291,51.961562],[7.629088,51.961542],[7.629033,51.961554],[7.629033,51.961554],[7.629045,51.961573],[7.629045,51.961573]]]}'

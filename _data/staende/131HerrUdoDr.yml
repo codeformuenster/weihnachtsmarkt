@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 131
+  sub_stand: 
+  betreiber: Herr Udo Dreßen
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kleiderwaren mit Monogrammprägung
+  - Portemonnaies
+  - Brieftaschen
+  - Schlüsseletuis
+geometry: '{"type":"Polygon","coordinates":[[[7.629854,51.960806],[7.62991,51.960847],[7.629937,51.960833],[7.629881,51.960792],[7.629854,51.960806]]]}'

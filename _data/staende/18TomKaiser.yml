@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 18
+  sub_stand: 
+  betreiber: Tom Kaiser
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Siegel und Werkzeuge aus feinster Schokolade
+geometry: '{"type":"Polygon","coordinates":[[[7.629704,51.9612],[7.629671,51.961207],[7.629687,51.961233],[7.62972,51.961225],[7.629704,51.9612]]]}'

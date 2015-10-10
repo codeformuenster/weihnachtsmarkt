@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 108
+  sub_stand: 
+  betreiber: Ratskeller GmbH & Co. KG
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Glühwein
+geometry: '{"type":"Polygon","coordinates":[[[7.628807,51.961606],[7.628828,51.961639],[7.628867,51.96163],[7.628848,51.961597],[7.628807,51.961606],[7.628807,51.961606]]]}'

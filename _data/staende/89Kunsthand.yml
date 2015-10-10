@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 89
+  sub_stand: 
+  betreiber: Kunsthandwerk Deipenbrock, Frau Mathilde Deipenbrock
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Metallprodukte: Engel'
+  - Hl. 3 Könige
+  - Herzen und Sterne in versch. Größen
+geometry: '{"type":"Polygon","coordinates":[[[7.628957,51.961481],[7.628985,51.961475],[7.628965,51.961444],[7.628939,51.96145],[7.628957,51.961481]]]}'

@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 91
+  sub_stand: 
+  betreiber: feine art - Manufaktur und Galerie, Herr Wolfgang Nietan, www.feineart.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Bilder im Galeriestil als textile Wanddekoration
+geometry: '{"type":"Polygon","coordinates":[[[7.628954,51.961547],[7.628982,51.961541],[7.628958,51.961502],[7.628931,51.961508],[7.628954,51.961547]]]}'

@@ -1,7 +1,12 @@
+---
+type: Feature
 properties:
-  betreiber: Willy Kinzler jun.
-  angebot:
-    - Poffertjes
-  markt: rathaus
   stand_nr: 9
+  sub_stand: 
+  betreiber: Willy Kinzler jun.
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Poffertjes
 geometry: '{"type":"Polygon","coordinates":[[[7.629312,51.960981],[7.629376,51.960975],[7.62937,51.960949],[7.629305,51.960954],[7.629312,51.960981]]]}'

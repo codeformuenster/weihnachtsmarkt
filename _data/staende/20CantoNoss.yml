@@ -1,0 +1,17 @@
+---
+type: Feature
+properties:
+  stand_nr: 20
+  sub_stand: 
+  betreiber: Canto Nosso, Inh. Günter Raecke, www.cantonosso.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Brunnen
+  - Skulturen
+  - Mineralien
+  - Armbänder
+  - Keramikschmuck
+  - Edelsteingravuren
+geometry: '{"type":"Polygon","coordinates":[[[7.629747,51.961327],[7.629775,51.961321],[7.629753,51.961286],[7.629726,51.961292],[7.629747,51.961327]]]}'

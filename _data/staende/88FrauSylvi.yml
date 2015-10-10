@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 88
+  sub_stand: 
+  betreiber: Frau Sylvia Barthelt
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Wohnasseccories: verschiedene Taschen'
+  - Kissen
+  - Tischläufer
+  - Nackenrollen
+  - Decken
+geometry: '{"type":"Polygon","coordinates":[[[7.628937,51.961447],[7.628964,51.961441],[7.628943,51.961407],[7.628916,51.961413],[7.628937,51.961447]]]}'

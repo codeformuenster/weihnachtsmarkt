@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 76
+  sub_stand: 
+  betreiber: MJM-Vertriebs GmbH, Herrn Lars Grunwald, www.steelman24.com
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtliche kunsthandwerkliche Artikel wie Nußknacker und Weihnachtsschlitten
+  - Wohnaccessoires wie Kerzenleuchter und Weinflaschenhalter
+geometry: '{"type":"Polygon","coordinates":[[[7.629332,51.961443],[7.629362,51.961436],[7.629342,51.961403],[7.629312,51.96141],[7.629332,51.961443]]]}'

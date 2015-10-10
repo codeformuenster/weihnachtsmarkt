@@ -1,0 +1,18 @@
+---
+type: Feature
+properties:
+  stand_nr: 15
+  sub_stand: 
+  betreiber: Tucano Intern. Wohntextilien GmbH, Herr Andreas Kleyboldt, www.tucano-gmbh.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Hängematten
+  - Wohntextilien
+  - Socken
+  - Mützen
+  - Schals
+  - Stulpen
+  - Taschen uvm.
+geometry: '{"type":"Polygon","coordinates":[[[7.629601,51.961096],[7.629635,51.961089],[7.629602,51.961038],[7.629568,51.961045],[7.629601,51.961096]]]}'

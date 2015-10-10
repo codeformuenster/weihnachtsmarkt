@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 85
+  sub_stand: 
+  betreiber: Erzgebirgische Kalkkunst, Herr Gisbert Hülsherger
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtliches Kunstgewerbe mit Schwerpunkt erzgebirgische Volkskunst
+geometry: '{"type":"Polygon","coordinates":[[[7.628987,51.961354],[7.629027,51.961344],[7.628994,51.961291],[7.628955,51.961301],[7.628987,51.961354]]]}'

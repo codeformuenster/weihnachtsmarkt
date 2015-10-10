@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 17
+  sub_stand: 
+  betreiber: Schalke Leder, Herr Udo Schalke
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Klassische Ledermützen
+  - Kinderlederhosen
+  - Gürtel
+  - Lederbörsen
+  - Ledertaschen usw.
+geometry: '{"type":"Polygon","coordinates":[[[7.62968,51.961196],[7.629714,51.961188],[7.629695,51.961157],[7.629662,51.961165],[7.62968,51.961196]]]}'

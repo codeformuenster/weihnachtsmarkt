@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 95
+  sub_stand: 
+  betreiber: Isabell Hunold
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Silberschmuck aus eigener Herstellung
+geometry: '{"type":"Polygon","coordinates":[[[7.628857,51.961398],[7.628884,51.961392],[7.628866,51.961362],[7.628838,51.961368],[7.628857,51.961398]]]}'

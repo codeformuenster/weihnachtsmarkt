@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 119
+  sub_stand: 
+  betreiber: Puzzle-Werkststatt Unnerstall, Herr Manfred Unnerstall, www.puzzle-werkstatt.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Selbstgefertigte Denk- und Geduldspiele aus Holz
+geometry: '{"type":"Polygon","coordinates":[[[7.628532,51.961409],[7.62849,51.961419],[7.628503,51.961439],[7.628545,51.96143],[7.628532,51.961409],[7.628532,51.961409]]]}'

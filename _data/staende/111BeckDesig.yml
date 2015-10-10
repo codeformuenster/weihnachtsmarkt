@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 111
+  sub_stand: 
+  betreiber: Beck Design, Frau Anna Beck
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Kunsthandwerk/Holzprodukte: Krippen'
+  - Holzuhren
+  - Holzfiguren ect.
+geometry: '{"type":"Polygon","coordinates":[[[7.628628,51.961497],[7.628654,51.961491],[7.628639,51.961462],[7.628611,51.961468],[7.628628,51.961497]]]}'

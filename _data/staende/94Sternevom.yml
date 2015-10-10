@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 94
+  sub_stand: 
+  betreiber: Sterne vom Himmel - Bigeschke / Schade GbR, Herr Udo Bigeschke Herr Klaus
+    Schade, www.sternevomhimmel.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Papiersterne und Leuchthäuser aus handgeschöpftem Papier
+geometry: '{"type":"Polygon","coordinates":[[[7.6289,51.961423],[7.628881,51.961393],[7.628857,51.961398],[7.628875,51.961429],[7.628875,51.961429],[7.6289,51.961423]]]}'

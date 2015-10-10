@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 19
+  sub_stand: 
+  betreiber: Directa GmbH, Herr Stefan Schaper, www.crazy-online.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Nostalgische Blechschilder
+  - Wecker und Uhren
+  - Magnetkarten
+geometry: '{"type":"Polygon","coordinates":[[[7.629718,51.961282],[7.629745,51.961276],[7.629719,51.961232],[7.629692,51.961238],[7.629718,51.961282]]]}'

@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 29
+  sub_stand: 
+  betreiber: Patrick März
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Gefüllte Pizzabrötchen
+geometry: '{"type":"Polygon","coordinates":[[[7.630389,51.96197],[7.630357,51.96198],[7.630386,51.962013],[7.630417,51.962003],[7.630389,51.96197]]]}'

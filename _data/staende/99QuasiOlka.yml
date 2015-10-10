@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 99
+  sub_stand: 
+  betreiber: QuasiOlka / Eisenglimmer, Frau Katja Stobbe, www.quasiolka.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Dekorationsartikel aus Rost und Stahl
+geometry: '{"type":"Polygon","coordinates":[[[7.628757,51.961421],[7.628808,51.961409],[7.628792,51.961382],[7.628741,51.961394],[7.628757,51.961421]]]}'

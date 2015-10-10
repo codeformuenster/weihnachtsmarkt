@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 82
+  sub_stand: 
+  betreiber: Lene's Kerzenhäusl, Frau Marlene Schott, www.lenes-kerzenhaeusl.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kleine Keramik Miniaturhäuschen mit Fachwerk bemalt und mit Teelicht beleuchtet
+geometry: '{"type":"Polygon","coordinates":[[[7.629142,51.961433],[7.629139,51.961427],[7.629105,51.961435],[7.629122,51.961464],[7.629156,51.961456],[7.629154,51.961453],[7.629142,51.961433],[7.629142,51.961433]]]}'

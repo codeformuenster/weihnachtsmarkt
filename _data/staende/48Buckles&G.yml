@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 48
+  sub_stand: 
+  betreiber: Buckles & Gürtel nach Mass, Herr Ralf Heydrich, www.ralf-heydrich.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - hochwertige Lederwaren
+  - Taschen
+  - Gürtel und Gürtelschnallen
+geometry: '{"type":"Polygon","coordinates":[[[7.629412,51.961809],[7.629439,51.961803],[7.62942,51.961773],[7.629393,51.961779],[7.629412,51.961809]]]}'

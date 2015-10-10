@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 130
+  sub_stand: 
+  betreiber: Brezelbäckerei Rosenboom, Herr Stefan Rosenboom
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Laugenbrezeln mit verschidenen Zutaten: Schinken'
+  - Aananas
+  - Paprika
+  - käseüberbacken
+geometry: '{"type":"Polygon","coordinates":[[[7.629762,51.96078],[7.62983,51.960747],[7.629809,51.96073],[7.629741,51.960763],[7.629762,51.96078]]]}'

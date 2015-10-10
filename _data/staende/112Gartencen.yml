@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 112
+  sub_stand: 
+  betreiber: Gartencenter Münsterland GmbH & Co. KG, www.gartencenter-muensterland.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Weihnachtsfiguren
+  - Weihnachtsdekoration
+  - Holzkunstarbeiten
+geometry: '{"type":"Polygon","coordinates":[[[7.628648,51.961533],[7.628675,51.961527],[7.628654,51.961491],[7.628628,51.961497],[7.628648,51.961533]]]}'

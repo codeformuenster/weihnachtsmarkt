@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 103
+  sub_stand: 
+  betreiber: Frau Melanie Dahlhaus
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Baumstriezel
+  - Kürtos in verschiedenen Variationen
+geometry: '{"type":"Polygon","coordinates":[[[7.628792,51.961515],[7.628825,51.961508],[7.628803,51.96147],[7.628769,51.961478],[7.628792,51.961515]]]}'

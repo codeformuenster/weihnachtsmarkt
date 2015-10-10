@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 87
+  sub_stand: 
+  betreiber: ALRA Holzschnitzerei, Herr Albert Rabanser
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Holzschnitzereien
+  - Krippenfiguren
+  - Weihnachtssterne
+  - Christbaumschmuck aus Holz
+geometry: '{"type":"Polygon","coordinates":[[[7.628909,51.961408],[7.628942,51.9614],[7.628916,51.961357],[7.628883,51.961365],[7.628909,51.961408]]]}'

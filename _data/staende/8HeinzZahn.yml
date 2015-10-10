@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 8
+  sub_stand: 
+  betreiber: Heinz Zahn GmbH
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Glühwein
+  - diverse Heißgetränk
+  - Punschgetränke
+  - heiße Schokolade
+  - alkoholfreie Getränke
+geometry: '{"type":"Polygon","coordinates":[[[7.629196,51.960993],[7.629305,51.960983],[7.629296,51.960946],[7.629188,51.960956],[7.629196,51.960993]]]}'

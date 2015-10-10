@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 66
+  sub_stand: 
+  betreiber: Altrogge - Heitmann GBR
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Glühwein
+  - heiße und kalte alkoholische und alkoholfreie Getränke
+geometry: '{"type":"Polygon","coordinates":[[[7.629005,51.961821],[7.629065,51.961807],[7.629019,51.961728],[7.628957,51.961743],[7.629005,51.961821]]]}'

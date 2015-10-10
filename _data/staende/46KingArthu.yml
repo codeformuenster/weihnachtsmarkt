@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 46
+  sub_stand: 
+  betreiber: King Arthur's Legendary Food, Herr A. Kleinwächter, www.hanf-baeckerey.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Hanf-Fladen mit diversen Füllungen
+  - süß und herzhaft
+geometry: '{"type":"Polygon","coordinates":[[[7.629446,51.961866],[7.629503,51.961853],[7.629486,51.961826],[7.629468,51.96183],[7.62943,51.961839],[7.629446,51.961866]]]}'

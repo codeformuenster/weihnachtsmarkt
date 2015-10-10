@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 123
+  sub_stand: 
+  betreiber: Süßwaren Süß-Sauer-Salzig, Herr Gerhard Jackenkroll
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Süßwaren: Hollandlakritz'
+  - Fruchtgummi
+  - Weingummi
+  - Kräuerbonbons
+geometry: '{"type":"Polygon","coordinates":[[[7.6286,51.961329],[7.628633,51.96132],[7.628619,51.9613],[7.628585,51.961308],[7.6286,51.961329]]]}'

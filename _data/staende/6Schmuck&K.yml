@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 6
+  sub_stand: 
+  betreiber: Schmuck & Kunsthandwerk, Eike Vogt
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handgefertigte Artikel aus Nepalwolle
+  - Schmuck
+  - Wickelröcke uvm.
+geometry: '{"type":"Polygon","coordinates":[[[7.628968,51.961022],[7.628994,51.961016],[7.628972,51.960979],[7.628945,51.960985],[7.628968,51.961022]]]}'

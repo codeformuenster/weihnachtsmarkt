@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 11
+  sub_stand: 
+  betreiber: Top Trend - Gisela Reintjes-Rühling & Wolfgang Rühling GbR
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Textile Accessoires: Schals'
+  - Handschuhe
+  - Mützen
+  - Hüte
+  - Arm- und Beinstulpen
+geometry: '{"type":"Polygon","coordinates":[[[7.629359,51.961044],[7.629408,51.96105],[7.629436,51.961062],[7.629463,51.961057],[7.629415,51.961029],[7.629365,51.961023],[7.629359,51.961044]]]}'

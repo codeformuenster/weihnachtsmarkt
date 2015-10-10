@@ -1,0 +1,16 @@
+---
+type: Feature
+properties:
+  stand_nr: 49
+  sub_stand: 
+  betreiber: PAT & PATTY, Frau Kerstin Dorow, www.patundpatty.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Kinderbekleidung
+  - Wärmekissen
+  - Decken
+  - Handpuppen
+  - Mützen und Schals - 100% Bio-Baumwolle - Herstellung in Deutschland
+geometry: '{"type":"Polygon","coordinates":[[[7.629393,51.961779],[7.62942,51.961773],[7.629403,51.961745],[7.629377,51.961751],[7.629393,51.961779]]]}'

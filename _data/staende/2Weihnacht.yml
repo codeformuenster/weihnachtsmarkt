@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 2
+  sub_stand: 
+  betreiber: Weihnachtsmarkt-Treff, Margret & Arno Heitmann
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Glühwein
+  - Punschgetränke
+  - heiße Kakaogetränke
+  - alkoholfreie Getränke
+geometry: '{"type":"Polygon","coordinates":[[[7.628678,51.961125],[7.628725,51.9612],[7.628758,51.961193],[7.628713,51.961117],[7.628678,51.961125]]]}'

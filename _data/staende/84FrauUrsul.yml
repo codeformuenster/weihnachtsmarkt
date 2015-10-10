@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 84
+  sub_stand: 
+  betreiber: Frau Ursula Wulfert
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Nürnberger Blechspielzeug und nostalgisches Spielzeug aus aller Welt
+geometry: '{"type":"Polygon","coordinates":[[[7.629007,51.961386],[7.629048,51.961377],[7.629027,51.961344],[7.628987,51.961354],[7.629007,51.961386]]]}'

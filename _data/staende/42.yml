@@ -1,0 +1,10 @@
+---
+type: Feature
+properties:
+  stand_nr: 42
+  sub_stand: 
+  betreiber: 
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+geometry: '{"type":"Polygon","coordinates":[[[7.629822,51.961755],[7.629809,51.961734],[7.629755,51.961747],[7.629768,51.961767],[7.629822,51.961755]]]}'

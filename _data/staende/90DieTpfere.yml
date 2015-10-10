@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 90
+  sub_stand: 
+  betreiber: Die Töpferei, Herr Michael Hartmann
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Geschirr
+  - Dekoartikel aus Porzellan
+  - Minifiguren
+  - Schilder (beschriftbar vor Ort)
+geometry: '{"type":"Polygon","coordinates":[[[7.62899,51.961539],[7.629021,51.961532],[7.628999,51.961495],[7.628968,51.961502],[7.62899,51.961539]]]}'

@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 57
+  sub_stand: 
+  betreiber: Greenlife Value GmbH, www.warmies.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Warmies
+  - Wärmestofftiere und Wärmeschuhe für Mikrowelle und Backofen
+geometry: '{"type":"Polygon","coordinates":[[[7.629411,51.961682],[7.629401,51.961665],[7.629356,51.961675],[7.629366,51.961692],[7.629411,51.961682]]]}'

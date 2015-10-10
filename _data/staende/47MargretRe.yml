@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 47
+  sub_stand: 
+  betreiber: Margret Rennspiess-Hesse
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Selbstgefertigter Designerschmuck
+  - Bastelperlen
+  - Dekomagnete
+  - Bordüren
+geometry: '{"type":"Polygon","coordinates":[[[7.629468,51.96183],[7.629451,51.961803],[7.629414,51.961812],[7.62943,51.961839],[7.629468,51.96183]]]}'

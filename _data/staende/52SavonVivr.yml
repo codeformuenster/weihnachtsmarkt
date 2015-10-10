@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 52
+  sub_stand: 
+  betreiber: Savon Vivre-Handgemachte Seife, Frau Melanie Storb, www.savon-vivre.com
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handgemachte Seife aus eigener Herstellung
+  - versch. Sorten und Größen
+  - Seifenablagen (Olivenholz)
+geometry: '{"type":"Polygon","coordinates":[[[7.629537,51.961718],[7.629591,51.961706],[7.629576,51.96168],[7.629522,51.961693],[7.629537,51.961718]]]}'

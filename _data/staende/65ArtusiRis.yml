@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 65
+  sub_stand: 
+  betreiber: Artusi Ristorante, Frau Lydia Tinnirello, www.artusi.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Westfälische Spezialitäten
+geometry: '{"type":"Polygon","coordinates":[[[7.629042,51.961819],[7.629009,51.961826],[7.629032,51.961865],[7.629066,51.961858],[7.629042,51.961819]]]}'

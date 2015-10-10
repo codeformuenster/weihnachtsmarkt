@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 34
+  sub_stand: 
+  betreiber: Creperie Ueberfeld
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Crêpes
+  - Waffeln und Waffelbällchen
+geometry: '{"type":"Polygon","coordinates":[[[7.630763,51.961914],[7.630738,51.961898],[7.630702,51.961919],[7.630726,51.961935],[7.630763,51.961914]]]}'

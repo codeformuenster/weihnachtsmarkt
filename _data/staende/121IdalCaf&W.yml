@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 121
+  sub_stand: 
+  betreiber: Idéal Café & Weinbar, Herr Erkan Ular, www.gluehweinmanufaktur.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Winzer-Glühwein
+  - Heißgetränke
+  - nichtalkoholische Getränke
+geometry: '{"type":"Polygon","coordinates":[[[7.628387,51.961384],[7.628454,51.961367],[7.62844,51.961346],[7.628373,51.961364],[7.628387,51.961384]]]}'

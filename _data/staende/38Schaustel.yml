@@ -1,0 +1,12 @@
+---
+type: Feature
+properties:
+  stand_nr: 38
+  sub_stand: a
+  betreiber: Schaustellerbetrieb Kaiser, Herr Marcel Kaiser
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Baumstriezel
+geometry: '{"type":"Polygon","coordinates":[[[7.630408,51.962149],[7.630448,51.962177],[7.630475,51.962162],[7.630434,51.962134],[7.630408,51.962149]]]}'

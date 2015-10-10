@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 56
+  sub_stand: 
+  betreiber: Jens-Petter Güttler
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - kunsthandwerkliche Wohn- und Gartenaccessoires im Landhausstil
+  - Geschenkartikel
+geometry: '{"type":"Polygon","coordinates":[[[7.629472,51.961644],[7.629405,51.961659],[7.629418,51.96168],[7.629486,51.961665],[7.629472,51.961644]]]}'

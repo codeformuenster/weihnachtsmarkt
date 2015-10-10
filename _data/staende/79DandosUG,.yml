@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 79
+  sub_stand: 
+  betreiber: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - 'Schmuck: Chunks'
+  - Engelsrufer
+geometry: '{"type":"Polygon","coordinates":[[[7.629085,51.961401],[7.629126,51.961392],[7.629113,51.961371],[7.629072,51.96138],[7.629085,51.961401]]]}'

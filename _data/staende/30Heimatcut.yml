@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 30
+  sub_stand: 
+  betreiber: Heimatcut, Dockland GmbH, Herr Pitti Duyster, www.heimatcut.de
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Burgervariationen
+  - Brat- / Currywurst
+  - Pommes Frites
+geometry: '{"type":"Polygon","coordinates":[[[7.630432,51.961999],[7.630488,51.961968],[7.630464,51.961952],[7.630409,51.961983],[7.630432,51.961999]]]}'

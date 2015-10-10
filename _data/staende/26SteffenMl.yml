@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 26
+  sub_stand: 
+  betreiber: Steffen Müller, Herr Steffen Müller, www.feltberg.com
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Handarbeiten aus Filz z.B. Eierwärmer
+  - Taschen
+geometry: '{"type":"Polygon","coordinates":[[[7.629941,51.961647],[7.62997,51.96164],[7.629949,51.961605],[7.62992,51.961612],[7.629941,51.961647]]]}'

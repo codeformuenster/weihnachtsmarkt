@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 78
+  sub_stand: 
+  betreiber: Omelinchen, Frau Ute Dahlke
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Baby- und Kleinkindbekleidung
+  - Kissen
+  - Decken
+  - Zubehör
+geometry: '{"type":"Polygon","coordinates":[[[7.629179,51.96138],[7.629234,51.961368],[7.629222,51.961347],[7.629168,51.96136],[7.629179,51.96138]]]}'

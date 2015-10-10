@@ -1,0 +1,15 @@
+---
+type: Feature
+properties:
+  stand_nr: 132
+  sub_stand: 
+  betreiber: Rudolf Ortmeier GmbH, Herr Rainer Ortmeier
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Backfisch
+  - Kibbeling
+  - Fischbrötchen
+  - Pizza und Räucherware
+geometry: '{"type":"Polygon","coordinates":[[[7.629967,51.96084],[7.630077,51.960821],[7.630065,51.960795],[7.629956,51.960814],[7.629967,51.96084]]]}'

@@ -1,0 +1,13 @@
+---
+type: Feature
+properties:
+  stand_nr: 53
+  sub_stand: 
+  betreiber: Holländische Pommes, Herr Hans Kurt Wimmer
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Holländische Pommes
+  - Frikadellen spezial. Backkartoffeln
+geometry: '{"type":"Polygon","coordinates":[[[7.629591,51.961706],[7.629602,51.961722],[7.629626,51.961717],[7.629636,51.961715],[7.62961,51.961672],[7.629576,51.96168],[7.629591,51.961706]]]}'

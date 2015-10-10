@@ -1,0 +1,14 @@
+---
+type: Feature
+properties:
+  stand_nr: 39
+  sub_stand: 
+  betreiber: Frau Antje Jansen
+  warenangeb: 
+  glueh_prei: 
+  markt: rathaus
+  angebot:
+  - Schmuck aus Glasperlen
+  - Halbedelsteine
+  - Muscheln- und Süßwasserperlen
+geometry: '{"type":"Polygon","coordinates":[[[7.629922,51.96184],[7.62998,51.961827],[7.629969,51.96181],[7.629912,51.961823],[7.629922,51.96184]]]}'
