@@ -1,4 +1,8 @@
 L.extend(window.Weihnachtsmarkt, {
+  _onFeatureClick: function (evt) {
+    var layer = evt.target.toGeoJSON();
+    this._setSearchResultDisplay(layer);
+  },
   _staendeStyleFilterFunction: function (layer) {
     var styleToApply = this._staendeStyles.normal;
     var searchString = this._currentSearchString;
@@ -67,7 +71,10 @@ L.extend(window.Weihnachtsmarkt, {
     }).addTo(map);
 
     this._staendeLayer = L.geoJson(this._rawdata,{
-      style: this._staendeStyleFilterFunction.bind(this)
+      style: this._staendeStyleFilterFunction.bind(this),
+      onEachFeature: function (feature, layer) {
+        layer.on("click", this._onFeatureClick.bind(this));
+      }.bind(this)
     }).addTo(map);
 
     this._highlightLayer = L.geoJson({type:"FeatureCollection",features:[]}, {

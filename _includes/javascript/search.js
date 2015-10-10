@@ -70,9 +70,10 @@ L.Util.extend(window.Weihnachtsmarkt, {
     this._highlightResult();
   },
   _setSearchResultDisplay: function (searchResultObj) {
+    hideNodeById("initialSearchResultView");
     this._currentResultHeadline.textContent = searchResultObj.properties.betreiber;
     this._currentResultDescription.textContent = searchResultObj.properties.angebot.join(", ");
-    if (this._resultList.length !== 1) {
+    if (this._resultList && this._resultList.length !== 1) {
       nodeById("right").classList.remove("disabled");
       nodeById("left").classList.remove("disabled");
     }
