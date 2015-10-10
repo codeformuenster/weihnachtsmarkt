@@ -1,14 +1,12 @@
 <div id="nav_container">
-  <div class="pointer" id="menu_btn" title="Hauptmenü">
+  <div class="pointer" id="menu_btn" title="{{ site.strings.infoButton }}">
     &#x24D8;
-    <div id="info_button" class="hide_mobile" touch-action="none">
-      Info
-    </div>
+    <div id="info_button" class="hide_mobile" touch-action="none">{{ site.strings.infoButton }}</div>
   </div>
   <div id="search_container">
-    <input id="search_input" placeholder="Angebotssuche" type="text">
+    <input id="search_input" placeholder="{{ site.strings.searchPlaceholder }}" type="text">
   </div>
 </div>
-<div class="pointer" id="reset_search" title="Suche zurücksetzen" touch-action="none" style="display:none">
+<div class="pointer" id="reset_search" title="{{ site.strings.resetSearchTitle }}" touch-action="none" style="display:none">
   &times;
 </div>

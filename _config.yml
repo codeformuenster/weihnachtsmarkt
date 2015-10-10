@@ -9,6 +9,23 @@ twitter_username: codeformuenster
 github_username:  codeformuenster
 permalink: /staende/:title
 
+searchableProperties:
+  - betreiber
+  - angebot
+
+# strings used in the app
+strings:
+  appTitle: Weihnachtsmarkt-App Münster 2015
+  appTitleSubTitle: mit Suche!
+  appDescriptionText: >
+    Diese App erlaubt es, Stände auf dem Weihnachtsmarkt in Münster zu durchsuchen. Einfach Suchbegriff oben ins Suchfeld eingeben. Passende Stände werden dann farblich markiert.
+  letsGo: Los gehts!
+  initialSearchResultView: Hier erscheinen die Suchergebnisse, einfach oben lostippen!
+  noResults: Nichts für \"{str}\" gefunden!
+  searchPlaceholder: Angebotssuche
+  resetSearchTitle: Suche zurücksetzen
+  infoButton: Info
+
 # Build settings
 markdown: kramdown
 sass:

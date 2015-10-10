@@ -63,7 +63,7 @@ L.Util.extend(window.Weihnachtsmarkt, {
   },
   _resetSearchResultDisplay: function () {
     showNodeById("initialSearchResultView");
-    this._resultNodeHint.textContent = "Hier erscheinen die Suchergebnisse, einfach oben lostippen!";
+    this._resultNodeHint.textContent = "{{ site.initialSearchResultView }}";
     this._currentResultHeadline.textContent = "";
     this._currentResultDescription.textContent = "";
     nodeById("right").classList.add("disabled");
@@ -90,7 +90,7 @@ L.Util.extend(window.Weihnachtsmarkt, {
     this._resetSearchResultDisplay();
     if (this._resultList) {
       if (this._resultList.length === 0) {
-        this._resultNodeHint.textContent = L.Util.template("Nichts für {str} gefunden!", { str: this._currentSearchString });
+        this._resultNodeHint.textContent = L.Util.template("{{ site.strings.noResults }}", { str: this._currentSearchString });
       } else {
         hideNodeById("initialSearchResultView");
         this._setSearchResultDisplay(this._resultList[this._currentSelectedResultIndex]);
@@ -108,7 +108,7 @@ L.Util.extend(window.Weihnachtsmarkt, {
   },
   _initSearch: function () {
     // searchable attributes..
-    this._searchableProperties = ["betreiber", "angebot"];
+    this._searchableProperties = {{ site.searchableProperties | jsonify }};
 
     // init search input node
     this._searchInputNode = nodeById("search_input");
