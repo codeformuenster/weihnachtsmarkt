@@ -1,7 +1,7 @@
 L.extend(window.Weihnachtsmarkt, {
-  _staendeStyleFunction: function (layer) {
+  _staendeStyleFilterFunction: function (layer) {
     var styleToApply = this._staendeStyles.normal;
-    var searchString = this._getSearchString();
+    var searchString = this._currentSearchString;
     if (searchString !== "") {
       var layerProperties = layer.properties;
       var compareRegex = RegExp(searchString, 'i');
@@ -15,11 +15,18 @@ L.extend(window.Weihnachtsmarkt, {
         }
       })) {
         styleToApply = this._staendeStyles.high;
+        this._addLayerToResultList(layer);
       } else {
         styleToApply = this._staendeStyles.low;
       }
     }
     return styleToApply;
+  },
+  _highlightResult: function (result) {
+    this._highlightLayer.clearLayers();
+    if (result) {
+      this._highlightLayer.addData(result);
+    }
   },
   _initMap: function () {
     var map = L.map("map",{
@@ -46,6 +53,12 @@ L.extend(window.Weihnachtsmarkt, {
         weight: 0,
         opacity: 0.5,
         fillOpacity: 0.5
+      },
+      result: {
+        color: "#F57F06",
+        weight: 2,
+        opacity: 1,
+        fillOpacity: 1
       }
     };
 
@@ -54,7 +67,11 @@ L.extend(window.Weihnachtsmarkt, {
     }).addTo(map);
 
     this._staendeLayer = L.geoJson(this._rawdata,{
-      style: this._staendeStyleFunction.bind(this)
+      style: this._staendeStyleFilterFunction.bind(this)
+    }).addTo(map);
+
+    this._highlightLayer = L.geoJson({type:"FeatureCollection",features:[]}, {
+      style: this._staendeStyles.result
     }).addTo(map);
 
     this._map = map;
