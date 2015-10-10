@@ -5,7 +5,6 @@ var _resetSearch = function () {
   _onSearchInput.apply(this);
 
   this._resultList = [];
-//  this._handleResultList();
 };
 
 var _onSearchInput = function (evt) {
@@ -93,11 +92,14 @@ L.Util.extend(window.Weihnachtsmarkt, {
         this._resultNodeHint.textContent = L.Util.template("{{ site.strings.noResults }}", { str: this._currentSearchString });
       } else {
         hideNodeById("initialSearchResultView");
+        // check if the resultIndex is still valid
+        if (this._currentSelectedResultIndex > this._resultList.length - 1) {
+          this._currentSelectedResultIndex = this._resultList.length - 1;
+        }
         this._setSearchResultDisplay(this._resultList[this._currentSelectedResultIndex]);
       }
     }
     this._tempResultList = [];
-    //this._resultList = undefined;
   },
   _addLayerToResultList: function (layer) {
     if (!this._tempResultList) {
