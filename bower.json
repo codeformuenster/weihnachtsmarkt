@@ -2,7 +2,7 @@
   "name": "weihnachtsmarkt-jekyll",
   "dependencies": {
     "normalize-scss": "~3.0.3",
-    "leaflet": "git://github.com/leaflet/leaflet.git#4d934dfecba056bd8d0abcfd5091b6fc2e9f9fc0",
+    "leaflet": "git://github.com/leaflet/leaflet.git#f75d80a626db4b178834dae210aea58e2b7a56e4",
     "pepjs": "~0.3.0",
     "pegasus": "~0.3.2"
   }
