@@ -2,12 +2,12 @@ var error = function (e) {
   console.log(e);
 };
 var attachClick = function (id, fun) {
-  L.DomUtil.get(id).addEventListener("pointerup", fun);
+  L.DomEvent.on(L.DomUtil.get(id), "click pointerup", fun);
 };
 var hideNodeById = function (id) {
-  L.DomUtil.get(id).style.display = "none";
+  L.DomUtil.addClass(L.DomUtil.get(id), "hidden");
 }
 var showNodeById = function (id) {
-  L.DomUtil.get(id).style.display = null;
+  L.DomUtil.removeClass(L.DomUtil.get(id), "hidden");
 }
 

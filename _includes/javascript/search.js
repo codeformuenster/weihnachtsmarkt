@@ -62,7 +62,7 @@ L.Util.extend(window.Weihnachtsmarkt, {
   },
   _resetSearchResultDisplay: function () {
     showNodeById("initialSearchResultView");
-    this._resultNodeHint.textContent = "{{ site.initialSearchResultView }}";
+    this._resultNodeHint.textContent = "{{ site.strings.initialSearchResultView }}";
     this._currentResultHeadline.textContent = "";
     this._currentResultDescription.textContent = "";
     L.DomUtil.get("right").classList.add("disabled");

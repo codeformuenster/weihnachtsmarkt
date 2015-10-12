@@ -5,7 +5,7 @@ L.extend(window.Weihnachtsmarkt, {
     this._initSearch();
 
     attachClick("info_button", function () {
-      L.DomUtil.get("welcome").style.display = null;
+      showNodeById("welcome");
     });
   }
 });
