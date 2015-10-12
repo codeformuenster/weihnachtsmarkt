@@ -65,8 +65,8 @@ L.Util.extend(window.Weihnachtsmarkt, {
     this._resultNodeHint.textContent = "{{ site.initialSearchResultView }}";
     this._currentResultHeadline.textContent = "";
     this._currentResultDescription.textContent = "";
-    nodeById("right").classList.add("disabled");
-    nodeById("left").classList.add("disabled");
+    L.DomUtil.get("right").classList.add("disabled");
+    L.DomUtil.get("left").classList.add("disabled");
     this._highlightResult();
   },
   _setSearchResultDisplay: function (searchResultObj) {
@@ -82,8 +82,8 @@ L.Util.extend(window.Weihnachtsmarkt, {
       }
     }
     if (this._resultList && this._resultList.length !== 1) {
-      nodeById("right").classList.remove("disabled");
-      nodeById("left").classList.remove("disabled");
+      L.DomUtil.get("right").classList.remove("disabled");
+      L.DomUtil.get("left").classList.remove("disabled");
     }
     this._highlightResult(searchResultObj);
   },
@@ -122,7 +122,7 @@ L.Util.extend(window.Weihnachtsmarkt, {
     this._searchableProperties = {{ site.searchableProperties | jsonify }};
 
     // init search input node
-    this._searchInputNode = nodeById("search_input");
+    this._searchInputNode = L.DomUtil.get("search_input");
     // reset Button..
     attachClick("reset_search", _resetSearch.bind(this));
 
@@ -132,10 +132,10 @@ L.Util.extend(window.Weihnachtsmarkt, {
     // detailview
     attachClick("left", _prevResult.bind(this));
     attachClick("right", _nextResult.bind(this));
-    this._currentResultNode = nodeById("searchResult");
-    this._currentResultHeadline = nodeById("searchResultHeadline");
-    this._currentResultDescription = nodeById("searchResultDescription");
-    this._resultNodeHint = nodeById("initialSearchResultView");
+    this._currentResultNode = L.DomUtil.get("searchResult");
+    this._currentResultHeadline = L.DomUtil.get("searchResultHeadline");
+    this._currentResultDescription = L.DomUtil.get("searchResultDescription");
+    this._resultNodeHint = L.DomUtil.get("initialSearchResultView");
   }
 });
 
