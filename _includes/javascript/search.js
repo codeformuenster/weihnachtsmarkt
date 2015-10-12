@@ -71,8 +71,16 @@ L.Util.extend(window.Weihnachtsmarkt, {
   },
   _setSearchResultDisplay: function (searchResultObj) {
     hideNodeById("initialSearchResultView");
-    this._currentResultHeadline.textContent = searchResultObj.properties.betreiber;
-    this._currentResultDescription.textContent = searchResultObj.properties.angebot.join(", ");
+    this._currentResultHeadline.textContent = "-";
+    this._currentResultDescription.textContent = "-";
+    if (searchResultObj.properties) {
+      if (searchResultObj.properties.betreiber) {
+        this._currentResultHeadline.textContent = searchResultObj.properties.betreiber;
+      }
+      if (searchResultObj.properties.angebot) {
+        this._currentResultDescription.textContent = searchResultObj.properties.angebot.join(", ");
+      }
+    }
     if (this._resultList && this._resultList.length !== 1) {
       nodeById("right").classList.remove("disabled");
       nodeById("left").classList.remove("disabled");
