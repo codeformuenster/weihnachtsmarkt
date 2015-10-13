@@ -2,7 +2,7 @@ var error = function (e) {
   console.log(e);
 };
 var attachClick = function (id, fun) {
-  L.DomEvent.on(L.DomUtil.get(id), "click pointerup", fun);
+  L.DomEvent.on(L.DomUtil.get(id), {"pointerup": fun});
 };
 var hideNodeById = function (id) {
   L.DomUtil.addClass(L.DomUtil.get(id), "hidden");

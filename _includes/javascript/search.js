@@ -81,7 +81,7 @@ L.Util.extend(window.Weihnachtsmarkt, {
         this._currentResultDescription.textContent = searchResultObj.properties.angebot.join(", ");
       }
     }
-    if (this._resultList && this._resultList.length !== 1) {
+    if (this._resultList && this._resultList.length > 1) {
       L.DomUtil.get("right").classList.remove("disabled");
       L.DomUtil.get("left").classList.remove("disabled");
     }
