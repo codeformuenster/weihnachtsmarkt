@@ -7,7 +7,6 @@ var _showWelcomeModal = function () {
 
 L.Util.extend(window.Weihnachtsmarkt, {
   _initWelcomeModal: function () {
-    attachClick("closeWelcome", _hideWelcomeModal);
     attachClick("confirmWelcome", _hideWelcomeModal);
   }
 });

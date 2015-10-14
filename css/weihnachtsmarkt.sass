@@ -1,8 +1,9 @@
 ---
 ---
-@import vendor/_normalize
-@import vendor/_leaflet
-@import _mixins
+//@import vendor/_normalize
+@import '_my-reset'
+@import 'vendor/_leaflet'
+@import '_mixins'
 
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px)
 
@@ -10,6 +11,7 @@ $search_bar_height: 48px
 $search_bar_max-width: 100%
 $btn_size: 32px
 $control-bg-color: #ccc
+$welcome-bg-color: #f2f2f7
 
 $initial-detailview-height: 120px
 
@@ -32,6 +34,8 @@ html, body, .container
 #map
   height: calc(100% - #{$search_bar_height} - #{$initial-detailview-height})
 
+@import '_welcome'
+
 #nav_container
   width: 100%
   font-size: 26px
@@ -39,10 +43,6 @@ html, body, .container
 
 #menu_btn, #search_container
   display: table-cell
-
-.hide_mobile
-  white-space: nowrap
-  display: inline-block
 
 input[type="text"]
   background-image: url("../images/magnifier-iconmonstr-20x20.png")
@@ -59,7 +59,10 @@ input[type="text"]
   background-color: $control-bg-color
   color: #000
   letter-spacing: 2px
+  font: inherit
   +input-placeholder
+    font-size: 27px
+    color: gray
     text-align: left
     letter-spacing: 0px
   &:focus
@@ -99,70 +102,6 @@ a, .link
   &:hover
     color: lighten(firebrick, 30)
 
-#info, #welcome
-  position: fixed
-  overflow: auto
-  z-index: 10000
-  top: 0px
-  right: 0px
-  bottom: 0px
-  left: 0px
-  #overlay
-    position: fixed
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.4)
-    top: 0px
-    right: 0px
-    bottom: 0px
-    left: 0px
-
-#info_panel, #welcome_panel
-  padding: 5px 5px
-  position: relative
-  margin: 250px auto 0px
-  padding-top: 20px
-  max-width: 100%
-  width: 550px
-  background-color: #f3f3f3
-  z-index: 9999
-  text-align: center
-  border-radius: 15px
-  .close_panel
-    position: absolute
-    top: 5px
-    right: 5px
-    width: 25px
-    height: 25px
-    line-height: 25px
-    color: white
-    font-size: 25px
-    font-weight: bold
-    border: 2px solid firebrick
-    background-color: firebrick
-    border-radius: 15px
-    vertical-align: middle
-  a
-    text-decoration: none
-
-#welcome_panel
-  .btn
-    font-size: 20px
-    padding: 5px 0px
-    border-width: 2px 0px 0px 0px
-    border-style: solid
-    border-color: #e0e0e0
-    &:hover
-      background-color: #e8e8e8
-    &:active
-      background-color: #e0e0e0
-  #welcome_info_no_data
-    font-size: 17px
-
-.tiny
-  color: #707070
-  font-size: 14px
-
-h2.title, h3.subtitle
-  margin: 4px
 
 .popupHighlight
   font-weight: 700
@@ -173,10 +112,20 @@ h2.title, h3.subtitle
   bottom: 10px
   left: 18px
 
-@media all and (max-width: 550px)
-  #info_panel, #welcome_panel
-    margin: 25% auto 0px
-    width: initial
+//@media all and (max-width: 550px)
+//  h2.title, h3.subtitle
+//    padding: 4px
+//    margin: 0px
+//  h3.subtitle
+//
+//  #welcome_panel
+//    margin: 0px
+//    width: initial
+//    height: 100%
+//    padding: 0px
+//    border-radius: 0px
+//    p
+//      font-size: 150%
 
 .floatleft
   float: left

@@ -1,43 +1,32 @@
 <div id="welcome">
   <div id="overlay"></div>
   <div id="welcome_panel">
-    <div class="close_panel pointer" id="closeWelcome" touch-action="none">
-      &times;
-    </div>
     <h2 class="title">{{ site.strings.appTitle }}</h2>
     <h3 class="subtitle">{{ site.strings.appTitleSubTitle }}</h3>
     <p>{{ site.strings.appDescriptionText }}</p>
+    <div class="tiny">Alle Angaben ohne Gewähr!</div>
     <div class="btns">
       <div id="confirmWelcome" class="btn pointer" style="border-width: 2px;" touch-action="none">{{ site.strings.letsGo }}</div>
     </div>
-    <div class="tiny">
-      Alle Angaben ohne Gewähr!
-    </div>
-    <div class="tiny">
-      <hr>
+    <div class="tiny welcome_bottom">
       <div class="floatleft">
-        Maptiles &copy;
+        <a href="https://github.com/codeformuenster/weihnachtsmarkt" target="_blank">
+          Diese App ist Open Source.
+        </a>
+        <br />
+        Kartenstyles &amp; Kartendaten:
         <a href="http://www.mapbox.com/" target="_blank">
           Mapbox
         </a>
-        <br>
-        Mapdata &copy;
+        ,
         <a href="http://openstreetmap.org/" target="_blank">
           OpenStreetMap contributors
         </a>
-        <br>
-        <a href="https://github.com/codeformuenster/weihnachtsmarkt" target="_blank">
-          Code dieser Webseite auf Github
-        </a>
       </div>
       <div class="floatright">
-        <img id="c4m" src="images/cfm_logo_noborder.png">
-        <div>
-          Ein Projekt von
-          <a href="http://codeformuenster.org" target="_blank">
-            Code For Münster
-          </a>
-        </div>
+        <a href="http://codeformuenster.org" target="_blank">
+          <img id="c4m" src="images/cfm_logo_noborder.png">
+        </a>
       </div>
     </div>
   </div>
