@@ -4,7 +4,7 @@ L.extend(window.Weihnachtsmarkt, {
     this._initWelcomeModal();
     this._initSearch();
 
-    attachClick("info_button", function () {
+    attachClick("menu_btn", function () {
       showNodeById("welcome");
     });
   }
