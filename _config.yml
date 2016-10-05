@@ -47,3 +47,5 @@ map:
 markdown: kramdown
 sass:
   style: compressed
+exclude: ['bower_components']
+host: 0.0.0.0

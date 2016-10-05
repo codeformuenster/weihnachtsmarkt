@@ -1,13 +1,13 @@
 #!/bin/bash
 
-npm install -g bower jake
+#npm install -g bower jake
 
 bower --allow-root install
 
 # compile leaflet
 cd bower_components/leaflet
 npm install
-jake
+#jake
 cd ../..
 
 # clean
