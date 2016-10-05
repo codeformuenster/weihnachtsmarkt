@@ -25,3 +25,7 @@ cp bower_components/leaflet/dist/images/* images/
 cp bower_components/pepjs/dist/pep.min.js _includes/vendor/pep.min.js
 
 cp bower_components/pegasus/dist/pegasus.min.js js/pegasus.min.js
+
+cp bower_components/leaflet.editable/src/Leaflet.Editable.js _includes/vendor/
+
+cp bower_components/path.drag.js/src/Path.Drag.js _includes/vendor/

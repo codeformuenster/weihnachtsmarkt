@@ -3,7 +3,9 @@
   "dependencies": {
     "leaflet": "~1.0.1",
     "pepjs": "~0.4.2",
-    "pegasus": "~0.3.5"
+    "pegasus": "~0.3.5",
+    "leaflet.editable": "git://github.com/leaflet/leaflet.editable.git#0c8004345f40ff06e742990a970d73d3be352abf",
+    "path.drag.js": "git://github.com/leaflet/path.drag.js.git#77ee5710b92986e70f80085a8101721dd6b91ac2"
   }
 }
 

@@ -5,6 +5,8 @@
   "use strict";
   {% include vendor/pep.min.js %}
   {% include vendor/leaflet.js %}
+  {% include vendor/Path.Drag.js %}
+  {% include vendor/Leaflet.Editable.js %}
 
   window.Weihnachtsmarkt = {_rawdata:{type:"FeatureCollection",features:[]}};
   {% include javascript/data.js %}

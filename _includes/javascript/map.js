@@ -36,7 +36,8 @@ L.extend(window.Weihnachtsmarkt, {
     var map = L.map("map",{
       center: {{ site.map.center | jsonify }},
       zoom: {{ site.map.zoom }},
-      attributionControl: false
+      attributionControl: false,
+      editable: true
     });
 
     this._staendeStyles = {
