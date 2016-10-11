@@ -45,8 +45,8 @@ L.extend(window.Weihnachtsmarkt, {
       // add stand control
       this._map.addControl(new _EditControl({
         title: 'Stand hinzufügen',
-        html: '&#9998;',
-        callback: this._enableSelectStandMode.bind(this)
+        html: '&#10033;',
+        callback: this._map.editTools.startPolygon
       }));
     }
   }
