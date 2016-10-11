@@ -1,7 +1,12 @@
 L.extend(window.Weihnachtsmarkt, {
   _onFeatureClick: function (evt) {
-    var layer = evt.target.toGeoJSON();
-    this._setSearchResultDisplay(layer);
+    var layer = evt.target;
+    if (window.NEXT_CLICK_ENABLES_EDIT === true) {
+      this._enableEditingForLayer(layer);
+      window.NEXT_CLICK_ENABLES_EDIT = false;
+    } else {
+      this._setSearchResultDisplay(layer.toGeoJSON());
+    }
   },
   _staendeStyleFilterFunction: function (layer) {
     var styleToApply = this._staendeStyles.normal;
@@ -83,5 +88,6 @@ L.extend(window.Weihnachtsmarkt, {
     }).addTo(map);
 
     this._map = map;
+    return map;
   }
 });
