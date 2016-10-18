@@ -6,6 +6,7 @@ var _EditControl = L.Control.extend({
     kind: '',
     html: ''
   },
+  _disabled: false,
   onAdd: function (map) {
     var container = L.DomUtil.create('div', 'leaflet-control leaflet-bar'),
       link = L.DomUtil.create('a', '', container);
@@ -15,17 +16,26 @@ var _EditControl = L.Control.extend({
     link.innerHTML = this.options.html;
     L.DomEvent.on(link, 'click', L.DomEvent.stop)
               .on(link, 'click', function () {
-                window.LAYER = this.options.callback.call(map.editTools);
+                if (!this._disabled) {
+                  this.disable();
+                  window.LAYER = this.options.callback.call(map.editTools);
+                }
               }, this);
-
     return container;
+  },
+  disable: function () {
+    this._disabled = true;
+  },
+  enable: function () {
+    this._disabled = false;
   }
-})
+});
 
 window.NEXT_CLICK_ENABLES_EDIT = false;
 
 L.extend(window.Weihnachtsmarkt, {
   _enableSelectStandMode: function () {
+    this._startNewStandControl.disable();
     window.NEXT_CLICK_ENABLES_EDIT = true;
     // tell the user to select a feature
   },
@@ -37,17 +47,19 @@ L.extend(window.Weihnachtsmarkt, {
     if (!L.Browser.mobile) {
       this._map = map;
       // Edit control
-      this._map.addControl(new _EditControl({
+      this._editControl = new _EditControl({
         title: 'Stand bearbeiten',
         html: '&#9998;',
         callback: this._enableSelectStandMode.bind(this)
-      }));
+      });
+      this._map.addControl(this._editControl);
       // add stand control
-      this._map.addControl(new _EditControl({
+      this._startNewStandControl = new _EditControl({
         title: 'Stand hinzufügen',
         html: '&#10033;',
         callback: this._map.editTools.startPolygon
-      }));
+      });
+      this._map.addControl(this._startNewStandControl);
     }
   }
 });
