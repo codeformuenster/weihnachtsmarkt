@@ -2,14 +2,16 @@
   <div class="pointer disabled" id="left">
     &lsaquo;
   </div>
-  <div class="searchResult">
+  <div class="searchResult" id="searchResult">
     <div id="initialSearchResultView">
       {{ site.strings.initialSearchResultView }}
     </div>
     <h4 id="searchResultHeadline"></h4>
     <p id="searchResultDescription"></p>
   </div>
-  <div class="editing">
+  <div class="editing" id="editingFields">
+    <input type="text" id="editTitle"></input>
+    <div id="angebote"></div>
   </div>
   <div class="pointer disabled" id="right">
     &rsaquo;

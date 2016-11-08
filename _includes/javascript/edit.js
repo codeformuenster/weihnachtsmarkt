@@ -18,6 +18,7 @@ var _EditControl = L.Control.extend({
               .on(link, 'click', function () {
                 if (!this._disabled) {
                   this.disable();
+
                   window.LAYER = this.options.callback.call(map.editTools);
                 }
               }, this);
@@ -35,13 +36,26 @@ window.NEXT_CLICK_ENABLES_EDIT = false;
 
 L.extend(window.Weihnachtsmarkt, {
   _enableSelectStandMode: function () {
-    this._startNewStandControl.disable();
-    window.NEXT_CLICK_ENABLES_EDIT = true;
-    // tell the user to select a feature
+    if (!window.IN_EDIT_MODE) {
+      this._startNewStandControl.disable();
+      this._resetSearchResultDisplay();
+
+      L.DomUtil.get('initialSearchResultView').textContent = 'Jetzt einen Stand durch klicken auswählen';
+
+      window.NEXT_CLICK_ENABLES_EDIT = true;
+      // tell the user to select a feature
+    }
   },
   _enableEditingForLayer: function (layer) {
     this._map.fitBounds(layer.getBounds());
     layer.enableEdit();
+    showNodeById('editingFields');
+    hideNodeById('searchResult');
+    L.DomUtil.get('editTitle').value = layer.feature.properties.betreiber;
+    console.log(layer.feature.properties);
+    //if (layer.feature.properties.warenangeb
+
+    window.IN_EDIT_MODE = true;
   },
   _enableEditingControls: function (map) {
     if (!L.Browser.mobile) {

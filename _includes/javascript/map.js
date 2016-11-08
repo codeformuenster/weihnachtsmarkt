@@ -4,7 +4,7 @@ L.extend(window.Weihnachtsmarkt, {
     if (window.NEXT_CLICK_ENABLES_EDIT === true) {
       this._enableEditingForLayer(layer);
       window.NEXT_CLICK_ENABLES_EDIT = false;
-    } else {
+    } else if (!window.IN_EDIT_MODE) {
       this._setSearchResultDisplay(layer.toGeoJSON());
     }
   },
