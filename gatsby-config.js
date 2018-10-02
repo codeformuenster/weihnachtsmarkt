@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Weihnachtsmarkt.ms',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'weihnachtsmarkt.ms',
+        short_name: 'weihnachtsmarkt',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -17,5 +17,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-netlify',
   ],
 }
