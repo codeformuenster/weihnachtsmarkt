@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Weihnachtsmarkt.ms',
+    longTitle: 'Weihnachtsmarkt.ms Münster - Mobile App',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -8,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'weihnachtsmarkt.ms',
-        short_name: 'weihnachtsmarkt',
+        short_name: 'Weihnachtsmarkt',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
