@@ -13,6 +13,7 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            longTitle
           }
         }
       }
@@ -22,11 +23,17 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Weihnachtsmarkt.ms Münster' },
-            { name: 'keywords', content: 'weihnachtsmarkt.ms, weihnachtsmarkt, christmas market' },
+            { name: 'description', content: data.site.siteMetadata.longTitle },
+            {
+              name: 'keywords',
+              content: 'weihnachtsmarkt.ms, weihnachtsmarkt, christmas market',
+            },
+            { name: 'mobile-web-app-capable', content: 'yes' },
+            { name: 'apple-mobile-web-app-capable', content: 'yes' },
+            { name: 'apple-mobile-web-app-title', content: data.site.siteMetadata.title },
           ]}
         >
-          <html lang="en" />
+          <html lang="de" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
