@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  weihnachtsmarkt:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      ELASTICSEARCH_URL: "http://elasticsearch:9200"
+      ELASTICSEARCH_INDEX_PREFIX: "weihnachtsmarkt-"
+    # volumes:
+    #   - .:/usr/src/app
