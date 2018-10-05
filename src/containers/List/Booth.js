@@ -1,6 +1,5 @@
 import Booth from '../../components/List/Booth';
 import { connect } from 'react-redux';
-//import { Dispatch } from 'redux';
 
 export function mapStateToProps({ marketData }) {
   return { marketData }
