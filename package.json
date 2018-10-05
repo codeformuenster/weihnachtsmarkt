@@ -9,6 +9,7 @@
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "got": "^9.2.2",
     "kinto": "^12.0.2",
     "mapbox-gl": "0.47.0",
     "react": "^16.5.1",
