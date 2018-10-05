@@ -5,6 +5,10 @@ import './footer.css'
 const Footer = ({ siteTitle }) => (
   <div
     style={{
+      // position: 'absolute',
+      // bottom: '0',
+      // left: '0',
+      // right: '0',
       background: '#0C192E',
       marginBottom: '0rem',
       height: '80px',

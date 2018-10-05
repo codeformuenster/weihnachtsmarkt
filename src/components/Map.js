@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
+import './map.css'
+
 mapboxgl.accessToken =
   'pk.eyJ1IjoiZmVsaXhhZXRlbSIsImEiOiJjajl5OWRib2c4Y3I3MzN0NG5qb3N4ZDNhIn0.ZSVnG5S1oXz2fXDoboV_RA'
 // mapboxgl.accessToken = process.env.MapboxAccessToken
@@ -22,6 +24,7 @@ export default class Map extends Component {
       style: 'mapbox://styles/mapbox/dark-v9',
       center: [this.state.viewport.longitude, this.state.viewport.latitude],
       zoom: this.state.viewport.zoom,
+      attributionControl: false,
     })
     this.map.on('style.load', () => {})
   }
