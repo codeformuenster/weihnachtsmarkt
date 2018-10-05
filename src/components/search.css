@@ -1,10 +1,5 @@
 .search-container {
-  position: absolute;
-  bottom: 120px;
-  left: 0;
-  right: 0;
   padding: 10px;
-  z-index: 2;
 }
 
 .search-input {
