@@ -23,7 +23,6 @@ exports.createPages = ({ graphql, actions }) => {
           try {
             let path = '/details/' + slugify(data.body.data[i].name)
             console.log('Create path: ' + path)
-            console.log(__dirname)
             createPage({
               path: path,
               component:
