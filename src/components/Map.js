@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
+// import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 
 import './map.css'
 
@@ -18,6 +20,7 @@ export default class Map extends Component {
   }
 
   componentDidMount() {
+    console.log(this.props.marketData)
     this.map = new mapboxgl.Map({
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/dark-v9',
@@ -97,6 +100,7 @@ export default class Map extends Component {
     this.map.on('click', 'markets', e => {
       // eslint-disable-next-line
       console.log(e.features)
+      this.props.setSelectedMarket(e.features[0])
     })
 
     this.map.on('click', 'booths', e => {
@@ -114,4 +118,9 @@ export default class Map extends Component {
       />
     )
   }
+}
+
+Map.propTypes = {
+  marketData: PropTypes.object,
+  setSelectedMarket: PropTypes.func,
 }
