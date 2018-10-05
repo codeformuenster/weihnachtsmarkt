@@ -35,7 +35,7 @@ const Footer = () => (
       </p>
       <p style={{ margin: 0 }}>
         <Link
-          to="/page-2"
+          to="/list"
           style={{
             color: 'white',
             textDecoration: 'none',
