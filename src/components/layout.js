@@ -30,7 +30,10 @@ const Layout = ({ children }) => (
             },
             { name: 'mobile-web-app-capable', content: 'yes' },
             { name: 'apple-mobile-web-app-capable', content: 'yes' },
-            { name: 'apple-mobile-web-app-title', content: data.site.siteMetadata.title },
+            {
+              name: 'apple-mobile-web-app-title',
+              content: data.site.siteMetadata.title,
+            },
           ]}
         >
           <html lang="de" />
@@ -42,7 +45,7 @@ const Layout = ({ children }) => (
             // maxWidth: 960,
             // padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
-            height: 'calc(100vh - 80px)'
+            height: 'calc(100vh - 80px)',
           }}
         >
           {children}

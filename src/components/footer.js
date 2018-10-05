@@ -7,11 +7,11 @@ const Footer = ({ siteTitle }) => (
     style={{
       background: '#0C192E',
       marginBottom: '0rem',
-      height: '80px'
+      height: '80px',
     }}
   >
     <div
-      className='footer'
+      className="footer"
       style={{
         margin: '0 auto',
         maxWidth: 960,
@@ -26,9 +26,7 @@ const Footer = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          <i className="material-icons">
-            map
-          </i>
+          <i className="material-icons">map</i>
         </Link>
       </p>
       <p style={{ margin: 0 }}>
@@ -39,9 +37,7 @@ const Footer = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          <i className="material-icons">
-            list
-          </i>
+          <i className="material-icons">list</i>
         </Link>
       </p>
       <p style={{ margin: 0 }}>
@@ -53,9 +49,7 @@ const Footer = ({ siteTitle }) => (
           }}
         >
           {/* {siteTitle} */}
-          <i className="material-icons">
-            info
-          </i>
+          <i className="material-icons">info</i>
         </Link>
       </p>
     </div>
