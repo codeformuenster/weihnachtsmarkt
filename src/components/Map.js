@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 // import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
+import { booths, markets } from './../helpers/client'
 
 import './map.css'
 
@@ -19,8 +20,7 @@ export default class Map extends Component {
     },
   }
 
-  componentDidMount() {
-    console.log(this.props.marketData)
+  async componentDidMount() {
     this.map = new mapboxgl.Map({
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/dark-v9',
@@ -29,72 +29,82 @@ export default class Map extends Component {
       attributionControl: false,
     })
     this.map.addControl(new mapboxgl.NavigationControl())
-    this.map.on('style.load', () => {
-      fetch(
-        'https://kinto-weihnachtsmarkt.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/markets/records'
-      )
-        .then(response => response.json())
-        .then(data => {
-          // console.log(data.data[0])
-          this.map.addLayer({
-            id: 'markets',
-            type: 'fill',
-            source: {
-              type: 'geojson',
-              data: {
-                type: 'Feature',
-                ...data.data[0],
-              },
-            },
-            layout: {},
-            maxzoom: 16,
-            paint: {
-              'fill-color': '#088',
-              'fill-opacity': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                10,
-                0.8,
-                16,
-                0,
-              ],
-            },
-          })
+    this.map.on('style.load', async () => {
+      try {
+        await markets.sync()
+        const wat = await markets.list()
+        this.map.addSource('markets-source', {
+          type: 'geojson',
+          data: {
+            type: 'FeatureCollection',
+            features: wat.data.map(e => ({
+              ...e,
+              type: 'Feature',
+            })),
+          },
         })
+        this.map.addLayer({
+          id: 'markets',
+          type: 'fill',
+          source: 'markets-source',
+          layout: {},
+          maxzoom: 16,
+          paint: {
+            'fill-color': '#088',
+            'fill-opacity': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              10,
+              0.8,
+              16,
+              0,
+            ],
+          },
+        })
+      } catch (err) {
+        // eslint-disable-next-line
+        console.log('error', err)
+      }
 
-      fetch(
-        'https://kinto-weihnachtsmarkt.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/records'
-      )
-        .then(response => response.json())
-        .then(data => {
-          // console.log(data.data[0])
-          this.map.addLayer({
-            id: 'booths',
-            type: 'fill',
-            source: {
-              type: 'geojson',
-              data: {
-                ...data.data[0],
-                type: 'Feature',
-              },
-            },
-            layout: {},
-            minzoom: 13,
-            paint: {
-              'fill-color': '#ff0000',
-              'fill-opacity': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                13,
-                0,
-                16,
-                1,
-              ],
-            },
-          })
+      try {
+        await booths.sync()
+        const wat = await booths.list()
+        this.map.addSource('booths-source', {
+          type: 'geojson',
+          data: {
+            type: 'FeatureCollection',
+            features: wat.data.map(e => ({
+              ...e,
+              type: 'Feature',
+            })),
+          },
         })
+        this.map.addLayer({
+          id: 'booths',
+          type: 'fill-extrusion',
+          source: 'booths-source',
+          layout: {},
+          minzoom: 13,
+          paint: {
+            'fill-extrusion-color': '#ff0000',
+            'fill-extrusion-opacity': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              13,
+              0,
+              16,
+              1,
+            ],
+            'fill-extrusion-height': 3,
+            // 'fill-extrusion-opacity': 0.5,
+          },
+        })
+      } catch (err) {
+        // eslint-disable-next-line
+        console.log('error', err)
+      }
     })
 
     this.map.on('click', 'markets', e => {

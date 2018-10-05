@@ -13,18 +13,25 @@ const reducer = (state, action) => {
       selectedMarket: action.payload,
     }
   }
+  if (action.type === `SET_SELECTED_BOOTH`) {
+    return {
+      ...state,
+      selectedBooth: action.payload,
+    }
+  }
   return state
 }
 
 const initialState = {
-  marketData: { bla: 'bla' },
+  marketData: {},
   selectedMarket: {},
+  selectedBooth: {},
 }
 
 const createStore = () =>
   reduxCreateStore(
     reducer,
-    initialState,
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    initialState
+    // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 export default createStore
