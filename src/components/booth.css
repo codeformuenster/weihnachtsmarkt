@@ -3,9 +3,11 @@
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr 1fr;
 
-  background: hsl(0, 0%, 96%);
+  background: #343332;
   margin-bottom: 5px;
   padding: 2px 2px;
+
+  font-family: 'Helvetica';
 }
 
 .logo {
@@ -22,6 +24,14 @@
   grid-column-end: end;
   grid-row-start: 1;
   grid-row-end: 2;
+
+  font-size: 12pt;
+  font-weight: bold;
+  color: white;
+
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .market {
@@ -29,6 +39,13 @@
   grid-column-end: end;
   grid-row-start: 2;
   grid-row-end: 3;
+
+  font-size: 10pt;
+  color: hsl(348, 100%, 61%);
+
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .tags {
@@ -36,4 +53,17 @@
   grid-column-end: end;
   grid-row-start: 3;
   grid-row-end: end;
+
+  font-size: 8pt;
+  color: white;
+
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
