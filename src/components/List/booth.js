@@ -3,7 +3,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-import './booth.css'
+import './Booth.css'
 
 import Logo from './logo'
 
@@ -15,13 +15,15 @@ class Booth extends React.Component {
     tags: PropTypes.array,
     type: PropTypes.string,
     odd: PropTypes.bool,
+    marketData: PropTypes.object,
+    setSelectedMarket: PropTypes.func,
+  }
+
+  componentDidMount() {
+    console.log(this.props.marketData)
   }
 
   render() {
-    if (!this.props.name) {
-      throw new Error('Your booth should have a name')
-    }
-
     return (
       <Link to={`/details/slug-to-be-inserted-here`}>
         <div className={'booth ' + (this.props.odd ? 'odd' : 'even')}>
