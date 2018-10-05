@@ -4512,6 +4512,41 @@ weihnachtsmarkt:
             name: Rathaus
             web_url: http://www.weihnachtsmarkt-muenster.com/
           permissions: {}
+        9b885a8c-92b1-4529-8c8b-423e4ae69378:
+          data:
+            description: "Mit seiner pr\xE4chtigen Krippe, einer sechs Meter hohen\
+              \ Holzpyramide, einer M\xE4rchenwelt und vielen attraktiven Verkaufsst\xE4\
+              nden l\xE4dt der Aegidii-Weihnachtsmarkt die ganze Familie zum entspannten\
+              \ Bummeln ein. F\xFCr eine weihnachtliche Stimmung sorgt ein sch\xF6\
+              nes Glockenspiel zu jeder halben Stunde. "
+            geometry:
+              coordinates:
+              - - - 7.6227092743
+                  - 51.9607643092
+                - - 7.6225161552
+                  - 51.9604056546
+                - - 7.6231384277
+                  - 51.9602007078
+                - - 7.6231947541
+                  - 51.9604155713
+                - - 7.6234227419
+                  - 51.9603494596
+                - - 7.6238840818
+                  - 51.9604915997
+                - - 7.623822391
+                  - 51.9606667951
+                - - 7.6232618093
+                  - 51.9606221699
+                - - 7.6230847836
+                  - 51.9606039893
+                - - 7.6227092743
+                  - 51.9607643092
+              type: Polygon
+            id: 9b885a8c-92b1-4529-8c8b-423e4ae69378
+            last_modified: 1538773980081
+            name: Aegidii
+            web_url: http://www.aegidii-weihnachtsmarkt.de/
+          permissions: {}
         a4f8dad0-0423-4985-bf41-387dd6e9fbe5:
           data:
             description: "\xDCber den Drubbel kommt man zum Weihnachtsdorf am Kiepenkerl:\
@@ -4541,6 +4576,68 @@ weihnachtsmarkt:
             last_modified: 1538772271971
             name: Kiepenkerl
             web_url: http://www.kiepenkerl-weihnachtsmarkt.de/
+          permissions: {}
+
+        abc8cc2d-f193-485b-ac0b-82991a49bbb8:
+          data:
+            description: "Der j\xFCngste Weihnachtsmarkt M\xFCnsters erfreut seine\
+              \ Besucher mit jeder Menge Handwerkskunst und einer Vielzahl besonderer\
+              \ Leckereien. Das besonders romantische Ambiente verdankt der Giebelh\xFC\
+              \xFCskesmarkt seiner Lage vor der einzigartigen Kulisse der \xDCberwasserkirche.\
+              \ Der Giebelh\xFC\xFCskesmarkt schlie\xDFt bereits am 22. Dezember."
+            geometry:
+              coordinates:
+              - - - 7.6233315468
+                  - 51.9640581782
+                - - 7.6225054264
+                  - 51.9639986825
+                - - 7.6223498583
+                  - 51.9640846208
+                - - 7.6220548153
+                  - 51.964097842
+                - - 7.6219958067
+                  - 51.9639722399
+                - - 7.6223069429
+                  - 51.9639193547
+                - - 7.6232725382
+                  - 51.9638003628
+                - - 7.6233315468
+                  - 51.9640581782
+              type: Polygon
+            id: abc8cc2d-f193-485b-ac0b-82991a49bbb8
+            last_modified: 1538773859077
+            name: "Giebelh\xFC\xFCskesmarkt"
+            web_url: http://www.xn--giebelhskesmarkt-pzba.de/
+          permissions: {}
+        c076d7dd-e995-4d55-81ee-dafd97747573:
+          data:
+            description: "Die kleinen blauen Spitzdachh\xE4uschen des Lichtermarkts\
+              \ am Fu\xDFe von St. Lamberti setzen glanzvolle Akzente. Umgeben von\
+              \ historischen Bogenh\xE4usern und neben einer gro\xDFen Weihnachtstanne\
+              \ funkeln Lichter und Weihnachtsschmuck um die Wette \u2013 und bringen\
+              \ alle Besucher zum Strahlen. Der Lichtermarkt schlie\xDFt bereits am\
+              \ 22. Dezember."
+            geometry:
+              coordinates:
+              - - - 7.6293289661
+                  - 51.9629624524
+                - - 7.6290607452
+                  - 51.9627095888
+                - - 7.6284787059
+                  - 51.962747601
+                - - 7.6284733415
+                  - 51.9626203425
+                - - 7.6290339231
+                  - 51.9624881254
+                - - 7.629532814
+                  - 51.9629013025
+                - - 7.6293289661
+                  - 51.9629624524
+              type: Polygon
+            id: c076d7dd-e995-4d55-81ee-dafd97747573
+            last_modified: 1538773322238
+            name: Lamberti
+            web_url: http://www.lichtermarkt-muenster.de/
           permissions: {}
   groups: {}
   permissions:
