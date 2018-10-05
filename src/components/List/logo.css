@@ -1,0 +1,10 @@
+.circle {
+  vertical-align: middle;
+  /* padding: 10%; */
+  text-align: center;
+}
+.circle img {
+  width: 100%;
+  margin-bottom: 0px;
+  max-width: 100px;
+}

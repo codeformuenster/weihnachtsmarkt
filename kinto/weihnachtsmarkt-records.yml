@@ -14,13 +14,4071 @@ weihnachtsmarkt:
         - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
       records:
-        042cbaef-b713-4308-bd74-c1df67f66de6:
+        01810f58-73ec-48fa-8837-4ce43ad5faef:
           data:
-            description: "Beim \"Wiesn Bratwurst & mehr\" bekommt man die volle Dr\xF6\
-              hnung! Leckere bayerische Spezialit\xE4ten zu z\xFCnftiger Wiesn Musik\
-              \ vom Live Act \"Die Wiesn-Boys\". Die Tradition verpflichtet und wichtige\
-              \ Dinge werden nicht au\xDFer Acht gelassen. F\xFCr das leibliche Wohl\
-              \ ist gesorgt und keine Auge bleibt trocken. O'zapft is!"
+            description: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+            geometry:
+              coordinates:
+              - - - 7.629884
+                  - 51.961551
+                - - 7.62992
+                  - 51.961543
+                - - 7.629901
+                  - 51.961512
+                - - 7.629866
+                  - 51.961521
+                - - 7.629884
+                  - 51.961551
+              type: Polygon
+            goods:
+            - name: "Tiroler Spezialit\xE4ten wie K\xE4se"
+            - name: Wurst
+            - name: Brot
+            id: 01810f58-73ec-48fa-8837-4ce43ad5faef
+            last_modified: 1538772129022
+            name: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+            owner:
+              name: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        022b19bf-28f8-45fd-8c61-b0c2a8deffef:
+          data:
+            description: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+            geometry:
+              coordinates:
+              - - - 7.629774
+                  - 51.96137
+                - - 7.629801
+                  - 51.961365
+                - - 7.629783
+                  - 51.961336
+                - - 7.629756
+                  - 51.961342
+                - - 7.629774
+                  - 51.96137
+              type: Polygon
+            goods:
+            - name: "Tiroler Rarit\xE4ten: Balsame"
+            - name: "Kr\xE4uter- und Pflanzenseifen"
+            - name: Molke-Pflegeprodukte
+            - name: "Hirschtalg-Fu\xDFcreme etc."
+            id: 022b19bf-28f8-45fd-8c61-b0c2a8deffef
+            last_modified: 1538772130751
+            name: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+            owner:
+              name: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        074f8e9a-69ab-4721-9e5b-e5b951aff96b:
+          data:
+            description: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+            geometry:
+              coordinates:
+              - - - 7.629085
+                  - 51.961401
+                - - 7.629126
+                  - 51.961392
+                - - 7.629113
+                  - 51.961371
+                - - 7.629072
+                  - 51.96138
+                - - 7.629085
+                  - 51.961401
+              type: Polygon
+            goods:
+            - name: 'Schmuck: Chunks'
+            - name: Engelsrufer
+            id: 074f8e9a-69ab-4721-9e5b-e5b951aff96b
+            last_modified: 1538772129777
+            name: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+            owner:
+              name: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        097a9acc-9884-4420-9fd8-ecdb7170614b:
+          data:
+            description: Altrogge - Heitmann GBR
+            geometry:
+              coordinates:
+              - - - 7.629005
+                  - 51.961821
+                - - 7.629065
+                  - 51.961807
+                - - 7.629019
+                  - 51.961728
+                - - 7.628957
+                  - 51.961743
+                - - 7.629005
+                  - 51.961821
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: "hei\xDFe und kalte alkoholische und alkoholfreie Getr\xE4nke"
+            id: 097a9acc-9884-4420-9fd8-ecdb7170614b
+            last_modified: 1538772129177
+            name: Altrogge - Heitmann GBR
+            owner:
+              name: Altrogge - Heitmann GBR
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        0994c92f-a889-4de5-8d3d-c80800f58739:
+          data:
+            description: "Caf\xE9 Longinus, Baumberg 45, D-48301 Nottuln, Tel. 02502\
+              \ 7911, info[at]longinusturm.de, www.longinusturm.de"
+            geometry:
+              coordinates:
+              - - - 7.626198
+                  - 51.964195
+                - - 7.626226
+                  - 51.964195
+                - - 7.626223
+                  - 51.96414
+                - - 7.626196
+                  - 51.96414
+                - - 7.626198
+                  - 51.964195
+              type: Polygon
+            goods:
+            - name: Brezeln
+            - name: Kalter Hund
+            - name: Kiepenkerl-Pinkel
+            - name: Sweet Pipi
+            - name: "Kiepenkerl K\xF6ddel"
+            id: 0994c92f-a889-4de5-8d3d-c80800f58739
+            last_modified: 1538772128705
+            name: "Caf\xE9 Longinus, Baumberg 45, D-48301 Nottuln, Tel. 02502 7911,\
+              \ info[at]longinusturm.de, www.longinusturm.de"
+            owner:
+              name: "Caf\xE9 Longinus, Baumberg 45, D-48301 Nottuln, Tel. 02502 7911,\
+                \ info[at]longinusturm.de, www.longinusturm.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        0a20d09e-aca9-4758-ac3f-15738da59c95:
+          data:
+            description: GLASS ART, Herr Klaus Meier
+            geometry:
+              coordinates:
+              - - - 7.629858
+                  - 51.961509
+                - - 7.629885
+                  - 51.961503
+                - - 7.62987
+                  - 51.961477
+                - - 7.629843
+                  - 51.961483
+                - - 7.629858
+                  - 51.961509
+              type: Polygon
+            goods:
+            - name: Weihnachtsdekor aus Capiz-Muscheln
+            - name: Fensterbilder
+            - name: Sand-Art-Muschel-Schmuck
+            id: 0a20d09e-aca9-4758-ac3f-15738da59c95
+            last_modified: 1538772130776
+            name: GLASS ART, Herr Klaus Meier
+            owner:
+              name: GLASS ART, Herr Klaus Meier
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        0b53f75c-d304-4cb6-a114-d8feb3154ccb:
+          data:
+            description: Heinz Zahn GmbH
+            geometry:
+              coordinates:
+              - - - 7.629196
+                  - 51.960993
+                - - 7.629305
+                  - 51.960983
+                - - 7.629296
+                  - 51.960946
+                - - 7.629188
+                  - 51.960956
+                - - 7.629196
+                  - 51.960993
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: "diverse Hei\xDFgetr\xE4nk"
+            - name: "Punschgetr\xE4nke"
+            - name: "hei\xDFe Schokolade"
+            - name: "alkoholfreie Getr\xE4nke"
+            id: 0b53f75c-d304-4cb6-a114-d8feb3154ccb
+            last_modified: 1538772128714
+            name: Heinz Zahn GmbH
+            owner:
+              name: Heinz Zahn GmbH
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        0e510c65-a405-47a6-9756-5600c84a4b47:
+          data:
+            description: Herr Ulli Gumpert www.bibahn.de
+            geometry:
+              coordinates:
+              - - - 7.629036
+                  - 51.96138
+                - - 7.629007
+                  - 51.961386
+                - - 7.629027
+                  - 51.96142
+                - - 7.629056
+                  - 51.961413
+                - - 7.629036
+                  - 51.96138
+              type: Polygon
+            goods:
+            - name: selbstgefertigte Spiele und Spielzeug aus Holz
+            id: 0e510c65-a405-47a6-9756-5600c84a4b47
+            last_modified: 1538772129628
+            name: Herr Ulli Gumpert www.bibahn.de
+            owner:
+              name: Herr Ulli Gumpert www.bibahn.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        0f7d1e99-e5da-4ca9-be3c-f4f81f2d2b48:
+          data:
+            description: Figura Santa, www.figurasanta.de
+            geometry:
+              coordinates:
+              - - - 7.628889
+                  - 51.961587
+                - - 7.628911
+                  - 51.961624
+                - - 7.628911
+                  - 51.961624
+                - - 7.628931
+                  - 51.96162
+                - - 7.628944
+                  - 51.961616
+                - - 7.628922
+                  - 51.96158
+                - - 7.628889
+                  - 51.961587
+              type: Polygon
+            goods:
+            - name: Handgeschnitzte Olivenholzkrippen aus Bethlehem
+            - name: Christbaumschmuck
+            - name: Geschenkartikel
+            - name: handgearbeitete Bienenwachskerzen
+            id: 0f7d1e99-e5da-4ca9-be3c-f4f81f2d2b48
+            last_modified: 1538772130252
+            name: Figura Santa, www.figurasanta.de
+            owner:
+              name: Figura Santa, www.figurasanta.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        119c4d7b-0727-45a6-9484-74cae61196f6:
+          data:
+            description: "Brezelb\xE4ckerei Rosenboom, Herr Stefan Rosenboom"
+            geometry:
+              coordinates:
+              - - - 7.629762
+                  - 51.96078
+                - - 7.62983
+                  - 51.960747
+                - - 7.629809
+                  - 51.96073
+                - - 7.629741
+                  - 51.960763
+                - - 7.629762
+                  - 51.96078
+              type: Polygon
+            goods:
+            - name: 'Laugenbrezeln mit verschidenen Zutaten: Schinken'
+            - name: Aananas
+            - name: Paprika
+            - name: "k\xE4se\xFCberbacken"
+            id: 119c4d7b-0727-45a6-9484-74cae61196f6
+            last_modified: 1538772130604
+            name: "Brezelb\xE4ckerei Rosenboom, Herr Stefan Rosenboom"
+            owner:
+              name: "Brezelb\xE4ckerei Rosenboom, Herr Stefan Rosenboom"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        128e33c4-4b17-474f-abb0-55b9ca717ab3:
+          data:
+            description: Heimatcut, Dockland GmbH, Herr Pitti Duyster, www.heimatcut.de
+            geometry:
+              coordinates:
+              - - - 7.630432
+                  - 51.961999
+                - - 7.630488
+                  - 51.961968
+                - - 7.630464
+                  - 51.961952
+                - - 7.630409
+                  - 51.961983
+                - - 7.630432
+                  - 51.961999
+              type: Polygon
+            goods:
+            - name: Burgervariationen
+            - name: Brat- / Currywurst
+            - name: Pommes Frites
+            id: 128e33c4-4b17-474f-abb0-55b9ca717ab3
+            last_modified: 1538772129946
+            name: Heimatcut, Dockland GmbH, Herr Pitti Duyster, www.heimatcut.de
+            owner:
+              name: Heimatcut, Dockland GmbH, Herr Pitti Duyster, www.heimatcut.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        17e189c4-3a19-400b-b9c5-ff37f3767f54:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.626256
+                  - 51.96423
+                - - 7.626284
+                  - 51.96423
+                - - 7.626282
+                  - 51.964182
+                - - 7.626255
+                  - 51.964183
+                - - 7.626256
+                  - 51.96423
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: Schoki
+            - name: Lumumba
+            - name: Coca Cola & Co
+            - name: Hot Caipi
+            - name: "Oma Tr\xFCter`s Weihnachtspunsch"
+            - name: "Original holl\xE4ndische Pommes Frites"
+            - name: Weihnachtsmarkt-Pott
+            id: 17e189c4-3a19-400b-b9c5-ff37f3767f54
+            last_modified: 1538772128485
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        18473bf1-28dc-4aea-a69c-e315455fd0c0:
+          data:
+            description: Heuking und Malade GbR
+            geometry:
+              coordinates:
+              - - - 7.628637
+                  - 51.961319
+                - - 7.628667
+                  - 51.961312
+                - - 7.628657
+                  - 51.961295
+                - - 7.628626
+                  - 51.961302
+                - - 7.628637
+                  - 51.961319
+              type: Polygon
+            goods:
+            - name: "Hei\xDFe Maronen"
+            id: 18473bf1-28dc-4aea-a69c-e315455fd0c0
+            last_modified: 1538772130425
+            name: Heuking und Malade GbR
+            owner:
+              name: Heuking und Malade GbR
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        19bae05b-91d0-4f97-a3be-5160483de1e0:
+          data:
+            description: zazie Cologne - Schmuck & Accessoires, Frau Cornelia Bartell,
+              www.zazie-cologne.de
+            geometry:
+              coordinates:
+              - - - 7.628606
+                  - 51.961426
+                - - 7.628641
+                  - 51.961418
+                - - 7.628622
+                  - 51.961388
+                - - 7.628588
+                  - 51.961396
+                - - 7.628604
+                  - 51.961421
+                - - 7.628606
+                  - 51.961426
+              type: Polygon
+            goods:
+            - name: Handgefertigter
+            - name: hochwertiger Modeschmuck aus Glaskristallen
+            - name: Leder Emaille
+            - name: Strass uvm.
+            id: 19bae05b-91d0-4f97-a3be-5160483de1e0
+            last_modified: 1538772130458
+            name: zazie Cologne - Schmuck & Accessoires, Frau Cornelia Bartell, www.zazie-cologne.de
+            owner:
+              name: zazie Cologne - Schmuck & Accessoires, Frau Cornelia Bartell,
+                www.zazie-cologne.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        19bb57fc-9145-4463-8ae4-d4023977a02a:
+          data:
+            description: Kunsthandwerk Deipenbrock, Frau Mathilde Deipenbrock
+            geometry:
+              coordinates:
+              - - - 7.628957
+                  - 51.961481
+                - - 7.628985
+                  - 51.961475
+                - - 7.628965
+                  - 51.961444
+                - - 7.628939
+                  - 51.96145
+                - - 7.628957
+                  - 51.961481
+              type: Polygon
+            goods:
+            - name: 'Metallprodukte: Engel'
+            - name: "Hl. 3 K\xF6nige"
+            - name: "Herzen und Sterne in versch. Gr\xF6\xDFen"
+            id: 19bb57fc-9145-4463-8ae4-d4023977a02a
+            last_modified: 1538772130173
+            name: Kunsthandwerk Deipenbrock, Frau Mathilde Deipenbrock
+            owner:
+              name: Kunsthandwerk Deipenbrock, Frau Mathilde Deipenbrock
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        1bf4bc66-c9ca-433a-aceb-0d35c7dd40f2:
+          data:
+            description: INCA Writing Instruments, Herr Helmut Weber
+            geometry:
+              coordinates:
+              - - - 7.629307
+                  - 51.961404
+                - - 7.629342
+                  - 51.961396
+                - - 7.62932
+                  - 51.961362
+                - - 7.629286
+                  - 51.96137
+                - - 7.629307
+                  - 51.961404
+              type: Polygon
+            goods:
+            - name: "Schreibger\xE4te"
+            - name: "Schl\xFCsselanh\xE4nger"
+            - name: Feuerzeuge
+            - name: Teelichthalter
+            - name: Weihnachtsdekoration
+            id: 1bf4bc66-c9ca-433a-aceb-0d35c7dd40f2
+            last_modified: 1538772129355
+            name: INCA Writing Instruments, Herr Helmut Weber
+            owner:
+              name: INCA Writing Instruments, Herr Helmut Weber
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        1f1f00a5-be74-42af-93e7-24d460246694:
+          data:
+            description: MJM-Vertriebs GmbH, Herrn Lars Grunwald, www.steelman24.com
+            geometry:
+              coordinates:
+              - - - 7.629332
+                  - 51.961443
+                - - 7.629362
+                  - 51.961436
+                - - 7.629342
+                  - 51.961403
+                - - 7.629312
+                  - 51.96141
+                - - 7.629332
+                  - 51.961443
+              type: Polygon
+            goods:
+            - name: "Weihnachtliche kunsthandwerkliche Artikel wie Nu\xDFknacker und\
+                \ Weihnachtsschlitten"
+            - name: Wohnaccessoires wie Kerzenleuchter und Weinflaschenhalter
+            id: 1f1f00a5-be74-42af-93e7-24d460246694
+            last_modified: 1538772129278
+            name: MJM-Vertriebs GmbH, Herrn Lars Grunwald, www.steelman24.com
+            owner:
+              name: MJM-Vertriebs GmbH, Herrn Lars Grunwald, www.steelman24.com
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        21f7104b-fa53-4a39-8f10-31354ffd79d6:
+          data:
+            description: "Christmas World, Herr Helmut Pf\xE4fflin"
+            geometry:
+              coordinates:
+              - - - 7.629475
+                  - 51.960949
+                - - 7.629509
+                  - 51.960941
+                - - 7.629477
+                  - 51.960889
+                - - 7.629443
+                  - 51.960896
+                - - 7.629475
+                  - 51.960949
+              type: Polygon
+            goods:
+            - name: Kerzen
+            - name: "D\xFCfte und Aromalampen"
+            id: 21f7104b-fa53-4a39-8f10-31354ffd79d6
+            last_modified: 1538772130787
+            name: "Christmas World, Herr Helmut Pf\xE4fflin"
+            owner:
+              name: "Christmas World, Herr Helmut Pf\xE4fflin"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        21ffbf3f-abcb-40ee-aa90-11d08a26e69e:
+          data:
+            description: "Bratkartoffelh\xFCtte, Frau Ursula Arning- Konopczynski"
+            geometry:
+              coordinates:
+              - - - 7.629078
+                  - 51.961942
+                - - 7.629113
+                  - 51.961933
+                - - 7.62908
+                  - 51.961878
+                - - 7.629045
+                  - 51.961887
+                - - 7.629078
+                  - 51.961942
+              type: Polygon
+            goods:
+            - name: "Bratkartoffelspezialit\xE4ten"
+            - name: Ofenkartoffeln mit diversen Saucen und Dips
+            id: 21ffbf3f-abcb-40ee-aa90-11d08a26e69e
+            last_modified: 1538772129732
+            name: "Bratkartoffelh\xFCtte, Frau Ursula Arning- Konopczynski"
+            owner:
+              name: "Bratkartoffelh\xFCtte, Frau Ursula Arning- Konopczynski"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        22071c43-26ee-49f2-9b85-19e8237cb990:
+          data:
+            description: "Erzgebirgische Kalkkunst, Herr Gisbert H\xFClsherger"
+            geometry:
+              coordinates:
+              - - - 7.628987
+                  - 51.961354
+                - - 7.629027
+                  - 51.961344
+                - - 7.628994
+                  - 51.961291
+                - - 7.628955
+                  - 51.961301
+                - - 7.628987
+                  - 51.961354
+              type: Polygon
+            goods:
+            - name: Weihnachtliches Kunstgewerbe mit Schwerpunkt erzgebirgische Volkskunst
+            id: 22071c43-26ee-49f2-9b85-19e8237cb990
+            last_modified: 1538772129583
+            name: "Erzgebirgische Kalkkunst, Herr Gisbert H\xFClsherger"
+            owner:
+              name: "Erzgebirgische Kalkkunst, Herr Gisbert H\xFClsherger"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        2314964f-c6b0-424d-8cee-6ec927dc7f9d:
+          data:
+            description: Tucano Intern. Wohntextilien GmbH, Herr Andreas Kleyboldt,
+              www.tucano-gmbh.de
+            geometry:
+              coordinates:
+              - - - 7.629601
+                  - 51.961096
+                - - 7.629635
+                  - 51.961089
+                - - 7.629602
+                  - 51.961038
+                - - 7.629568
+                  - 51.961045
+                - - 7.629601
+                  - 51.961096
+              type: Polygon
+            goods:
+            - name: "H\xE4ngematten"
+            - name: Wohntextilien
+            - name: Socken
+            - name: "M\xFCtzen"
+            - name: Schals
+            - name: Stulpen
+            - name: Taschen uvm.
+            id: 2314964f-c6b0-424d-8cee-6ec927dc7f9d
+            last_modified: 1538772130831
+            name: Tucano Intern. Wohntextilien GmbH, Herr Andreas Kleyboldt, www.tucano-gmbh.de
+            owner:
+              name: Tucano Intern. Wohntextilien GmbH, Herr Andreas Kleyboldt, www.tucano-gmbh.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        25674ca0-d15b-40e0-ba42-308e77885580:
+          data:
+            description: "Gebrannte Mandeln -S\xFC\xDFwaren, Cornelia & Roman Kaselowsky"
+            geometry:
+              coordinates:
+              - - - 7.630825
+                  - 51.961851
+                - - 7.63075
+                  - 51.961892
+                - - 7.630774
+                  - 51.961909
+                - - 7.63085
+                  - 51.961867
+                - - 7.630825
+                  - 51.961851
+              type: Polygon
+            goods:
+            - name: Gebrannte Mandeln
+            - name: "N\xFCsse aus aller Welt"
+            - name: Alpenbrot
+            - name: "Schoko-Fruchtspie\xDFe"
+            id: 25674ca0-d15b-40e0-ba42-308e77885580
+            last_modified: 1538772129256
+            name: "Gebrannte Mandeln -S\xFC\xDFwaren, Cornelia & Roman Kaselowsky"
+            owner:
+              name: "Gebrannte Mandeln -S\xFC\xDFwaren, Cornelia & Roman Kaselowsky"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        26c17dc3-ac02-4043-9539-9e92a7b9905a:
+          data:
+            description: "Geckos Armreifenpalast, Frau Silke Holtk\xF6tter, www.geckospalace.de"
+            geometry:
+              coordinates:
+              - - - 7.628473
+                  - 51.961585
+                - - 7.628508
+                  - 51.961577
+                - - 7.628487
+                  - 51.961543
+                - - 7.628453
+                  - 51.96155
+                - - 7.628473
+                  - 51.961585
+              type: Polygon
+            goods:
+            - name: Glitzerarmreifen
+            - name: Lackkunst aus Kashmir
+            - name: Seidenschals
+            id: 26c17dc3-ac02-4043-9539-9e92a7b9905a
+            last_modified: 1538772130454
+            name: "Geckos Armreifenpalast, Frau Silke Holtk\xF6tter, www.geckospalace.de"
+            owner:
+              name: "Geckos Armreifenpalast, Frau Silke Holtk\xF6tter, www.geckospalace.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        274e954a-3a4b-4c92-946d-0c363094104d:
+          data:
+            description: Schmuck & Kunsthandwerk, Eike Vogt
+            geometry:
+              coordinates:
+              - - - 7.628968
+                  - 51.961022
+                - - 7.628994
+                  - 51.961016
+                - - 7.628972
+                  - 51.960979
+                - - 7.628945
+                  - 51.960985
+                - - 7.628968
+                  - 51.961022
+              type: Polygon
+            goods:
+            - name: Handgefertigte Artikel aus Nepalwolle
+            - name: Schmuck
+            - name: "Wickelr\xF6cke uvm."
+            id: 274e954a-3a4b-4c92-946d-0c363094104d
+            last_modified: 1538772128873
+            name: Schmuck & Kunsthandwerk, Eike Vogt
+            owner:
+              name: Schmuck & Kunsthandwerk, Eike Vogt
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        293598ad-f697-47f6-9147-0c4587a90be9:
+          data:
+            description: Anoa Art, Frau Stefanie Fietzek, www.anoaart.de
+            geometry:
+              coordinates:
+              - - - 7.628882
+                  - 51.961304
+                - - 7.628856
+                  - 51.96131
+                - - 7.628871
+                  - 51.961336
+                - - 7.628898
+                  - 51.961329
+                - - 7.628882
+                  - 51.961304
+              type: Polygon
+            goods:
+            - name: 'handgefertigter Schmuck: Ringe'
+            - name: Ketten
+            - name: Ohrringe
+            - name: "Armb\xE4nder"
+            id: 293598ad-f697-47f6-9147-0c4587a90be9
+            last_modified: 1538772130000
+            name: Anoa Art, Frau Stefanie Fietzek, www.anoaart.de
+            owner:
+              name: Anoa Art, Frau Stefanie Fietzek, www.anoaart.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        2ad4ff28-bccc-432b-9dc9-1a6720b801b5:
+          data:
+            description: "Die T\xF6pferei, Herr Michael Hartmann"
+            geometry:
+              coordinates:
+              - - - 7.62899
+                  - 51.961539
+                - - 7.629021
+                  - 51.961532
+                - - 7.628999
+                  - 51.961495
+                - - 7.628968
+                  - 51.961502
+                - - 7.62899
+                  - 51.961539
+              type: Polygon
+            goods:
+            - name: Geschirr
+            - name: Dekoartikel aus Porzellan
+            - name: Minifiguren
+            - name: Schilder (beschriftbar vor Ort)
+            id: 2ad4ff28-bccc-432b-9dc9-1a6720b801b5
+            last_modified: 1538772130131
+            name: "Die T\xF6pferei, Herr Michael Hartmann"
+            owner:
+              name: "Die T\xF6pferei, Herr Michael Hartmann"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        2bb52249-a38c-44af-b020-c6e1d0a72e56:
+          data:
+            description: Holzschuhmacherei Berning, Frau Maria Berning
+            geometry:
+              coordinates:
+              - - - 7.629093
+                  - 51.96154
+                - - 7.629128
+                  - 51.961532
+                - - 7.629103
+                  - 51.961491
+                - - 7.629069
+                  - 51.961499
+                - - 7.629093
+                  - 51.96154
+              type: Polygon
+            goods:
+            - name: "Holzschuhe mit Zubeh\xF6r"
+            - name: Fell- und Lederartikel
+            - name: Socken
+            id: 2bb52249-a38c-44af-b020-c6e1d0a72e56
+            last_modified: 1538772129368
+            name: Holzschuhmacherei Berning, Frau Maria Berning
+            owner:
+              name: Holzschuhmacherei Berning, Frau Maria Berning
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        2e4bc17a-b428-4891-9893-3562f0f066f6:
+          data:
+            description: Frau Alexandra Schneider
+            geometry:
+              coordinates:
+              - - - 7.630507
+                  - 51.962219
+                - - 7.630538
+                  - 51.962201
+                - - 7.630489
+                  - 51.962168
+                - - 7.630458
+                  - 51.962186
+                - - 7.630507
+                  - 51.962219
+              type: Polygon
+            goods:
+            - name: Champignons
+            - name: Blumenkohl
+            - name: Maiskolben
+            - name: Camembert und Baguettes
+            id: 2e4bc17a-b428-4891-9893-3562f0f066f6
+            last_modified: 1538772130904
+            name: Frau Alexandra Schneider
+            owner:
+              name: Frau Alexandra Schneider
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        2f1f83dd-ac97-4087-8d70-7b7b8408cc52:
+          data:
+            description: Johanna Alexandra Gabriel, www.windspiel-zauber.de
+            geometry:
+              coordinates:
+              - - - 7.628499
+                  - 51.961356
+                - - 7.628552
+                  - 51.961342
+                - - 7.628538
+                  - 51.961322
+                - - 7.628484
+                  - 51.961336
+                - - 7.628499
+                  - 51.961356
+              type: Polygon
+            goods:
+            - name: Wind- und Lichtspiele aus rostfreiem Edelstahl
+            id: 2f1f83dd-ac97-4087-8d70-7b7b8408cc52
+            last_modified: 1538772130576
+            name: Johanna Alexandra Gabriel, www.windspiel-zauber.de
+            owner:
+              name: Johanna Alexandra Gabriel, www.windspiel-zauber.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        310e8473-ae3b-427d-8cdb-a40b97eea458:
+          data:
+            description: "Blauwei\xDF'chen GmbH, Frau Ellen Ostendorf, www.blauweisschen.de"
+            geometry:
+              coordinates:
+              - - - 7.629934
+                  - 51.961724
+                - - 7.629921
+                  - 51.961703
+                - - 7.629865
+                  - 51.961716
+                - - 7.629877
+                  - 51.961737
+                - - 7.629934
+                  - 51.961724
+              type: Polygon
+            goods:
+            - name: Handgestochene und handgedruckte Textilien
+            - name: "Textilien zum Bedrucken (mit Lavendel) Blauwei\xDF'chens feine\
+                \ Farben"
+            id: 310e8473-ae3b-427d-8cdb-a40b97eea458
+            last_modified: 1538772129825
+            name: "Blauwei\xDF'chen GmbH, Frau Ellen Ostendorf, www.blauweisschen.de"
+            owner:
+              name: "Blauwei\xDF'chen GmbH, Frau Ellen Ostendorf, www.blauweisschen.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        35b352ae-174a-4a33-bdbb-b0d84025c3bd:
+          data:
+            description: "Kunsthandwerk und Deko, Frau Petra Krampe-L\xFCtkemeier"
+            geometry:
+              coordinates:
+              - - - 7.630565
+                  - 51.962258
+                - - 7.630596
+                  - 51.962241
+                - - 7.630548
+                  - 51.962207
+                - - 7.630517
+                  - 51.962225
+                - - 7.630565
+                  - 51.962258
+              type: Polygon
+            goods:
+            - name: Engel
+            - name: Spielwaren
+            - name: Windlichter
+            - name: Schneekugeln
+            id: 35b352ae-174a-4a33-bdbb-b0d84025c3bd
+            last_modified: 1538772129077
+            name: "Kunsthandwerk und Deko, Frau Petra Krampe-L\xFCtkemeier"
+            owner:
+              name: "Kunsthandwerk und Deko, Frau Petra Krampe-L\xFCtkemeier"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        40434ac2-be02-49d4-b6c4-814959288f98:
+          data:
+            description: "Canto Nosso, Inh. G\xFCnter Raecke, www.cantonosso.de"
+            geometry:
+              coordinates:
+              - - - 7.629747
+                  - 51.961327
+                - - 7.629775
+                  - 51.961321
+                - - 7.629753
+                  - 51.961286
+                - - 7.629726
+                  - 51.961292
+                - - 7.629747
+                  - 51.961327
+              type: Polygon
+            goods:
+            - name: Brunnen
+            - name: Skulturen
+            - name: Mineralien
+            - name: "Armb\xE4nder"
+            - name: Keramikschmuck
+            - name: Edelsteingravuren
+            id: 40434ac2-be02-49d4-b6c4-814959288f98
+            last_modified: 1538772128950
+            name: "Canto Nosso, Inh. G\xFCnter Raecke, www.cantonosso.de"
+            owner:
+              name: "Canto Nosso, Inh. G\xFCnter Raecke, www.cantonosso.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        42d49930-bfc4-49c3-ac5f-a885406b5dcd:
+          data:
+            description: Chri Sue, Susanne Riegel, www.chrisue.de
+            geometry:
+              coordinates:
+              - - - 7.62892
+                  - 51.961448
+                - - 7.628918
+                  - 51.961448
+                - - 7.628891
+                  - 51.961454
+                - - 7.628913
+                  - 51.961491
+                - - 7.628941
+                  - 51.961484
+                - - 7.62892
+                  - 51.961448
+              type: Polygon
+            goods:
+            - name: Raumschmuck im Landhausstil
+            - name: Weihnachtsdeko
+            - name: "K\xFCchen- und Badeartikel"
+            id: 42d49930-bfc4-49c3-ac5f-a885406b5dcd
+            last_modified: 1538772130084
+            name: Chri Sue, Susanne Riegel, www.chrisue.de
+            owner:
+              name: Chri Sue, Susanne Riegel, www.chrisue.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        4686098b-5d1a-4ff3-9a64-33b52a13b3d4:
+          data:
+            description: "H\xF6hle Crep\xE9s, Willi & Ilonka H\xF6hle"
+            geometry:
+              coordinates:
+              - - - 7.629573
+                  - 51.961807
+                - - 7.629498
+                  - 51.961824
+                - - 7.629511
+                  - 51.961845
+                - - 7.629586
+                  - 51.961828
+                - - 7.629575
+                  - 51.96181
+                - - 7.629575
+                  - 51.96181
+                - - 7.629573
+                  - 51.961807
+              type: Polygon
+            goods:
+            - name: "Cr\xEApes"
+            - name: "Waffeln und Waffelb\xE4llchen"
+            id: 4686098b-5d1a-4ff3-9a64-33b52a13b3d4
+            last_modified: 1538772129809
+            name: "H\xF6hle Crep\xE9s, Willi & Ilonka H\xF6hle"
+            owner:
+              name: "H\xF6hle Crep\xE9s, Willi & Ilonka H\xF6hle"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        46f054f8-3c8b-483d-b297-23c96cd0831f:
+          data:
+            description: ALRA Holzschnitzerei, Herr Albert Rabanser
+            geometry:
+              coordinates:
+              - - - 7.628909
+                  - 51.961408
+                - - 7.628942
+                  - 51.9614
+                - - 7.628916
+                  - 51.961357
+                - - 7.628883
+                  - 51.961365
+                - - 7.628909
+                  - 51.961408
+              type: Polygon
+            goods:
+            - name: Holzschnitzereien
+            - name: Krippenfiguren
+            - name: Weihnachtssterne
+            - name: Christbaumschmuck aus Holz
+            id: 46f054f8-3c8b-483d-b297-23c96cd0831f
+            last_modified: 1538772130242
+            name: ALRA Holzschnitzerei, Herr Albert Rabanser
+            owner:
+              name: ALRA Holzschnitzerei, Herr Albert Rabanser
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        48eb7b10-9d1d-4544-a8e8-e7c79508e90a:
+          data:
+            description: Herr Gerhard Peterich, www.metall-stempel.de
+            geometry:
+              coordinates:
+              - - - 7.628871
+                  - 51.961336
+                - - 7.628887
+                  - 51.961361
+                - - 7.628914
+                  - 51.961355
+                - - 7.628898
+                  - 51.961329
+                - - 7.628898
+                  - 51.961329
+                - - 7.628898
+                  - 51.961329
+                - - 7.628871
+                  - 51.961336
+                - - 7.628871
+                  - 51.961336
+                - - 7.628871
+                  - 51.961336
+              type: Polygon
+            goods:
+            - name: Metallstempel
+            - name: Stempelkissen
+            id: 48eb7b10-9d1d-4544-a8e8-e7c79508e90a
+            last_modified: 1538772130254
+            name: Herr Gerhard Peterich, www.metall-stempel.de
+            owner:
+              name: Herr Gerhard Peterich, www.metall-stempel.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        491794c2-12b5-4cb3-951c-e738f7bfc763:
+          data:
+            description: Isabell Hunold
+            geometry:
+              coordinates:
+              - - - 7.628857
+                  - 51.961398
+                - - 7.628884
+                  - 51.961392
+                - - 7.628866
+                  - 51.961362
+                - - 7.628838
+                  - 51.961368
+                - - 7.628857
+                  - 51.961398
+              type: Polygon
+            goods:
+            - name: Silberschmuck aus eigener Herstellung
+            id: 491794c2-12b5-4cb3-951c-e738f7bfc763
+            last_modified: 1538772129990
+            name: Isabell Hunold
+            owner:
+              name: Isabell Hunold
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        4c4c7efd-a1fc-4319-8be9-53ba233d4c34:
+          data:
+            description: "Top Trend - Gisela Reintjes-R\xFChling & Wolfgang R\xFC\
+              hling GbR"
+            geometry:
+              coordinates:
+              - - - 7.629359
+                  - 51.961044
+                - - 7.629408
+                  - 51.96105
+                - - 7.629436
+                  - 51.961062
+                - - 7.629463
+                  - 51.961057
+                - - 7.629415
+                  - 51.961029
+                - - 7.629365
+                  - 51.961023
+                - - 7.629359
+                  - 51.961044
+              type: Polygon
+            goods:
+            - name: 'Textile Accessoires: Schals'
+            - name: Handschuhe
+            - name: "M\xFCtzen"
+            - name: "H\xFCte"
+            - name: Arm- und Beinstulpen
+            id: 4c4c7efd-a1fc-4319-8be9-53ba233d4c34
+            last_modified: 1538772130691
+            name: "Top Trend - Gisela Reintjes-R\xFChling & Wolfgang R\xFChling GbR"
+            owner:
+              name: "Top Trend - Gisela Reintjes-R\xFChling & Wolfgang R\xFChling\
+                \ GbR"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        4df8c401-80a3-402e-86e4-cec60897f44d:
+          data:
+            description: Schaustellerbetrieb Kaiser, Herr Marcel Kaiser
+            geometry:
+              coordinates:
+              - - - 7.630408
+                  - 51.962149
+                - - 7.630448
+                  - 51.962177
+                - - 7.630475
+                  - 51.962162
+                - - 7.630434
+                  - 51.962134
+                - - 7.630408
+                  - 51.962149
+              type: Polygon
+            goods:
+            - name: Baumstriezel
+            id: 4df8c401-80a3-402e-86e4-cec60897f44d
+            last_modified: 1538772130745
+            name: Schaustellerbetrieb Kaiser, Herr Marcel Kaiser
+            owner:
+              name: Schaustellerbetrieb Kaiser, Herr Marcel Kaiser
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        4e46fdb0-1113-44ea-8822-5de899c3e6d6:
+          data:
+            description: Herr Ralf Kuprat
+            geometry:
+              coordinates:
+              - - - 7.628801
+                  - 51.961461
+                - - 7.628792
+                  - 51.961445
+                - - 7.628752
+                  - 51.961454
+                - - 7.628762
+                  - 51.96147
+                - - 7.628801
+                  - 51.961461
+              type: Polygon
+            goods:
+            - name: Handgearbeitete Weihnachtskugeln und Figuren aus Glas
+            - name: "Lichth\xE4user aus Porzellan"
+            id: 4e46fdb0-1113-44ea-8822-5de899c3e6d6
+            last_modified: 1538772130141
+            name: Herr Ralf Kuprat
+            owner:
+              name: Herr Ralf Kuprat
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        4f53fc6d-7534-452e-bba2-261a9806819f:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.628996
+                  - 51.961626
+                - - 7.629022
+                  - 51.96162
+                - - 7.629004
+                  - 51.961591
+                - - 7.628977
+                  - 51.961598
+                - - 7.628996
+                  - 51.961626
+              type: Polygon
+            goods: []
+            id: 4f53fc6d-7534-452e-bba2-261a9806819f
+            last_modified: 1538772129703
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        50dab715-afdd-40ee-9b78-725924954cd3:
+          data:
+            description: Ulrich Wagner, www.land-und-flair.de
+            geometry:
+              coordinates:
+              - - - 7.628453
+                  - 51.96155
+                - - 7.628487
+                  - 51.961543
+                - - 7.628472
+                  - 51.96152
+                - - 7.628439
+                  - 51.961528
+                - - 7.628453
+                  - 51.96155
+              type: Polygon
+            goods:
+            - name: Felle und Fellware
+            - name: Wolle und Wollware
+            id: 50dab715-afdd-40ee-9b78-725924954cd3
+            last_modified: 1538772130648
+            name: Ulrich Wagner, www.land-und-flair.de
+            owner:
+              name: Ulrich Wagner, www.land-und-flair.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        5511383c-112e-4cb5-b19c-2939121c9ad4:
+          data:
+            description: QuasiOlka / Eisenglimmer, Frau Katja Stobbe, www.quasiolka.de
+            geometry:
+              coordinates:
+              - - - 7.628757
+                  - 51.961421
+                - - 7.628808
+                  - 51.961409
+                - - 7.628792
+                  - 51.961382
+                - - 7.628741
+                  - 51.961394
+                - - 7.628757
+                  - 51.961421
+              type: Polygon
+            goods:
+            - name: Dekorationsartikel aus Rost und Stahl
+            id: 5511383c-112e-4cb5-b19c-2939121c9ad4
+            last_modified: 1538772130033
+            name: QuasiOlka / Eisenglimmer, Frau Katja Stobbe, www.quasiolka.de
+            owner:
+              name: QuasiOlka / Eisenglimmer, Frau Katja Stobbe, www.quasiolka.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        58b85d3c-ccc5-420b-937a-f981cb86fe22:
+          data:
+            description: Die Tirolerin, info[at]tirolerin-muenster[dot]de, www.tirolerin-muenster.de
+            geometry:
+              coordinates:
+              - - - 7.626173
+                  - 51.964138
+                - - 7.626221
+                  - 51.964138
+                - - 7.62622
+                  - 51.96412
+                - - 7.626171
+                  - 51.96412
+                - - 7.626173
+                  - 51.964138
+              type: Polygon
+            goods:
+            - name: Kerniger Tiroler Speck
+            - name: "verschiedene Naturk\xE4se von mild bis w\xFCrzig"
+            - name: "Tiroler Bergk\xE4se"
+            - name: Vinschgauer Bauernbrot
+            - name: "Zillertaler Fr\xFCchtebrot"
+            - name: Bauernobstler
+            id: 58b85d3c-ccc5-420b-937a-f981cb86fe22
+            last_modified: 1538772128636
+            name: Die Tirolerin, info[at]tirolerin-muenster[dot]de, www.tirolerin-muenster.de
+            owner:
+              name: Die Tirolerin, info[at]tirolerin-muenster[dot]de, www.tirolerin-muenster.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        59f5c286-6f10-46fa-b8ff-2fbff771cc26:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.626255
+                  - 51.964181
+                - - 7.626282
+                  - 51.96418
+                - - 7.626278
+                  - 51.964139
+                - - 7.62625
+                  - 51.964139
+                - - 7.626255
+                  - 51.964181
+              type: Polygon
+            goods:
+            - name: "Wandhalter & Adventsst\xE4nder"
+            - name: Klangherzen & Weihnachtssterne
+            - name: Weihnachtszwerge & Wichtel
+            - name: Irene & Waldi
+            id: 59f5c286-6f10-46fa-b8ff-2fbff771cc26
+            last_modified: 1538772128552
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        5a07ba49-7815-40a5-a43a-1d830ef33255:
+          data:
+            description: "Stephanie D\xF6rrbecker u. Gabriele Fleischmann"
+            geometry:
+              coordinates:
+              - - - 7.62849
+                  - 51.961419
+                - - 7.628456
+                  - 51.961427
+                - - 7.628478
+                  - 51.961464
+                - - 7.628513
+                  - 51.961456
+                - - 7.62849
+                  - 51.961419
+              type: Polygon
+            goods:
+            - name: "N\xFCrnberger Elisen Lebkuchen"
+            - name: "Fr\xFCchtebrot"
+            id: 5a07ba49-7815-40a5-a43a-1d830ef33255
+            last_modified: 1538772130367
+            name: "Stephanie D\xF6rrbecker u. Gabriele Fleischmann"
+            owner:
+              name: "Stephanie D\xF6rrbecker u. Gabriele Fleischmann"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        5b02bffa-9a7c-4819-b055-f4c42dcccbd5:
+          data:
+            description: Directa GmbH, Herr Stefan Schaper, www.crazy-online.de
+            geometry:
+              coordinates:
+              - - - 7.629718
+                  - 51.961282
+                - - 7.629745
+                  - 51.961276
+                - - 7.629719
+                  - 51.961232
+                - - 7.629692
+                  - 51.961238
+                - - 7.629718
+                  - 51.961282
+              type: Polygon
+            goods:
+            - name: Nostalgische Blechschilder
+            - name: Wecker und Uhren
+            - name: Magnetkarten
+            id: 5b02bffa-9a7c-4819-b055-f4c42dcccbd5
+            last_modified: 1538772128958
+            name: Directa GmbH, Herr Stefan Schaper, www.crazy-online.de
+            owner:
+              name: Directa GmbH, Herr Stefan Schaper, www.crazy-online.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        5db67688-f33f-43f5-954f-0bf61e6edc46:
+          data:
+            description: "Buckles & G\xFCrtel nach Mass, Herr Ralf Heydrich, www.ralf-heydrich.de"
+            geometry:
+              coordinates:
+              - - - 7.629412
+                  - 51.961809
+                - - 7.629439
+                  - 51.961803
+                - - 7.62942
+                  - 51.961773
+                - - 7.629393
+                  - 51.961779
+                - - 7.629412
+                  - 51.961809
+              type: Polygon
+            goods:
+            - name: hochwertige Lederwaren
+            - name: Taschen
+            - name: "G\xFCrtel und G\xFCrtelschnallen"
+            id: 5db67688-f33f-43f5-954f-0bf61e6edc46
+            last_modified: 1538772129136
+            name: "Buckles & G\xFCrtel nach Mass, Herr Ralf Heydrich, www.ralf-heydrich.de"
+            owner:
+              name: "Buckles & G\xFCrtel nach Mass, Herr Ralf Heydrich, www.ralf-heydrich.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        5dc11d14-6e2d-4803-9afa-fb0981a76ccb:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.626306
+                  - 51.964196
+                - - 7.626333
+                  - 51.964196
+                - - 7.626331
+                  - 51.964169
+                - - 7.626304
+                  - 51.964169
+                - - 7.626306
+                  - 51.964196
+              type: Polygon
+            goods: []
+            id: 5dc11d14-6e2d-4803-9afa-fb0981a76ccb
+            last_modified: 1538772128529
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        5ddf81af-9d84-498b-b00f-79f3727389e2:
+          data:
+            description: "S\xFC\xDFwaren S\xFC\xDF-Sauer-Salzig, Herr Gerhard Jackenkroll"
+            geometry:
+              coordinates:
+              - - - 7.6286
+                  - 51.961329
+                - - 7.628633
+                  - 51.96132
+                - - 7.628619
+                  - 51.9613
+                - - 7.628585
+                  - 51.961308
+                - - 7.6286
+                  - 51.961329
+              type: Polygon
+            goods:
+            - name: "S\xFC\xDFwaren: Hollandlakritz"
+            - name: Fruchtgummi
+            - name: Weingummi
+            - name: "Kr\xE4uerbonbons"
+            id: 5ddf81af-9d84-498b-b00f-79f3727389e2
+            last_modified: 1538772130524
+            name: "S\xFC\xDFwaren S\xFC\xDF-Sauer-Salzig, Herr Gerhard Jackenkroll"
+            owner:
+              name: "S\xFC\xDFwaren S\xFC\xDF-Sauer-Salzig, Herr Gerhard Jackenkroll"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        5e98e40d-e9ae-4e98-b440-383c03de8d68:
+          data:
+            description: "Gl\xFChweintreff, Herr Michael V\xF6llmecke"
+            geometry:
+              coordinates:
+              - - - 7.62967
+                  - 51.961788
+                - - 7.629652
+                  - 51.961759
+                - - 7.629625
+                  - 51.961765
+                - - 7.629557
+                  - 51.961781
+                - - 7.629573
+                  - 51.961807
+                - - 7.629575
+                  - 51.96181
+                - - 7.62967
+                  - 51.961788
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: "hei\xDFe und kalte alkoholische und alkoholfreie Getr\xE4nke"
+            id: 5e98e40d-e9ae-4e98-b440-383c03de8d68
+            last_modified: 1538772129723
+            name: "Gl\xFChweintreff, Herr Michael V\xF6llmecke"
+            owner:
+              name: "Gl\xFChweintreff, Herr Michael V\xF6llmecke"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        603aa772-8bf1-409c-af7b-be790d00bd42:
+          data:
+            description: "Peter B\xF6ckmann, Garreler Str. 33, 26197 Bissel, Tel:\
+              \ 04435-95096, Fax: 04435-65098, info[at]lethe-hof.de, www.lethe-hof.de"
+            geometry:
+              coordinates:
+              - - - 7.626258
+                  - 51.96425
+                - - 7.626295
+                  - 51.964249
+                - - 7.626294
+                  - 51.964232
+                - - 7.626257
+                  - 51.964232
+                - - 7.626258
+                  - 51.96425
+              type: Polygon
+            goods:
+            - name: "Eierlik\xF6rpunsch"
+            - name: Apfel-Holunder mit und ohne Schuss
+            - name: "Hei\xDFe Schokolade mit und ohne Schuss"
+            - name: Kaffee
+            - name: Tee
+            - name: "selbstgemachter Eierlik\xF6r in Flaschen"
+            id: 603aa772-8bf1-409c-af7b-be790d00bd42
+            last_modified: 1538772128487
+            name: "Peter B\xF6ckmann, Garreler Str. 33, 26197 Bissel, Tel: 04435-95096,\
+              \ Fax: 04435-65098, info[at]lethe-hof.de, www.lethe-hof.de"
+            owner:
+              name: "Peter B\xF6ckmann, Garreler Str. 33, 26197 Bissel, Tel: 04435-95096,\
+                \ Fax: 04435-65098, info[at]lethe-hof.de, www.lethe-hof.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        64e0cf09-6566-46f4-a49c-394024d71072:
+          data:
+            description: "Steffen M\xFCller, Herr Steffen M\xFCller, www.feltberg.com"
+            geometry:
+              coordinates:
+              - - - 7.629941
+                  - 51.961647
+                - - 7.62997
+                  - 51.96164
+                - - 7.629949
+                  - 51.961605
+                - - 7.62992
+                  - 51.961612
+                - - 7.629941
+                  - 51.961647
+              type: Polygon
+            goods:
+            - name: "Handarbeiten aus Filz z.B. Eierw\xE4rmer"
+            - name: Taschen
+            id: 64e0cf09-6566-46f4-a49c-394024d71072
+            last_modified: 1538772130717
+            name: "Steffen M\xFCller, Herr Steffen M\xFCller, www.feltberg.com"
+            owner:
+              name: "Steffen M\xFCller, Herr Steffen M\xFCller, www.feltberg.com"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        659496be-bee0-4a3b-8e95-522db5be038d:
+          data:
+            description: Frau Sylvia Barthelt
+            geometry:
+              coordinates:
+              - - - 7.628937
+                  - 51.961447
+                - - 7.628964
+                  - 51.961441
+                - - 7.628943
+                  - 51.961407
+                - - 7.628916
+                  - 51.961413
+                - - 7.628937
+                  - 51.961447
+              type: Polygon
+            goods:
+            - name: 'Wohnasseccories: verschiedene Taschen'
+            - name: Kissen
+            - name: "Tischl\xE4ufer"
+            - name: Nackenrollen
+            - name: Decken
+            id: 659496be-bee0-4a3b-8e95-522db5be038d
+            last_modified: 1538772130188
+            name: Frau Sylvia Barthelt
+            owner:
+              name: Frau Sylvia Barthelt
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        65fcdab7-f6ed-4ad7-a06c-f5fe42d75d0c:
+          data:
+            description: Beck Design, Frau Anna Beck
+            geometry:
+              coordinates:
+              - - - 7.628628
+                  - 51.961497
+                - - 7.628654
+                  - 51.961491
+                - - 7.628639
+                  - 51.961462
+                - - 7.628611
+                  - 51.961468
+                - - 7.628628
+                  - 51.961497
+              type: Polygon
+            goods:
+            - name: 'Kunsthandwerk/Holzprodukte: Krippen'
+            - name: Holzuhren
+            - name: Holzfiguren ect.
+            id: 65fcdab7-f6ed-4ad7-a06c-f5fe42d75d0c
+            last_modified: 1538772130521
+            name: Beck Design, Frau Anna Beck
+            owner:
+              name: Beck Design, Frau Anna Beck
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        66b120f0-0ced-4655-81c1-73f5c46d0458:
+          data:
+            description: "Sylter Weihnachtsmarkt, Sansibar Store M\xFCnster, Geistbergweg\
+              \ 8, 48143 M\xFCnster"
+            geometry:
+              coordinates:
+              - - - 7.626201
+                  - 51.96423
+                - - 7.626228
+                  - 51.96423
+                - - 7.626227
+                  - 51.964198
+                - - 7.6262
+                  - 51.964198
+                - - 7.626201
+                  - 51.96423
+              type: Polygon
+            goods:
+            - name: Himmlische Geschenke
+            id: 66b120f0-0ced-4655-81c1-73f5c46d0458
+            last_modified: 1538772128624
+            name: "Sylter Weihnachtsmarkt, Sansibar Store M\xFCnster, Geistbergweg\
+              \ 8, 48143 M\xFCnster"
+            owner:
+              name: "Sylter Weihnachtsmarkt, Sansibar Store M\xFCnster, Geistbergweg\
+                \ 8, 48143 M\xFCnster"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        68f3eaf3-ecba-4951-a84a-675ee4efaa29:
+          data:
+            description: Stulle, Frau Sabine Spanheimer, www.stulle-berlin.de
+            geometry:
+              coordinates:
+              - - - 7.62991
+                  - 51.961596
+                - - 7.629937
+                  - 51.96159
+                - - 7.62992
+                  - 51.961562
+                - - 7.629893
+                  - 51.961568
+                - - 7.62991
+                  - 51.961596
+              type: Polygon
+            goods:
+            - name: Portemonnaies aus Plane und Leder
+            - name: "Kindergartentaschen- und Rucks\xE4cke"
+            - name: "L\xE4tzchen"
+            - name: Tischsets
+            - name: "Schl\xFCsselb\xE4nder"
+            id: 68f3eaf3-ecba-4951-a84a-675ee4efaa29
+            last_modified: 1538772129020
+            name: Stulle, Frau Sabine Spanheimer, www.stulle-berlin.de
+            owner:
+              name: Stulle, Frau Sabine Spanheimer, www.stulle-berlin.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        6a584126-4717-4745-8141-6fca338f822e:
+          data:
+            description: "Id\xE9al Caf\xE9 & Weinbar, Herr Erkan Ular, www.gluehweinmanufaktur.de"
+            geometry:
+              coordinates:
+              - - - 7.628387
+                  - 51.961384
+                - - 7.628454
+                  - 51.961367
+                - - 7.62844
+                  - 51.961346
+                - - 7.628373
+                  - 51.961364
+                - - 7.628387
+                  - 51.961384
+              type: Polygon
+            goods:
+            - name: "Winzer-Gl\xFChwein"
+            - name: "Hei\xDFgetr\xE4nke"
+            - name: "nichtalkoholische Getr\xE4nke"
+            id: 6a584126-4717-4745-8141-6fca338f822e
+            last_modified: 1538772130589
+            name: "Id\xE9al Caf\xE9 & Weinbar, Herr Erkan Ular, www.gluehweinmanufaktur.de"
+            owner:
+              name: "Id\xE9al Caf\xE9 & Weinbar, Herr Erkan Ular, www.gluehweinmanufaktur.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        6a5b72d4-7d3b-4851-94f3-96cc95cf1818:
+          data:
+            description: Sterne vom Himmel - Bigeschke / Schade GbR, Herr Udo Bigeschke
+              Herr Klaus Schade, www.sternevomhimmel.de
+            geometry:
+              coordinates:
+              - - - 7.6289
+                  - 51.961423
+                - - 7.628881
+                  - 51.961393
+                - - 7.628857
+                  - 51.961398
+                - - 7.628875
+                  - 51.961429
+                - - 7.628875
+                  - 51.961429
+                - - 7.6289
+                  - 51.961423
+              type: Polygon
+            goods:
+            - name: "Papiersterne und Leuchth\xE4user aus handgesch\xF6pftem Papier"
+            id: 6a5b72d4-7d3b-4851-94f3-96cc95cf1818
+            last_modified: 1538772130004
+            name: Sterne vom Himmel - Bigeschke / Schade GbR, Herr Udo Bigeschke Herr
+              Klaus Schade, www.sternevomhimmel.de
+            owner:
+              name: Sterne vom Himmel - Bigeschke / Schade GbR, Herr Udo Bigeschke
+                Herr Klaus Schade, www.sternevomhimmel.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        6c992004-1452-40a5-89fe-e85965379dd7:
+          data:
+            description: "Siebenstein - Spiele, Herr J\xFCrgen Reiche"
+            geometry:
+              coordinates:
+              - - - 7.628558
+                  - 51.961593
+                - - 7.628623
+                  - 51.961582
+                - - 7.628614
+                  - 51.961562
+                - - 7.628549
+                  - 51.961573
+                - - 7.628558
+                  - 51.961593
+              type: Polygon
+            goods:
+            - name: Geduld- und Denkspiele aus Holz und Metall (60% Eigenfertigung)
+            id: 6c992004-1452-40a5-89fe-e85965379dd7
+            last_modified: 1538772130486
+            name: "Siebenstein - Spiele, Herr J\xFCrgen Reiche"
+            owner:
+              name: "Siebenstein - Spiele, Herr J\xFCrgen Reiche"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        6cd4089f-404d-4f44-83dc-d37723cfb194:
+          data:
+            description: Kinderkarussell mit Tradition, Eheleute Arning-Konopczynski
+            geometry:
+              coordinates:
+              - - - 7.628746
+                  - 51.96103
+                - - 7.628735
+                  - 51.961005
+                - - 7.628706
+                  - 51.960987
+                - - 7.628666
+                  - 51.96098
+                - - 7.628626
+                  - 51.960987
+                - - 7.628596
+                  - 51.961005
+                - - 7.628586
+                  - 51.96103
+                - - 7.628596
+                  - 51.961054
+                - - 7.628626
+                  - 51.961072
+                - - 7.628666
+                  - 51.961079
+                - - 7.628706
+                  - 51.961072
+                - - 7.628735
+                  - 51.961054
+                - - 7.628746
+                  - 51.96103
+              type: Polygon
+            goods:
+            - name: Kinderkarussell
+            id: 6cd4089f-404d-4f44-83dc-d37723cfb194
+            last_modified: 1538772128920
+            name: Kinderkarussell mit Tradition, Eheleute Arning-Konopczynski
+            owner:
+              name: Kinderkarussell mit Tradition, Eheleute Arning-Konopczynski
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        6d54f7ee-c0dd-484b-b1ad-709c539a40df:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.626158
+                  - 51.964249
+                - - 7.62619
+                  - 51.964249
+                - - 7.62619
+                  - 51.964231
+                - - 7.626157
+                  - 51.964231
+                - - 7.626158
+                  - 51.964249
+              type: Polygon
+            goods: []
+            id: 6d54f7ee-c0dd-484b-b1ad-709c539a40df
+            last_modified: 1538772128661
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        6d6e7966-49cc-474f-9a94-499f10c7fce3:
+          data:
+            description: "Jens-Petter G\xFCttler"
+            geometry:
+              coordinates:
+              - - - 7.629472
+                  - 51.961644
+                - - 7.629405
+                  - 51.961659
+                - - 7.629418
+                  - 51.96168
+                - - 7.629486
+                  - 51.961665
+                - - 7.629472
+                  - 51.961644
+              type: Polygon
+            goods:
+            - name: kunsthandwerkliche Wohn- und Gartenaccessoires im Landhausstil
+            - name: Geschenkartikel
+            id: 6d6e7966-49cc-474f-9a94-499f10c7fce3
+            last_modified: 1538772129844
+            name: "Jens-Petter G\xFCttler"
+            owner:
+              name: "Jens-Petter G\xFCttler"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        711a1b2a-4d33-476f-9663-1b6444051128:
+          data:
+            description: "Rosemarie H\xF6hle-Schneider - Der Nussknacker"
+            geometry:
+              coordinates:
+              - - - 7.628717
+                  - 51.961108
+                - - 7.62873
+                  - 51.961129
+                - - 7.628846
+                  - 51.961102
+                - - 7.628834
+                  - 51.961081
+                - - 7.628717
+                  - 51.961108
+              type: Polygon
+            goods:
+            - name: "Gebrannte Mandeln und diverse N\xFCsse aus aller Welt"
+            id: 711a1b2a-4d33-476f-9663-1b6444051128
+            last_modified: 1538772128891
+            name: "Rosemarie H\xF6hle-Schneider - Der Nussknacker"
+            owner:
+              name: "Rosemarie H\xF6hle-Schneider - Der Nussknacker"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        71e48c6e-f394-4879-b0ca-74c94d9df1d0:
+          data:
+            description: Steinkamp's Mandeln, Frau Gisela Steinkamp-Kohlwes, www.steinkamps-mandeln.de
+            geometry:
+              coordinates:
+              - - - 7.629339
+                  - 51.961878
+                - - 7.629372
+                  - 51.96187
+                - - 7.629346
+                  - 51.961826
+                - - 7.629312
+                  - 51.961834
+                - - 7.629339
+                  - 51.961878
+              type: Polygon
+            goods:
+            - name: Gebrannte Mandeln
+            - name: "diverse N\xFCsse"
+            - name: "Schokofr\xFCchte"
+            - name: Zimtmandeln
+            - name: Herrenmandeln mit Rum usw.
+            id: 71e48c6e-f394-4879-b0ca-74c94d9df1d0
+            last_modified: 1538772129472
+            name: Steinkamp's Mandeln, Frau Gisela Steinkamp-Kohlwes, www.steinkamps-mandeln.de
+            owner:
+              name: Steinkamp's Mandeln, Frau Gisela Steinkamp-Kohlwes, www.steinkamps-mandeln.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        72ebefd7-24e9-47fd-b11e-8b684034e1b8:
+          data:
+            description: Fa. Benning, Herr Sven Benning
+            geometry:
+              coordinates:
+              - - - 7.629449
+                  - 51.961733
+                - - 7.629517
+                  - 51.961717
+                - - 7.629504
+                  - 51.961697
+                - - 7.629436
+                  - 51.961713
+                - - 7.629449
+                  - 51.961733
+              type: Polygon
+            goods:
+            - name: "S\xFC\xDFwaren: selbstgemachte Bonbons"
+            - name: Zuckerstangen
+            - name: "Kr\xE4uterbonbons"
+            id: 72ebefd7-24e9-47fd-b11e-8b684034e1b8
+            last_modified: 1538772129756
+            name: Fa. Benning, Herr Sven Benning
+            owner:
+              name: Fa. Benning, Herr Sven Benning
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        73a72508-8d7a-4728-9f45-acff86435e7a:
+          data:
+            description: "Naturb\xFCrsten, Herr Emil Oswald, http://www.haushaltsartikel.de/"
+            geometry:
+              coordinates:
+              - - - 7.629343
+                  - 51.961822
+                - - 7.629322
+                  - 51.961786
+                - - 7.629287
+                  - 51.961794
+                - - 7.62931
+                  - 51.961829
+                - - 7.629343
+                  - 51.961822
+              type: Polygon
+            goods:
+            - name: "Naturb\xFCrsten"
+            - name: "Massageb\xFCrsten"
+            - name: "Haarb\xFCrsten"
+            - name: "Haushaltsb\xFCrsten"
+            - name: Besen
+            - name: Backformen
+            - name: "Holzartikel f\xFCr die K\xFCche"
+            id: 73a72508-8d7a-4728-9f45-acff86435e7a
+            last_modified: 1538772129529
+            name: "Naturb\xFCrsten, Herr Emil Oswald, http://www.haushaltsartikel.de/"
+            owner:
+              name: "Naturb\xFCrsten, Herr Emil Oswald, http://www.haushaltsartikel.de/"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        765358a7-43dc-482e-b741-784b92a3128b:
+          data:
+            description: "K\xE4the Wohlfahrt GmbH & Co.OHG, Herr Harald Johannes Wohlfahrt"
+            geometry:
+              coordinates:
+              - - - 7.628795
+                  - 51.961046
+                - - 7.628931
+                  - 51.961014
+                - - 7.628906
+                  - 51.960973
+                - - 7.62877
+                  - 51.961004
+                - - 7.628795
+                  - 51.961046
+              type: Polygon
+            goods:
+            - name: Weihnachtsartikel aus verschiedenen Materialien
+            - name: Geschenkartikel
+            id: 765358a7-43dc-482e-b741-784b92a3128b
+            last_modified: 1538772128858
+            name: "K\xE4the Wohlfahrt GmbH & Co.OHG, Herr Harald Johannes Wohlfahrt"
+            owner:
+              name: "K\xE4the Wohlfahrt GmbH & Co.OHG, Herr Harald Johannes Wohlfahrt"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        7838cccf-0604-46e5-87f2-c844b74d54c9:
+          data:
+            description: "Schlaf gut, Frau Christiane B\xF6cker"
+            geometry:
+              coordinates:
+              - - - 7.628716
+                  - 51.961508
+                - - 7.628701
+                  - 51.96148
+                - - 7.628674
+                  - 51.961486
+                - - 7.628688
+                  - 51.961513
+                - - 7.628716
+                  - 51.961508
+              type: Polygon
+            goods:
+            - name: "Designw\xE4rmeflaschen"
+            - name: "H\xFCllen"
+            - name: Wellness-Hosen
+            - name: "geh\xE4kelte Babyschuhe und vieles mehr zum Wohlf\xFChlen"
+            id: 7838cccf-0604-46e5-87f2-c844b74d54c9
+            last_modified: 1538772130362
+            name: "Schlaf gut, Frau Christiane B\xF6cker"
+            owner:
+              name: "Schlaf gut, Frau Christiane B\xF6cker"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        79663889-2085-4edf-b6dc-66e7a97b9636:
+          data:
+            description: "Houchang Vedadi, Gartenstra\xDFe 151, 18147 M\xFCnster,\
+              \ Tel.+Fax 0251 42030"
+            geometry:
+              coordinates:
+              - - - 7.626292
+                  - 51.964138
+                - - 7.626329
+                  - 51.964139
+                - - 7.626328
+                  - 51.964121
+                - - 7.626291
+                  - 51.964121
+                - - 7.626292
+                  - 51.964138
+              type: Polygon
+            goods:
+            - name: stets frisch gebrannte warme Mandeln mit wenig Zucker
+            - name: "Original Holl\xE4ndische Lakritz"
+            - name: Popcorn
+            - name: Lebkuchenherzen
+            id: 79663889-2085-4edf-b6dc-66e7a97b9636
+            last_modified: 1538772128582
+            name: "Houchang Vedadi, Gartenstra\xDFe 151, 18147 M\xFCnster, Tel.+Fax\
+              \ 0251 42030"
+            owner:
+              name: "Houchang Vedadi, Gartenstra\xDFe 151, 18147 M\xFCnster, Tel.+Fax\
+                \ 0251 42030"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        7b872494-6336-4ac7-afb7-42a42f2ffbb2:
+          data:
+            description: "Firma Klaus-Peter-K\xF6hne"
+            geometry:
+              coordinates:
+              - - - 7.628794
+                  - 51.961377
+                - - 7.628771
+                  - 51.961339
+                - - 7.628703
+                  - 51.961355
+                - - 7.628726
+                  - 51.961393
+                - - 7.628794
+                  - 51.961377
+              type: Polygon
+            goods:
+            - name: Pommes Frites
+            - name: Currywurst und Bratwurst
+            - name: "alkoholfreie Getr\xE4nke"
+            id: 7b872494-6336-4ac7-afb7-42a42f2ffbb2
+            last_modified: 1538772130061
+            name: "Firma Klaus-Peter-K\xF6hne"
+            owner:
+              name: "Firma Klaus-Peter-K\xF6hne"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        7be7193d-8f48-4d23-9b29-e0ca76f7aafd:
+          data:
+            description: Schalke Leder, Herr Udo Schalke
+            geometry:
+              coordinates:
+              - - - 7.62968
+                  - 51.961196
+                - - 7.629714
+                  - 51.961188
+                - - 7.629695
+                  - 51.961157
+                - - 7.629662
+                  - 51.961165
+                - - 7.62968
+                  - 51.961196
+              type: Polygon
+            goods:
+            - name: "Klassische Lederm\xFCtzen"
+            - name: Kinderlederhosen
+            - name: "G\xFCrtel"
+            - name: "Lederb\xF6rsen"
+            - name: Ledertaschen usw.
+            id: 7be7193d-8f48-4d23-9b29-e0ca76f7aafd
+            last_modified: 1538772130658
+            name: Schalke Leder, Herr Udo Schalke
+            owner:
+              name: Schalke Leder, Herr Udo Schalke
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        7d527c98-96f2-45c8-abb4-1d21a53b8e9b:
+          data:
+            description: Olivino, Herr Anas-Mohamed Akallal
+            geometry:
+              coordinates:
+              - - - 7.629276
+                  - 51.961763
+                - - 7.629293
+                  - 51.96179
+                - - 7.62932
+                  - 51.961784
+                - - 7.629303
+                  - 51.961756
+                - - 7.629303
+                  - 51.961756
+                - - 7.629303
+                  - 51.961756
+                - - 7.629276
+                  - 51.961763
+              type: Polygon
+            goods:
+            - name: "Handgefertigte Produkte aus Olivenholz: K\xFCchenartikel"
+            - name: Dekorationsartikel
+            - name: Tische
+            id: 7d527c98-96f2-45c8-abb4-1d21a53b8e9b
+            last_modified: 1538772129586
+            name: Olivino, Herr Anas-Mohamed Akallal
+            owner:
+              name: Olivino, Herr Anas-Mohamed Akallal
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        7d65927e-9a75-4ada-adb6-f6b92d40c226:
+          data:
+            description: Artusi Ristorante, Frau Lydia Tinnirello, www.artusi.de
+            geometry:
+              coordinates:
+              - - - 7.629042
+                  - 51.961819
+                - - 7.629009
+                  - 51.961826
+                - - 7.629032
+                  - 51.961865
+                - - 7.629066
+                  - 51.961858
+                - - 7.629042
+                  - 51.961819
+              type: Polygon
+            goods:
+            - name: "Westf\xE4lische Spezialit\xE4ten"
+            id: 7d65927e-9a75-4ada-adb6-f6b92d40c226
+            last_modified: 1538772129645
+            name: Artusi Ristorante, Frau Lydia Tinnirello, www.artusi.de
+            owner:
+              name: Artusi Ristorante, Frau Lydia Tinnirello, www.artusi.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        7f7fa33c-56de-41a6-bde6-e4207a747d00:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.629873
+                  - 51.960742
+                - - 7.629952
+                  - 51.960703
+                - - 7.629915
+                  - 51.960675
+                - - 7.629837
+                  - 51.960714
+                - - 7.629873
+                  - 51.960742
+              type: Polygon
+            goods: []
+            id: 7f7fa33c-56de-41a6-bde6-e4207a747d00
+            last_modified: 1538772130639
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        806a626b-4e3c-4278-a871-ec6756400749:
+          data:
+            description: Filzwerkerin, Frau Christel Orlowski, www.filzwerkerin.de
+            geometry:
+              coordinates:
+              - - - 7.629072
+                  - 51.961759
+                - - 7.629099
+                  - 51.961753
+                - - 7.629089
+                  - 51.961735
+                - - 7.629062
+                  - 51.961742
+                - - 7.629072
+                  - 51.961759
+              type: Polygon
+            goods:
+            - name: "H\xFCte"
+            - name: Stulpen
+            - name: Dekoration
+            id: 806a626b-4e3c-4278-a871-ec6756400749
+            last_modified: 1538772129269
+            name: Filzwerkerin, Frau Christel Orlowski, www.filzwerkerin.de
+            owner:
+              name: Filzwerkerin, Frau Christel Orlowski, www.filzwerkerin.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        82969a6e-ed24-465d-85dc-d7ed43ec7484:
+          data:
+            description: "Lene's Kerzenh\xE4usl, Frau Marlene Schott, www.lenes-kerzenhaeusl.de"
+            geometry:
+              coordinates:
+              - - - 7.629142
+                  - 51.961433
+                - - 7.629139
+                  - 51.961427
+                - - 7.629105
+                  - 51.961435
+                - - 7.629122
+                  - 51.961464
+                - - 7.629156
+                  - 51.961456
+                - - 7.629154
+                  - 51.961453
+                - - 7.629142
+                  - 51.961433
+                - - 7.629142
+                  - 51.961433
+              type: Polygon
+            goods:
+            - name: "Kleine Keramik Miniaturh\xE4uschen mit Fachwerk bemalt und mit\
+                \ Teelicht beleuchtet"
+            id: 82969a6e-ed24-465d-85dc-d7ed43ec7484
+            last_modified: 1538772129675
+            name: "Lene's Kerzenh\xE4usl, Frau Marlene Schott, www.lenes-kerzenhaeusl.de"
+            owner:
+              name: "Lene's Kerzenh\xE4usl, Frau Marlene Schott, www.lenes-kerzenhaeusl.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        8325b949-4d01-4564-b27c-fc382b7152a0:
+          data:
+            description: Frau Melanie Dahlhaus
+            geometry:
+              coordinates:
+              - - - 7.628792
+                  - 51.961515
+                - - 7.628825
+                  - 51.961508
+                - - 7.628803
+                  - 51.96147
+                - - 7.628769
+                  - 51.961478
+                - - 7.628792
+                  - 51.961515
+              type: Polygon
+            goods:
+            - name: Baumstriezel
+            - name: "K\xFCrtos in verschiedenen Variationen"
+            id: 8325b949-4d01-4564-b27c-fc382b7152a0
+            last_modified: 1538772130323
+            name: Frau Melanie Dahlhaus
+            owner:
+              name: Frau Melanie Dahlhaus
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        881f5abf-151f-407c-a01a-04abe665a32b:
+          data:
+            description: Silberschmuck Mariele Gommla
+            geometry:
+              coordinates:
+              - - - 7.628818
+                  - 51.96148
+                - - 7.628824
+                  - 51.961478
+                - - 7.628851
+                  - 51.961472
+                - - 7.62883
+                  - 51.961436
+                - - 7.628796
+                  - 51.961443
+                - - 7.628818
+                  - 51.96148
+              type: Polygon
+            goods:
+            - name: 'Silberschmuck: Ringe'
+            - name: "Armb\xE4nder"
+            - name: Ohrringe - Modeschmuck
+            id: 881f5abf-151f-407c-a01a-04abe665a32b
+            last_modified: 1538772130200
+            name: Silberschmuck Mariele Gommla
+            owner:
+              name: Silberschmuck Mariele Gommla
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        883d8237-c1c5-403a-a6a5-458469eb2d34:
+          data:
+            description: "V\xE4terchen Frost, www.vaeterchen-frost.de"
+            geometry:
+              coordinates:
+              - - - 7.628631
+                  - 51.96158
+                - - 7.628693
+                  - 51.96157
+                - - 7.628684
+                  - 51.961552
+                - - 7.628624
+                  - 51.961562
+                - - 7.628631
+                  - 51.96158
+              type: Polygon
+            goods:
+            - name: 'Mundgeblasenes: Winterlandschaften'
+            - name: "handbemaltes Glas f\xFCr Teelichter in versch. Farben"
+            id: 883d8237-c1c5-403a-a6a5-458469eb2d34
+            last_modified: 1538772130489
+            name: "V\xE4terchen Frost, www.vaeterchen-frost.de"
+            owner:
+              name: "V\xE4terchen Frost, www.vaeterchen-frost.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        8c9dbb01-1b08-4d58-9942-ca4beb51e82f:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.626303
+                  - 51.964166
+                - - 7.626331
+                  - 51.964166
+                - - 7.626329
+                  - 51.96414
+                - - 7.626302
+                  - 51.96414
+                - - 7.626303
+                  - 51.964166
+              type: Polygon
+            goods: []
+            id: 8c9dbb01-1b08-4d58-9942-ca4beb51e82f
+            last_modified: 1538772128606
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        8d44915b-13de-491f-9dbd-064a7241bbd5:
+          data:
+            description: Chilino GmbH, Frau Jonna Kriech, www.chilino.de
+            geometry:
+              coordinates:
+              - - - 7.629966
+                  - 51.961687
+                - - 7.629993
+                  - 51.961681
+                - - 7.629977
+                  - 51.961657
+                - - 7.629951
+                  - 51.961662
+                - - 7.629966
+                  - 51.961687
+              type: Polygon
+            goods:
+            - name: 'Chilinos - vielseitiges Accessoir - zu verwenden als: als Halstuch'
+            - name: Schal
+            - name: Decke
+            id: 8d44915b-13de-491f-9dbd-064a7241bbd5
+            last_modified: 1538772130720
+            name: Chilino GmbH, Frau Jonna Kriech, www.chilino.de
+            owner:
+              name: Chilino GmbH, Frau Jonna Kriech, www.chilino.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        90890b71-2f4e-4243-8b10-e7e439085d02:
+          data:
+            description: "King Arthur's Legendary Food, Herr A. Kleinw\xE4chter, www.hanf-baeckerey.de"
+            geometry:
+              coordinates:
+              - - - 7.629446
+                  - 51.961866
+                - - 7.629503
+                  - 51.961853
+                - - 7.629486
+                  - 51.961826
+                - - 7.629468
+                  - 51.96183
+                - - 7.62943
+                  - 51.961839
+                - - 7.629446
+                  - 51.961866
+              type: Polygon
+            goods:
+            - name: "Hanf-Fladen mit diversen F\xFCllungen"
+            - name: "s\xFC\xDF und herzhaft"
+            id: 90890b71-2f4e-4243-8b10-e7e439085d02
+            last_modified: 1538772130885
+            name: "King Arthur's Legendary Food, Herr A. Kleinw\xE4chter, www.hanf-baeckerey.de"
+            owner:
+              name: "King Arthur's Legendary Food, Herr A. Kleinw\xE4chter, www.hanf-baeckerey.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        912fa84e-b014-432e-ab9e-416b820f1eda:
+          data:
+            description: MADERA Spielzeug, Herrn Norbert Stock, www.madera-spielzeug.de
+            geometry:
+              coordinates:
+              - - - 7.628853
+                  - 51.961341
+                - - 7.628836
+                  - 51.961313
+                - - 7.628802
+                  - 51.961321
+                - - 7.62882
+                  - 51.961349
+                - - 7.628826
+                  - 51.961348
+                - - 7.628826
+                  - 51.961347
+                - - 7.628853
+                  - 51.961341
+                - - 7.628853
+                  - 51.961341
+              type: Polygon
+            goods:
+            - name: Handgefertigtes Holzspielzeug
+            id: 912fa84e-b014-432e-ab9e-416b820f1eda
+            last_modified: 1538772130065
+            name: MADERA Spielzeug, Herrn Norbert Stock, www.madera-spielzeug.de
+            owner:
+              name: MADERA Spielzeug, Herrn Norbert Stock, www.madera-spielzeug.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        93e4bc65-4da8-42d4-beff-a7abad4acf4b:
+          data:
+            description: Herr Heiner Leifert
+            geometry:
+              coordinates:
+              - - - 7.628588
+                  - 51.961396
+                - - 7.628532
+                  - 51.961409
+                - - 7.628545
+                  - 51.96143
+                - - 7.628547
+                  - 51.961434
+                - - 7.628604
+                  - 51.961421
+                - - 7.628588
+                  - 51.961396
+              type: Polygon
+            goods:
+            - name: Weihnachtsdekoration aus Holz von Hand bemalt
+            - name: Kindergarderoben
+            - name: Spielzeug
+            id: 93e4bc65-4da8-42d4-beff-a7abad4acf4b
+            last_modified: 1538772130410
+            name: Herr Heiner Leifert
+            owner:
+              name: Herr Heiner Leifert
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        9517ae4d-331c-4c15-8c7d-cde8cfb63ebb:
+          data:
+            description: Herr Philipp Heitmann & Sohn
+            geometry:
+              coordinates:
+              - - - 7.628807
+                  - 51.961606
+                - - 7.628848
+                  - 51.961597
+                - - 7.628889
+                  - 51.961587
+                - - 7.628922
+                  - 51.96158
+                - - 7.628907
+                  - 51.961556
+                - - 7.628793
+                  - 51.961583
+                - - 7.628807
+                  - 51.961606
+              type: Polygon
+            goods:
+            - name: Pommes Frites mit Curry- Zigeuner-und Bratwurst
+            - name: Krakauer
+            id: 9517ae4d-331c-4c15-8c7d-cde8cfb63ebb
+            last_modified: 1538772130300
+            name: Herr Philipp Heitmann & Sohn
+            owner:
+              name: Herr Philipp Heitmann & Sohn
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        9826c8fb-4e69-4b2f-ad41-3e948773d0dc:
+          data:
+            description: "Galerie Farbenspiele, Frau Monika St\xF6cker"
+            geometry:
+              coordinates:
+              - - - 7.629182
+                  - 51.961483
+                - - 7.629195
+                  - 51.961504
+                - - 7.629242
+                  - 51.961493
+                - - 7.629229
+                  - 51.961472
+                - - 7.629182
+                  - 51.961483
+              type: Polygon
+            goods:
+            - name: 'handgefertigte Produkte: Taschen'
+            - name: Schmuck
+            - name: Filzaccessoires
+            - name: "M\xFCtzen"
+            - name: Schals
+            id: 9826c8fb-4e69-4b2f-ad41-3e948773d0dc
+            last_modified: 1538772129460
+            name: "Galerie Farbenspiele, Frau Monika St\xF6cker"
+            owner:
+              name: "Galerie Farbenspiele, Frau Monika St\xF6cker"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        99c604d5-fa34-4cad-81ec-359de25517a5:
+          data:
+            description: Schmuck & Mineralien, Herr Edip Turunc, http://www.turunc-gems.de/
+            geometry:
+              coordinates:
+              - - - 7.629154
+                  - 51.961453
+                - - 7.629237
+                  - 51.961435
+                - - 7.629223
+                  - 51.961413
+                - - 7.629142
+                  - 51.961433
+                - - 7.629142
+                  - 51.961433
+                - - 7.629154
+                  - 51.961453
+              type: Polygon
+            goods:
+            - name: Rohmineralien
+            - name: Fossilien
+            - name: Edelsteinwaren
+            - name: Edelsteinschmuck
+            id: 99c604d5-fa34-4cad-81ec-359de25517a5
+            last_modified: 1538772129510
+            name: Schmuck & Mineralien, Herr Edip Turunc, http://www.turunc-gems.de/
+            owner:
+              name: Schmuck & Mineralien, Herr Edip Turunc, http://www.turunc-gems.de/
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        9d7d6f2c-a621-40a6-9365-68a577b58bae:
+          data:
+            description: Rudolf Ortmeier GmbH, Herr Rainer Ortmeier
+            geometry:
+              coordinates:
+              - - - 7.629967
+                  - 51.96084
+                - - 7.630077
+                  - 51.960821
+                - - 7.630065
+                  - 51.960795
+                - - 7.629956
+                  - 51.960814
+                - - 7.629967
+                  - 51.96084
+              type: Polygon
+            goods:
+            - name: Backfisch
+            - name: Kibbeling
+            - name: "Fischbr\xF6tchen"
+            - name: "Pizza und R\xE4ucherware"
+            id: 9d7d6f2c-a621-40a6-9365-68a577b58bae
+            last_modified: 1538772130423
+            name: Rudolf Ortmeier GmbH, Herr Rainer Ortmeier
+            owner:
+              name: Rudolf Ortmeier GmbH, Herr Rainer Ortmeier
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a110a3e8-8b3f-45fe-a969-5919ae2587a3:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.629822
+                  - 51.961755
+                - - 7.629809
+                  - 51.961734
+                - - 7.629755
+                  - 51.961747
+                - - 7.629768
+                  - 51.961767
+                - - 7.629822
+                  - 51.961755
+              type: Polygon
+            goods: []
+            id: a110a3e8-8b3f-45fe-a969-5919ae2587a3
+            last_modified: 1538772129180
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a22d251a-4dbd-4e4f-824d-cb5f71241ba2:
+          data:
+            description: Karsten Zobel Holzarbeiten, Herr Karsten Zobel, www.vogeltreff24.de
+            geometry:
+              coordinates:
+              - - - 7.629499
+                  - 51.960979
+                - - 7.629525
+                  - 51.960973
+                - - 7.62951
+                  - 51.960948
+                - - 7.629483
+                  - 51.960954
+                - - 7.629499
+                  - 51.960979
+              type: Polygon
+            goods:
+            - name: "Artikel zur Vogelf\xFCtterung"
+            - name: "Nistk\xE4sten"
+            - name: "Insektenh\xE4user"
+            - name: "Eichh\xF6rnchen- Futterk\xE4sten"
+            id: a22d251a-4dbd-4e4f-824d-cb5f71241ba2
+            last_modified: 1538772130805
+            name: Karsten Zobel Holzarbeiten, Herr Karsten Zobel, www.vogeltreff24.de
+            owner:
+              name: Karsten Zobel Holzarbeiten, Herr Karsten Zobel, www.vogeltreff24.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a24303ef-8d25-44ae-95b2-64beb761ad0d:
+          data:
+            description: Brune-Mentink
+            geometry:
+              coordinates:
+              - - - 7.629004
+                  - 51.961583
+                - - 7.629045
+                  - 51.961573
+                - - 7.629033
+                  - 51.961554
+                - - 7.628992
+                  - 51.961564
+                - - 7.629004
+                  - 51.961583
+              type: Polygon
+            goods:
+            - name: Feinsilber/Titan/Bronze/Kupfer und Gold -Ringe
+            - name: Kerzenleuchter
+            - name: "Arm- und Halsb\xE4nder"
+            id: a24303ef-8d25-44ae-95b2-64beb761ad0d
+            last_modified: 1538772129832
+            name: Brune-Mentink
+            owner:
+              name: Brune-Mentink
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a3cb202e-4eac-461e-980f-de77524907fa:
+          data:
+            description: "T\xF6pferei Langerwehe, Kuckertz & Rennertz GmbH, www.toepferei-langerwehe.de"
+            geometry:
+              coordinates:
+              - - - 7.630696
+                  - 51.961958
+                - - 7.630678
+                  - 51.961945
+                - - 7.63063
+                  - 51.961972
+                - - 7.63065
+                  - 51.961985
+                - - 7.630696
+                  - 51.961958
+              type: Polygon
+            goods:
+            - name: "Handwerkliche T\xF6pferwaren: Krippenfiguren"
+            - name: Porzellan-Lichter
+            - name: "Duftkeramik mit \xD6l"
+            - name: weihnachtliche Geschenkideen
+            id: a3cb202e-4eac-461e-980f-de77524907fa
+            last_modified: 1538772130860
+            name: "T\xF6pferei Langerwehe, Kuckertz & Rennertz GmbH, www.toepferei-langerwehe.de"
+            owner:
+              name: "T\xF6pferei Langerwehe, Kuckertz & Rennertz GmbH, www.toepferei-langerwehe.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a4d91907-3390-4d6f-beba-66c2acdeb66f:
+          data:
+            description: Herr Hugo Levy
+            geometry:
+              coordinates:
+              - - - 7.629145
+                  - 51.961958
+                - - 7.629234
+                  - 51.961937
+                - - 7.629219
+                  - 51.961913
+                - - 7.629131
+                  - 51.961933
+                - - 7.629145
+                  - 51.961958
+              type: Polygon
+            goods:
+            - name: Flammlachs
+            id: a4d91907-3390-4d6f-beba-66c2acdeb66f
+            last_modified: 1538772129639
+            name: Herr Hugo Levy
+            owner:
+              name: Herr Hugo Levy
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a6118a26-d95e-439d-9776-6e1fbc03a623:
+          data:
+            description: "Stiftung B\xFCrger f\xFCr M\xFCnster, Herr Marc W\xFCrfel-Elberg,\
+              \ www.buergerstiftung-muenster.de"
+            geometry:
+              coordinates:
+              - - - 7.628697
+                  - 51.961531
+                - - 7.628724
+                  - 51.961525
+                - - 7.628716
+                  - 51.961508
+                - - 7.628688
+                  - 51.961513
+                - - 7.628697
+                  - 51.961531
+              type: Polygon
+            goods:
+            - name: "Kalender r\xE4tselhaftes M\xFCnster 2014"
+            - name: div. Kleinkunst- und Gebrauchsartikel
+            id: a6118a26-d95e-439d-9776-6e1fbc03a623
+            last_modified: 1538772130360
+            name: "Stiftung B\xFCrger f\xFCr M\xFCnster, Herr Marc W\xFCrfel-Elberg,\
+              \ www.buergerstiftung-muenster.de"
+            owner:
+              name: "Stiftung B\xFCrger f\xFCr M\xFCnster, Herr Marc W\xFCrfel-Elberg,\
+                \ www.buergerstiftung-muenster.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a74b2bb7-d180-46c0-b6ad-506c3542a3b5:
+          data:
+            description: "Michael B\xFCgler GmbH, www.lachende-tassen.de"
+            geometry:
+              coordinates:
+              - - - 7.629252
+                  - 51.961491
+                - - 7.629306
+                  - 51.961478
+                - - 7.629293
+                  - 51.961457
+                - - 7.629239
+                  - 51.96147
+                - - 7.629252
+                  - 51.961491
+              type: Polygon
+            goods:
+            - name: lachende Tassen aus reinem Hartporzellan
+            id: a74b2bb7-d180-46c0-b6ad-506c3542a3b5
+            last_modified: 1538772129203
+            name: "Michael B\xFCgler GmbH, www.lachende-tassen.de"
+            owner:
+              name: "Michael B\xFCgler GmbH, www.lachende-tassen.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a8b255cd-ea09-48e3-9f05-2e7c3a7ac100:
+          data:
+            description: "Kunsthandwerk und Deko, Frau Petra Krampe-L\xFCtkemeier"
+            geometry:
+              coordinates:
+              - - - 7.630496
+                  - 51.962049
+                - - 7.630464
+                  - 51.962067
+                - - 7.630484
+                  - 51.96208
+                - - 7.630516
+                  - 51.962062
+                - - 7.630496
+                  - 51.962049
+              type: Polygon
+            goods:
+            - name: Engel
+            - name: Spielwaren
+            - name: Windlichter
+            - name: Schneekugeln
+            id: a8b255cd-ea09-48e3-9f05-2e7c3a7ac100
+            last_modified: 1538772130840
+            name: "Kunsthandwerk und Deko, Frau Petra Krampe-L\xFCtkemeier"
+            owner:
+              name: "Kunsthandwerk und Deko, Frau Petra Krampe-L\xFCtkemeier"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a93fcb40-3c3b-4210-bb97-585122c0f12f:
+          data:
+            description: Herr Akram Elich
+            geometry:
+              coordinates:
+              - - - 7.629916
+                  - 51.961841
+                - - 7.629905
+                  - 51.961825
+                - - 7.629879
+                  - 51.961831
+                - - 7.629889
+                  - 51.961847
+                - - 7.629916
+                  - 51.961841
+              type: Polygon
+            goods:
+            - name: Falafel
+            - name: Langos
+            id: a93fcb40-3c3b-4210-bb97-585122c0f12f
+            last_modified: 1538772129865
+            name: Herr Akram Elich
+            owner:
+              name: Herr Akram Elich
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        aa7aeb7e-bebd-4ae2-a7f0-52b353298359:
+          data:
+            description: "Canadian Rulez, Inh. Gregor Nief, Duisburger Str. 288, 45478\
+              \ M\xFClheim an der Ruhr, info[at]canadian-rulez[dot]de, www.canadian-rulez.de"
+            geometry:
+              coordinates:
+              - - - 7.626194
+                  - 51.964249
+                - - 7.62623
+                  - 51.964249
+                - - 7.62623
+                  - 51.964232
+                - - 7.626193
+                  - 51.964232
+                - - 7.626194
+                  - 51.964249
+              type: Polygon
+            goods:
+            - name: Thermo-Fleece
+            id: aa7aeb7e-bebd-4ae2-a7f0-52b353298359
+            last_modified: 1538772128826
+            name: "Canadian Rulez, Inh. Gregor Nief, Duisburger Str. 288, 45478 M\xFC\
+              lheim an der Ruhr, info[at]canadian-rulez[dot]de, www.canadian-rulez.de"
+            owner:
+              name: "Canadian Rulez, Inh. Gregor Nief, Duisburger Str. 288, 45478\
+                \ M\xFClheim an der Ruhr, info[at]canadian-rulez[dot]de, www.canadian-rulez.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        aec70f5a-b73d-4cc9-83d3-3b089f7f449d:
+          data:
+            description: Frau Sabine Heuser, www.aktivsocken.de
+            geometry:
+              coordinates:
+              - - - 7.62953
+                  - 51.961654
+                - - 7.629517
+                  - 51.961634
+                - - 7.629483
+                  - 51.961641
+                - - 7.629495
+                  - 51.961662
+                - - 7.62953
+                  - 51.961654
+              type: Polygon
+            goods:
+            - name: Socken aus Wolle
+            - name: Seide und Leinen
+            id: aec70f5a-b73d-4cc9-83d3-3b089f7f449d
+            last_modified: 1538772129220
+            name: Frau Sabine Heuser, www.aktivsocken.de
+            owner:
+              name: Frau Sabine Heuser, www.aktivsocken.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        b0cfedb0-2ca8-4a17-a4da-d8fa7fa97bc6:
+          data:
+            description: Image Silver, Frau Izabela Szymanska, www.imagesilver.com.pl
+            geometry:
+              coordinates:
+              - - - 7.629532
+                  - 51.961648
+                - - 7.629573
+                  - 51.961639
+                - - 7.629563
+                  - 51.961622
+                - - 7.629523
+                  - 51.961632
+                - - 7.629532
+                  - 51.961648
+              type: Polygon
+            goods:
+            - name: Schmuck aus Bernstein und Silber
+            - name: Bernsteinlampen
+            - name: -kerzen
+            id: b0cfedb0-2ca8-4a17-a4da-d8fa7fa97bc6
+            last_modified: 1538772129339
+            name: Image Silver, Frau Izabela Szymanska, www.imagesilver.com.pl
+            owner:
+              name: Image Silver, Frau Izabela Szymanska, www.imagesilver.com.pl
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        b1169588-cac1-461f-a90e-31de5a59a3a4:
+          data:
+            description: Atelier Vielweber, Frau Zwemmer-Vielweber
+            geometry:
+              coordinates:
+              - - - 7.629393
+                  - 51.960967
+                - - 7.629427
+                  - 51.96096
+                - - 7.629399
+                  - 51.960914
+                - - 7.629366
+                  - 51.960922
+                - - 7.629393
+                  - 51.960967
+              type: Polygon
+            goods:
+            - name: "Handgravierte Holzartikel: Fr\xFChst\xFCcksbretter"
+            - name: Namensschilder
+            - name: Uhren
+            - name: "Schl\xFCsselbretter"
+            - name: Baumschmuck etc.
+            id: b1169588-cac1-461f-a90e-31de5a59a3a4
+            last_modified: 1538772128991
+            name: Atelier Vielweber, Frau Zwemmer-Vielweber
+            owner:
+              name: Atelier Vielweber, Frau Zwemmer-Vielweber
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        b5d0693c-6943-43be-a1a1-197238ec31a4:
+          data:
+            description: "Patrick M\xE4rz"
+            geometry:
+              coordinates:
+              - - - 7.630389
+                  - 51.96197
+                - - 7.630357
+                  - 51.96198
+                - - 7.630386
+                  - 51.962013
+                - - 7.630417
+                  - 51.962003
+                - - 7.630389
+                  - 51.96197
+              type: Polygon
+            goods:
+            - name: "Gef\xFCllte Pizzabr\xF6tchen"
+            id: b5d0693c-6943-43be-a1a1-197238ec31a4
+            last_modified: 1538772129060
+            name: "Patrick M\xE4rz"
+            owner:
+              name: "Patrick M\xE4rz"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        b5f0382c-2147-48cc-9da6-aae16ce38662:
+          data:
+            description: "Heimat Berlin, Herr Sebastian M\xFCcke, www.juststars.de"
+            geometry:
+              coordinates:
+              - - - 7.628529
+                  - 51.961488
+                - - 7.628569
+                  - 51.96148
+                - - 7.628558
+                  - 51.961459
+                - - 7.628518
+                  - 51.961467
+                - - 7.628529
+                  - 51.961488
+              type: Polygon
+            goods:
+            - name: Weihnachtssterne aus Papier
+            id: b5f0382c-2147-48cc-9da6-aae16ce38662
+            last_modified: 1538772129979
+            name: "Heimat Berlin, Herr Sebastian M\xFCcke, www.juststars.de"
+            owner:
+              name: "Heimat Berlin, Herr Sebastian M\xFCcke, www.juststars.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        b8e6b58b-aca4-4a94-b836-8f2c2f35a061:
+          data:
+            description: "Gartencenter M\xFCnsterland GmbH & Co. KG, www.gartencenter-muensterland.de"
+            geometry:
+              coordinates:
+              - - - 7.628648
+                  - 51.961533
+                - - 7.628675
+                  - 51.961527
+                - - 7.628654
+                  - 51.961491
+                - - 7.628628
+                  - 51.961497
+                - - 7.628648
+                  - 51.961533
+              type: Polygon
+            goods:
+            - name: Weihnachtsfiguren
+            - name: Weihnachtsdekoration
+            - name: Holzkunstarbeiten
+            id: b8e6b58b-aca4-4a94-b836-8f2c2f35a061
+            last_modified: 1538772130548
+            name: "Gartencenter M\xFCnsterland GmbH & Co. KG, www.gartencenter-muensterland.de"
+            owner:
+              name: "Gartencenter M\xFCnsterland GmbH & Co. KG, www.gartencenter-muensterland.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        ba2be910-18c1-4f19-ba2d-29ebaf632656:
+          data:
+            description: Mamadou Niang
+            geometry:
+              coordinates:
+              - - - 7.629652
+                  - 51.961759
+                - - 7.629626
+                  - 51.961717
+                - - 7.629599
+                  - 51.961723
+                - - 7.629625
+                  - 51.961765
+                - - 7.629652
+                  - 51.961759
+              type: Polygon
+            goods:
+            - name: Woll- und Fellartikel
+            id: ba2be910-18c1-4f19-ba2d-29ebaf632656
+            last_modified: 1538772129358
+            name: Mamadou Niang
+            owner:
+              name: Mamadou Niang
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        ba6bef8f-de2a-46cc-a5cc-6edd2f716f89:
+          data:
+            description: Willy Kinzler jun.
+            geometry:
+              coordinates:
+              - - - 7.629312
+                  - 51.960981
+                - - 7.629376
+                  - 51.960975
+                - - 7.62937
+                  - 51.960949
+                - - 7.629305
+                  - 51.960954
+                - - 7.629312
+                  - 51.960981
+              type: Polygon
+            goods:
+            - name: Poffertjes
+            id: ba6bef8f-de2a-46cc-a5cc-6edd2f716f89
+            last_modified: 1538772128781
+            name: Willy Kinzler jun.
+            owner:
+              name: Willy Kinzler jun.
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        bac6a63b-8b33-410e-b241-0452b8e41e1a:
+          data:
+            description: "St\xFCrzl's Grill, Frau Heidrun-Karla St\xFCrzl"
+            geometry:
+              coordinates:
+              - - - 7.629151
+                  - 51.961005
+                - - 7.629187
+                  - 51.961002
+                - - 7.629172
+                  - 51.960935
+                - - 7.629136
+                  - 51.960939
+                - - 7.629151
+                  - 51.961005
+              type: Polygon
+            goods:
+            - name: Bratwurst
+            - name: Pommes
+            - name: Reibekuchen und Softdrinks
+            id: bac6a63b-8b33-410e-b241-0452b8e41e1a
+            last_modified: 1538772128794
+            name: "St\xFCrzl's Grill, Frau Heidrun-Karla St\xFCrzl"
+            owner:
+              name: "St\xFCrzl's Grill, Frau Heidrun-Karla St\xFCrzl"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        bc695b9f-8892-4528-91cd-8319e29b931d:
+          data:
+            description: "Holl\xE4ndische Pommes, Herr Hans Kurt Wimmer"
+            geometry:
+              coordinates:
+              - - - 7.629591
+                  - 51.961706
+                - - 7.629602
+                  - 51.961722
+                - - 7.629626
+                  - 51.961717
+                - - 7.629636
+                  - 51.961715
+                - - 7.62961
+                  - 51.961672
+                - - 7.629576
+                  - 51.96168
+                - - 7.629591
+                  - 51.961706
+              type: Polygon
+            goods:
+            - name: "Holl\xE4ndische Pommes"
+            - name: Frikadellen spezial. Backkartoffeln
+            id: bc695b9f-8892-4528-91cd-8319e29b931d
+            last_modified: 1538772129494
+            name: "Holl\xE4ndische Pommes, Herr Hans Kurt Wimmer"
+            owner:
+              name: "Holl\xE4ndische Pommes, Herr Hans Kurt Wimmer"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        bc7c806e-14d6-48dd-a879-3e99df986729:
+          data:
+            description: Jutta Finke-Schneider, www.schneesturm-ms.de
+            geometry:
+              coordinates:
+              - - - 7.629045
+                  - 51.961573
+                - - 7.629045
+                  - 51.961574
+                - - 7.6291
+                  - 51.961562
+                - - 7.629088
+                  - 51.961542
+                - - 7.629033
+                  - 51.961554
+                - - 7.629033
+                  - 51.961554
+                - - 7.629045
+                  - 51.961573
+                - - 7.629045
+                  - 51.961573
+              type: Polygon
+            goods:
+            - name: Selbstgefertigte Keramiken (handbemalt)
+            - name: Spielzeug aus versch. Materialien
+            - name: sonderangefertigte Schneekugeln
+            id: bc7c806e-14d6-48dd-a879-3e99df986729
+            last_modified: 1538772129785
+            name: Jutta Finke-Schneider, www.schneesturm-ms.de
+            owner:
+              name: Jutta Finke-Schneider, www.schneesturm-ms.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        be346171-7b52-42e7-9165-b7a635318db3:
+          data:
+            description: "Caf\xE9 Classique, Skagerrakstrasse 8, 48145 M\xFCnster,\
+              \ Tel. 0251-131700, Fax. 0251-131701, info[at]cafe-classique[dot]de,\
+              \ www.cafe-classique.de"
+            geometry:
+              coordinates:
+              - - - 7.626299
+                  - 51.964249
+                - - 7.626337
+                  - 51.964249
+                - - 7.626335
+                  - 51.964232
+                - - 7.626298
+                  - 51.964232
+                - - 7.626299
+                  - 51.964249
+              type: Polygon
+            goods:
+            - name: Pralinen
+            - name: Schokoladen
+            - name: "weihnachtliches Geb\xE4ck und Kiepenkerl Schokoladen"
+            id: be346171-7b52-42e7-9165-b7a635318db3
+            last_modified: 1538772128481
+            name: "Caf\xE9 Classique, Skagerrakstrasse 8, 48145 M\xFCnster, Tel. 0251-131700,\
+              \ Fax. 0251-131701, info[at]cafe-classique[dot]de, www.cafe-classique.de"
+            owner:
+              name: "Caf\xE9 Classique, Skagerrakstrasse 8, 48145 M\xFCnster, Tel.\
+                \ 0251-131700, Fax. 0251-131701, info[at]cafe-classique[dot]de, www.cafe-classique.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        be8b01c0-4e8c-45b6-a539-8d24d5fb19fa:
+          data:
+            description: "Heike Imig, H\xFClsdonkerstr. 69, 47441 Moers, Tel. 02841\
+              \ 931119"
+            geometry:
+              coordinates:
+              - - - 7.626248
+                  - 51.964138
+                - - 7.626289
+                  - 51.964138
+                - - 7.626288
+                  - 51.96412
+                - - 7.626246
+                  - 51.96412
+                - - 7.626248
+                  - 51.964138
+              type: Polygon
+            goods:
+            - name: Hutspezialistin
+            - name: "H\xFCte"
+            - name: "M\xFCtzen"
+            - name: Schals
+            - name: Taschen
+            id: be8b01c0-4e8c-45b6-a539-8d24d5fb19fa
+            last_modified: 1538772128630
+            name: "Heike Imig, H\xFClsdonkerstr. 69, 47441 Moers, Tel. 02841 931119"
+            owner:
+              name: "Heike Imig, H\xFClsdonkerstr. 69, 47441 Moers, Tel. 02841 931119"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        bf16791c-5f70-479f-914d-8e6103b507e2:
+          data:
+            description: Weihnachtsmarkt-Treff, Margret & Arno Heitmann
+            geometry:
+              coordinates:
+              - - - 7.628678
+                  - 51.961125
+                - - 7.628725
+                  - 51.9612
+                - - 7.628758
+                  - 51.961193
+                - - 7.628713
+                  - 51.961117
+                - - 7.628678
+                  - 51.961125
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: "Punschgetr\xE4nke"
+            - name: "hei\xDFe Kakaogetr\xE4nke"
+            - name: "alkoholfreie Getr\xE4nke"
+            id: bf16791c-5f70-479f-914d-8e6103b507e2
+            last_modified: 1538772128865
+            name: Weihnachtsmarkt-Treff, Margret & Arno Heitmann
+            owner:
+              name: Weihnachtsmarkt-Treff, Margret & Arno Heitmann
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        c1b5008f-3ef8-4fc8-a690-8e7d91506dc4:
+          data:
+            description: Puzzle-Werkststatt Unnerstall, Herr Manfred Unnerstall, www.puzzle-werkstatt.de
+            geometry:
+              coordinates:
+              - - - 7.628532
+                  - 51.961409
+                - - 7.62849
+                  - 51.961419
+                - - 7.628503
+                  - 51.961439
+                - - 7.628545
+                  - 51.96143
+                - - 7.628532
+                  - 51.961409
+                - - 7.628532
+                  - 51.961409
+              type: Polygon
+            goods:
+            - name: Selbstgefertigte Denk- und Geduldspiele aus Holz
+            id: c1b5008f-3ef8-4fc8-a690-8e7d91506dc4
+            last_modified: 1538772130385
+            name: Puzzle-Werkststatt Unnerstall, Herr Manfred Unnerstall, www.puzzle-werkstatt.de
+            owner:
+              name: Puzzle-Werkststatt Unnerstall, Herr Manfred Unnerstall, www.puzzle-werkstatt.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        c6bdb529-710a-4f6f-aaab-b6c80db85ace:
+          data:
+            description: PAT & PATTY, Frau Kerstin Dorow, www.patundpatty.de
+            geometry:
+              coordinates:
+              - - - 7.629393
+                  - 51.961779
+                - - 7.62942
+                  - 51.961773
+                - - 7.629403
+                  - 51.961745
+                - - 7.629377
+                  - 51.961751
+                - - 7.629393
+                  - 51.961779
+              type: Polygon
+            goods:
+            - name: Kinderbekleidung
+            - name: "W\xE4rmekissen"
+            - name: Decken
+            - name: Handpuppen
+            - name: "M\xFCtzen und Schals - 100% Bio-Baumwolle - Herstellung in Deutschland"
+            id: c6bdb529-710a-4f6f-aaab-b6c80db85ace
+            last_modified: 1538772129099
+            name: PAT & PATTY, Frau Kerstin Dorow, www.patundpatty.de
+            owner:
+              name: PAT & PATTY, Frau Kerstin Dorow, www.patundpatty.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        c88f6c14-6806-478d-acd0-3047d41fc87f:
+          data:
+            description: Genius Reibekuchen
+            geometry:
+              coordinates:
+              - - - 7.628911
+                  - 51.961624
+                - - 7.628835
+                  - 51.961642
+                - - 7.628851
+                  - 51.961667
+                - - 7.628946
+                  - 51.961645
+                - - 7.628931
+                  - 51.96162
+                - - 7.628911
+                  - 51.961624
+                - - 7.628911
+                  - 51.961624
+              type: Polygon
+            goods:
+            - name: Reibekuchen mit verschiedenen Beilagen
+            id: c88f6c14-6806-478d-acd0-3047d41fc87f
+            last_modified: 1538772130240
+            name: Genius Reibekuchen
+            owner:
+              name: Genius Reibekuchen
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        ca1b0021-7558-448c-932c-0c2220d58e67:
+          data:
+            description: "Restaurant Kleiner Kiepenkerl, Inh. G. Deckenbrock, Spiekerhof\
+              \ 47, 48143 M\xFCnster, info[at]kleiner-kiepenkerl.de, www.kleiner-kiepenkerl.de"
+            geometry:
+              coordinates:
+              - - - 7.626309
+                  - 51.964313
+                - - 7.626336
+                  - 51.964313
+                - - 7.626336
+                  - 51.964281
+                - - 7.626309
+                  - 51.964281
+                - - 7.626309
+                  - 51.964313
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein EUR 2.00"
+            - name: "Gl\xFChwein mit Schuss Amaretto oder Rum EUR 3.00"
+            - name: Kinderpunsch alkoholfrei EUR 1.50
+            - name: "Rostbratwurst mit Br\xF6tchen EUR 2.00"
+            - name: "Currywurst mit Br\xF6tchen EUR 2.20"
+            - name: Coca Cola + Sprite EUR 1.50
+            id: ca1b0021-7558-448c-932c-0c2220d58e67
+            last_modified: 1538772128465
+            name: "Restaurant Kleiner Kiepenkerl, Inh. G. Deckenbrock, Spiekerhof\
+              \ 47, 48143 M\xFCnster, info[at]kleiner-kiepenkerl.de, www.kleiner-kiepenkerl.de"
+            owner:
+              name: "Restaurant Kleiner Kiepenkerl, Inh. G. Deckenbrock, Spiekerhof\
+                \ 47, 48143 M\xFCnster, info[at]kleiner-kiepenkerl.de, www.kleiner-kiepenkerl.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        cc6f1ed9-05d8-481a-ae7b-9ffc6d49ab14:
+          data:
+            description: "Helmuth D\xF6rrbecker / Thomas Philip"
+            geometry:
+              coordinates:
+              - - - 7.630131
+                  - 51.9608
+                - - 7.630183
+                  - 51.960781
+                - - 7.630114
+                  - 51.960713
+                - - 7.630063
+                  - 51.960732
+                - - 7.630131
+                  - 51.9608
+              type: Polygon
+            goods:
+            - name: Weihnachtsdekoration
+            - name: "Windlicht H\xE4user aus Porzellan"
+            - name: Textilien
+            - name: Schals
+            - name: "Handschuhe und M\xFCtzen"
+            id: cc6f1ed9-05d8-481a-ae7b-9ffc6d49ab14
+            last_modified: 1538772130644
+            name: "Helmuth D\xF6rrbecker / Thomas Philip"
+            owner:
+              name: "Helmuth D\xF6rrbecker / Thomas Philip"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        ccd998fa-b511-4dd5-9f29-9849d67e3d6a:
+          data:
+            description: Andreas Lanz
+            geometry:
+              coordinates:
+              - - - 7.630492
+                  - 51.961965
+                - - 7.630523
+                  - 51.961948
+                - - 7.630494
+                  - 51.961927
+                - - 7.630463
+                  - 51.961945
+                - - 7.630492
+                  - 51.961965
+              type: Polygon
+            goods:
+            - name: Spielzeug
+            - name: Blechschilder
+            - name: Autos
+            id: ccd998fa-b511-4dd5-9f29-9849d67e3d6a
+            last_modified: 1538772129931
+            name: Andreas Lanz
+            owner:
+              name: Andreas Lanz
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        d141cd0c-0caf-4475-8b71-1c9c3ca6e010:
+          data:
+            description: Stossno & Ankermann GbR, Herr Oliver AnkermannHerr Uwe Stossno,
+              www.perlsacktiere.de
+            geometry:
+              coordinates:
+              - - - 7.630643
+                  - 51.961988
+                - - 7.630621
+                  - 51.961974
+                - - 7.630572
+                  - 51.962002
+                - - 7.630594
+                  - 51.962016
+                - - 7.630643
+                  - 51.961988
+              type: Polygon
+            goods:
+            - name: Perlsacktiere
+            id: d141cd0c-0caf-4475-8b71-1c9c3ca6e010
+            last_modified: 1538772129048
+            name: Stossno & Ankermann GbR, Herr Oliver AnkermannHerr Uwe Stossno,
+              www.perlsacktiere.de
+            owner:
+              name: Stossno & Ankermann GbR, Herr Oliver AnkermannHerr Uwe Stossno,
+                www.perlsacktiere.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        d578e287-6c31-4edb-a642-3d844566ebee:
+          data:
+            description: Jens Heubes
+            geometry:
+              coordinates:
+              - - - 7.629801
+                  - 51.961417
+                - - 7.629832
+                  - 51.961409
+                - - 7.629811
+                  - 51.961376
+                - - 7.629781
+                  - 51.961383
+                - - 7.629801
+                  - 51.961417
+              type: Polygon
+            goods:
+            - name: "Weihnachtliche Vollwertwaren: Fr\xFCchtebrot"
+            - name: "Geb\xE4ck"
+            id: d578e287-6c31-4edb-a642-3d844566ebee
+            last_modified: 1538772128982
+            name: Jens Heubes
+            owner:
+              name: Jens Heubes
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        d57c55e4-059f-4a77-b61e-5861e41b1e3d:
+          data:
+            description: Feuerzangenbowle - A. Schneider, Herr August Schneider
+            geometry:
+              coordinates:
+              - - - 7.630383
+                  - 51.961966
+                - - 7.630451
+                  - 51.96195
+                - - 7.630414
+                  - 51.961891
+                - - 7.630346
+                  - 51.961908
+                - - 7.630383
+                  - 51.961966
+              type: Polygon
+            goods:
+            - name: Feuerzangenbowle
+            - name: "Fr\xFCchtepunsch"
+            id: d57c55e4-059f-4a77-b61e-5861e41b1e3d
+            last_modified: 1538772130900
+            name: Feuerzangenbowle - A. Schneider, Herr August Schneider
+            owner:
+              name: Feuerzangenbowle - A. Schneider, Herr August Schneider
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        d5d609f4-b8c9-4b78-b18b-aa33e605d5cb:
+          data:
+            description: Pro Na GmbH, Herrn Wolfgang Dropmann, www.prona.de
+            geometry:
+              coordinates:
+              - - - 7.630555
+                  - 51.962004
+                - - 7.630507
+                  - 51.962031
+                - - 7.630526
+                  - 51.962044
+                - - 7.630574
+                  - 51.962017
+                - - 7.630555
+                  - 51.962004
+              type: Polygon
+            goods:
+            - name: Umweltfreundliche Schreibwaren
+            - name: Karten
+            - name: Geschenkpapier
+            - name: Kalligraphie
+            - name: Siegel
+            id: d5d609f4-b8c9-4b78-b18b-aa33e605d5cb
+            last_modified: 1538772130844
+            name: Pro Na GmbH, Herrn Wolfgang Dropmann, www.prona.de
+            owner:
+              name: Pro Na GmbH, Herrn Wolfgang Dropmann, www.prona.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        d627bf01-4c64-4fad-a425-cd480baa8f3f:
+          data:
+            description: "Tee Kr\xE4uter Gew\xFCrze, Frau Monika Steindor"
+            geometry:
+              coordinates:
+              - - - 7.629374
+                  - 51.961746
+                - - 7.629431
+                  - 51.961733
+                - - 7.62942
+                  - 51.961716
+                - - 7.629364
+                  - 51.96173
+                - - 7.629374
+                  - 51.961746
+              type: Polygon
+            goods:
+            - name: Tee
+            - name: "Gew\xFCrze und alles was dazu geh\xF6rt"
+            id: d627bf01-4c64-4fad-a425-cd480baa8f3f
+            last_modified: 1538772129106
+            name: "Tee Kr\xE4uter Gew\xFCrze, Frau Monika Steindor"
+            owner:
+              name: "Tee Kr\xE4uter Gew\xFCrze, Frau Monika Steindor"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        d8ec0aa9-0395-499c-8c6a-f4e2043b8c7e:
+          data:
+            description: Lizzawest, www.lizzawest.com, mail[at]lizzawest[dot]com
+            geometry:
+              coordinates:
+              - - - 7.626157
+                  - 51.964228
+                - - 7.626183
+                  - 51.964228
+                - - 7.626183
+                  - 51.964197
+                - - 7.626155
+                  - 51.964197
+                - - 7.626157
+                  - 51.964228
+              type: Polygon
+            goods:
+            - name: Dalmatinerdame Olivia
+            - name: Fanny das Fohlen
+            - name: Romy das Reh
+            - name: T-Shirts
+            - name: "Sch\xFCrzen"
+            - name: Hefte
+            - name: "Ringb\xFCcher"
+            - name: Mousepads
+            - name: "Metalldosen in drei Gr\xF6\xDFen"
+            - name: "Kochbuch 'Anni kocht in M\xFCnster'"
+            - name: "M\xFCnster-Postkarten von Lars Wentrup"
+            - name: "M\xFCnster-Vogelh\xE4user"
+            id: d8ec0aa9-0395-499c-8c6a-f4e2043b8c7e
+            last_modified: 1538772128730
+            name: Lizzawest, www.lizzawest.com, mail[at]lizzawest[dot]com
+            owner:
+              name: Lizzawest, www.lizzawest.com, mail[at]lizzawest[dot]com
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        da60eb4d-395b-455d-8690-475e9475e8b3:
+          data:
+            description: Frau Eva Olszewski
+            geometry:
+              coordinates:
+              - - - 7.628851
+                  - 51.961472
+                - - 7.628824
+                  - 51.961478
+                - - 7.628841
+                  - 51.961505
+                - - 7.628868
+                  - 51.961499
+                - - 7.628851
+                  - 51.961472
+                - - 7.628851
+                  - 51.961472
+              type: Polygon
+            goods:
+            - name: Kunsthandwerklicher Schmuck aus Halbedelsteinen
+            - name: "S\xFC\xDFwasserperlen und Edelstahl"
+            id: da60eb4d-395b-455d-8690-475e9475e8b3
+            last_modified: 1538772130176
+            name: Frau Eva Olszewski
+            owner:
+              name: Frau Eva Olszewski
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        daed912e-90bc-4893-8e5e-fc3665eea536:
+          data:
+            description: Kinderkarussell Schneider, Herr Johann Schneider
+            geometry:
+              coordinates:
+              - - - 7.630624
+                  - 51.961881
+                - - 7.630617
+                  - 51.961865
+                - - 7.630599
+                  - 51.961854
+                - - 7.630573
+                  - 51.961849
+                - - 7.630548
+                  - 51.961854
+                - - 7.630529
+                  - 51.961865
+                - - 7.630523
+                  - 51.961881
+                - - 7.630529
+                  - 51.961896
+                - - 7.630548
+                  - 51.961908
+                - - 7.630573
+                  - 51.961912
+                - - 7.630599
+                  - 51.961908
+                - - 7.630617
+                  - 51.961896
+                - - 7.630624
+                  - 51.961881
+              type: Polygon
+            goods:
+            - name: Kinderkarussell
+            id: daed912e-90bc-4893-8e5e-fc3665eea536
+            last_modified: 1538772129917
+            name: Kinderkarussell Schneider, Herr Johann Schneider
+            owner:
+              name: Kinderkarussell Schneider, Herr Johann Schneider
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        dc5880e0-ffac-4f02-959d-632d13b2e585:
+          data:
+            description: Holzwurm, Herr Reinhard Sobisch
+            geometry:
+              coordinates:
+              - - - 7.62966
+                  - 51.961163
+                - - 7.629688
+                  - 51.961156
+                - - 7.629666
+                  - 51.961121
+                - - 7.629639
+                  - 51.961127
+                - - 7.62966
+                  - 51.961163
+              type: Polygon
+            goods:
+            - name: Kunsthandwerk aus Bali
+            - name: fairtrade Keramikdeko
+            - name: "Schmuck und Kleinm\xF6bel aus Eigenanfertigung"
+            id: dc5880e0-ffac-4f02-959d-632d13b2e585
+            last_modified: 1538772130690
+            name: Holzwurm, Herr Reinhard Sobisch
+            owner:
+              name: Holzwurm, Herr Reinhard Sobisch
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        ddbaac19-62f3-4bf5-b755-15d92292d28b:
+          data:
+            description: "Larimar Idee Form Pr\xE4sentation, Herr Hartmut Rollink"
+            geometry:
+              coordinates:
+              - - - 7.628918
+                  - 51.961448
+                - - 7.628902
+                  - 51.961423
+                - - 7.6289
+                  - 51.961423
+                - - 7.628875
+                  - 51.961429
+                - - 7.628891
+                  - 51.961454
+                - - 7.628891
+                  - 51.961454
+                - - 7.628918
+                  - 51.961448
+              type: Polygon
+            goods:
+            - name: Edelstahlwindspiele
+            - name: weihnachtliche Figuren
+            - name: Lichterketten
+            id: ddbaac19-62f3-4bf5-b755-15d92292d28b
+            last_modified: 1538772130052
+            name: "Larimar Idee Form Pr\xE4sentation, Herr Hartmut Rollink"
+            owner:
+              name: "Larimar Idee Form Pr\xE4sentation, Herr Hartmut Rollink"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        df10ca14-2f40-4b61-884e-9aa4608e7c90:
+          data:
+            description: Creperie Ueberfeld
+            geometry:
+              coordinates:
+              - - - 7.630763
+                  - 51.961914
+                - - 7.630738
+                  - 51.961898
+                - - 7.630702
+                  - 51.961919
+                - - 7.630726
+                  - 51.961935
+                - - 7.630763
+                  - 51.961914
+              type: Polygon
+            goods:
+            - name: "Cr\xEApes"
+            - name: "Waffeln und Waffelb\xE4llchen"
+            id: df10ca14-2f40-4b61-884e-9aa4608e7c90
+            last_modified: 1538772129250
+            name: Creperie Ueberfeld
+            owner:
+              name: Creperie Ueberfeld
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        df61a542-87b3-40c9-8bfd-3cb496667adf:
+          data:
+            description: Greenlife Value GmbH, www.warmies.de
+            geometry:
+              coordinates:
+              - - - 7.629411
+                  - 51.961682
+                - - 7.629401
+                  - 51.961665
+                - - 7.629356
+                  - 51.961675
+                - - 7.629366
+                  - 51.961692
+                - - 7.629411
+                  - 51.961682
+              type: Polygon
+            goods:
+            - name: Warmies
+            - name: "W\xE4rmestofftiere und W\xE4rmeschuhe f\xFCr Mikrowelle und Backofen"
+            id: df61a542-87b3-40c9-8bfd-3cb496667adf
+            last_modified: 1538772129891
+            name: Greenlife Value GmbH, www.warmies.de
+            owner:
+              name: Greenlife Value GmbH, www.warmies.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        dff34f8f-6413-4c43-bf60-3aa8059e1480:
+          data:
+            description: Savon Vivre-Handgemachte Seife, Frau Melanie Storb, www.savon-vivre.com
+            geometry:
+              coordinates:
+              - - - 7.629537
+                  - 51.961718
+                - - 7.629591
+                  - 51.961706
+                - - 7.629576
+                  - 51.96168
+                - - 7.629522
+                  - 51.961693
+                - - 7.629537
+                  - 51.961718
+              type: Polygon
+            goods:
+            - name: Handgemachte Seife aus eigener Herstellung
+            - name: "versch. Sorten und Gr\xF6\xDFen"
+            - name: Seifenablagen (Olivenholz)
+            id: dff34f8f-6413-4c43-bf60-3aa8059e1480
+            last_modified: 1538772129558
+            name: Savon Vivre-Handgemachte Seife, Frau Melanie Storb, www.savon-vivre.com
+            owner:
+              name: Savon Vivre-Handgemachte Seife, Frau Melanie Storb, www.savon-vivre.com
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        e1600a29-13ab-411b-ae55-af885ef49f1f:
+          data:
+            description: feine art - Manufaktur und Galerie, Herr Wolfgang Nietan,
+              www.feineart.de
+            geometry:
+              coordinates:
+              - - - 7.628954
+                  - 51.961547
+                - - 7.628982
+                  - 51.961541
+                - - 7.628958
+                  - 51.961502
+                - - 7.628931
+                  - 51.961508
+                - - 7.628954
+                  - 51.961547
+              type: Polygon
+            goods:
+            - name: Bilder im Galeriestil als textile Wanddekoration
+            id: e1600a29-13ab-411b-ae55-af885ef49f1f
+            last_modified: 1538772130115
+            name: feine art - Manufaktur und Galerie, Herr Wolfgang Nietan, www.feineart.de
+            owner:
+              name: feine art - Manufaktur und Galerie, Herr Wolfgang Nietan, www.feineart.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        e1b52595-00ca-44c5-a701-a2798886d867:
+          data:
+            description: "Angelika Camps, Loh\xF6fenerweg 5, 48153 M\xFCnster, Tel.\
+              \ 0171 5388677, ang-camps[at]versanet[dot]de"
+            geometry:
+              coordinates:
+              - - - 7.626106
+                  - 51.96422
+                - - 7.626133
+                  - 51.964217
+                - - 7.626128
+                  - 51.964184
+                - - 7.6261
+                  - 51.964187
+                - - 7.626106
+                  - 51.96422
+              type: Polygon
+            goods:
+            - name: Weihnachtsbaumschmuck aus Messing
+            - name: Zinn und Glas
+            - name: nostalgische Engel
+            - name: Schutzengel
+            - name: Mila-Engel und Krippen
+            - name: zeitlosen Fenster
+            - name: Raumschmuck
+            - name: "M\xFCnstermotive Rathaus und Prinzipalmarkt mit Lambertikirche\
+                \ aus Messing"
+            - name: vergoldet oder aus Edelstahl
+            - name: vernickelt
+            id: e1b52595-00ca-44c5-a701-a2798886d867
+            last_modified: 1538772128704
+            name: "Angelika Camps, Loh\xF6fenerweg 5, 48153 M\xFCnster, Tel. 0171\
+              \ 5388677, ang-camps[at]versanet[dot]de"
+            owner:
+              name: "Angelika Camps, Loh\xF6fenerweg 5, 48153 M\xFCnster, Tel. 0171\
+                \ 5388677, ang-camps[at]versanet[dot]de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        e2b740cf-d7a2-4c10-8234-ea8078439335:
+          data:
+            description: "Hoppe - hei\xDFe Mandeln und mehr"
+            geometry:
+              coordinates:
+              - - - 7.628808
+                  - 51.961541
+                - - 7.628883
+                  - 51.961524
+                - - 7.628872
+                  - 51.961504
+                - - 7.628797
+                  - 51.961522
+                - - 7.628808
+                  - 51.961541
+              type: Polygon
+            goods:
+            - name: gebrannte Mandeln
+            - name: "N\xFCsse"
+            - name: frisches Popcorn
+            - name: Lebkuchen
+            - name: "schokolierte und kandierte Fr\xFCchte"
+            id: e2b740cf-d7a2-4c10-8234-ea8078439335
+            last_modified: 1538772130306
+            name: "Hoppe - hei\xDFe Mandeln und mehr"
+            owner:
+              name: "Hoppe - hei\xDFe Mandeln und mehr"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        e3d7c339-d5b0-450a-b586-70fa94e7873f:
+          data:
+            description: "Parpalioni's Zuckerst\xFCbchen, Frau Stefanie Parpalioni"
             geometry:
               coordinates:
               - - - 7.629245
@@ -37,26 +4095,373 @@ weihnachtsmarkt:
                   - 51.961027
               type: Polygon
             goods:
-            - name: Haxn mit Kraut
-              price: 7.9
-            - name: "Bratwurst im Br\xF6tchen"
-              price: 3
-            - name: "Gl\xFChwein"
-              price: 2.5
-            - name: Brezn mit Butter
-              price: 1.9
-            id: 042cbaef-b713-4308-bd74-c1df67f66de6
-            last_modified: 1538751258908
-            market: Rathaus
-            name: Wiesn Bratwurst & mehr
+            - name: "Gebrannte Mandeln und N\xFCsse"
+            - name: Lebkuchenherzen
+            - name: Popcorn und Zuckerwatte
+            id: e3d7c339-d5b0-450a-b586-70fa94e7873f
+            last_modified: 1538772128760
+            name: "Parpalioni's Zuckerst\xFCbchen, Frau Stefanie Parpalioni"
             owner:
-              email: spongebob_98@hotmail.com
-              name: Spongebob Schwammkopf
-              telephone: '+4918091123129982'
-              web_url: https://spongebob.de/weihnachtsmarkt
+              name: "Parpalioni's Zuckerst\xFCbchen, Frau Stefanie Parpalioni"
             tags:
-            - Leibliches Wohl
-            - Unterhaltung
+            - Ohne
+            type: food
+          permissions: {}
+        e40c766b-8c9f-4ddf-b53e-9764f51faca2:
+          data:
+            description: "Herr Udo Dre\xDFen"
+            geometry:
+              coordinates:
+              - - - 7.629854
+                  - 51.960806
+                - - 7.62991
+                  - 51.960847
+                - - 7.629937
+                  - 51.960833
+                - - 7.629881
+                  - 51.960792
+                - - 7.629854
+                  - 51.960806
+              type: Polygon
+            goods:
+            - name: "Kleiderwaren mit Monogrammpr\xE4gung"
+            - name: Portemonnaies
+            - name: Brieftaschen
+            - name: "Schl\xFCsseletuis"
+            id: e40c766b-8c9f-4ddf-b53e-9764f51faca2
+            last_modified: 1538772130558
+            name: "Herr Udo Dre\xDFen"
+            owner:
+              name: "Herr Udo Dre\xDFen"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        e4234d47-af20-48c0-8909-cf90cb4ec9cd:
+          data:
+            description: Frau Antje Jansen
+            geometry:
+              coordinates:
+              - - - 7.629922
+                  - 51.96184
+                - - 7.62998
+                  - 51.961827
+                - - 7.629969
+                  - 51.96181
+                - - 7.629912
+                  - 51.961823
+                - - 7.629922
+                  - 51.96184
+              type: Polygon
+            goods:
+            - name: Schmuck aus Glasperlen
+            - name: Halbedelsteine
+            - name: "Muscheln- und S\xFC\xDFwasserperlen"
+            id: e4234d47-af20-48c0-8909-cf90cb4ec9cd
+            last_modified: 1538772129305
+            name: Frau Antje Jansen
+            owner:
+              name: Frau Antje Jansen
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        e5a0c619-8cef-4c95-9dcc-161e53e83250:
+          data:
+            description: Schaustellerbetrieb Kracke, Herr Erich Kracke
+            geometry:
+              coordinates:
+              - - - 7.629303
+                  - 51.961756
+                - - 7.629261
+                  - 51.961687
+                - - 7.629227
+                  - 51.961695
+                - - 7.629269
+                  - 51.961764
+                - - 7.629276
+                  - 51.961763
+                - - 7.629303
+                  - 51.961756
+              type: Polygon
+            goods:
+            - name: "Hei\xDFgetr\xE4nke"
+            - name: "verschiedene Milchgetr\xE4nke mit und ohne Alkohol"
+            id: e5a0c619-8cef-4c95-9dcc-161e53e83250
+            last_modified: 1538772129632
+            name: Schaustellerbetrieb Kracke, Herr Erich Kracke
+            owner:
+              name: Schaustellerbetrieb Kracke, Herr Erich Kracke
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        e807506c-8c53-4f1d-ab25-26b461903770:
+          data:
+            description: null
+            geometry:
+              coordinates:
+              - - - 7.628838
+                  - 51.961368
+                - - 7.628866
+                  - 51.961362
+                - - 7.628853
+                  - 51.961341
+                - - 7.628826
+                  - 51.961347
+                - - 7.628838
+                  - 51.961368
+              type: Polygon
+            goods: []
+            id: e807506c-8c53-4f1d-ab25-26b461903770
+            last_modified: 1538772130125
+            name: null
+            owner:
+              name: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        eb0d272c-2162-4212-8f2e-9f21c68fbf11:
+          data:
+            description: Omelinchen, Frau Ute Dahlke
+            geometry:
+              coordinates:
+              - - - 7.629179
+                  - 51.96138
+                - - 7.629234
+                  - 51.961368
+                - - 7.629222
+                  - 51.961347
+                - - 7.629168
+                  - 51.96136
+                - - 7.629179
+                  - 51.96138
+              type: Polygon
+            goods:
+            - name: Baby- und Kleinkindbekleidung
+            - name: Kissen
+            - name: Decken
+            - name: "Zubeh\xF6r"
+            id: eb0d272c-2162-4212-8f2e-9f21c68fbf11
+            last_modified: 1538772129928
+            name: Omelinchen, Frau Ute Dahlke
+            owner:
+              name: Omelinchen, Frau Ute Dahlke
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        ee3d05aa-8340-42a9-853b-83e6646bd6ef:
+          data:
+            description: Frau Sabine Bertram
+            geometry:
+              coordinates:
+              - - - 7.629137
+                  - 51.961512
+                - - 7.629192
+                  - 51.9615
+                - - 7.629182
+                  - 51.961483
+                - - 7.629127
+                  - 51.961495
+                - - 7.629137
+                  - 51.961512
+              type: Polygon
+            goods:
+            - name: Silberschmuck
+            - name: Accessoires
+            - name: Antikschmuck und Schals
+            id: ee3d05aa-8340-42a9-853b-83e6646bd6ef
+            last_modified: 1538772129552
+            name: Frau Sabine Bertram
+            owner:
+              name: Frau Sabine Bertram
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        eea6c373-804e-43c1-9d85-33927257cc89:
+          data:
+            description: "Udo + Achim Graefer, Bergstr. 19 - 20, 48143 M\xFCnster"
+            geometry:
+              coordinates:
+              - - - 7.626307
+                  - 51.964231
+                - - 7.626334
+                  - 51.96423
+                - - 7.626333
+                  - 51.964199
+                - - 7.626306
+                  - 51.964199
+                - - 7.626307
+                  - 51.964231
+              type: Polygon
+            goods:
+            - name: "Gr\xFCnkohl"
+            - name: Erbsensuppe
+            - name: Schmalzbrot
+            - name: Biermeisser
+            - name: "Gl\xFChwein mit Rum oder Amaretto"
+            - name: Kakao
+            - name: Lumumba
+            - name: Eierpunsch
+            - name: Cola
+            - name: Fanta Sprite
+            - name: Wasser
+            id: eea6c373-804e-43c1-9d85-33927257cc89
+            last_modified: 1538772128516
+            name: "Udo + Achim Graefer, Bergstr. 19 - 20, 48143 M\xFCnster"
+            owner:
+              name: "Udo + Achim Graefer, Bergstr. 19 - 20, 48143 M\xFCnster"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        f356433c-c65f-4d52-a198-9c3e3288e5ed:
+          data:
+            description: Tom Kaiser
+            geometry:
+              coordinates:
+              - - - 7.629704
+                  - 51.9612
+                - - 7.629671
+                  - 51.961207
+                - - 7.629687
+                  - 51.961233
+                - - 7.62972
+                  - 51.961225
+                - - 7.629704
+                  - 51.9612
+              type: Polygon
+            goods:
+            - name: Siegel und Werkzeuge aus feinster Schokolade
+            id: f356433c-c65f-4d52-a198-9c3e3288e5ed
+            last_modified: 1538772128786
+            name: Tom Kaiser
+            owner:
+              name: Tom Kaiser
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        f76fecc6-2547-4cc3-969f-89f1a5a26d3c:
+          data:
+            description: Frau Ursula Wulfert
+            geometry:
+              coordinates:
+              - - - 7.629007
+                  - 51.961386
+                - - 7.629048
+                  - 51.961377
+                - - 7.629027
+                  - 51.961344
+                - - 7.628987
+                  - 51.961354
+                - - 7.629007
+                  - 51.961386
+              type: Polygon
+            goods:
+            - name: "N\xFCrnberger Blechspielzeug und nostalgisches Spielzeug aus\
+                \ aller Welt"
+            id: f76fecc6-2547-4cc3-969f-89f1a5a26d3c
+            last_modified: 1538772129696
+            name: Frau Ursula Wulfert
+            owner:
+              name: Frau Ursula Wulfert
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        f7920e71-33aa-41d1-9276-5518409eded6:
+          data:
+            description: Margret Rennspiess-Hesse
+            geometry:
+              coordinates:
+              - - - 7.629468
+                  - 51.96183
+                - - 7.629451
+                  - 51.961803
+                - - 7.629414
+                  - 51.961812
+                - - 7.62943
+                  - 51.961839
+                - - 7.629468
+                  - 51.96183
+              type: Polygon
+            goods:
+            - name: Selbstgefertigter Designerschmuck
+            - name: Bastelperlen
+            - name: Dekomagnete
+            - name: "Bord\xFCren"
+            id: f7920e71-33aa-41d1-9276-5518409eded6
+            last_modified: 1538772129134
+            name: Margret Rennspiess-Hesse
+            owner:
+              name: Margret Rennspiess-Hesse
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        f9f5a0a4-4171-4f7f-9867-814c30d98438:
+          data:
+            description: "Gro\xDFer Kiepenkerl, Spiekerhof 45, 48143 M\xFCnster, Tel\
+              \ 0251 40335, www.grosser-kiepenkerl.de"
+            geometry:
+              coordinates:
+              - - - 7.626154
+                  - 51.964195
+                - - 7.626182
+                  - 51.964194
+                - - 7.626179
+                  - 51.964139
+                - - 7.626152
+                  - 51.96414
+                - - 7.626154
+                  - 51.964195
+              type: Polygon
+            goods:
+            - name: Kiepenkerl-Punsch EUR 3.50
+            - name: Alkoholfreier Kiepenkerl-Punsch EUR 2.00
+            - name: "Kiepenkerl-Gl\xFChbier EUR 3.00"
+            id: f9f5a0a4-4171-4f7f-9867-814c30d98438
+            last_modified: 1538772128562
+            name: "Gro\xDFer Kiepenkerl, Spiekerhof 45, 48143 M\xFCnster, Tel 0251\
+              \ 40335, www.grosser-kiepenkerl.de"
+            owner:
+              name: "Gro\xDFer Kiepenkerl, Spiekerhof 45, 48143 M\xFCnster, Tel 0251\
+                \ 40335, www.grosser-kiepenkerl.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        fa3686eb-b62f-442f-b051-70b76b3b8a3f:
+          data:
+            description: Ratskeller GmbH & Co. KG
+            geometry:
+              coordinates:
+              - - - 7.628807
+                  - 51.961606
+                - - 7.628828
+                  - 51.961639
+                - - 7.628867
+                  - 51.96163
+                - - 7.628848
+                  - 51.961597
+                - - 7.628807
+                  - 51.961606
+                - - 7.628807
+                  - 51.961606
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            id: fa3686eb-b62f-442f-b051-70b76b3b8a3f
+            last_modified: 1538772130300
+            name: Ratskeller GmbH & Co. KG
+            owner:
+              name: Ratskeller GmbH & Co. KG
+            tags:
+            - Ohne
             type: food
           permissions: {}
     markets:
@@ -106,6 +4511,133 @@ weihnachtsmarkt:
             last_modified: 1538750932505
             name: Rathaus
             web_url: http://www.weihnachtsmarkt-muenster.com/
+          permissions: {}
+        9b885a8c-92b1-4529-8c8b-423e4ae69378:
+          data:
+            description: "Mit seiner pr\xE4chtigen Krippe, einer sechs Meter hohen\
+              \ Holzpyramide, einer M\xE4rchenwelt und vielen attraktiven Verkaufsst\xE4\
+              nden l\xE4dt der Aegidii-Weihnachtsmarkt die ganze Familie zum entspannten\
+              \ Bummeln ein. F\xFCr eine weihnachtliche Stimmung sorgt ein sch\xF6\
+              nes Glockenspiel zu jeder halben Stunde. "
+            geometry:
+              coordinates:
+              - - - 7.6227092743
+                  - 51.9607643092
+                - - 7.6225161552
+                  - 51.9604056546
+                - - 7.6231384277
+                  - 51.9602007078
+                - - 7.6231947541
+                  - 51.9604155713
+                - - 7.6234227419
+                  - 51.9603494596
+                - - 7.6238840818
+                  - 51.9604915997
+                - - 7.623822391
+                  - 51.9606667951
+                - - 7.6232618093
+                  - 51.9606221699
+                - - 7.6230847836
+                  - 51.9606039893
+                - - 7.6227092743
+                  - 51.9607643092
+              type: Polygon
+            id: 9b885a8c-92b1-4529-8c8b-423e4ae69378
+            last_modified: 1538773980081
+            name: Aegidii
+            web_url: http://www.aegidii-weihnachtsmarkt.de/
+          permissions: {}
+        a4f8dad0-0423-4985-bf41-387dd6e9fbe5:
+          data:
+            description: "\xDCber den Drubbel kommt man zum Weihnachtsdorf am Kiepenkerl:\
+              \ In dem kleinen Weihnachtsdorf rund um das Denkmal des m\xFCnsterschen\
+              \ Kiepenkerls laden urige St\xE4nde mit westf\xE4lischen Spezialit\xE4\
+              ten und vielf\xE4ltigem Kunsthandwerk zum Verweilen und zum gem\xFC\
+              tlichen Genie\xDFen ein \u2013 denn auch kulinarisch kommen G\xE4ste\
+              \ hier immer wieder auf ihre Kosten."
+            geometry:
+              coordinates:
+              - - - 7.6261049509
+                  - 51.9642779813
+                - - 7.6260942221
+                  - 51.9640763575
+                - - 7.6264080405
+                  - 51.9640532203
+                - - 7.6264724135
+                  - 51.9642796339
+                - - 7.6263141632
+                  - 51.964302771
+                - - 7.6263195276
+                  - 51.9642730233
+                - - 7.6261049509
+                  - 51.9642779813
+              type: Polygon
+            id: a4f8dad0-0423-4985-bf41-387dd6e9fbe5
+            last_modified: 1538772271971
+            name: Kiepenkerl
+            web_url: http://www.kiepenkerl-weihnachtsmarkt.de/
+          permissions: {}
+
+        abc8cc2d-f193-485b-ac0b-82991a49bbb8:
+          data:
+            description: "Der j\xFCngste Weihnachtsmarkt M\xFCnsters erfreut seine\
+              \ Besucher mit jeder Menge Handwerkskunst und einer Vielzahl besonderer\
+              \ Leckereien. Das besonders romantische Ambiente verdankt der Giebelh\xFC\
+              \xFCskesmarkt seiner Lage vor der einzigartigen Kulisse der \xDCberwasserkirche.\
+              \ Der Giebelh\xFC\xFCskesmarkt schlie\xDFt bereits am 22. Dezember."
+            geometry:
+              coordinates:
+              - - - 7.6233315468
+                  - 51.9640581782
+                - - 7.6225054264
+                  - 51.9639986825
+                - - 7.6223498583
+                  - 51.9640846208
+                - - 7.6220548153
+                  - 51.964097842
+                - - 7.6219958067
+                  - 51.9639722399
+                - - 7.6223069429
+                  - 51.9639193547
+                - - 7.6232725382
+                  - 51.9638003628
+                - - 7.6233315468
+                  - 51.9640581782
+              type: Polygon
+            id: abc8cc2d-f193-485b-ac0b-82991a49bbb8
+            last_modified: 1538773859077
+            name: "Giebelh\xFC\xFCskesmarkt"
+            web_url: http://www.xn--giebelhskesmarkt-pzba.de/
+          permissions: {}
+        c076d7dd-e995-4d55-81ee-dafd97747573:
+          data:
+            description: "Die kleinen blauen Spitzdachh\xE4uschen des Lichtermarkts\
+              \ am Fu\xDFe von St. Lamberti setzen glanzvolle Akzente. Umgeben von\
+              \ historischen Bogenh\xE4usern und neben einer gro\xDFen Weihnachtstanne\
+              \ funkeln Lichter und Weihnachtsschmuck um die Wette \u2013 und bringen\
+              \ alle Besucher zum Strahlen. Der Lichtermarkt schlie\xDFt bereits am\
+              \ 22. Dezember."
+            geometry:
+              coordinates:
+              - - - 7.6293289661
+                  - 51.9629624524
+                - - 7.6290607452
+                  - 51.9627095888
+                - - 7.6284787059
+                  - 51.962747601
+                - - 7.6284733415
+                  - 51.9626203425
+                - - 7.6290339231
+                  - 51.9624881254
+                - - 7.629532814
+                  - 51.9629013025
+                - - 7.6293289661
+                  - 51.9629624524
+              type: Polygon
+            id: c076d7dd-e995-4d55-81ee-dafd97747573
+            last_modified: 1538773322238
+            name: Lamberti
+            web_url: http://www.lichtermarkt-muenster.de/
           permissions: {}
   groups: {}
   permissions:
