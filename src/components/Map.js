@@ -25,7 +25,84 @@ export default class Map extends Component {
       zoom: this.state.viewport.zoom,
       attributionControl: false,
     })
-    this.map.on('style.load', () => {})
+    this.map.addControl(new mapboxgl.NavigationControl())
+    this.map.on('style.load', () => {
+      fetch(
+        'https://kinto-weihnachtsmarkt.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/markets/records'
+      )
+        .then(response => response.json())
+        .then(data => {
+          // console.log(data.data[0])
+          this.map.addLayer({
+            id: 'markets',
+            type: 'fill',
+            source: {
+              type: 'geojson',
+              data: {
+                type: 'Feature',
+                ...data.data[0],
+              },
+            },
+            layout: {},
+            maxzoom: 16,
+            paint: {
+              'fill-color': '#088',
+              'fill-opacity': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                10,
+                0.8,
+                16,
+                0,
+              ],
+            },
+          })
+        })
+
+      fetch(
+        'https://kinto-weihnachtsmarkt.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/records'
+      )
+        .then(response => response.json())
+        .then(data => {
+          // console.log(data.data[0])
+          this.map.addLayer({
+            id: 'booths',
+            type: 'fill',
+            source: {
+              type: 'geojson',
+              data: {
+                ...data.data[0],
+                type: 'Feature',
+              },
+            },
+            layout: {},
+            minzoom: 13,
+            paint: {
+              'fill-color': '#ff0000',
+              'fill-opacity': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                13,
+                0,
+                16,
+                1,
+              ],
+            },
+          })
+        })
+    })
+
+    this.map.on('click', 'markets', e => {
+      // eslint-disable-next-line
+      console.log(e.features)
+    })
+
+    this.map.on('click', 'booths', e => {
+      // eslint-disable-next-line
+      console.log(e.features)
+    })
   }
 
   render() {
