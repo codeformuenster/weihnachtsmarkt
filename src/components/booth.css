@@ -1,0 +1,39 @@
+.booth {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  background: hsl(0, 0%, 96%);
+  margin-bottom: 5px;
+  padding: 2px 2px;
+}
+
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: end;
+
+  background: grey;
+}
+
+.name {
+  grid-column-start: 2;
+  grid-column-end: end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.market {
+  grid-column-start: 2;
+  grid-column-end: end;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.tags {
+  grid-column-start: 2;
+  grid-column-end: end;
+  grid-row-start: 3;
+  grid-row-end: end;
+}
