@@ -28,10 +28,10 @@ class Details extends Component {
 
     return (
       <div>
-        <header className={'header'}>
-          <h2>There will be a header</h2>
-        </header>
         <div id={'container'}>
+          <header className={'header'}>
+            <h2>There will be a header</h2>
+          </header>
           <div className={'title'}>{title}</div>
           <div className={'imagearea'}>
             <div className={'img'}>
@@ -48,10 +48,10 @@ class Details extends Component {
             ))}
           </div>
           <div className={'description'}>{description}</div>
+          <footer className={'searchbar'}>
+            <h3>There might be a searchbar</h3>
+          </footer>
         </div>
-        <footer className={'searchbar'}>
-          <h3>There might be a searchbar</h3>
-        </footer>
       </div>
     )
   }
