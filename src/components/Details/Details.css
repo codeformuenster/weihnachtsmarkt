@@ -8,11 +8,9 @@
         "main main";
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    width: 100vw;
-    height: 100vh;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
+    max-width: 97vw;
+    max-height: 86vh;
+    margin: 5px;
 }
 
 @media (min-width: 650px) {
@@ -36,13 +34,13 @@
 }
 
 .details-fit {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;
 }
 
 .details-description{
     grid-area: main;
-    overflow-y: scroll;
+    overflow-y: auto;
     color: white;
 }
 
