@@ -5,7 +5,5 @@ const client = new Kinto({
   bucket: 'weihnachtsmarkt',
 })
 
-export default {
-  booths: client.collection('booths'),
-  markets: client.collection('markets'),
-}
+export const booths = client.collection('booths')
+export const markets = client.collection('markets')
