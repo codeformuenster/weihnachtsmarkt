@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Weihnachtsmarkt.ms',
+    longTitle: 'Weihnachtsmarkt.ms Münster - Mobile App',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -8,12 +9,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'weihnachtsmarkt.ms',
-        short_name: 'weihnachtsmarkt',
+        short_name: 'Weihnachtsmarkt',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        background_color: '#0C192E',
+        theme_color: '#0C192E',
+        display: 'standalone',
+        icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',

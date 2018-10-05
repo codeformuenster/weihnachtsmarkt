@@ -1,0 +1,39 @@
+bucket1:
+  permissions:
+    write:
+      - principal1
+      - principal2
+      - /buckets/bucket1/groups/group1
+    read:
+      - principal1
+      - principal2
+  collections:
+    collection1:
+      data:
+        schema: file://./collection1_schema.json
+      permissions:
+        write:
+          - /buckets/bucket2/groups/group1
+  groups:
+    group1:
+      - principal1
+      - principal2
+
+bucket2:
+  permissions:
+    write:
+      - principal1
+      - principal2
+      - /buckets/bucket2/groups/group1
+    read:
+      - principal1
+      - principal2
+  collections:
+    collection1:
+      permissions:
+        write:
+          - /buckets/bucket2/groups/group1
+  groups:
+    group1:
+      - principal1
+      - principal2

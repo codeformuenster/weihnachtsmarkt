@@ -1,0 +1,31 @@
+$buckets:
+
+  private_data:
+    description: Data that is mine and I may share with frieds.
+
+    $groups:
+      frieds:
+        members:
+        - portier:myfriend@gmail.com
+
+    $collections:
+        expenses:
+          description: Money stuff.
+        pictures:
+          $permissions:
+            read:
+            - "/buckets/private_data/friends"
+
+  public_data:
+    description: My public data.
+
+    $permissions:
+      read:
+      - "system.Everyone"
+
+    $collections:
+      blog_posts:
+        url: "me.github.io"
+
+        $records:
+          hello_world: {}
