@@ -23,6 +23,11 @@ Let the wizard do its magic 🧙‍♂️
 
     kinto-wizard load --server http://localhost:8888/v1 --auth admin:SUPER-SECURE-PASSWORD kinto/kinto-weihnachtsmarkt.yml
 
+Optional: Import example data
+
+    kinto-wizard load --server http://localhost:8888/v1 --auth admin:SUPER-SECURE-PASSWORD kinto/weihnachtsmarkt-records.yml
+
+
 ## Deployment
 
 For some example manifests for Kubernetes see: [codeformuenster/kubernetes-deployment/manifests/weihnachtsmarkt](https://github.com/codeformuenster/kubernetes-deployment/tree/master/manifests/weihnachtsmarkt)
