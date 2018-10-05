@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 import './Booth.css'
 
-import Logo from './logo'
+import Logo from './Logo'
 
 class Booth extends React.Component {
   static propTypes = {
