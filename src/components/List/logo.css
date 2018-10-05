@@ -1,21 +1,8 @@
 .circle {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-.icon-beverage {
-  background-image: url("../images/beverage.png");
-}
-
-.icon-clothes {
-  background-image: url("../images/clothes.png");
-}
-
-.icon-craft {
-  background-image: url("../images/craft.png");
-}
-
-.icon-food {
-  background-image: url("../images/food.png");
-}
+  vertical-align: middle;
+  padding: 10%;
+  }
+.circle img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
