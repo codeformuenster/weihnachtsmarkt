@@ -187,6 +187,7 @@ weihnachtsmarkt:
           - id
           - market
           - owner
+          - type
           - tags
           - goods
           - description
