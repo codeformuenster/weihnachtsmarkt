@@ -1,7 +1,15 @@
 // @format
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class Booth extends React.Component {
+  static propTypes = {
+    name: PropTypes.string,
+    market: PropTypes.string,
+    image: PropTypes.string,
+    tags: PropTypes.array,
+    odd: PropTypes.bool,
+  }
 
   render() {
     if (!this.props.name) {
@@ -9,7 +17,7 @@ class Booth extends React.Component {
     }
 
     return (
-      <div className="booth">
+      <div className={'booth ' + (this.props.odd ? 'odd' : 'even')}>
         <div className="logo ">
           <i className="material-icons">map</i>
         </div>
