@@ -8,6 +8,7 @@ class Booth extends React.Component {
     market: PropTypes.string,
     image: PropTypes.string,
     tags: PropTypes.array,
+    odd: PropTypes.bool,
   }
 
   render() {
@@ -16,7 +17,7 @@ class Booth extends React.Component {
     }
 
     return (
-      <div className="booth">
+      <div className={'booth ' + (this.props.odd ? 'odd' : 'even')}>
         <div className="logo ">
           <i className="material-icons">map</i>
         </div>
