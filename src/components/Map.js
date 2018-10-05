@@ -22,7 +22,13 @@ export default class Map extends Component {
       style: 'mapbox://styles/mapbox/dark-v9',
       center: [this.state.viewport.longitude, this.state.viewport.latitude],
       zoom: this.state.viewport.zoom,
+      attributionControl: false,
     })
+    this.map.addControl(
+      new mapboxgl.AttributionControl({
+        compact: true,
+      })
+    )
     this.map.on('style.load', () => {})
   }
 
