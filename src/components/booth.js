@@ -1,7 +1,14 @@
 // @format
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class Booth extends React.Component {
+  static propTypes = {
+    name: PropTypes.string,
+    market: PropTypes.string,
+    image: PropTypes.string,
+    tags: PropTypes.array,
+  }
 
   render() {
     if (!this.props.name) {
