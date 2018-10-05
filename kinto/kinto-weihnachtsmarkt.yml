@@ -1,0 +1,320 @@
+weihnachtsmarkt:
+  collections:
+    booths:
+      data:
+        attachment:
+          enabled: true
+          required: false
+        cache_expires: 0
+        displayFields:
+        - name
+        id: booths
+        last_modified: 1538748468551
+        schema:
+          definitions: {}
+          properties:
+            description:
+              $id: '#/properties/description'
+              default: ''
+              examples:
+              - "Beim \"Wiesn Bratwurst & mehr\" bekommt man die volle Dr\xF6hnung!\
+                \ Leckere bayerische Spezialit\xE4ten zu z\xFCnftiger Wiesn Musik\
+                \ vom Live Act \"Die Wiesn-Boys\". Die Tradition verpflichtet und\
+                \ wichtige Dinge werden nicht au\xDFer Acht gelassen. F\xFCr das leibliche\
+                \ Wohl ist gesorgt und keine Auge bleibt trocken. O'zapft is!"
+              minLength: 1
+              pattern: ^(.*)$
+              title: The Description Schema
+              type: string
+            geometry:
+              $id: '#/properties/geometry'
+              properties:
+                bbox:
+                  items:
+                    type: number
+                  minItems: 4
+                  type: array
+                coordinates:
+                  items:
+                    items:
+                      items:
+                        type: number
+                      minItems: 2
+                      type: array
+                    minItems: 4
+                    type: array
+                  type: array
+                type:
+                  enum:
+                  - Polygon
+                  type: string
+              required:
+              - type
+              - coordinates
+              title: The Geometry Schema
+              type: object
+            goods:
+              $id: '#/properties/goods'
+              items:
+                $id: '#/properties/goods/items'
+                properties:
+                  name:
+                    $id: '#/properties/goods/items/properties/name'
+                    default: ''
+                    examples:
+                    - Haxn mit Kraut
+                    minLength: 1
+                    pattern: ^(.*)$
+                    title: The Name Schema
+                    type: string
+                  price:
+                    $id: '#/properties/goods/items/properties/price'
+                    default: 0
+                    examples:
+                    - 7.9
+                    title: The Price Schema
+                    type: number
+                required:
+                - name
+                title: The Items Schema
+                type: object
+              title: The Goods Schema
+              type: array
+            id:
+              $id: '#/properties/id'
+              default: ''
+              minLength: 1
+              pattern: ^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}$
+              type: string
+            market:
+              $id: '#/properties/market'
+              default: ''
+              enum:
+              - Rathaus
+              - Aegidii
+              - Lamberti
+              - "Giebelh\xFC\xFCskesmarkt"
+              - Kiepenkerl
+              pattern: ^(.*)$
+              title: The Market Schema
+              type: string
+            name:
+              $id: '#/properties/name'
+              default: ''
+              examples:
+              - Wiesn Bratwurst & mehr
+              minLength: 1
+              pattern: ^(.*)$
+              title: The Name Schema
+              type: string
+            type:
+              $id: '#/properties/type'
+              default: ''
+              minLength: 1
+              pattern: ^(.*)$
+              title: The Name Schema
+              type: string
+            owner:
+              $id: '#/properties/owner'
+              properties:
+                email:
+                  $id: '#/properties/owner/properties/email'
+                  default: ''
+                  examples:
+                  - spongebob_98@hotmail.com
+                  format: email
+                  title: The Email Schema
+                  type: string
+                name:
+                  $id: '#/properties/owner/properties/name'
+                  default: ''
+                  examples:
+                  - Spongebob Schwammkopf
+                  pattern: ^(.*)$
+                  title: The Name Schema
+                  type: string
+                telephone:
+                  $id: '#/properties/owner/properties/telephone'
+                  default: ''
+                  examples:
+                  - '+4918091123129982'
+                  pattern: \d
+                  title: The Telephone Schema
+                  type: string
+                web_url:
+                  $id: '#/properties/owner/properties/web_url'
+                  default: ''
+                  examples:
+                  - https://spongebob.de/weihnachtsmarkt
+                  pattern: ^(.*)$
+                  title: The Web_url Schema
+                  type: string
+              required:
+              - name
+              title: The Owner Schema
+              type: object
+            tags:
+              $id: '#/properties/tags'
+              items:
+                $id: '#/properties/tags/items'
+                default: ''
+                examples:
+                - Leibliches Wohl
+                - Unterhaltung
+                minLength: 1
+                pattern: ^(.*)$
+                title: The Items Schema
+                type: string
+              title: The Tags Schema
+              type: array
+          required:
+          - id
+          - owner
+          - name
+          - tags
+          - market
+          - goods
+          - description
+          - geometry
+          title: The Root Schema
+          type: object
+        sort: -name
+        uiSchema:
+          content:
+            ui:widget: textarea
+          ui:order:
+          - name
+          - id
+          - market
+          - owner
+          - tags
+          - goods
+          - description
+          - geometry
+      permissions:
+        read:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        - system.Everyone
+        record:create:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        write:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+    markets:
+      data:
+        attachment:
+          enabled: true
+          required: false
+        cache_expires: 0
+        displayFields:
+        - name
+        id: markets
+        last_modified: 1538748453852
+        schema:
+          $id: http://example.com/root.json
+          $schema: http://json-schema.org/draft-07/schema#
+          definitions: {}
+          properties:
+            description:
+              $id: '#/properties/description'
+              default: ''
+              examples:
+              - "Unter einem romantischen Lichterhimmel begr\xFC\xDFt auf dem Platz\
+                \ des Westf\xE4lischen Friedens (Rathausinnenhof) der gr\xF6\xDFte\
+                \ und \xE4lteste Weihnachtsmarkt in M\xFCnster seine G\xE4ste. Hier\
+                \ gibt es nicht nur eine riesige Auswahl an Schmuck- und Kunstgewerbest\xE4\
+                nden, auch ein Kinderkarussell und vielseitige kulinarische Angebote\
+                \ bereiten Gro\xDF und Klein Freude."
+              pattern: ^(.*)$
+              title: The Description Schema
+              type: string
+            geometry:
+              $id: '#/properties/geometry'
+              properties:
+                bbox:
+                  items:
+                    type: number
+                  minItems: 4
+                  type: array
+                coordinates:
+                  items:
+                    items:
+                      items:
+                        type: number
+                      minItems: 2
+                      type: array
+                    minItems: 4
+                    type: array
+                  type: array
+                type:
+                  enum:
+                  - Polygon
+                  type: string
+              required:
+              - type
+              - coordinates
+              title: The Geometry Schema
+              type: object
+            id:
+              $id: '#/properties/id'
+              default: ''
+              examples:
+              - 89881454-e4e9-4ef0-99a9-404d95900352
+              pattern: ^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}$
+              title: The Id Schema
+              type: string
+            name:
+              $id: '#/properties/name'
+              default: ''
+              examples:
+              - Rathaus
+              minLength: 1
+              pattern: ^(.*)$
+              title: The Name Schema
+              type: string
+            web_url:
+              $id: '#/properties/web_url'
+              default: ''
+              examples:
+              - http://www.weihnachtsmarkt-muenster.com/
+              format: uri
+              pattern: ^(.*)$
+              title: The Web_url Schema
+              type: string
+          required:
+          - id
+          - name
+          - description
+          - geometry
+          title: The Root Schema
+          type: object
+        sort: -name
+        uiSchema:
+          content:
+            ui:widget: textarea
+          ui:order:
+          - id
+          - name
+          - description
+          - geometry
+          - web_url
+      permissions:
+        read:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        - system.Everyone
+        record:create:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        write:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+  data:
+    id: weihnachtsmarkt
+    last_modified: 1538747114295
+  groups: {}
+  permissions:
+    write:
+    - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
