@@ -18,7 +18,6 @@ export default class Map extends Component {
   }
 
   componentDidMount() {
-    console.log(process.env)
     this.map = new mapboxgl.Map({
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/dark-v9',
