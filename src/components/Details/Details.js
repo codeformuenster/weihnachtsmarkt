@@ -4,17 +4,17 @@ import './Details.css'
 
 class Details extends Component {
   static propTypes = {
-    title: PropTypes.string,
+    name: PropTypes.string,
     image: PropTypes.string,
     tags: PropTypes.array,
     description: PropTypes.string,
   }
 
   render() {
-    let { title, image, tags, description } = this.props
+    let { name, image, tags, description } = this.props
 
-    if (title === undefined) {
-      title = 'Titel fehlt noch'
+    if (name === undefined) {
+      name = 'Titel fehlt noch'
     }
     if (image === undefined) {
       image = 'bude.jpg'
@@ -32,7 +32,7 @@ class Details extends Component {
           <header className={'header'}>
             <h2>There will be a header</h2>
           </header>
-          <div className={'title'}>{title}</div>
+          <div className={'title'}>{name}</div>
           <div className={'imagearea'}>
             <div className={'img'}>
               <img
