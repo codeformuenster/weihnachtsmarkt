@@ -1,14 +1,14 @@
 import Booth from '../../components/List/Booth';
 import { connect } from 'react-redux';
 
-export function mapStateToProps({ marketData }) {
-  return { marketData }
+export function mapStateToProps({ allMarkets }) {
+  return { allMarkets }
 }
 
 export function mapDispatchToProps(dispatch) {
   return {
-    setSelectedMarket: (market) => dispatch({
-      type: `SET_SELECTED_MARKET`, payload: market })
+    setAllMarkets: (allMarkets) => dispatch({
+      type: `SET_ALL_MARKETS`, payload: allMarkets })
     }
   }
 
