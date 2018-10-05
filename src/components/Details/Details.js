@@ -11,11 +11,17 @@ class Details extends Component {
   constructor(props) {
     super(props)
     let { pageContext } = props
-    let name = pageContext.name
+    let name = undefined
     let image = undefined
-    let tags = pageContext.tags
-    let description = pageContext.description
-    let goods = pageContext.goods
+    let tags = undefined
+    let description = undefined
+    let goods = undefined
+    if (pageContext !== undefined) {
+      name = pageContext.name
+      tags = pageContext.tags
+      description = pageContext.description
+      goods = pageContext.goods
+    }
 
     if (name === undefined) {
       name = 'Lade'
