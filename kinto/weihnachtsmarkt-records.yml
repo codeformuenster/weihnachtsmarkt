@@ -1,0 +1,114 @@
+weihnachtsmarkt:
+  collections:
+    booths:
+      permissions:
+        read:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        - system.Everyone
+        record:create:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        write:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
+        - system.Authenticated
+      records:
+        042cbaef-b713-4308-bd74-c1df67f66de6:
+          data:
+            description: "Beim \"Wiesn Bratwurst & mehr\" bekommt man die volle Dr\xF6\
+              hnung! Leckere bayerische Spezialit\xE4ten zu z\xFCnftiger Wiesn Musik\
+              \ vom Live Act \"Die Wiesn-Boys\". Die Tradition verpflichtet und wichtige\
+              \ Dinge werden nicht au\xDFer Acht gelassen. F\xFCr das leibliche Wohl\
+              \ ist gesorgt und keine Auge bleibt trocken. O'zapft is!"
+            geometry:
+              coordinates:
+              - - - 7.629245
+                  - 51.961027
+                - - 7.629255
+                  - 51.961043
+                - - 7.629345
+                  - 51.961044
+                - - 7.629344
+                  - 51.961022
+                - - 7.629245
+                  - 51.961021
+                - - 7.629245
+                  - 51.961027
+              type: Polygon
+            goods:
+            - name: Haxn mit Kraut
+              price: 7.9
+            - name: "Bratwurst im Br\xF6tchen"
+              price: 3
+            - name: "Gl\xFChwein"
+              price: 2.5
+            - name: Brezn mit Butter
+              price: 1.9
+            id: 042cbaef-b713-4308-bd74-c1df67f66de6
+            last_modified: 1538751258908
+            market: Rathaus
+            name: Wiesn Bratwurst & mehr
+            owner:
+              email: spongebob_98@hotmail.com
+              name: Spongebob Schwammkopf
+              telephone: '+4918091123129982'
+              web_url: https://spongebob.de/weihnachtsmarkt
+            tags:
+            - Leibliches Wohl
+            - Unterhaltung
+            type: food
+          permissions: {}
+    markets:
+      permissions:
+        read:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        - system.Everyone
+        record:create:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        write:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
+        - system.Authenticated
+      records:
+        083bc102-1eda-4015-bd4d-c947b4e0d63c:
+          data:
+            description: "Unter einem romantischen Lichterhimmel begr\xFC\xDFt auf\
+              \ dem Platz des Westf\xE4lischen Friedens (Rathausinnenhof) der gr\xF6\
+              \xDFte und \xE4lteste Weihnachtsmarkt in M\xFCnster seine G\xE4ste.\
+              \ Hier gibt es nicht nur eine riesige Auswahl an Schmuck- und Kunstgewerbest\xE4\
+              nden, auch ein Kinderkarussell und vielseitige kulinarische Angebote\
+              \ bereiten Gro\xDF und Klein Freude."
+            geometry:
+              coordinates:
+              - - - 7.63014
+                  - 51.96173
+                - - 7.6282507181
+                  - 51.962253439
+                - - 7.6275908947
+                  - 51.9612551821
+                - - 7.6277250051
+                  - 51.9610237949
+                - - 7.6277035475
+                  - 51.9609047953
+                - - 7.6293557882
+                  - 51.9608386842
+                - - 7.6293075085
+                  - 51.9607428231
+                - - 7.62965
+                  - 51.96074
+                - - 7.63014
+                  - 51.96173
+              type: Polygon
+            id: 083bc102-1eda-4015-bd4d-c947b4e0d63c
+            last_modified: 1538750932505
+            name: Rathaus
+            web_url: http://www.weihnachtsmarkt-muenster.com/
+          permissions: {}
+  groups: {}
+  permissions:
+    write:
+    - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+    - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
