@@ -17,20 +17,35 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
 
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.4.2
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana-oss:6.4.2
+    ports: ['5601:5601']
+    depends_on:
+      - elasticsearch
+
   kinto:
-    image: kinto/kinto-server:10.1.2
+    # image: kinto/kinto-server:10.1.2
+    image: kinto/kinto-server:latest
     # command: sh -c "kinto migrate --ini /etc/kinto/kinto.ini && kinto start --ini /etc/kinto/kinto.ini --port 8888"
-    links:
-      - postgres
+    # links:
+    #   - postgres
     ports:
       - "8888:8888"
     environment:
       # FIXME move to config/kinto.ini
-      KINTO_CACHE_BACKEND: kinto.core.cache.postgresql
-      KINTO_CACHE_URL: postgres://postgres:postgres@postgres/postgres
+      # KINTO_CACHE_BACKEND: kinto.core.cache.postgresql
+      # KINTO_CACHE_URL: postgres://postgres:postgres@postgres/postgres
       KINTO_STORAGE_BACKEND: kinto.core.storage.postgresql
       KINTO_STORAGE_URL: postgres://postgres:postgres@postgres/postgres
-      KINTO_PERMISSION_BACKEND: kinto.core.permission.postgresql
-      KINTO_PERMISSION_URL: postgres://postgres:postgres@postgres/postgres
+      # KINTO_PERMISSION_BACKEND: kinto.core.permission.postgresql
+      # KINTO_PERMISSION_URL: postgres://postgres:postgres@postgres/postgres
     volumes:
       - ./kinto/config:/etc/kinto
+    depends_on:
+      - postgres
+      - elasticsearch
