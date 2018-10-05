@@ -23,7 +23,8 @@ export default class Map extends Component {
   async componentDidMount() {
     this.map = new mapboxgl.Map({
       container: this.mapContainer,
-      style: 'mapbox://styles/mapbox/dark-v9',
+      // style: 'mapbox://styles/mapbox/dark-v9',
+      style: 'mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze',
       center: [this.state.viewport.longitude, this.state.viewport.latitude],
       zoom: this.state.viewport.zoom,
       attributionControl: false,
