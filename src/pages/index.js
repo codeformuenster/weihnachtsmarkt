@@ -13,7 +13,7 @@ const IndexPage = () => {
       <div
         style={{
           position: 'absolute',
-          bottom: '100px',
+          bottom: '80px',
           left: '0',
           right: '0',
         }}
