@@ -13,7 +13,6 @@ export default class Map extends Component {
       longitude: 7.625788,
       zoom: 13,
     },
-    crashes: this.props.mapData,
   }
 
   componentDidMount() {
