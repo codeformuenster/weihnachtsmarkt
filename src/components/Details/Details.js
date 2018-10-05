@@ -36,6 +36,7 @@ class Details extends Component {
           <div className={'imagearea'}>
             <div className={'img'}>
               <img
+                className={'fit'}
                 src={require('../../images/' + image)} // eslint-disable-line no-undef
               />
             </div>
