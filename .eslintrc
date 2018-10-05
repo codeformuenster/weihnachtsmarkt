@@ -2,7 +2,7 @@
   "parser": "babel-eslint",
   "rules": {
     "strict": 0,
-    "no-console": "warn"
+    "no-console": "off"
   },
   "env": {
     "browser": true,
