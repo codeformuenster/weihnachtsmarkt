@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Material+Icons");
+
+* {
+  font-family: 'Comfortaa';
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
