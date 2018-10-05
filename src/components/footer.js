@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import './footer.css'
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <div
     style={{
       // position: 'absolute',
