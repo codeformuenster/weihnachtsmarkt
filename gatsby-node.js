@@ -25,8 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
             console.log('Create path: ' + path)
             createPage({
               path: path,
-              component:
-                '/home/chris/workspace/weihnachtsmarkt/src/components/Details/Details.js',
+              component: __dirname + '/src/components/Details/Details.js',
               context: data.body.data[i],
             })
           } catch (e) {
