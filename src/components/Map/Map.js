@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 // import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
-import { booths, markets } from './../helpers/client'
+import { booths, markets } from './../../helpers/client'
 
 import './map.css'
 
@@ -70,6 +70,7 @@ export default class Map extends Component {
       try {
         await booths.sync()
         const wat = await booths.list()
+        this.props.setAllMarkets(wat.data)
         this.map.addSource('booths-source', {
           type: 'geojson',
           data: {
@@ -132,5 +133,7 @@ export default class Map extends Component {
 
 Map.propTypes = {
   marketData: PropTypes.object,
+  allMarkets: PropTypes.array,
+  setAllMarkets: PropTypes.func,
   setSelectedMarket: PropTypes.func,
 }
