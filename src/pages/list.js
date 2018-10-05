@@ -2,11 +2,11 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import Booth from '../components/booth'
+import Booth from '../components/List/booth'
 import Search from '../components/search'
 
 import './list.css'
-import '../components/booth.css'
+import '../components/List/booth.css'
 
 const ListPage = () => (
   <Layout>

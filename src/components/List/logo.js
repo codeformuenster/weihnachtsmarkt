@@ -10,7 +10,13 @@ class Logo extends React.Component {
   }
 
   render() {
-    return <div className={'circle icon-' + this.props.type} />
+    return (
+      <div className={'circle icon-' + this.props.type}>
+        <img
+          src={require(`../../images/colored-icons/${this.props.type}.png`)}
+        />
+      </div>
+    )
   }
 }
 
