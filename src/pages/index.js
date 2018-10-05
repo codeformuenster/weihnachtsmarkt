@@ -12,7 +12,7 @@ const IndexPage = () => {
       <Map />
       <div
         style={{
-          position: 'absolute',
+          position: 'relative',
           bottom: '80px',
           left: '0',
           right: '0',
