@@ -2,14 +2,24 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './Details.css'
 import Layout from '../components/layout'
+import { connect } from 'react-redux'
+
+const mapDispatchToProps = dispatch => {
+  return {
+    setSelectedBooth: booth =>
+      dispatch({ type: `SET_SELECTED_BOOTH`, payload: booth }),
+  }
+}
 
 class Details extends Component {
   static propTypes = {
     pageContext: PropTypes.object,
+    setSelectedBooth: PropTypes.func,
   }
 
   constructor(props) {
     super(props)
+
     let { pageContext } = props
     let name = undefined
     let image = undefined
@@ -23,6 +33,7 @@ class Details extends Component {
       description = pageContext.description
       goods = pageContext.goods
       geometry = pageContext.geometry
+      this.props.setSelectedBooth(pageContext)
     }
 
     if (name === undefined || name === null || name === '') {
@@ -54,8 +65,6 @@ class Details extends Component {
       goods: goods,
       geometry: geometry,
     }
-
-    this.handleEdit = this.handleEdit.bind(this)
   }
 
   handleEdit() {
@@ -116,4 +125,9 @@ class Details extends Component {
   }
 }
 
-export default Details
+const ConnectedDetails = connect(
+  null,
+  mapDispatchToProps
+)(Details)
+
+export default ConnectedDetails
