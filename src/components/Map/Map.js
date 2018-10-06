@@ -172,7 +172,6 @@ export default class Map extends Component {
     })
 
     this.map.on('pitch', () => {
-      console.log(this.map.getPitch())
       this.props.setViewport({
         ...this.state.viewport,
         pitch: this.map.getPitch(),
