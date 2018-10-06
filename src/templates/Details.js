@@ -16,24 +16,31 @@ class Details extends Component {
     let tags = undefined
     let description = undefined
     let goods = undefined
+    let geometry = undefined
     if (pageContext !== undefined) {
       name = pageContext.name
       tags = pageContext.tags
       description = pageContext.description
       goods = pageContext.goods
+      geometry = pageContext.geometry
     }
 
-    if (name === undefined) {
-      name = 'Lade'
+    if (name === undefined || name === null || name === '') {
+      name = 'Leider kein Name :('
     }
-    if (image === undefined) {
+    if (image === undefined || image === null) {
       image = 'bude.jpg'
     }
-    if (tags === undefined) {
+    if (tags === undefined || (tags.length === 1 && tags[0] === 'Ohne')) {
       tags = []
     }
-    if (description === undefined) {
-      description = 'Lade'
+    if (
+      description === undefined ||
+      description === null ||
+      description === '' ||
+      description === 'null'
+    ) {
+      description = 'Leider keine Beschreibung :('
     }
     if (goods === undefined) {
       goods = []
@@ -45,10 +52,19 @@ class Details extends Component {
       tags: tags,
       description: description,
       goods: goods,
+      geometry: geometry,
     }
+
+    this.handleEdit = this.handleEdit.bind(this)
   }
 
-  componentDidMount() {}
+  handleEdit() {
+    console.log('Changed')
+    this.setState({
+      ...this.state,
+      description: 'Changed',
+    })
+  }
 
   render() {
     return (
@@ -64,22 +80,34 @@ class Details extends Component {
                 src={require('../images/' + this.state.image)} // eslint-disable-line no-undef
               />
             </div>
-            <div className={'details-tags details-background'}>
-              {this.state.tags.map(tag => (
-                <u key={tag} className={'details-tag'}>
-                  {tag}
-                </u>
-              ))}
-            </div>
-            <div className={'details-goods details-background'}>
-              {this.state.goods.map(good => (
-                <div key={good} className={'details-good'}>
-                  {good.name}
-                </div>
-              ))}
-            </div>
+            {this.state.tags.length > 0 ? (
+              <div className={'details-tags details-background'}>
+                {this.state.tags.map(tag => (
+                  <u key={tag} className={'details-tag'}>
+                    {tag}
+                  </u>
+                ))}
+              </div>
+            ) : (
+              ''
+            )}
+            {this.state.goods.length > 0 ? (
+              <div className={'details-goods details-background'}>
+                {this.state.goods.map((good, index) => (
+                  <span key={good} className={'details-good'}>
+                    {good.name}
+                    {index < this.state.goods.length - 1 ? ' - ' : ''}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              ''
+            )}
             <div className={'details-description details-background'}>
-              {JSON.stringify(this.state.description)}
+              {JSON.stringify(this.state.description).replace(
+                new RegExp('"', 'g'),
+                ''
+              )}
             </div>
           </div>
         </div>
