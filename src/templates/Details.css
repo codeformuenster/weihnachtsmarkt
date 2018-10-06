@@ -70,7 +70,7 @@
 .details-good{
 }
 
-.details-edit-button{
+.details-nav-button{
     position: absolute;
     bottom: 60px;
     right: 10px;
@@ -92,7 +92,8 @@
     transition: background-color .3s;
 }
 
-.details-edit-button span{
+.details-nav-button a{
     display: block;
-    padding: 12px 24px;
+    padding: 8px 16px;
+    color: #ecf0f1;
 }

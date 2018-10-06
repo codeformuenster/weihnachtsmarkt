@@ -56,6 +56,16 @@ class Details extends Component {
     if (goods === undefined) {
       goods = []
     }
+    if (geometry !== undefined && geometry !== null) {
+      let accumulator = [0, 0]
+      geometry.coordinates[0].forEach(coordinate => {
+        accumulator[0] += coordinate[0]
+        accumulator[1] += coordinate[1]
+      })
+      accumulator[0] /= geometry.coordinates[0].length
+      accumulator[1] /= geometry.coordinates[0].length
+      geometry = accumulator
+    }
 
     this.state = {
       name: name,
@@ -63,16 +73,8 @@ class Details extends Component {
       tags: tags,
       description: description,
       goods: goods,
-      geometry: geometry,
+      center: geometry,
     }
-  }
-
-  handleEdit() {
-    console.log('Changed')
-    this.setState({
-      ...this.state,
-      description: 'Changed',
-    })
   }
 
   render() {
@@ -119,6 +121,24 @@ class Details extends Component {
               )}
             </div>
           </div>
+          {this.state.center !== undefined &&
+          this.state.center !== null &&
+          this.state.center.length == 2 ? (
+            <div className={'details-nav-button'}>
+              <a
+                href={
+                  'https://maps.google.com/?q=' +
+                  this.state.center[1] +
+                  ',' +
+                  this.state.center[0]
+                }
+              >
+                Bring mich hin
+              </a>
+            </div>
+          ) : (
+            ''
+          )}
         </div>
       </Layout>
     )
