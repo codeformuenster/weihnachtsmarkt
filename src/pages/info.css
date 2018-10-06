@@ -1,0 +1,12 @@
+h2 {
+  color: white;
+}
+
+a {
+  color: hsl(204, 86%, 53%);
+}
+
+.info-text {
+  width: 90%;
+  margin: 1em auto;
+}

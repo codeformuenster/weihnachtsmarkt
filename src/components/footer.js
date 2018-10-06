@@ -46,7 +46,7 @@ const Footer = () => (
       </p>
       <p style={{ margin: 0 }}>
         <Link
-          to="/details/canadian-rulez-inh-gregor-nief-duisburger-str-288-45478-mlheim-an-der-ruhr-infoatcanadian-rulezdotde-wwwcanadian-rulezde"
+          to="/info"
           style={{
             color: 'white',
             textDecoration: 'none',
