@@ -6,12 +6,9 @@
         "details-name logo"
         "details-tags details-tags"
         "details-goods details-goods"
-        "main main";
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    max-width: 97vw;
+        "main main";;
+    max-width: 100vw;
     max-height: 86vh;
-    margin: 5px;
 }
 
 @media (min-width: 650px) {
@@ -26,7 +23,9 @@
     text-align: center;
     line-height: 24pt;
     color: white;
-    place-self: center;
+    justify-self: center;
+    border-right: solid darkgray 2px;
+    align-self: stretch;
 }
 
 .details-imagearea {
@@ -43,17 +42,19 @@
     grid-area: main;
     overflow-y: auto;
     color: white;
+    border-top: solid darkgray 2px;
+    border-bottom: solid darkgray 2px;
 }
 
 .details-background{
-    background-color: #3f3f3f;
-    border-radius: 5px;
+    background-color: hsl(0, 0%, 30%);
     padding: 5px;
 }
 
 .details-tags{
     grid-area: details-tags;
     color: lightblue;
+    border-top: solid darkgray 2px;
 }
 
 .details-tag{
@@ -63,6 +64,7 @@
 .details-goods{
     grid-area: details-goods;
     color: orange;
+    border-top: solid darkgray 2px;
 }
 
 .details-good{
