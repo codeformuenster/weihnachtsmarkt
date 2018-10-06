@@ -16,7 +16,7 @@ weihnachtsmarkt:
       records:
         01810f58-73ec-48fa-8837-4ce43ad5faef:
           data:
-            description: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+            description: www.tirolerin-muenster.de
             geometry:
               coordinates:
               - - - 7.629884
@@ -31,21 +31,21 @@ weihnachtsmarkt:
                   - 51.961551
               type: Polygon
             goods:
-            - name: "Tiroler Spezialit\xE4ten wie K\xE4se"
+            - name: Käse
             - name: Wurst
             - name: Brot
             id: 01810f58-73ec-48fa-8837-4ce43ad5faef
             last_modified: 1538772129022
-            name: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+            name: Tiroler Bauernstandl
             owner:
-              name: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+              name: Rita Westhoff
             tags:
-            - Ohne
+            - Tiroler Spezialitäten
             type: food
           permissions: {}
         022b19bf-28f8-45fd-8c61-b0c2a8deffef:
           data:
-            description: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+            description: www.alpenland-kosmetik.de
             geometry:
               coordinates:
               - - - 7.629774
@@ -60,22 +60,22 @@ weihnachtsmarkt:
                   - 51.96137
               type: Polygon
             goods:
-            - name: "Tiroler Rarit\xE4ten: Balsame"
-            - name: "Kr\xE4uter- und Pflanzenseifen"
+            - name: Balsame
+            - name: Kräuter- und Pflanzenseifen
             - name: Molke-Pflegeprodukte
-            - name: "Hirschtalg-Fu\xDFcreme etc."
+            - name: Hirschtalg-Fußcreme
             id: 022b19bf-28f8-45fd-8c61-b0c2a8deffef
             last_modified: 1538772130751
-            name: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+            name: Alpenland Kosmetik
             owner:
-              name: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+              name: Alexander Bauer
             tags:
-            - Ohne
-            type: food
+            - Tiroler Raritäten
+            type: craft
           permissions: {}
         074f8e9a-69ab-4721-9e5b-e5b951aff96b:
           data:
-            description: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+            description: www.dandos.de
             geometry:
               coordinates:
               - - - 7.629085
@@ -90,16 +90,16 @@ weihnachtsmarkt:
                   - 51.961401
               type: Polygon
             goods:
-            - name: 'Schmuck: Chunks'
+            - name: "Schmuck: Chunks"
             - name: Engelsrufer
             id: 074f8e9a-69ab-4721-9e5b-e5b951aff96b
             last_modified: 1538772129777
-            name: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+            name: Dandos UG
             owner:
-              name: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+              name: Herr Daniel Schmidt-Wilcke
             tags:
-            - Ohne
-            type: food
+            - Schmuck
+            type: craft
           permissions: {}
         097a9acc-9884-4420-9fd8-ecdb7170614b:
           data:
@@ -124,10 +124,11 @@ weihnachtsmarkt:
             last_modified: 1538772129177
             name: Altrogge - Heitmann GBR
             owner:
-              name: Altrogge - Heitmann GBR
+              name: Doris Altrogge
             tags:
-            - Ohne
-            type: food
+            - Glühwein
+            - Getränke
+            type: beverage
           permissions: {}
         0994c92f-a889-4de5-8d3d-c80800f58739:
           data:
@@ -151,16 +152,15 @@ weihnachtsmarkt:
             - name: Kalter Hund
             - name: Kiepenkerl-Pinkel
             - name: Sweet Pipi
-            - name: "Kiepenkerl K\xF6ddel"
+            - name: Kiepenkerl Köddel
             id: 0994c92f-a889-4de5-8d3d-c80800f58739
             last_modified: 1538772128705
-            name: "Caf\xE9 Longinus, Baumberg 45, D-48301 Nottuln, Tel. 02502 7911,\
-              \ info[at]longinusturm.de, www.longinusturm.de"
+            name: Café Longinus
             owner:
-              name: "Caf\xE9 Longinus, Baumberg 45, D-48301 Nottuln, Tel. 02502 7911,\
-                \ info[at]longinusturm.de, www.longinusturm.de"
+              name: Tim Broeker
             tags:
-            - Ohne
+            - Kiepenkerl
+            - Spezialitäten
             type: food
           permissions: {}
         0a20d09e-aca9-4758-ac3f-15738da59c95:
@@ -185,12 +185,13 @@ weihnachtsmarkt:
             - name: Sand-Art-Muschel-Schmuck
             id: 0a20d09e-aca9-4758-ac3f-15738da59c95
             last_modified: 1538772130776
-            name: GLASS ART, Herr Klaus Meier
+            name: GLASS ART
             owner:
-              name: GLASS ART, Herr Klaus Meier
+              name: Klaus Meier
             tags:
-            - Ohne
-            type: food
+            - Schmuck
+            - Fensterbilder
+            type: craft
           permissions: {}
         0b53f75c-d304-4cb6-a114-d8feb3154ccb:
           data:
@@ -218,10 +219,10 @@ weihnachtsmarkt:
             last_modified: 1538772128714
             name: Heinz Zahn GmbH
             owner:
-              name: Heinz Zahn GmbH
+              name: Heinz Zahn
             tags:
-            - Ohne
-            type: food
+            - Glühwein
+            type: beverage
           permissions: {}
         0e510c65-a405-47a6-9756-5600c84a4b47:
           data:
@@ -240,15 +241,17 @@ weihnachtsmarkt:
                   - 51.96138
               type: Polygon
             goods:
-            - name: selbstgefertigte Spiele und Spielzeug aus Holz
+            - name: selbstgefertigte Spiele
+            - name: Spielzeug aus Holz
             id: 0e510c65-a405-47a6-9756-5600c84a4b47
             last_modified: 1538772129628
-            name: Herr Ulli Gumpert www.bibahn.de
+            name: Höpinger Spielewerkstatt
             owner:
-              name: Herr Ulli Gumpert www.bibahn.de
+              name: Ulli Gumpert
             tags:
-            - Ohne
-            type: food
+            - Holz
+            - Spielzeug
+            type: craft
           permissions: {}
         0f7d1e99-e5da-4ca9-be3c-f4f81f2d2b48:
           data:
