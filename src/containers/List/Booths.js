@@ -1,8 +1,8 @@
 import Booths from '../../components/List/Booths'
 import { connect } from 'react-redux'
 
-export function mapStateToProps({ allMarkets, allBooths }) {
-  return { allMarkets, allBooths }
+export function mapStateToProps({ allMarkets, allBooths, filterData }) {
+  return { allMarkets, allBooths, filterData }
 }
 
 export function mapDispatchToProps(dispatch) {

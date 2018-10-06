@@ -67,6 +67,6 @@
   text-overflow: ellipsis;
 }
 
-.odd {
+.booths:nth-child(2) {
   background-color: hsl(0, 0%, 30%);
 }
