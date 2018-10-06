@@ -9,7 +9,7 @@ weihnachtsmarkt:
         displayFields:
         - name
         id: booths
-        last_modified: 1538748468551
+        last_modified: 1538820899476
         schema:
           definitions: {}
           properties:
@@ -213,7 +213,7 @@ weihnachtsmarkt:
         displayFields:
         - name
         id: markets
-        last_modified: 1538772037610
+        last_modified: 1538820899502
         schema:
           $id: http://example.com/root.json
           $schema: http://json-schema.org/draft-07/schema#
@@ -323,7 +323,7 @@ weihnachtsmarkt:
         displayFields:
         - name
         id: pois
-        last_modified: 1538819427650
+        last_modified: 1538820812143
         schema:
           $id: http://example.com/root.json
           $schema: http://json-schema.org/draft-07/schema#
@@ -391,11 +391,20 @@ weihnachtsmarkt:
           - description
           - geometry
       permissions:
+        read:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        - system.Everyone
+        record:create:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
         write:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
+        - system.Authenticated
   data:
     id: weihnachtsmarkt
-    last_modified: 1538772037554
+    last_modified: 1538820899443
   groups: {}
   permissions:
     write:

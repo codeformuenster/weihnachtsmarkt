@@ -5496,10 +5496,123 @@ weihnachtsmarkt:
           permissions: {}
     pois:
       permissions:
+        read:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        - system.Everyone
+        record:create:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
         write:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
+        - system.Authenticated
       records:
-        10c7f7c2-e271-42a2-a417-5a9b3a0ee521:
+        18a82497-e31d-4263-8f70-0a7835239181:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.6248791529
+              - 51.9622535185
+              type: Point
+            id: 18a82497-e31d-4263-8f70-0a7835239181
+            last_modified: 1538821014795
+            name: Domplatz (Parkplatz)
+            type: toilet
+          permissions: {}
+        1bb73e4f-f975-4cf5-b055-85faad608fad:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.63385216
+              - 51.9601100698
+              type: Point
+            id: 1bb73e4f-f975-4cf5-b055-85faad608fad
+            last_modified: 1538821014745
+            name: "Salzstra\xDFe"
+            type: toilet
+          permissions: {}
+        27d63de0-82c6-4311-8711-5abf68a31214:
+          data:
+            description: 'Barrierefrei: nein'
+            geometry:
+              coordinates:
+              - 7.6260017094
+              - 51.9621946911
+              type: Point
+            id: 27d63de0-82c6-4311-8711-5abf68a31214
+            last_modified: 1538821014761
+            name: Domplatz
+            type: toilet
+          permissions: {}
+        583bd296-2adf-47a7-8fff-7494a904bb3a:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.6275278141
+              - 51.9641726671
+              type: Point
+            id: 583bd296-2adf-47a7-8fff-7494a904bb3a
+            last_modified: 1538821014648
+            name: Apostelkirche
+            type: toilet
+          permissions: {}
+        63063112-83ec-4faf-b8cc-898856f2478e:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.6339490284
+              - 51.9559660498
+              type: Point
+            id: 63063112-83ec-4faf-b8cc-898856f2478e
+            last_modified: 1538821014798
+            name: Hauptbahnhof
+            type: toilet
+          permissions: {}
+        721ff710-014c-4a4c-bf70-7692f7c58c70:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.6307937556
+              - 51.9639948934
+              type: Point
+            id: 721ff710-014c-4a4c-bf70-7692f7c58c70
+            last_modified: 1538821014653
+            name: "B\xFClt"
+            type: toilet
+          permissions: {}
+        7e25487b-38f0-49cf-a687-6843f3343b3a:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.629467029
+              - 51.9674052677
+              type: Point
+            id: 7e25487b-38f0-49cf-a687-6843f3343b3a
+            last_modified: 1538821014758
+            name: Breul
+            type: toilet
+          permissions: {}
+        afe9ec51-36ad-4b52-a099-768e973d5efd:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.6266530448
+              - 51.955170827
+              type: Point
+            id: afe9ec51-36ad-4b52-a099-768e973d5efd
+            last_modified: 1538821014646
+            name: Stadthaus 2
+            type: toilet
+          permissions: {}
+        b0c00d0d-e6e7-461c-b2a9-4d6136f5f393:
           data:
             description: ''
             geometry:
@@ -5507,10 +5620,49 @@ weihnachtsmarkt:
               - 7.6344
               - 51.9565
               type: Point
-            id: 10c7f7c2-e271-42a2-a417-5a9b3a0ee521
-            last_modified: 1538819553466
-            name: Hauptbahnhof Münster/Westf.
+            id: b0c00d0d-e6e7-461c-b2a9-4d6136f5f393
+            last_modified: 1538821088372
+            name: "Hauptbahnhof M\xFCnster/Westf."
             type: transport
+          permissions: {}
+        b90e7d36-fc13-4869-84f6-a5a1262f452a:
+          data:
+            description: 'Barrierefrei: nein'
+            geometry:
+              coordinates:
+              - 7.6382314212
+              - 51.9572834816
+              type: Point
+            id: b90e7d36-fc13-4869-84f6-a5a1262f452a
+            last_modified: 1538821014694
+            name: Bremer Platz (nur Pissoir !)
+            type: toilet
+          permissions: {}
+        bbb309d0-cd14-46f8-b874-a265ebaf0287:
+          data:
+            description: 'Barrierefrei: ja'
+            geometry:
+              coordinates:
+              - 7.6166280148
+              - 51.965034185
+              type: Point
+            id: bbb309d0-cd14-46f8-b874-a265ebaf0287
+            last_modified: 1538821014701
+            name: Schlossplatz
+            type: toilet
+          permissions: {}
+        fac146c4-6881-469a-9c98-65a9d8623adc:
+          data:
+            description: 'Barrierefrei: nein'
+            geometry:
+              coordinates:
+              - 7.6232437185
+              - 51.9600494372
+              type: Point
+            id: fac146c4-6881-469a-9c98-65a9d8623adc
+            last_modified: 1538821014622
+            name: Aegidiimarkt
+            type: toilet
           permissions: {}
   groups: {}
   permissions:
