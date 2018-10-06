@@ -4,7 +4,32 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-// You can delete this file if you're not using it
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+
+  const got = require('got')
+
+  const client = got.extend({
+    baseUrl:
+      'https://kinto-weihnachtsmarkt.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/records',
+    json: true,
+  })
+
+  return new Promise(resolve => {
+    client.get('').then(data => {
+      data.body.data.forEach((data, index) => {
+        let path = createPath(data, index)
+        console.log('Create path: ' + path)
+        createPage({
+          path: path,
+          component: process.cwd() + '/src/templates/Details.js',
+          context: data,
+        })
+      })
+      resolve()
+    })
+  })
+}
 
 exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
   const config = getConfig()
@@ -34,4 +59,36 @@ exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
   }
 
   actions.replaceWebpackConfig(newConfig)
+}
+
+function createPath(data, index) {
+  let path = '/details/' + index
+  if ('name' in data) {
+    let slugifiedName = slugify(data.name)
+    if (slugifiedName === null) {
+      if ('id' in data) {
+        slugifiedName = data.id
+      } else {
+        slugifiedName = index
+      }
+    }
+    path = '/details/' + slugifiedName
+  }
+
+  return path
+}
+
+function slugify(text) {
+  if (text === undefined || text === null) {
+    return null
+  }
+
+  return text
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, '-') // Replace spaces with -
+    .replace(/[^\w\-]+/g, '') // Remove all non-word chars
+    .replace(/\-\-+/g, '-') // Replace multiple - with single -
+    .replace(/^-+/, '') // Trim - from start of text
+    .replace(/-+$/, '') // Trim - from end of text
 }
