@@ -16,7 +16,7 @@ weihnachtsmarkt:
       records:
         01810f58-73ec-48fa-8837-4ce43ad5faef:
           data:
-            description: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+            description: www.tirolerin-muenster.de
             geometry:
               coordinates:
               - - - 7.629884
@@ -31,21 +31,21 @@ weihnachtsmarkt:
                   - 51.961551
               type: Polygon
             goods:
-            - name: "Tiroler Spezialit\xE4ten wie K\xE4se"
+            - name: "K\xE4se"
             - name: Wurst
             - name: Brot
             id: 01810f58-73ec-48fa-8837-4ce43ad5faef
             last_modified: 1538772129022
-            name: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+            name: Tiroler Bauernstandl
             owner:
-              name: Tiroler Bauernstandl, Frau Rita Westhoff, www.tirolerin-muenster.de
+              name: Rita Westhoff
             tags:
-            - Ohne
+            - "Tiroler Spezialit\xE4ten"
             type: food
           permissions: {}
         022b19bf-28f8-45fd-8c61-b0c2a8deffef:
           data:
-            description: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+            description: www.alpenland-kosmetik.de
             geometry:
               coordinates:
               - - - 7.629774
@@ -60,22 +60,182 @@ weihnachtsmarkt:
                   - 51.96137
               type: Polygon
             goods:
-            - name: "Tiroler Rarit\xE4ten: Balsame"
+            - name: Balsame
             - name: "Kr\xE4uter- und Pflanzenseifen"
             - name: Molke-Pflegeprodukte
-            - name: "Hirschtalg-Fu\xDFcreme etc."
+            - name: "Hirschtalg-Fu\xDFcreme"
             id: 022b19bf-28f8-45fd-8c61-b0c2a8deffef
             last_modified: 1538772130751
-            name: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+            name: Alpenland Kosmetik
             owner:
-              name: Alpenland Kosmetik, Herr Alexander Bauer, www.alpenland-kosmetik.de
+              name: Alexander Bauer
+            tags:
+            - "Tiroler Rarit\xE4ten"
+            type: craft
+          permissions: {}
+        0352de2a-7020-4c69-a593-ba617abaa4bd:
+          data:
+            description:
+            - "Die Kunst ist frei. Deshalb entwirft die Freckenhorster Werkst\xE4\
+              tten GmbH ihre SteinArt in vielen Formen, Gr\xF6\xDFen und Stilrichtungen.\
+              \ Jedes der handgefertigten Objekte ist ein Unikat, und doch weisen\
+              \ alle Exponate eine Gemeinsamkeit auf: Sie wirken an jedem Ort als\
+              \ ein Blickfang von best\xE4ndiger Sch\xF6nheit."
+            - "SteinArt-Objekte sind bleibende Werte. Das liegt zum einem am Material:\
+              \ Es ist in seiner Zusammensetzung beinahe identisch mit nat\xFCrlichem\
+              \ Sandstein der robusten Sorte und ist entsprechend widerstandsf\xE4\
+              hig \u2013 bei einfacher Pflege mit Schwamm und Wasser auch in Wind\
+              \ und Wetter. Zum anderen verleiht die zeitlos sch\xF6ne Formensprache\
+              \ den Objekten eine \xE4sthetische Qualit\xE4t, die unser Leben auch\
+              \ nach vielen Jahren noch jeden Tag aufs Neue bereichert."
+            - "SteinArt f\xFCgt sich ideal in jedes Ambiente ein und setzt zugleich\
+              \ jene Akzente, die einem Raum oder einem Garten etwas sehr Kostbares\
+              \ verleihen: Stil. Schon ein einziger Kerzenst\xE4nder, best\xFCckt\
+              \ mit einer handgekneteten Bienenwachskerze aus der Kerzen-Manufaktur\
+              \ der Freckenhorster Werkst\xE4tten GmbH, verwandelt einen einfachen\
+              \ Tisch in eine gediegene Tafel. Die Liaison der Farben von Honig und\
+              \ Sandstein, begleitet von wunderbarem Duft und wohltuendem Licht, entfaltet\
+              \ dabei einen ganz eigenen Zauber."
+            - "Etwas Magie liegt, wie in jedem Kunstst\xFCck, so auch in allen SteinArt-Objekten.\
+              \ Was dieser Zauber bewirken kann? Pablo Picasso gibt die Antwort, wenn\
+              \ er sagt: \u201EKunst w\xE4scht den Staub des Alltags von der Seele.\u201C"
+            - "Entdecken Sie in unserem aktuellen SteinArt-Sortiment Ihr Lieblingsst\xFC\
+              ck f\xFCr Wohnung, Haus oder Garten!"
+            geometry:
+              coordinates:
+              - - - 7.628774
+                  - 51.962719
+                - - 7.628839
+                  - 51.962714
+                - - 7.628834
+                  - 51.962692
+                - - 7.628769
+                  - 51.962697
+                - - 7.628774
+                  - 51.962719
+              type: Polygon
+            goods:
+            - name: Kerzen
+            - name: Geschenke
+            - name: SteinArt
+            - name: Steinguss
+            - name: Sandstein
+            - name: Steinfiguren
+            - name: Wohnambiente
+            - name: Gartenzeit
+            - name: Gotteslobengel
+            - name: Gebetsengel und Manufaktur
+            id: 0352de2a-7020-4c69-a593-ba617abaa4bd
+            last_modified: 1538814736681
+            market: Lamberti
+            name: 'SteinArt: Sand mit Herz und Hand'
+            owner:
+              email: info@freckenhorster-werkstaetten.de
+              name: "Henner Lammers, Freckenhorster Werkst\xE4tten GmbH, Kruppstr.\
+                \ 22,  Ahlen"
+              telephone: 02382 98110
+              web_url: http://www.freckenhorster-werkstaetten.de/
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        05802df6-dc2c-4c97-91a5-24f8e5f71416:
+          data:
+            description:
+            - "Herstellung und Verkauf von Emaille-Handarbeiten.\nAuf Kupfer und Silber\
+              \ stellen wir haupts\xE4chlich Schmuck, Bilder, Schalen und Dosen her.\
+              \ Unser Schwerpunkt liegt in der alten Cloisonn\xE9-Technik (oder auch\
+              \ Stegdraht), matt geschliffen. Ebenso bei den Schalen, die in den Formen\
+              \ und Gr\xF6\xDFen gedr\xFCckt und in den unterschiedlichsten Farben\
+              \ und Techniken bearbeitet werden."
+            - "Zitat aus Wikipedia.org: \"Cloisonn\xE9 (frz. \xE9mail cloisonn\xE9\
+              , kurz cloisonn\xE9; zu cloison \u201EScheidewand\u201C) auch Zellenschmelz\
+              \ oder Zellenemail genannt, ist eine kunsthandwerkliche Technik bei\
+              \ Emailarbeiten. Zur Fertigung werden auf den meist aus Kupfer bestehenden\
+              \ Rohling (ein Schmuckst\xFCck oder eine kleine Plastik) d\xFCnne Dr\xE4\
+              hte oder Metallstreifen dekorativ aufgel\xF6tet, um dann in mehreren\
+              \ Arbeitsg\xE4ngen zwischen ihnen verschiedenfarbige Glasfl\xFCsse einzulassen.\
+              \ Der Rohling wird danach bei ca. 750\u2013800\_\xB0C gebrannt.\""
+            geometry:
+              coordinates:
+              - - - 7.628823
+                  - 51.962675
+                - - 7.628863
+                  - 51.962664
+                - - 7.628849
+                  - 51.962643
+                - - 7.628809
+                  - 51.962655
+                - - 7.628823
+                  - 51.962675
+              type: Polygon
+            goods:
+            - name: Kunsthandwerk
+            - name: Emaillearbeiten
+            - name: Broschen
+            - name: Bilder und Schalen
+            id: 05802df6-dc2c-4c97-91a5-24f8e5f71416
+            last_modified: 1538814728812
+            market: Lamberti
+            name: Emaillearbeiten - Kunsthandwerk
+            owner:
+              email: Spessart-Email-Evers@gmx.de
+              name: Georg Evers, Spessart-Email, Am Humelsee 16,  Karlstein a.M.
+              telephone: 06188 9143820
+              web_url: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        0688ffdb-67d6-4c9b-aeba-5fb873979fab:
+          data:
+            description:
+            - "Nach 2013 kommt Su\u0308ss\u2019s Weihnachtsgenuss bereits zum dritten\
+              \ Mal zum Lichtermarkt nach Mu\u0308nster. Die multikulturelle Ku\u0308\
+              nstlerfamilie Su\u0308ss schenkt auch in diesem Jahr wieder den wu\u0308\
+              rzig, su\u0308\xDFen Gerstacker Glu\u0308hwein vom historischen Christkindl\
+              \ Markt in Nu\u0308rnberg aus. Mit Ku\u0308sschen, einem Rhabarberlik\xF6\
+              r mit Sahneh\xE4ubchen, Erna\u2019s W\xE4rmerlik\xF6r mit Holunder oder\
+              \ einem Braunen B\xE4r (Rum mit Kakao und Honig), wird Ihnen bei Su\u0308\
+              ss\u2019s Weihnachtsgenuss warm ums Herz.\nFeinschmecker kommen mit\
+              \ einem Stu\u0308ck warmem Zwiebelkuchen aus der Konditorei Liesenk\xF6\
+              tter auf ihre Kosten.\nFamilie Su\u0308ss freut sich auf eine fr\xF6\
+              hliche und besinnliche Weihnachtszeit mit zahlreichen freundlichen Besuchern\
+              \ und allen weiteren Spitzdachbudenbetreibern!"
+            geometry:
+              coordinates:
+              - - - 7.629322
+                  - 51.962878
+                - - 7.629352
+                  - 51.962866
+                - - 7.629317
+                  - 51.962831
+                - - 7.629287
+                  - 51.962844
+                - - 7.629322
+                  - 51.962878
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: Zwiebelkuchen
+            - name: "Kakao mit Schu\xDF und Lik\xF6r"
+            id: 0688ffdb-67d6-4c9b-aeba-5fb873979fab
+            last_modified: 1538814736870
+            market: Lamberti
+            name: "Su\u0308ss\u2019 Weihnachtsgenuss"
+            owner:
+              email: rios.suess@gmx.de
+              name: "Giovanni S\xFCss, Su\u0308ss\u2019 Weihnachtsgenuss, Schimmek\
+                \ 26,  Alfeld"
+              telephone: null
+              web_url: null
             tags:
             - Ohne
             type: food
           permissions: {}
         074f8e9a-69ab-4721-9e5b-e5b951aff96b:
           data:
-            description: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+            description: www.dandos.de
             geometry:
               coordinates:
               - - - 7.629085
@@ -94,12 +254,12 @@ weihnachtsmarkt:
             - name: Engelsrufer
             id: 074f8e9a-69ab-4721-9e5b-e5b951aff96b
             last_modified: 1538772129777
-            name: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+            name: Dandos UG
             owner:
-              name: Dandos UG, Herr Daniel Schmidt-Wilcke, www.dandos.de
+              name: Herr Daniel Schmidt-Wilcke
             tags:
-            - Ohne
-            type: food
+            - Schmuck
+            type: craft
           permissions: {}
         097a9acc-9884-4420-9fd8-ecdb7170614b:
           data:
@@ -124,10 +284,11 @@ weihnachtsmarkt:
             last_modified: 1538772129177
             name: Altrogge - Heitmann GBR
             owner:
-              name: Altrogge - Heitmann GBR
+              name: Doris Altrogge
             tags:
-            - Ohne
-            type: food
+            - "Gl\xFChwein"
+            - "Getr\xE4nke"
+            type: beverage
           permissions: {}
         0994c92f-a889-4de5-8d3d-c80800f58739:
           data:
@@ -154,13 +315,12 @@ weihnachtsmarkt:
             - name: "Kiepenkerl K\xF6ddel"
             id: 0994c92f-a889-4de5-8d3d-c80800f58739
             last_modified: 1538772128705
-            name: "Caf\xE9 Longinus, Baumberg 45, D-48301 Nottuln, Tel. 02502 7911,\
-              \ info[at]longinusturm.de, www.longinusturm.de"
+            name: "Caf\xE9 Longinus"
             owner:
-              name: "Caf\xE9 Longinus, Baumberg 45, D-48301 Nottuln, Tel. 02502 7911,\
-                \ info[at]longinusturm.de, www.longinusturm.de"
+              name: Tim Broeker
             tags:
-            - Ohne
+            - Kiepenkerl
+            - "Spezialit\xE4ten"
             type: food
           permissions: {}
         0a20d09e-aca9-4758-ac3f-15738da59c95:
@@ -185,12 +345,13 @@ weihnachtsmarkt:
             - name: Sand-Art-Muschel-Schmuck
             id: 0a20d09e-aca9-4758-ac3f-15738da59c95
             last_modified: 1538772130776
-            name: GLASS ART, Herr Klaus Meier
+            name: GLASS ART
             owner:
-              name: GLASS ART, Herr Klaus Meier
+              name: Klaus Meier
             tags:
-            - Ohne
-            type: food
+            - Schmuck
+            - Fensterbilder
+            type: craft
           permissions: {}
         0b53f75c-d304-4cb6-a114-d8feb3154ccb:
           data:
@@ -218,10 +379,10 @@ weihnachtsmarkt:
             last_modified: 1538772128714
             name: Heinz Zahn GmbH
             owner:
-              name: Heinz Zahn GmbH
+              name: Heinz Zahn
             tags:
-            - Ohne
-            type: food
+            - "Gl\xFChwein"
+            type: beverage
           permissions: {}
         0e510c65-a405-47a6-9756-5600c84a4b47:
           data:
@@ -240,15 +401,17 @@ weihnachtsmarkt:
                   - 51.96138
               type: Polygon
             goods:
-            - name: selbstgefertigte Spiele und Spielzeug aus Holz
+            - name: selbstgefertigte Spiele
+            - name: Spielzeug aus Holz
             id: 0e510c65-a405-47a6-9756-5600c84a4b47
             last_modified: 1538772129628
-            name: Herr Ulli Gumpert www.bibahn.de
+            name: "H\xF6pinger Spielewerkstatt"
             owner:
-              name: Herr Ulli Gumpert www.bibahn.de
+              name: Ulli Gumpert
             tags:
-            - Ohne
-            type: food
+            - Holz
+            - Spielzeug
+            type: craft
           permissions: {}
         0f7d1e99-e5da-4ca9-be3c-f4f81f2d2b48:
           data:
@@ -314,6 +477,52 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        1257aa05-e755-4747-8024-7468f30f53e7:
+          data:
+            description:
+            - "Zu einem gem\xFCtlichen Bummel \xFCber den beschaulichen Lichtermarkt\
+              \ St. Lamberti geh\xF6rt nat\xFCrlich eine Pause an unserem \u201ELeckerbissen\
+              \ aus Pfanne & Grill\u201C Stand.\nWir sind auf dem Lichtermarkt seit\
+              \ mehr als 20 Jahren besonders beliebt wegen der angebotenen regionalen\
+              \ & rustikalen Spezialit\xE4ten, die t\xE4glich frisch und mit viel\
+              \ Liebe zubereitet werden, und weit entfernt sind von \xFCblichen Imbissangeboten."
+            - "Auf der Speisekarte stehen\_: R\xE4uberfleisch, Zwiebelfleisch, Rosmarinkartoffeln\
+              \ und Rahmchampignons mit frischen Pilzen , dazu reichen wir hausgemachte\
+              \ Kr\xE4uter-, Knoblauch- und Thai-Chili-Sosse. Nat\xFCrlich darf eine\
+              \ Bratwurst, Krakauerwurst oder Currywurst frisch vom Grill nicht fehlen."
+            geometry:
+              coordinates:
+              - - - 7.62928
+                  - 51.962837
+                - - 7.629309
+                  - 51.962824
+                - - 7.629271
+                  - 51.962791
+                - - 7.629242
+                  - 51.962805
+                - - 7.62928
+                  - 51.962837
+              type: Polygon
+            goods:
+            - name: Pfannengerichte
+            - name: Bratwurst
+            - name: "R\xE4uberfleisch"
+            - name: Rahmchampignons
+            - name: Rosmarinkartoffeln und Krakauer
+            id: 1257aa05-e755-4747-8024-7468f30f53e7
+            last_modified: 1538814735394
+            market: Lamberti
+            name: Leckerbissen aus Pfanne & Grill
+            owner:
+              email: info@fischimbiss-wulfers.de
+              name: "Judith Wulfers, Imbiss Spezialit\xE4ten Judith Wulfers, Toni-Jurek-Str.\
+                \ 4,  Nottuln"
+              telephone: 02502 7176
+              web_url: http://fischimbiss-wulfers.de/
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         128e33c4-4b17-474f-abb0-55b9ca717ab3:
           data:
             description: Heimatcut, Dockland GmbH, Herr Pitti Duyster, www.heimatcut.de
@@ -339,6 +548,100 @@ weihnachtsmarkt:
             name: Heimatcut, Dockland GmbH, Herr Pitti Duyster, www.heimatcut.de
             owner:
               name: Heimatcut, Dockland GmbH, Herr Pitti Duyster, www.heimatcut.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        138997a8-1619-4a5e-ad03-51c966e45e25:
+          data:
+            description:
+            - "Eine Weihnachtsmarkth\xFCtte voller Kreisel. Ein Paradies f\xFCr Kreiselsammler\
+              \ und Liebhaber und alle die es noch werden m\xF6chten. Kreisel in allen\
+              \ Gr\xF6\xDFen und f\xFCr jedes Alter. Ob Brummkreisel oder Dopp, Gyroskop\
+              \ oder Schnurkreisel. Alle Arten von Kreiseln finden Sie an meinem Stand.\
+              \ Dazu kunsthandwerkliche Kreisel in gro\xDFer Auswahl, aus den unterschiedlichsten\
+              \ Materialien. Gro\xDF und Klein d\xFCrfen hier nach Herzenslust spielen\
+              \ und verschiedene Kreisel selbst ausprobieren. Erg\xE4nzt wird das\
+              \ Angebot durch eine Auswahl an JoJo\xB4s f\xFCr alle Anspr\xFCche."
+            geometry:
+              coordinates:
+              - - - 7.629125
+                  - 51.962685
+                - - 7.629148
+                  - 51.962708
+                - - 7.629179
+                  - 51.962696
+                - - 7.629156
+                  - 51.962673
+                - - 7.629125
+                  - 51.962685
+              type: Polygon
+            goods: []
+            id: 138997a8-1619-4a5e-ad03-51c966e45e25
+            last_modified: 1538814734840
+            market: Lamberti
+            name: Kreisel & Co
+            owner:
+              email: kreiselinfo@bueker-online.de
+              name: "Ulrich B\xFCker, Kreisel-Art, Von-Monteton-Str. 33,  Paderborn"
+              telephone: 05254 13923
+              web_url: http://www.kreisel-art.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        14a44388-5f27-4bfc-906f-b6827632f099:
+          data:
+            description:
+            - "\u201EQualit\xE4t ist der einzige gangbare Weg\u201C \u2013 unter diesem\
+              \ Motto verkaufte schon der Mitbegr\xFCnder des Lichtermarktes am Fu\xDF\
+              e der St. Lambertikirche Herr Charles K\xF6gl den \xFCber die Landesgrenze\
+              \ bekannten und wohlschmeckenden Heidelbeer-Fruchtgl\xFChwein und sein\
+              \ alkoholfreien Fruchtpunsch. Wir \xFCbernahmen 2010 sein Gesch\xE4\
+              ft, welches er liebevoll als sein \u201EKind\u201C bezeichnete. Nun\
+              \ lag es bei uns, den guten Namen beizubehalten und weiterzuf\xFChren.\
+              \ Wir glauben, dass das uns bis zum heutigen Tag gelungen ist. Gern\
+              \ kommen die \u201Ealten\u201C Stammkunden Jahr f\xFCr Jahr wieder,\
+              \ werden wir jedes Jahr am ersten Tag des Weihnachtsmarktes mit den\
+              \ schmunzelnden Worten \u201E..wo ward ihr nur so lange?\u201C begr\xFC\
+              \xDFt. Wir sind st\xE4ndig darauf bedacht, die Qualit\xE4t beizubehalten,\
+              \ sogar zu verbessern und auch beim alkoholfreien Punsch legen wir Wert\
+              \ darauf, nur die beste Qualit\xE4t von Fruchts\xE4ften zu verarbeiten,\
+              \ damit haupts\xE4chlich auch unsere kleinen G\xE4ste mit den Erwachsenen\
+              \ \u201Emithalten\u201C k\xF6nnen und in die Vorweihnachtsstimmung gelangen.\
+              \ Und wenn es dann noch von den Kunden hei\xDFt: \u201E \u2026 hmm so\
+              \ lecker wie im vorigen Jahr\u201C, oder \u201E .. er schmeckt am Abend\
+              \ noch genauso wie zur Mittagszeit\u201C, dann wissen wir, dass wir\
+              \ alles richtig gemacht haben und k\xF6nnen mit Recht stolz sein, deshalb\
+              \ sagen wir \u2013 Dankesch\xF6n."
+            geometry:
+              coordinates:
+              - - - 7.628924
+                  - 51.962767
+                - - 7.628975
+                  - 51.962762
+                - - 7.628968
+                  - 51.96274
+                - - 7.628918
+                  - 51.962745
+                - - 7.628924
+                  - 51.962767
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: alkoholfrei
+            - name: "Heidelbeerfruchtgl\xFChwein"
+            - name: Fruchtpunsch und Heidelbeere
+            id: 14a44388-5f27-4bfc-906f-b6827632f099
+            last_modified: 1538814729921
+            market: Lamberti
+            name: "Heidelbeer-Fruchtgl\xFChwein"
+            owner:
+              email: gustav-jennebach@gmx.de
+              name: "Gustav Jennebach, Heidelbeer-Fruchtgl\xFChwein, Gustav Jennebach,\
+                \ Bernhardstra\xDFe 43,  Ennigerloh"
+              telephone: null
+              web_url: null
             tags:
             - Ohne
             type: food
@@ -674,6 +977,114 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        26663637-f366-4de4-b139-bbd0060e934a:
+          data:
+            description:
+            - "Bei meinen Intarsienarbeiten werden die verschiedenen H\xF6lzer zun\xE4\
+              chst zu massiven Bl\xF6cken verleimt. Dann wieder aufges\xE4gt, geschliffen\
+              \ und wieder verleimt.\nDieser Schritt wird viele Male wiederholt, so\
+              \ dass die entsprechenden Muster entstehen. Keines der H\xF6lzer ist\
+              \ eingef\xE4rbt; es sind alles die nat\xFCrlichen Farbt\xF6ne dieser\
+              \ Holzarten."
+            - "Durch hobeln mit einer japanischen Finiermaschine, \xF6len, Zwischenschliff,\
+              \ wachsen und polieren ergibt sich die glatte, fast samtartige Oberfl\xE4\
+              che.\nDurch jahrzehntelange Erfahrung mit dem Werkstoff Holz garantiere\
+              \ ich f\xFCr h\xF6chste Qualit\xE4t meiner Arbeiten."
+            - "Von der Idee \xFCber den Entwurf, die Holzauswahl und die Herstellung,\
+              \ bis hin zum Verkauf machen wir alles selbst. Bei uns finden Sie keine\
+              \ Handelsware."
+            geometry:
+              coordinates:
+              - - - 7.629026
+                  - 51.962708
+                - - 7.62907
+                  - 51.96271
+                - - 7.629072
+                  - 51.962687
+                - - 7.629028
+                  - 51.962686
+                - - 7.629026
+                  - 51.962708
+              type: Polygon
+            goods:
+            - name: Holzbrett
+            - name: Schneidebrett
+            - name: Holzobjekte
+            - name: "Flaschen\xF6ffner"
+            - name: Nussknacker
+            - name: Messerleiste
+            - name: Messerblock
+            - name: Tablett
+            - name: Accessoires
+            - name: Geschenke
+            - name: Wohnambiente
+            - name: Kunsthandwerk
+            - name: Holzintarsien
+            - name: Holzmosaik und Marketerie
+            id: 26663637-f366-4de4-b139-bbd0060e934a
+            last_modified: 1538814732743
+            market: Lamberti
+            name: "HOLZ-DESIGN  handgefertigte Objekte aus edlen H\xF6lzern"
+            owner:
+              email: info@kralovec.de
+              name: "Klaus Kralovec, HOLZ-DESIGN, D\xFCnsbacher Hauptstra\xDFe 11,\
+                \  Gerabronn (D\xFCnsbach)"
+              telephone: 07952 307991
+              web_url: http://www.kralovec.de/
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        26b835f3-36a4-4af3-b4ef-4f80ef9d6443:
+          data:
+            description:
+            - "Der Coppenrath Verlag hat eine lange Tradition. Er wurde bereits 1768\
+              \ gegr\xFCndet und 1977 von  dem jungen Grafiker & Verleger Wolfgang\
+              \ H\xF6lker \xFCbernommen. Dieser gab dem Unternehmen mit seinen innovativen\
+              \ Ideen  entscheidende Impulse und f\xFChrte es auf neue Wege. Kinderb\xFC\
+              cher wie \u201EBriefe von Felix, \u201EPrinzessin Lillifee\u201C und\
+              \ \u201EK\xE4pt\xB4n Sharky\u201C sind heute weltweit bekannt."
+            - "Einen weiteren Schwerpunkt bildet die Edition \u201EDie Spiegelburg\u201C\
+              . Mit dieser Kollektion verfolgt der Verlag die Philosophie, spielerisch\
+              \ eine Verbindung zum Buchprogramm herzustellen. So  tauchen die Bilderbuchhelden\
+              \ unter anderem als Pl\xFCsch, auf Spielen sowie Schulartikeln auf.\
+              \ Doch auch die Gro\xDFen schwelgen oft im Sortiment: Spiegelburg Collection\
+              \ begeistert mit tollen Geschenkideen, Geschenkb\xFCcher schenken Freude\
+              \ und wer kochbegeistert ist, findet im H\xF6lker Verlag eine gro\xDF\
+              e Auswahl an B\xFCchern voller Koch- und Backideen."
+            geometry:
+              coordinates:
+              - - - 7.62885
+                  - 51.962714
+                - - 7.628885
+                  - 51.962708
+                - - 7.628867
+                  - 51.962669
+                - - 7.628832
+                  - 51.962675
+                - - 7.62885
+                  - 51.962714
+              type: Polygon
+            goods:
+            - name: "B\xFCcher"
+            - name: Prinzessin Lillifee
+            - name: "Kapt\xB4n Sharky"
+            - name: Felix
+            - name: Pferdefreunde
+            - name: "Aventskalender und Pl\xFCschtiere"
+            id: 26b835f3-36a4-4af3-b4ef-4f80ef9d6443
+            last_modified: 1538814728085
+            market: Lamberti
+            name: Coppenrath Verlag & Die Spiegelburg
+            owner:
+              email: info@coppenrath.de
+              name: "in Vertretung, Coppenrath Verlag, Hafenweg 30,  M\xFCnster"
+              telephone: 0251 414110
+              web_url: http://www.coppenrath.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         26c17dc3-ac02-4043-9539-9e92a7b9905a:
           data:
             description: "Geckos Armreifenpalast, Frau Silke Holtk\xF6tter, www.geckospalace.de"
@@ -758,6 +1169,55 @@ weihnachtsmarkt:
             name: Anoa Art, Frau Stefanie Fietzek, www.anoaart.de
             owner:
               name: Anoa Art, Frau Stefanie Fietzek, www.anoaart.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        29b703e5-e26b-4a19-97d5-378b24470303:
+          data:
+            description:
+            - "In der Teezauberh\xFCtte finden Sie alles rund um das bezaubernde Getr\xE4\
+              nk \u201ETee\u201C. Ob frisch zubereiteter Adventsfr\xFCchtetee, oder\
+              \ klassisch schwarzer Weihnachtstee, hier ist f\xFCr jeden etwas dabei.\
+              \ Nat\xFCrlich fehlen auch verschiedene Kr\xE4uter- Rooibos, oder gr\xFC\
+              ne Tees nicht im Sortiment. Abgerundet wird die Auswahl mit weihnachtlichen\
+              \ Pr\xE4senten, frischem hausgemachtem weihnachtlichem Geb\xE4ck (Berliner\
+              \ Brot, Spritzgeb\xE4ck, Mandeltaler), verschiedenen Sorten Kandis (Rum,\
+              \ Chai, Amaretto, Sanddorn, Pfefferminz) sowie verschiedene Honigsorten\
+              \ (Akazie, Wald, Wiesen, Klee) und alles was zum Tee dazugeh\xF6rt.\
+              \ Wer m\xF6chte kann sich auch an hei\xDFer Schokolade aus echter Milch\
+              \ erfreuen, oder hochwertige Trinkschokolade f\xFCr zu Hause mitnehmen.\
+              \ Auch Zubeh\xF6r zum Tee (Porzellanbecher und Kannen) sind erh\xE4\
+              ltlich. Kurz, hier findet jeder Teeliebhaber, das was das Herz begehrt.\
+              \ Wir freuen uns auf Ihren Besuch."
+            geometry:
+              coordinates:
+              - - - 7.628925
+                  - 51.962557
+                - - 7.628983
+                  - 51.962576
+                - - 7.629
+                  - 51.962556
+                - - 7.628942
+                  - 51.962537
+                - - 7.628925
+                  - 51.962557
+              type: Polygon
+            goods:
+            - name: Schokolade
+            - name: Tee
+            - name: "Teezubeh\xF6r"
+            - name: Kandis
+            - name: "und S\xFC\xDFes"
+            id: 29b703e5-e26b-4a19-97d5-378b24470303
+            last_modified: 1538814737045
+            market: Lamberti
+            name: "Teezauberh\xFCtte"
+            owner:
+              email: muenster@teegschwendner.com
+              name: "Rafael L\xF6bbert, TeeGschwendner, Salzstr. 59,  M\xFCnster"
+              telephone: 0251 58772
+              web_url: http://www.teegschwendner.de
             tags:
             - Ohne
             type: food
@@ -907,6 +1367,49 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        33a3cd5e-c27f-4217-ae5b-5a97e5e99034:
+          data:
+            description:
+            - "Wir bieten Ihnen Tortellini, Penne Rigate, Tiramisu und frischer Milchreis,\
+              \ eine kleine Auswahl von Italienischen Weinen und Grappa, den hochwertigen\
+              \ Eierpunsch und Jagertee. Hier k\xF6nnen Sie den authentischen Geschmack\
+              \ der Italienischen Ku\u0308che kosten und in den Genuss eines gemu\u0308\
+              tlichen, originalen und entspannten Ambiente des Lichtermaktes St. Lamberti\
+              \ kommen."
+            geometry:
+              coordinates:
+              - - - 7.629227
+                  - 51.962796
+                - - 7.629254
+                  - 51.962781
+                - - 7.62921
+                  - 51.96275
+                - - 7.629184
+                  - 51.962765
+                - - 7.629227
+                  - 51.962796
+              type: Polygon
+            goods:
+            - name: Nudelgerichte
+            - name: Milchreis
+            - name: Tiramisu
+            - name: Italienisch
+            - name: Weine
+            - name: Grappa und Jagertee
+            id: 33a3cd5e-c27f-4217-ae5b-5a97e5e99034
+            last_modified: 1538814735937
+            market: Lamberti
+            name: Pasta und mehr
+            owner:
+              email: hl@hof-zur-linde.de
+              name: "Heiko L\xF6fken, Hof zur Linde, Handorfer Werseufer 1,  M\xFC\
+                nster"
+              telephone: 0251 32750
+              web_url: http://www.hof-zur-linde.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         35b352ae-174a-4a33-bdbb-b0d84025c3bd:
           data:
             description: "Kunsthandwerk und Deko, Frau Petra Krampe-L\xFCtkemeier"
@@ -965,6 +1468,110 @@ weihnachtsmarkt:
             name: "Canto Nosso, Inh. G\xFCnter Raecke, www.cantonosso.de"
             owner:
               name: "Canto Nosso, Inh. G\xFCnter Raecke, www.cantonosso.de"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        4050d47a-54f7-4395-8b58-08d1feabab1d:
+          data:
+            description:
+            - "Ich bin zur\xFCck! 2016 war ich indirekt vertreten und so setze ich\
+              \ meine mehr als 20j\xE4hrige Lichtermarkt-Geschichte mit meinem Glasstand\
+              \ fort. Ich biete eine gro\xDFe Vielfalt von Dekorationsartikeln nicht\
+              \ nur f\xFCr die Weihnachtszeit an. Bei mir finden Sie Glassterne in\
+              \ allen Farben und Gr\xF6\xDFen, Glasengel, Tannen, Glocken, Schneem\xE4\
+              nner, Weihnachtsm\xE4nner, Fensterbilder, Glasschalen, Tiere, Blumen,\
+              \ den ganzen Prinzipalmarkt und Vieles mehr. Alle Artikel werden in\
+              \ akribischer Handarbeit von mir selbst in meiner M\xFCnsteraner Werkstatt\
+              \ (Kinderhaus 4) hergestellt. Auch au\xDFerhalb des Weihnachtsmarktes\
+              \ habe ich dort feste \xD6ffnungszeiten. Vor allem arbeite ich mit der\
+              \ Fusing-Technik. Das ist eine Glasschmelztechnik. Die einzelnen Glaselemente\
+              \ werden mit Hilfe von Schablonen zugeschnitten, dann auf feuerfesten\
+              \ Schamottplatten zusammengelegt und bei hoher Temperatur im Brennofen\
+              \ miteinander verschmolzen. Auch fertige ich Bleiverglasungen an, da\
+              \ ich in fr\xFCheren Jahren Kirchenfenster restauriert habe. Gerne verwirkliche\
+              \ ich auch individuelle W\xFCnsche. Schauen Sie einfach vorbei!"
+            geometry:
+              coordinates:
+              - - - 7.628775
+                  - 51.962781
+                - - 7.62884
+                  - 51.962775
+                - - 7.628835
+                  - 51.962753
+                - - 7.62877
+                  - 51.962759
+                - - 7.628775
+                  - 51.962781
+              type: Polygon
+            goods:
+            - name: Glasartikel
+            - name: Glaskunst
+            - name: Glasmalerei
+            - name: Glasbilder und Kunsthandwerk
+            id: 4050d47a-54f7-4395-8b58-08d1feabab1d
+            last_modified: 1538814729532
+            market: Lamberti
+            name: "Glaskunst Ulla l\xFCtke J\xFCdefeld"
+            owner:
+              email: luetke-u@versanet.de
+              name: "Ulla l\xFCtke J\xFCdefeld, Glaskunst Ulla l\xFCtke J\xFCdefeld,\
+                \ Kinderhaus 4,  M\xFCnster"
+              telephone: 0251 2075629
+              web_url: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        419ccd1b-fbb9-4676-8ef1-66dc7c27ed54:
+          data:
+            description:
+            - Mainstream? Nein, danke!
+            - "Aus einfachen MDF-Holzplatten zaubert Werkhaus echte Kultprodukte f\xFC\
+              rs B\xFCro und Zuhause.\nKennzeichen der Artikel ist das Original Werkhaus-Stecksystem.\
+              \ Stecken statt kleben oder schrauben, funktioniert das? "
+            - "Und wie! Das Stecksystem \xFCberzeugt ungebrochen aufs Neue, von Anfang\
+              \ an. Die zugrunde liegende Idee ist so einfach wie genial: aus ma\xDF\
+              gefertigten Einzelteilen aus Holz und Gummiringen entstehen innovative\
+              \ und solide Produkte. Eine pfiffige Verbindungstechnik, die begeistert\
+              \ und viel kreatives Potential f\xFCr eine Vielfalt an au\xDFergew\xF6\
+              hnlichen Produktideen hat! "
+            - "Die trendigen Werkhaus-Produkte haben bereits zahlreiche Preise gewonnen,\
+              \ einige von ihnen sind sogar in Museen ausgestellt. Durch das urheberrechtlich\
+              \ gesch\xFCtzte Stecksystem reduziert sich das Verpackungs- und Versandvolumen\
+              \ auf ein Minimum. Die Produkte lassen sich ebenso einfach aufbauen\
+              \ als wieder zerlegen oder verstauen."
+            - "Die Form fasziniert, das System \xFCberzeugt\u2026"
+            geometry:
+              coordinates:
+              - - - 7.629093
+                  - 51.962655
+                - - 7.629115
+                  - 51.962678
+                - - 7.629146
+                  - 51.962667
+                - - 7.629125
+                  - 51.962643
+                - - 7.629093
+                  - 51.962655
+              type: Polygon
+            goods:
+            - name: Werkhaus
+            - name: Stecksystem
+            - name: umweltfreundlich
+            - name: innovativ
+            - name: Boxen
+            - name: Hocker
+            - name: Geschenke und Holzobjekte
+            id: 419ccd1b-fbb9-4676-8ef1-66dc7c27ed54
+            last_modified: 1538814737222
+            market: Lamberti
+            name: WERKHAUS
+            owner:
+              email: info@werkhaus.de
+              name: Eva Danneberg, WERKHAUS GmbH, Industriestr. 11+13,  Bad Bodenteich
+              telephone: 05824 9550
+              web_url: http://werkhaus.de
             tags:
             - Ohne
             type: food
@@ -1298,6 +1905,78 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        57b1c198-f31b-4d1c-8e2d-0cee7c9b7091:
+          data:
+            description:
+            - "Die Geschichte der B\xE4renpresse"
+            - "Am Anfang steht eine alte Korrex Andruckpresse, Druckformat 50 x 70\_\
+              cm und ein Zauberer. \"Die Geschichte vom Zauberer Fernando\" - ein\
+              \ Zirkusm\xE4rchen. Handgedruckt und handgebunden in einer Auflage von\
+              \ 500 St\xFCck. Wir verkaufen den \"Zauberer\" auf Flohm\xE4rkten, denn\
+              \ 1978 gibt es noch keine Kunsthandwerkerm\xE4rkte."
+            - "Auf dem ersten Verkaufsstand sitzt ein alter Teddyb\xE4r mit einem\
+              \ noch \xE4lteren Zylinder auf dem Kopf. In der Hand h\xE4lt er eine\
+              \ Glocke und von seinem Arm aus f\xFChrt eine Schnur hinter den Stand.\
+              \ Wir ziehen daran, der B\xE4r klingelt, die Leute gucken - die B\xE4\
+              ren - Presse ist geboren."
+            - "Neue Kinderb\xFCcher entstehen, gro\xDFformatige Drucke, Postkarten,\
+              \ Briefpapier. Und weil damals alte Teddyb\xE4ren auf den Flohm\xE4\
+              rkten noch f\xFCr wenig Geld zu haben sind, gibt es bald wieder einen\
+              \ neuen Marktb\xE4ren und eine rasch wachsende B\xE4renfamilie, die\
+              \ uns zuhause bei der Arbeit zusieht."
+            - "Schlie\xDFlich h\xE4lt auch der erste gro\xDFe B\xE4r aus Pappe Einzug\
+              \ ins Programm der B\xE4ren - Presse."
+            - "Der Hampelb\xE4r wird zum Erfolgsmodell. In den kommenden Jahren w\xE4\
+              chst die Zahl der beweglichen Papierfiguren immer mehr an, bis aus der\
+              \ B\xE4ren - Presse eine reine Bastelbogenwerkstatt wird. Jedes Jahr\
+              \ br\xFCten wir neue Hampelm\xE4nner, -frauen und -tiere aus."
+            - "Noch immer fertigen wir die Druckst\xF6cke in Linolschnitttechnik und\
+              \ drucken sie auf der Korrex aus. Die eigentliche Auflage entsteht dann\
+              \ im Offsetdruck. \xDCberall in Deutschland entstehen in den achtziger\
+              \ Jahren Kunsthandwerkerm\xE4rkte und die B\xE4ren - Presse geht mit\
+              \ ihrem \"Papierzirkus\" auf die Reise. Auch auf den gro\xDFen Weihnachtsm\xE4\
+              rkten wie K\xF6ln, Aachen und Essen h\xE4lt die B\xE4ren - Presse Einzug\
+              \ und begeistert das Publikum."
+            - "1998 st\xF6\xDFt Dirk Lampe zur B\xE4ren - Presse. Er \xFCbernimmt\
+              \ den Bastelbogenverlag von Steffen M\xFChlh\xE4user und Roland Adam\
+              \ und f\xFChrt seitdem erfolgreich die Gesch\xE4fte. Herstellung, Vermarktung\
+              \ und Vertrieb siedeln mit ihm nach Halle/Westfalen um. Mit neuer Energie\
+              \ weitet er den Vertriebsradius der B\xE4ren - Presse aus und kommt\
+              \ so auch nach M\xFCnster auf den Lamberti Lichtermarkt."
+            - "Noch immer erscheint traditionell jedes Jahr eine Bastelbogenneuheit.\
+              \ Dabei gehen wir jedes Mal wieder auf die Suche nach neuen Motiven\
+              \ und ausgefallenen Bewegungsmechaniken. Mittlerweile bietet das Programm\
+              \ der B\xE4ren - Presse vom einfachen Flachmodell bis zur hochkomplizierten\
+              \ dreidimensionalen Figur alles was das Bastlerherz begehrt."
+            geometry:
+              coordinates:
+              - - - 7.628902
+                  - 51.962665
+                - - 7.628938
+                  - 51.962661
+                - - 7.628927
+                  - 51.962621
+                - - 7.628891
+                  - 51.962625
+                - - 7.628902
+                  - 51.962665
+              type: Polygon
+            goods:
+            - name: Puzzle
+            - name: "Lebende Karten und Bastelb\xF6gen"
+            id: 57b1c198-f31b-4d1c-8e2d-0cee7c9b7091
+            last_modified: 1538814728458
+            market: Lamberti
+            name: "Die B\xE4renpresse"
+            owner:
+              email: dlampe@baerenpresse.de
+              name: Dirk Lampe, Dirk Lampe e.K., Postweg 33,  Halle/W.
+              telephone: 05201 828298
+              web_url: http://www.baerenpresse.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         58b85d3c-ccc5-420b-937a-f981cb86fe22:
           data:
             description: Die Tirolerin, info[at]tirolerin-muenster[dot]de, www.tirolerin-muenster.de
@@ -1569,6 +2248,52 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        6360b0a1-5bbb-4b73-81d0-9ce67d38969c:
+          data:
+            description:
+            - "In unserer Werkstatt in Melle stellen wir seit 27 Jahren Denk- und\
+              \ Geduldspiele aus Holz her. Diese Spiele richten sich nicht nur an\
+              \ Kinder, sondern prim\xE4r an das erwachsene Publikum, da zum Teil\
+              \ auch sehr kniffelige Aufgaben gel\xF6st werden m\xFCssen. Bei uns\
+              \ am Stand haben Jung und Alt gleicherma\xDFen Freude beim Spielen und\
+              \ Knobeln."
+            - "Von der Spielidee, \xFCber den Holzeinkauf, die Fertigung und den Verkauf\
+              \ liegt alles in unserer Hand."
+            geometry:
+              coordinates:
+              - - - 7.62898
+                  - 51.962705
+                - - 7.629024
+                  - 51.962708
+                - - 7.629027
+                  - 51.962685
+                - - 7.628983
+                  - 51.962683
+                - - 7.62898
+                  - 51.962705
+              type: Polygon
+            goods:
+            - name: Holz
+            - name: Denkspiele
+            - name: Geduldspiele
+            - name: Puzzle
+            - name: Knobelspiele
+            - name: Unwiderstehlich-Puzzle
+            - name: Holzspielzeug und Holzspiele
+            id: 6360b0a1-5bbb-4b73-81d0-9ce67d38969c
+            last_modified: 1538814728268
+            market: Lamberti
+            name: Denk- und Geduldspiele aus Holz
+            owner:
+              email: info@puzzle-werkstatt.de
+              name: Manfred Unnerstall, puzzle-werkstatt unnerstall, Ostenfelder Str.
+                25,  Melle
+              telephone: 05428 1851
+              web_url: http://www.puzzle-werkstatt.de/
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         64e0cf09-6566-46f4-a49c-394024d71072:
           data:
             description: "Steffen M\xFCller, Herr Steffen M\xFCller, www.feltberg.com"
@@ -1593,6 +2318,44 @@ weihnachtsmarkt:
             name: "Steffen M\xFCller, Herr Steffen M\xFCller, www.feltberg.com"
             owner:
               name: "Steffen M\xFCller, Herr Steffen M\xFCller, www.feltberg.com"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        64e6a982-5f35-47b5-ac80-03e02be519d2:
+          data:
+            description:
+            - "Das ist keine Weihnachtsmarkth\xFCtte sondern eine H\xFCtte mit vielen\
+              \ Bienenwohnungen. In diesen sind eine Menge flei\xDFiger Mitarbeiterinnen\
+              \ der Imkerei. Sie sorgen daf\xFCr, dass die gro\xDFe Vielfalt von Imkereiprodukten\
+              \ bei uns in der Weihnachtsmarkth\xFCtte zu probieren und kosten gibt."
+            geometry:
+              coordinates:
+              - - - 7.629363
+                  - 51.962921
+                - - 7.629394
+                  - 51.962909
+                - - 7.62936
+                  - 51.962875
+                - - 7.629329
+                  - 51.962886
+                - - 7.629363
+                  - 51.962921
+              type: Polygon
+            goods:
+            - name: Bienenwachs
+            - name: Honig
+            - name: Honigkuchen
+            - name: Met und Imkerei
+            id: 64e6a982-5f35-47b5-ac80-03e02be519d2
+            last_modified: 1538814734110
+            market: Lamberti
+            name: Honig ist mehr
+            owner:
+              email: rudiklee@arcor.de
+              name: Rudi Kleeschulte, Imkerei Rudi Kleeschulte, Wiesengrund 4,  Altenberge
+              telephone: 02505 2782
+              web_url: null
             tags:
             - Ohne
             type: food
@@ -2023,6 +2786,120 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        758e8417-9995-4720-b42f-d644286d765e:
+          data:
+            description:
+            - "Wer dieses Jahr den Kleimann Stand besucht wird sich \xFCber besseren\
+              \ Regenschutz und vor allem das Pfand-R\xFCckgabefenster an der Seite\
+              \ freuen. Somit k\xF6nnen alle schneller bedient werden und haben mehr\
+              \ Zeit zum Genie\xDFen und Kl\xF6nen."
+            - "Kleimann Qualit\xE4t und Geschmack am sch\xF6nsten Platz in der Adventszeit\
+              \ mit ungest\xF6rtem Blick auf den Prinzipalmarkt und seine festliche\
+              \ Beleuchtung. Konditormeister Bernd Kleimann produziert in echter Handarbeit\
+              \ den besten Waffelnteig und den k\xF6stlichsten Gl\xFCh*** oh sorry\
+              \ Kleimanns Guter Traditionswein, komplett nach eigenen Rezepturen.\
+              \ Kleimanns Guten gibt es in speziell angefertigten Porzellanhenkelbechern\
+              \ hei\xDF am Stand auf dem Lamberti Kirchplatz. Zudem werden st\xE4\
+              ndig frische Waffeln gebacken, die es pur, mit Zimtzucker oder einer\
+              \ richtig leckeren Himbeer-Sauce gibt. Und da wir in der Konditorei\
+              \ Kleimann ausschlie\xDFlich mit Valrhona Schokolade arbeiten, sollte\
+              \ sich keiner die wohl beste Trinkschokolade weit und breit entgehen\
+              \ lassen. Noch eine alkoholfreie Alternative ist Kleimanns Budenzauber,\
+              \ Birnen- und Traubendirektsaft mit Gew\xFCrzen abgeschmeckt, weihnachtlich\
+              \ lecker."
+            - "Baumkuchen, Marzipankartoffeln, Teegeb\xE4ck und der sagenhafte Christstollen\
+              \ von Caf\xE9 Kleimann runden das Angebot ab und bieten so ein Trostpflaster\
+              \ f\xFCr alle Fans des leider geschlossenen Caf\xE9s. Mit Liebe f\xFC\
+              r Sie gemacht."
+            - "P.S.: Falls Sie gr\xF6\xDFere Mengen Christstollen ben\xF6tigen, k\xF6\
+              nnen Sie gerne eine e-mail an info@konditorkleimann.de senden. Ich werde\
+              \ mich dann mit Ihnen in Verbindung setzen."
+            - "Konditormeister\nBernd Kleimann"
+            geometry:
+              coordinates:
+              - - - 7.628673
+                  - 51.962663
+                - - 7.628706
+                  - 51.962654
+                - - 7.628679
+                  - 51.962617
+                - - 7.628646
+                  - 51.962626
+                - - 7.628673
+                  - 51.962663
+              type: Polygon
+            goods:
+            - name: "Gl\xFChwein"
+            - name: Waffeln
+            - name: Marzipan
+            - name: Lebkuchen
+            - name: Schokolade
+            - name: Christstollen
+            - name: Kleimanns Guter und Budenzauber
+            id: 758e8417-9995-4720-b42f-d644286d765e
+            last_modified: 1538814734495
+            market: Lamberti
+            name: Kleimanns Guter Traditionswein und Waffel Stand
+            owner:
+              email: info@konditorkleimann.de
+              name: "Bernd Kleimann, Caf\xE9 Kleimann GmbH & Co. KG, Domgasse 5, \
+                \ M\xFCnster"
+              telephone: 0251 47533
+              web_url: http://www.konditorkleimann.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        75bd9989-42d4-4e76-835a-2e6989659814:
+          data:
+            description:
+            - "Sie haben Lust auf Lebensart? Wir haben Sch\xF6nes f\xFCr Sie.\nBei\
+              \ uns finden Sie individuelle Mode von Frauen f\xFCr Frauen unseres\
+              \ eigenen Labels Lust auf Lebensart, ausgew\xE4hlte Mode verschiedener\
+              \ Marken sowie ausgefallene Accessoires.\nSie haben Lust auf Farbe,\
+              \ auf tolle Stoffe, extravagante und ausgefallene Schnitte sowie sportive\
+              \ als auch elegante Mode? Unter unserem Label \"Lust auf Lebensart\"\
+              \ fertigen wir unsere exklusiven Modelle in unserem eigenen Atelier.\
+              \ Die Stoffe, die wir verarbeiten, bestechen durch ihre Optik, den sch\xF6\
+              nen Griff und das angenehme Tragegef\xFChl.\nIn entspannter Runde entwerfen\
+              \ wir gemeinsam sch\xF6ne und vor allem tragbare, zeitlose Kleidungsst\xFC\
+              cke. Die handwerklich perfekte Umsetzung mit viel Liebe zum Detail erfolgt\
+              \ durch unsere ausgebildete Schneiderinnen.\nBesuchen Sie uns in unserem\
+              \ Gesch\xE4ft in Tecklenburg, auf Kreativmessen, Life-Style-Events und\
+              \ Gartenfestivals und nat\xFCrlich auf dem Lichtermarkt St. Lamberti\
+              \ in M\xFCnster!"
+            geometry:
+              coordinates:
+              - - - 7.628781
+                  - 51.962635
+                - - 7.628841
+                  - 51.962618
+                - - 7.628827
+                  - 51.962598
+                - - 7.628767
+                  - 51.962614
+                - - 7.628781
+                  - 51.962635
+              type: Polygon
+            goods:
+            - name: Accessoires
+            - name: Mode
+            - name: Kleidung
+            - name: Stoffe und Atelier
+            id: 75bd9989-42d4-4e76-835a-2e6989659814
+            last_modified: 1538814735753
+            market: Lamberti
+            name: Lust auf Lebensart
+            owner:
+              email: info@lust-auf-lebensart.de
+              name: "R. Krieger, Lust auf Lebensart, Landrat-Schultz-Stra\xDFe 15,\
+                \  Tecklenburg"
+              telephone: 05482 5099959
+              web_url: http://www.lust-auf-lebensart.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         765358a7-43dc-482e-b741-784b92a3128b:
           data:
             description: "K\xE4the Wohlfahrt GmbH & Co.OHG, Herr Harald Johannes Wohlfahrt"
@@ -2047,6 +2924,63 @@ weihnachtsmarkt:
             name: "K\xE4the Wohlfahrt GmbH & Co.OHG, Herr Harald Johannes Wohlfahrt"
             owner:
               name: "K\xE4the Wohlfahrt GmbH & Co.OHG, Herr Harald Johannes Wohlfahrt"
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        76b835a2-a13a-4a90-9b53-12f96c7fa9cf:
+          data:
+            description:
+            - "Der K\xFCnstler Siggi Hauch mit seinen kunstvoll verzierten Flugobjekten\
+              \ und Bumerangs ist nun schon seit 2012 auf dem Lichtermarkt vertreten.\
+              \ Seine Bumerangs werden in Handarbeit einzeln bemahlt und gestaltet.\
+              \ Es gibt sehr viele verschiedene Bumerangformen, mit unterschiedlichem\
+              \ Flugverhalten\u2026 und ganz wichtig es wird auch zwischen \"Rechts-\"\
+              \ und \"Linksh\xE4nder\" Bumerangs unterschieden. Ein Probewurf mit\
+              \ einem leichteren Zimmerbumerang kann gerne am Stand ausprobiert werden,\
+              \ einfach um zu auch sehen das alle Bumerangs \"Wiederkehrer\" sind."
+            - "Es ist sehr faszinierend zuzusehen wie der Bumerang in den Weihnachtsmarktstand\
+              \ rein- und auf der anderen Seite wieder rausfliegt, um dann zur\xFC\
+              ck zu der erstaunten Werferin oder Werfer zu kommen."
+            - "Zu jedem gekauften Bumerang gibt es \xFCbrigens ein Werfkurs dazu geschenkt.\
+              \ Er findet einmal im Jahr auf einer gro\xDFen Wiese in M\xFCnster statt\
+              \ und wurde bisher jedes Jahr  mit mehr als 150 Werfbegeisterten pro\
+              \ Kurs besucht. Zum Bumerangwerf- und / oder Baukurs kann man sich auf\
+              \ Siggi Hauchs Website anmelden: "
+            - .
+            - "Die  kleine Werkstatt von Siggi Hauch befindet sich mitten in M\xFC\
+              nster, in der N\xE4he des Ludgerikreisels. Sie kann Di-Mi-Do von 15-18\
+              \ Uhr besucht werden.\nBumerangs die f\xFCr die Halle oder kurze Distanzen\
+              \ entwickelt  wurden, k\xF6nnen dort vor Ort auch gerne ausprobiert\
+              \ werden."
+            geometry:
+              coordinates:
+              - - - 7.629026
+                  - 51.962593
+                - - 7.629055
+                  - 51.962613
+                - - 7.629082
+                  - 51.962598
+                - - 7.629053
+                  - 51.962578
+                - - 7.629026
+                  - 51.962593
+              type: Polygon
+            goods:
+            - name: Bumerang
+            - name: Boomerang
+            - name: Zimmerbumerang
+            - name: Flugobjekte und Hallenbumerang
+            id: 76b835a2-a13a-4a90-9b53-12f96c7fa9cf
+            last_modified: 1538814735216
+            market: Lamberti
+            name: 'Kunst und Physik: Flugobjekte & Bumerangs'
+            owner:
+              email: siggihauch@gmail.com
+              name: "Siggi Hauch, Kunst & Physik / Flugobjekte, Hafenstr. 1,  M\xFC\
+                nster"
+              telephone: null
+              web_url: http://www.flugobjekte.de/
             tags:
             - Ohne
             type: food
@@ -2622,6 +3556,58 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        99b5f691-1949-461f-90cf-3a3959c670db:
+          data:
+            description:
+            - "Wenn Sie eine Vorliebe f\xFCr ausgefallenen Weihnachtsdekorationen\
+              \ haben, immer auf der Suche nach besonderem Bastelzubeh\xF6r (B\xE4\
+              ndern, Naturalien, Filzanh\xE4ngern, Weihnachtskinkerlitzchen) und neuen\
+              \ Dekorations- und Geschenkideen mit i-T\xFCpfelchen sind, dann sind\
+              \ Sie bei uns genau richtig!\nIn diesem Jahr dreht sich bei unseren\
+              \ Weihnachtsdekorationen alles um die Themen:\n\u2665 Wintergeschichten\
+              \ (Dekorationen und Geschenke in Wei\xDF, Rosa, Silber)\n\u2665 Willkommen\
+              \ in Schweden (Dekorationen in Wei\xDF, Rot, Grau)\n\u2665 Weihnachtsb\xE4\
+              ckerei (Dekorationen und Accessoires rund um die K\xFCche)\nChriSue\
+              \ Haus- und Hofdekorationen ist ein kleines Familienunternehmen aus\
+              \ M\xFCnster, gegr\xFCndet 1987 von Chri = Christel und Sue = Susanne.\n\
+              Mit viel Liebe zum Detail entwerfen wir in unserer Werkstatt in M\xFC\
+              nster im ehemaligen Haus unserer Gro\xDFeltern, ausgefallene Haus- und\
+              \ Hofdekorationen. Wir sind immer auf der Suche nach dem Besonderen\
+              \ und freuen uns sehr, wenn wir wieder Ihre Begeisterung vor unserem\
+              \ Stand sp\xFCren\u2026\nBis dahin: Gute Anreise, denn unser sch\xF6\
+              nes M\xFCnster ist immer eine Reise wert, versprochen."
+            - "\u2026und falls jetzt grad mal kein Weihnachtsmarkt ist in M\xFCnster,\
+              \ k\xF6nnen Sie jederzeit unseren Onlineshop www.chrisue.de besuchen."
+            geometry:
+              coordinates:
+              - - - 7.628693
+                  - 51.962628
+                - - 7.628754
+                  - 51.962613
+                - - 7.62874
+                  - 51.962592
+                - - 7.62868
+                  - 51.962607
+                - - 7.628693
+                  - 51.962628
+              type: Polygon
+            goods:
+            - name: Weihnachtsdeko
+            - name: Bastelmaterial
+            - name: "B\xE4nder und Kr\xE4uterkronen"
+            id: 99b5f691-1949-461f-90cf-3a3959c670db
+            last_modified: 1538814727903
+            market: Lamberti
+            name: ChriSue Haus- und Hofdekorationen
+            owner:
+              email: info@chrisue.de
+              name: "Susanne Riegel, ChriSue, Rikeweg 11,  M\xFCnster"
+              telephone: 0251 65051
+              web_url: http://www.chrisue.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         99c604d5-fa34-4cad-81ec-359de25517a5:
           data:
             description: Schmuck & Mineralien, Herr Edip Turunc, http://www.turunc-gems.de/
@@ -2650,6 +3636,113 @@ weihnachtsmarkt:
             name: Schmuck & Mineralien, Herr Edip Turunc, http://www.turunc-gems.de/
             owner:
               name: Schmuck & Mineralien, Herr Edip Turunc, http://www.turunc-gems.de/
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        9c74d506-16f2-420e-baa9-9777e3022830:
+          data:
+            description:
+            - "Leder ist ein Naturprodukt. Es dient dem Menschen von jeher zur Kleidung\
+              \ und zum Schutz sowie zur Aufbewahrung und zum Transport vieler wichtiger\
+              \ Dinge des Lebens. Hierf\xFCr entwerfen und fertigen wir seit \xFC\
+              ber 20 Jahren Taschen, Rucks\xE4cke und Accessoires."
+            - "Unser Anliegen ist, dass Sie unsere Artikel nicht nur gut gebrauchen\
+              \ k\xF6nnen, sondern auch gerne anschauen und nat\xFCrlich auch anf\xFC\
+              hlen. Daher suchen wir das Rohmaterial f\xFCr unsere Arbeit pers\xF6\
+              nlich in s\xFCddeutschen Gerbereien und Lederhandlungen aus. Hier werden\
+              \ \xF6sterreichische und deutsche Rindsh\xE4ute in \xF6kologisch gerechter\
+              \ Mineralgerbung gefertigt und mit hochwertigen Anilinfarbstoffen im\
+              \ Fass durchgef\xE4rbt \u2013 ohne Verwendung von PCP, AZO-Farbstoffen,\
+              \ Formaldehyd und L\xF6sungsmitteln. Hochwertige Fettstoffe sorgen f\xFC\
+              r den \u201Eweichen Griff\u201C und eine dauerhafte Geschmeidigkeit\
+              \ des Leders."
+            - "Wir verwenden fast ausschlie\xDFlich Rindnappaleder in verschiedenen\
+              \ St\xE4rken und Narbungen. Nappaleder nennt man die glatte \xE4u\xDF\
+              ere Hautseite. Sie ist sehr strapazierf\xE4hig, licht- und farbecht\
+              \ und au\xDFerdem leicht zu pflegen."
+            - 'In unserer Werkstatt entstehen folgende Artikel:'
+            geometry:
+              coordinates:
+              - - - 7.628763
+                  - 51.96261
+                - - 7.628824
+                  - 51.962594
+                - - 7.628809
+                  - 51.962573
+                - - 7.628749
+                  - 51.962589
+                - - 7.628763
+                  - 51.96261
+              type: Polygon
+            goods:
+            - name: Handtaschen
+            - name: "Rucks\xE4cke"
+            - name: Ledergestaltung
+            - name: "Umh\xE4ngetaschen"
+            - name: "G\xFCrtel"
+            - name: Handarbeit
+            - name: Ledertaschen und Leder
+            id: 9c74d506-16f2-420e-baa9-9777e3022830
+            last_modified: 1538814736506
+            market: Lamberti
+            name: Softwear Ledergestaltung
+            owner:
+              email: softwear-ledergestaltung@t-online.de
+              name: Udo Bugiel, Softwear Ledergestaltung, Alte Ziegelei, Schoolpat
+                7,  Munderloh
+              telephone: 04482 8451
+              web_url: http://www.softwear-ledergestaltung.de/
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        9d4db3c0-6edd-46c7-9438-61664a6ff781:
+          data:
+            description:
+            - "Seit gut 20 Jahren haben wir uns auf die Produktion und den Verkauf\
+              \ von historischem Schmuck spezialisiert. Hierbei handelt es sich z.B.\
+              \ um kleine funktionale Sonnenuhren die wir nach Original-Vorlagen f\xFC\
+              r sie nachgebaut haben. Sch\xF6ner Schmuck mit Bedeutung, Historie und\
+              \ Funktion. Da w\xE4re z.B. der Bauernring, eine Sonnenuhr aus dem 17.\
+              \ Jahrhundert, die durch Lichteinfall auf einer Skala die Zeit ansagt,\
+              \ oder die \xC4quatorialkugel, mit der sie durch einen Schattenstrich\
+              \ die Uhrzeit ablesen k\xF6nnen.\nTauchen sie mit uns ein in die Welt\
+              \ der Wikinger, Germanen, Kelten und anderer Kulturkreise f\xFCr die\
+              \ Schmuck vor allem auch eine heilsbringende und sch\xFCtzende Wirkung\
+              \ hatte. Gerne f\xFChren wir ihnen ganz unverbindlich unsere Sonnenuhren\
+              \ und Amulette vor. Zu jedem unserer Artikel erhalten sie eine Beschreibung\
+              \ und eine kleine Geschichte \xFCber den historischen Ursprung. Da wir\
+              \ Museen und ausgesuchte Wiederverk\xE4ufer mit unserem historischem\
+              \ Schmuck beliefern, sind wir auch nach dem Weihnachtsmarkt das ganze\
+              \ Jahr f\xFCr sie da."
+            geometry:
+              coordinates:
+              - - - 7.629059
+                  - 51.962617
+                - - 7.62908
+                  - 51.96264
+                - - 7.629112
+                  - 51.962629
+                - - 7.62909
+                  - 51.962606
+                - - 7.629059
+                  - 51.962617
+              type: Polygon
+            goods:
+            - name: Sonnenuhren
+            - name: Amulette
+            - name: Schmuck
+            - name: Ringe und historisch
+            id: 9d4db3c0-6edd-46c7-9438-61664a6ff781
+            last_modified: 1538814730826
+            market: Lamberti
+            name: Historischer Schmuck, Amulette
+            owner:
+              email: info@belfactum.de
+              name: Dirk Onnebrink, belfactum, Hochstrasse 75,  Viersen
+              telephone: 02162 787804
+              web_url: http://www.belfactum.de
             tags:
             - Ohne
             type: food
@@ -2765,6 +3858,54 @@ weihnachtsmarkt:
             name: Brune-Mentink
             owner:
               name: Brune-Mentink
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
+        a32057db-dc85-4807-a3eb-eca6823c327a:
+          data:
+            description:
+            - "SchafeSachen aus dem M\xFCnsterland bietet kuschelig-warme Schaf- und\
+              \ Lammfelle vom eigenen Hof und von anderen Kleinherdenhaltern aus der\
+              \ Region, aber auch eine kleine Kollektion exklusiver Gotlandfelle aus\
+              \ Schweden. Die bei uns gekauften hochwertigen Felle sind pflanzen-\
+              \ oder alaungegerbt und somit in schwermetallfreier Qualit\xE4t auch\
+              \ f\xFCr das Baby oder im Krankenbett sehr gefragt. Unser Gerber fertigt\
+              \ aus den Fellen auch exklusiv f\xFCr uns Fellmuffs. Und unsere Fellsattelbez\xFC\
+              ge f\xFCr das Fahrrad sind schon eher Klassiker als ein Geheimtip.\n\
+              Das Sortiment wird abgerundet durch weiche Wollsocken aus kontrolliert\
+              \ biologischer Tierhaltung, tolle, kratzfreie Wollwalkm\xFCtzen und\
+              \ -schals, warme Wollpantoffeln und -handschuhe sowie wohlig-w\xE4rmende\
+              \ Getreidekissen, die im Ofen oder in der Mikrowelle \u2018aufgetankt\u2019\
+              \ werden."
+            geometry:
+              coordinates:
+              - - - 7.628757
+                  - 51.962694
+                - - 7.628816
+                  - 51.962677
+                - - 7.628801
+                  - 51.962656
+                - - 7.628742
+                  - 51.962673
+                - - 7.628757
+                  - 51.962694
+              type: Polygon
+            goods:
+            - name: naturgegerbte Schaffelle
+            - name: Gotlandfelle
+            - name: Wollprodukte
+            - name: Getreidekissen und Handschuhe
+            id: a32057db-dc85-4807-a3eb-eca6823c327a
+            last_modified: 1538814736321
+            market: Lamberti
+            name: SchafeSachen
+            owner:
+              email: katter.achim@freenet.de
+              name: Achim Katter und Andreas Beckmann, SchafeSachen - Achim Katter
+                & Andreas Beckmann, Vechtrup 14,  Telgte
+              telephone: 0175 3864483
+              web_url: null
             tags:
             - Ohne
             type: food
@@ -3417,6 +4558,62 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        c4ef9e24-287a-4fa8-9ebe-3336055c923a:
+          data:
+            description:
+            - "Qualit\xE4t, Einzigartigkeit & echte Handarbeit!"
+            - "Lange Brenndauer, romantisches Licht und ein angenehmer, nat\xFCrlicher\
+              \ Duft zeichnen die von uns hergestellten Kerzen aus.\nWir fertigen\
+              \ Kerzen aus reinem Bienenwachs oder auf Wunsch mit einem Bienenwachsanteil\
+              \ von 25\_%. Bei diesen Kerzen wird hochwertiges knetbares Parafin mitverarbeitet.\n\
+              Die Wachse kommen aus vielen Teilen der Erde, vom tiefdunklen Wachs\
+              \ aus Asien \xFCber goldgelben aus S\xFCdamerika bis hin zum hellen\
+              \ Bienenwachs aus Afrika.\nGrunds\xE4tzlich liegt jeder Lieferung ein\
+              \ Zertifikat \xFCber die Reinheit des Bienenwachses bei. Au\xDFerdem\
+              \ finden regelm\xE4\xDFig Brenn- und Geruchsproben statt.\nUm die unverwechselbar\
+              \ lebhaften Maserungen der Kerzen zu erzielen, werden die farblich unterschiedlichen\
+              \ Wachse gemischt und intensiv von Hand geknetet. Dadurch wird jede\
+              \ Kerze ein Unikat."
+            - "Ein qualitativ hochwertiger, geflochtener Docht gew\xE4hrleistet, bei\
+              \ Beachten der Brennanleitung, ein gleichm\xE4\xDFiges Abbrennen."
+            - "Echte Handarbeit! Die Kerzen-Manufaktur blickt zur\xFCck auf eine mehr\
+              \ als 40-j\xE4hrige Tradition und verf\xFCgt \xFCber einen entsprechenden\
+              \ Schatz an Wissen und Erfahrung. Sie ist heute europaweit einer der\
+              \ f\xFChrenden Hersteller von handgekneteten Bienenwachskerzen."
+            geometry:
+              coordinates:
+              - - - 7.628731
+                  - 51.962722
+                - - 7.628763
+                  - 51.962712
+                - - 7.628743
+                  - 51.962688
+                - - 7.628711
+                  - 51.962698
+                - - 7.628731
+                  - 51.962722
+              type: Polygon
+            goods:
+            - name: Kerzen
+            - name: Bienenwachs
+            - name: "Kerzenzubeh\xF6r"
+            - name: Teelichter
+            - name: Stabkerzen
+            - name: Geschenkartikel und Christbaumkerzen
+            id: c4ef9e24-287a-4fa8-9ebe-3336055c923a
+            last_modified: 1538814734305
+            market: Lamberti
+            name: Kerzen-Manufaktur | Handgeknetete Bienenwachskerzen
+            owner:
+              email: info@kerzen-manufaktur.de
+              name: "Henner Lammers, Kerzen-Manufaktur | Freckenhorster Werkst\xE4\
+                tten GmbH, Kruppstrasse 22,  Ahlen"
+              telephone: 02382 98110
+              web_url: http://www.kerzen-manufaktur.de
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         c6bdb529-710a-4f6f-aaab-b6c80db85ace:
           data:
             description: PAT & PATTY, Frau Kerstin Dorow, www.patundpatty.de
@@ -3574,6 +4771,48 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        cfb3b029-5ad9-4abc-b3a3-5f5c03465bed:
+          data:
+            description:
+            - "Nach meinem Kunststudium in Kassel habe ich 1984 die Werkstatt f\xFC\
+              r Buntpapier gegr\xFCndet und stelle handgemachte Buntpapiere her. Diese\
+              \ Papiere lasse ich von einer Handbuchbinderei zu B\xFCchern, Mappen,\
+              \ Alben etc. weiterverarbeiten. Auf meinen Reisen habe ich immer wieder\
+              \ sch\xF6ne Dinge aus dem Papeteriebereich entdeckt und vertreibe diese\
+              \ jetzt an meinem Stand auf dem Weihnachtsmarkt."
+            geometry:
+              coordinates:
+              - - - 7.628864
+                  - 51.962584
+                - - 7.628924
+                  - 51.962568
+                - - 7.628909
+                  - 51.962547
+                - - 7.628849
+                  - 51.962564
+                - - 7.628864
+                  - 51.962584
+              type: Polygon
+            goods:
+            - name: Karten
+            - name: "B\xFCcher"
+            - name: Mappen
+            - name: Alben
+            - name: Papiere und Stempel
+            id: cfb3b029-5ad9-4abc-b3a3-5f5c03465bed
+            last_modified: 1538814737402
+            market: Lamberti
+            name: "Werkstatt f\xFCr Buntpapier"
+            owner:
+              email: u.heneka@t-online.de
+              name: "Ulrich Heneka, Werkstatt f\xFCr Buntpapier, D\xFCstere-Eichen-Weg\
+                \ 28,  G\xF6ttingen"
+              telephone: 0551 485411
+              web_url: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         d141cd0c-0caf-4475-8b71-1c9c3ca6e010:
           data:
             description: Stossno & Ankermann GbR, Herr Oliver AnkermannHerr Uwe Stossno,
@@ -3719,6 +4958,46 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
+        d7a9638b-80ac-4823-8a4f-66d09f13864a:
+          data:
+            description:
+            - "Freuen Sie sich auf folgende Leckereien\u2026"
+            - "Cr\xEApes nach hauseigener Rezeptur mit verschiedenen F\xFCllungen,\
+              \ herzhaft und s\xFCss. Ausserdem Buchweizen Cr\xEApes, glutenfrei und\
+              \ vegan.\nHausgemachte Marmelade, Konfit\xFCren und Gelees\nSpritzgeb\xE4\
+              ck\nAlkoholfreies Warmgetr\xE4nk"
+            geometry:
+              coordinates:
+              - - - 7.628984
+                  - 51.962577
+                - - 7.629021
+                  - 51.96259
+                - - 7.629039
+                  - 51.962571
+                - - 7.629002
+                  - 51.962557
+                - - 7.628984
+                  - 51.962577
+              type: Polygon
+            goods:
+            - name: "S\xFC\xDFes"
+            - name: Pikant
+            - name: alkoholfrei
+            - name: vegan und glutenfrei
+            id: d7a9638b-80ac-4823-8a4f-66d09f13864a
+            last_modified: 1538814735576
+            market: Lamberti
+            name: Louises Leckereien
+            owner:
+              email: Konditor.cr@gmail.com
+              name: "Claudia Rosengarth, Louises Leckereien, Manfred-von-Richthofen\
+                \ Str. 84,  M\xFCnster"
+              telephone: null
+              web_url: null
+            tags:
+            - Ohne
+            type: food
+          permissions: {}
         d8ec0aa9-0395-499c-8c6a-f4e2043b8c7e:
           data:
             description: Lizzawest, www.lizzawest.com, mail[at]lizzawest[dot]com
@@ -3757,709 +5036,286 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
-        da60eb4d-395b-455d-8690-475e9475e8b3:
+        e6d5e068-e4ce-427e-8a58-ac8f770e9cd5:
           data:
-            description: Frau Eva Olszewski
+            description:
+            - "Zusehen, wie ein kleines Geschenk entsteht: Auf Kundenwunsch graviere\
+              \ ich in Tassen und Gl\xE4ser Namen und Schriftz\xFCge. Individuell\
+              \ und professionell gestaltet entsteht ein kleines Kunstwerk, das gerne\
+              \ verschenkt wird. Vor allem weil es als n\xFCtzliches Utensil in der\
+              \ K\xFCche, im B\xFCro, beim Fr\xFChst\xFCck oder beim entspannten Abend\
+              \ den Beschenkten erinnert und \u2013 nicht selten \u2013 zur Lieblingstasse\
+              \ oder zum Lieblingsglas avanciert. Der einfache Vorname, aber auch\
+              \ \u201EHallo, Liebling\u201C und andere Kosenamen werden gerne angefragt,\
+              \ die Verbindung wird durch das Geschenk hervorgehoben. "
+            - "Auch weihnachtliche Dekoartikel werden durch die Gravur zu etwas ganz\
+              \ Besonderem \u2013 nicht nur irgendwo eingekauft und verschenkt, sondern\
+              \ individuell angefertigt. Der Vorname zeigt die pers\xF6nliche Note,\
+              \ durch den das Schenken viel Freude bereitet. "
+            - "Seit 20 Jahren wird hier Kunsthandwerk zum Bestaunen gezeigt. Ich freue\
+              \ mich auf Sie und Ihre ganz individuellen W\xFCnsche."
             geometry:
               coordinates:
-              - - - 7.628851
-                  - 51.961472
-                - - 7.628824
-                  - 51.961478
-                - - 7.628841
-                  - 51.961505
-                - - 7.628868
-                  - 51.961499
-                - - 7.628851
-                  - 51.961472
-                - - 7.628851
-                  - 51.961472
+              - - - 7.62871
+                  - 51.962654
+                - - 7.628771
+                  - 51.962638
+                - - 7.628756
+                  - 51.962617
+                - - 7.628696
+                  - 51.962634
+                - - 7.62871
+                  - 51.962654
               type: Polygon
             goods:
-            - name: Kunsthandwerklicher Schmuck aus Halbedelsteinen
-            - name: "S\xFC\xDFwasserperlen und Edelstahl"
-            id: da60eb4d-395b-455d-8690-475e9475e8b3
-            last_modified: 1538772130176
-            name: Frau Eva Olszewski
+            - name: Kunsthandwerk
+            - name: Weihnachtsdekoration
+            - name: Glasgravur
+            - name: Keramikgravur und Glasartikel
+            id: e6d5e068-e4ce-427e-8a58-ac8f770e9cd5
+            last_modified: 1538814729344
+            market: Lamberti
+            name: Glas- und Keramikgravuren
             owner:
-              name: Frau Eva Olszewski
+              email: silviakahlau@web.de
+              name: Silvia Kahlau, Glas- und Keramikgravuren, Kattmannskamp 5,  Ostbevern-Brock
+              telephone: 02532 956671
+              web_url: null
             tags:
             - Ohne
             type: food
           permissions: {}
-        daed912e-90bc-4893-8e5e-fc3665eea536:
+        ec7d54d0-5dd2-4f29-b683-37ea3e23fbcd:
           data:
-            description: Kinderkarussell Schneider, Herr Johann Schneider
+            description:
+            - Dieses Jahr neu auf dem Lichtermarkt St. Lamberti.
+            - "Handarbeit\u2026"
             geometry:
               coordinates:
-              - - - 7.630624
-                  - 51.961881
-                - - 7.630617
-                  - 51.961865
-                - - 7.630599
-                  - 51.961854
-                - - 7.630573
-                  - 51.961849
-                - - 7.630548
-                  - 51.961854
-                - - 7.630529
-                  - 51.961865
-                - - 7.630523
-                  - 51.961881
-                - - 7.630529
-                  - 51.961896
-                - - 7.630548
-                  - 51.961908
-                - - 7.630573
-                  - 51.961912
-                - - 7.630599
-                  - 51.961908
-                - - 7.630617
-                  - 51.961896
-                - - 7.630624
-                  - 51.961881
-              type: Polygon
-            goods:
-            - name: Kinderkarussell
-            id: daed912e-90bc-4893-8e5e-fc3665eea536
-            last_modified: 1538772129917
-            name: Kinderkarussell Schneider, Herr Johann Schneider
-            owner:
-              name: Kinderkarussell Schneider, Herr Johann Schneider
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        dc5880e0-ffac-4f02-959d-632d13b2e585:
-          data:
-            description: Holzwurm, Herr Reinhard Sobisch
-            geometry:
-              coordinates:
-              - - - 7.62966
-                  - 51.961163
-                - - 7.629688
-                  - 51.961156
-                - - 7.629666
-                  - 51.961121
-                - - 7.629639
-                  - 51.961127
-                - - 7.62966
-                  - 51.961163
-              type: Polygon
-            goods:
-            - name: Kunsthandwerk aus Bali
-            - name: fairtrade Keramikdeko
-            - name: "Schmuck und Kleinm\xF6bel aus Eigenanfertigung"
-            id: dc5880e0-ffac-4f02-959d-632d13b2e585
-            last_modified: 1538772130690
-            name: Holzwurm, Herr Reinhard Sobisch
-            owner:
-              name: Holzwurm, Herr Reinhard Sobisch
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        ddbaac19-62f3-4bf5-b755-15d92292d28b:
-          data:
-            description: "Larimar Idee Form Pr\xE4sentation, Herr Hartmut Rollink"
-            geometry:
-              coordinates:
-              - - - 7.628918
-                  - 51.961448
-                - - 7.628902
-                  - 51.961423
-                - - 7.6289
-                  - 51.961423
-                - - 7.628875
-                  - 51.961429
-                - - 7.628891
-                  - 51.961454
-                - - 7.628891
-                  - 51.961454
-                - - 7.628918
-                  - 51.961448
-              type: Polygon
-            goods:
-            - name: Edelstahlwindspiele
-            - name: weihnachtliche Figuren
-            - name: Lichterketten
-            id: ddbaac19-62f3-4bf5-b755-15d92292d28b
-            last_modified: 1538772130052
-            name: "Larimar Idee Form Pr\xE4sentation, Herr Hartmut Rollink"
-            owner:
-              name: "Larimar Idee Form Pr\xE4sentation, Herr Hartmut Rollink"
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        df10ca14-2f40-4b61-884e-9aa4608e7c90:
-          data:
-            description: Creperie Ueberfeld
-            geometry:
-              coordinates:
-              - - - 7.630763
-                  - 51.961914
-                - - 7.630738
-                  - 51.961898
-                - - 7.630702
-                  - 51.961919
-                - - 7.630726
-                  - 51.961935
-                - - 7.630763
-                  - 51.961914
-              type: Polygon
-            goods:
-            - name: "Cr\xEApes"
-            - name: "Waffeln und Waffelb\xE4llchen"
-            id: df10ca14-2f40-4b61-884e-9aa4608e7c90
-            last_modified: 1538772129250
-            name: Creperie Ueberfeld
-            owner:
-              name: Creperie Ueberfeld
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        df61a542-87b3-40c9-8bfd-3cb496667adf:
-          data:
-            description: Greenlife Value GmbH, www.warmies.de
-            geometry:
-              coordinates:
-              - - - 7.629411
-                  - 51.961682
-                - - 7.629401
-                  - 51.961665
-                - - 7.629356
-                  - 51.961675
-                - - 7.629366
-                  - 51.961692
-                - - 7.629411
-                  - 51.961682
-              type: Polygon
-            goods:
-            - name: Warmies
-            - name: "W\xE4rmestofftiere und W\xE4rmeschuhe f\xFCr Mikrowelle und Backofen"
-            id: df61a542-87b3-40c9-8bfd-3cb496667adf
-            last_modified: 1538772129891
-            name: Greenlife Value GmbH, www.warmies.de
-            owner:
-              name: Greenlife Value GmbH, www.warmies.de
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        dff34f8f-6413-4c43-bf60-3aa8059e1480:
-          data:
-            description: Savon Vivre-Handgemachte Seife, Frau Melanie Storb, www.savon-vivre.com
-            geometry:
-              coordinates:
-              - - - 7.629537
-                  - 51.961718
-                - - 7.629591
-                  - 51.961706
-                - - 7.629576
-                  - 51.96168
-                - - 7.629522
-                  - 51.961693
-                - - 7.629537
-                  - 51.961718
-              type: Polygon
-            goods:
-            - name: Handgemachte Seife aus eigener Herstellung
-            - name: "versch. Sorten und Gr\xF6\xDFen"
-            - name: Seifenablagen (Olivenholz)
-            id: dff34f8f-6413-4c43-bf60-3aa8059e1480
-            last_modified: 1538772129558
-            name: Savon Vivre-Handgemachte Seife, Frau Melanie Storb, www.savon-vivre.com
-            owner:
-              name: Savon Vivre-Handgemachte Seife, Frau Melanie Storb, www.savon-vivre.com
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        e1600a29-13ab-411b-ae55-af885ef49f1f:
-          data:
-            description: feine art - Manufaktur und Galerie, Herr Wolfgang Nietan,
-              www.feineart.de
-            geometry:
-              coordinates:
-              - - - 7.628954
-                  - 51.961547
-                - - 7.628982
-                  - 51.961541
-                - - 7.628958
-                  - 51.961502
-                - - 7.628931
-                  - 51.961508
+              - - - 7.628921
+                  - 51.96268
                 - - 7.628954
-                  - 51.961547
+                  - 51.962697
+                - - 7.628978
+                  - 51.96268
+                - - 7.628945
+                  - 51.962662
+                - - 7.628921
+                  - 51.96268
               type: Polygon
             goods:
-            - name: Bilder im Galeriestil als textile Wanddekoration
-            id: e1600a29-13ab-411b-ae55-af885ef49f1f
-            last_modified: 1538772130115
-            name: feine art - Manufaktur und Galerie, Herr Wolfgang Nietan, www.feineart.de
+            - name: Keramik
+            - name: Schale
+            - name: Kunsthandwerk
+            - name: Geschirr
+            - name: Sammeltassen
+            - name: Geschenke
+            - name: Weihnachtsdekoration
+            - name: Tassen
+            - name: Dekoration
+            - name: "Fr\xFChst\xFCckstasse"
+            - name: Becher
+            - name: Teller
+            - name: Krug
+            - name: Kanne
+            - name: "St\xF6vchen"
+            - name: Eierbecher
+            - name: Dosen
+            - name: Butterdose
+            - name: "Sch\xFCssel"
+            - name: Kelch
+            - name: "Kerzenst\xE4nder"
+            - name: Vase
+            - name: Teeservice
+            - name: Kaffeeservice und Essservice
+            id: ec7d54d0-5dd2-4f29-b683-37ea3e23fbcd
+            last_modified: 1538814728644
+            market: Lamberti
+            name: "Die T\xF6pferin vom Lichtermarkt"
             owner:
-              name: feine art - Manufaktur und Galerie, Herr Wolfgang Nietan, www.feineart.de
+              email: toepferei-hartmann@t-online.de
+              name: "Uta Schmiese-Hartmann, Die T\xF6pferei - Uta Schmiese-Hartmann,\
+                \ Ahlintel 12,  Emsdetten"
+              telephone: 02572 953080
+              web_url: null
             tags:
             - Ohne
             type: food
           permissions: {}
-        e1b52595-00ca-44c5-a701-a2798886d867:
+        f953b9d5-accd-4ad0-ac2d-75c71e61a55c:
           data:
-            description: "Angelika Camps, Loh\xF6fenerweg 5, 48153 M\xFCnster, Tel.\
-              \ 0171 5388677, ang-camps[at]versanet[dot]de"
+            description:
+            - "Erna die Mandelbrennerin.\nSeit Gr\xFCndung, des Lichtermarktes St.Lamberti\
+              \ im Jahr 1987, wird die Mandelbrennerei,\nmit bleibender Qualit\xE4\
+              t und Frische der Produkte, von mir betrieben.\nGebrannte Mandeln biete\
+              \ ich in vielen ausgesuchten Geschmacksrichtungen an.\nVon klassisch,\
+              \ mit Vanille oder weihnachtlich dezent, mit Lebkuchengew\xFCrz abgeschmeckt.\n\
+              Die im Angebot unterschiedlichen Fr\xFCchte werden mit feinster Schokoladenglasur\
+              \ \xFCberzogenen.\nDazu geh\xF6ren Bananen, Erdbeeren oder Trauben,\
+              \ in verschieden schokoladigen Variationen und Geschmacksrichtungen.\n\
+              Wie, edel wei\xDF, nussig hell oder dunkel herb.\nAbwechslungsreich\
+              \ im Geschmack und Aussehen.\nUnser, bei Gro\xDF und Klein, beliebtes\
+              \ Original Gl\xFChweinbonbon aus bester Herstellung,\nmachen mit dem\
+              \ feinen Gew\xFCrzgeschmack von Gl\xFChwein, jeden Bonbonfreund gl\xFC\
+              cklich.\nDie von mir angebotenen  Produkte werden vor Ort, w\xE4hrend\
+              \ der vorweihnachtlichen Adventzeit\nauf dem  Lichtermarkt St. Lamberti,\
+              \ in der Mandelbrennerei handwerklich hergestellt.\nEine gleichbleibende\
+              \ Qualit\xE4t erwarten wir von uns selber und bringen sie somit unseren\
+              \ langj\xE4hrigen und auch neuen Kunden entgegen.\nDaher, immer frisch\
+              \ und nur HIER auf dem Lichtermarkt St.Lamberti,\nim Herzen von M\xFC\
+              nster."
+            - "Das Jahr l\xE4sst uns die Zeit neue Ideen reifen zu lassen,\ndenn gerade\
+              \ Dinge, die nicht sein m\xFCssen, versch\xF6nern die Zeit."
             geometry:
               coordinates:
-              - - - 7.626106
-                  - 51.96422
-                - - 7.626133
-                  - 51.964217
-                - - 7.626128
-                  - 51.964184
-                - - 7.6261
-                  - 51.964187
-                - - 7.626106
-                  - 51.96422
-              type: Polygon
-            goods:
-            - name: Weihnachtsbaumschmuck aus Messing
-            - name: Zinn und Glas
-            - name: nostalgische Engel
-            - name: Schutzengel
-            - name: Mila-Engel und Krippen
-            - name: zeitlosen Fenster
-            - name: Raumschmuck
-            - name: "M\xFCnstermotive Rathaus und Prinzipalmarkt mit Lambertikirche\
-                \ aus Messing"
-            - name: vergoldet oder aus Edelstahl
-            - name: vernickelt
-            id: e1b52595-00ca-44c5-a701-a2798886d867
-            last_modified: 1538772128704
-            name: "Angelika Camps, Loh\xF6fenerweg 5, 48153 M\xFCnster, Tel. 0171\
-              \ 5388677, ang-camps[at]versanet[dot]de"
-            owner:
-              name: "Angelika Camps, Loh\xF6fenerweg 5, 48153 M\xFCnster, Tel. 0171\
-                \ 5388677, ang-camps[at]versanet[dot]de"
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        e2b740cf-d7a2-4c10-8234-ea8078439335:
-          data:
-            description: "Hoppe - hei\xDFe Mandeln und mehr"
-            geometry:
-              coordinates:
-              - - - 7.628808
-                  - 51.961541
-                - - 7.628883
-                  - 51.961524
-                - - 7.628872
-                  - 51.961504
-                - - 7.628797
-                  - 51.961522
-                - - 7.628808
-                  - 51.961541
+              - - - 7.628847
+                  - 51.962775
+                - - 7.628912
+                  - 51.962767
+                - - 7.628905
+                  - 51.962745
+                - - 7.628841
+                  - 51.962753
+                - - 7.628847
+                  - 51.962775
               type: Polygon
             goods:
             - name: gebrannte Mandeln
-            - name: "N\xFCsse"
-            - name: frisches Popcorn
-            - name: Lebkuchen
-            - name: "schokolierte und kandierte Fr\xFCchte"
-            id: e2b740cf-d7a2-4c10-8234-ea8078439335
-            last_modified: 1538772130306
-            name: "Hoppe - hei\xDFe Mandeln und mehr"
+            - name: "Schokofr\xFCchte"
+            - name: "Gl\xFChweinbonbons"
+            - name: Mandelbrennerin und handwerklich
+            id: f953b9d5-accd-4ad0-ac2d-75c71e61a55c
+            last_modified: 1538814728996
+            market: Lamberti
+            name: Erna die Mandelbrennerin
             owner:
-              name: "Hoppe - hei\xDFe Mandeln und mehr"
+              email: utheiling@gmx.de
+              name: Erna Theiling, Erna die Mandelbrennerin, Rheinsalm,  Saerbeck
+              telephone: null
+              web_url: null
             tags:
             - Ohne
             type: food
           permissions: {}
-        e3d7c339-d5b0-450a-b586-70fa94e7873f:
+        fa22230a-0b21-44b0-bd0b-51c387ee3ca1:
           data:
-            description: "Parpalioni's Zuckerst\xFCbchen, Frau Stefanie Parpalioni"
+            description:
+            - "Der K\xFCnstler Siggi Hauch mit seinem tanzenden Ballett in kleinen\
+              \ und gro\xDFen Wasserflaschen ist nun schon seit 2012 auf dem Lichtermarkt\
+              \ vertreten. Seine vor den Augen des staunenden Publikums an der Flamme\
+              \ gezogenen und hohl geblasenen Glasfiguren faszinieren schon seit \xFC\
+              ber 30 Jahren \u201Cgro\xDFe\u201Cund \u201Ckleine\u201C Kinder auf\
+              \ der ganzen Welt.\nEr bereiste damit schon S\xFCdafrika, Namibia, die\
+              \ Seychellen, Mauritius, auch in Neuseeland und Australien hatte er\
+              \ seine Glasr\xF6hrchen und seinen Brenner an einem Fahrrad mit dabei.\
+              \ Die Faszination ist \xFCberall die gleiche,denn es ist fast magisch\
+              \ wie durch einen leichten Druck auf einen Gummistopfen seine verschiedenen\
+              \ Glasfiguren in einer Flasche Wasser sich auf und ab bewegen, ja sogar\
+              \ Pirouetten drehen. Das ganze beruht auf mehreren physikalischen Gesetzen,\
+              \ die er auch immer wieder gerne erkl\xE4rt. Jede Figur ist ein Unikat\
+              \ und wird einzeln an der Flamme hergestellt. Die Erfindung ist nicht\
+              \ neu sondern beruht auf einer schon \xFCber 200 Jahre alten Figur,\
+              \ den viele aus ihrer Kindheit kennen dem \"Flaschenteufel\"."
+            - "Die kleine Werkstatt von Siggi Hauch befindet sich mitten in M\xFC\
+              nster, in der N\xE4he des Ludgerikreisels und kann da auch Di-Mi-Do\
+              \ von 15-18 Uhr besucht werden. Durch den Kauf der Figuren wird auch\
+              \ eine alte aussterbende Tradition lebendig gehalten, von der in dieser\
+              \ schnelllebigen Zeit immer noch ein gro\xDFer Zauber ausgeht. Es gibt\
+              \ viele \xE4ltere Menschen die sagen: \"die kenne ich aus meiner Kindheit\"\
+              . Es w\xE4re doch sch\xF6n wenn das auch unsere Kinder in ein paar Jahren\
+              \ noch sagen k\xF6nnten."
             geometry:
               coordinates:
-              - - - 7.629245
-                  - 51.961027
-                - - 7.629255
-                  - 51.961043
-                - - 7.629345
-                  - 51.961044
-                - - 7.629344
-                  - 51.961022
-                - - 7.629245
-                  - 51.961021
-                - - 7.629245
-                  - 51.961027
+              - - - 7.62889
+                  - 51.962616
+                - - 7.628927
+                  - 51.962615
+                - - 7.628926
+                  - 51.962588
+                - - 7.628889
+                  - 51.962588
+                - - 7.62889
+                  - 51.962616
               type: Polygon
             goods:
-            - name: "Gebrannte Mandeln und N\xFCsse"
-            - name: Lebkuchenherzen
-            - name: Popcorn und Zuckerwatte
-            id: e3d7c339-d5b0-450a-b586-70fa94e7873f
-            last_modified: 1538772128760
-            name: "Parpalioni's Zuckerst\xFCbchen, Frau Stefanie Parpalioni"
+            - name: Bottle Diver
+            - name: Flaschenballett
+            - name: Flaschentaucher
+            - name: Flaschenteufel
+            - name: "Flaschent\xE4nzer"
+            - name: Flaschengeist
+            - name: Cartesischer Taucher
+            - name: Soda Bottle Diver und Cartesian Diver
+            id: fa22230a-0b21-44b0-bd0b-51c387ee3ca1
+            last_modified: 1538814735026
+            market: Lamberti
+            name: 'Kunst und Physik: Das tanzende Flaschenballett'
             owner:
-              name: "Parpalioni's Zuckerst\xFCbchen, Frau Stefanie Parpalioni"
+              email: siggihauch@gmail.com
+              name: "Siggi Hauch, Kunst & Physik / Flaschenballett, Hafenstr. 1, \
+                \ M\xFCnster"
+              telephone: null
+              web_url: http://www.siggihauch.de/
             tags:
             - Ohne
             type: food
           permissions: {}
-        e40c766b-8c9f-4ddf-b53e-9764f51faca2:
+        fa41f558-f733-456e-a798-712aa8131646:
           data:
-            description: "Herr Udo Dre\xDFen"
+            description:
+            - "Schon seit 25 Jahren gibt es den Hutstand am Lamberti-Weihnachtsmarkt,\
+              \ noch lange bevor H\xFCte wieder in Mode kamen. Denn H\xFCte haben\
+              \ die Menschen in aller Welt und in allen Epochen begleitet."
+            - "An meinem Stand kann man H\xFCte kaufen, die fast\_ausschlie\xDFlich\
+              \ in Italien produziert werden, genau genommen in der Gegend des sch\xF6\
+              nen Florenz. Die Waren stammen aus kleinen, alt eingesessenen Familienfabriken,\
+              \ sind von mir selbst importiert und keine Massenproduktion - Hut und\
+              \ Form sind nach meinen eigenen W\xFCnschen und langen Erfahrungen hergestellt\
+              \ und daher auch nirgendwo anders zu bekommen. Prinzipiell basiert jeder\
+              \ Hut auf einer Handarbeitskunst, die von Generation zu Generation weiter\
+              \ gelehrt und gegeben wird, denn in dieser\_Herstellung ersetzt keine\
+              \ Maschine den Menschen."
+            - "Was an diesem Stand anfing mit selbst gen\xE4hten H\xFCten und M\xFC\
+              tzen aus Samt und Seide, sp\xE4ter durch H\xFCte aus\_einer traditionellen\
+              \ Fabrik in der\_Eifel das Angebot erweiterte, ist nun hier auf dem\
+              \ Markt mit europ\xE4ischer Handarbeit. Nicht nur H\xFCte, sondern ausgefallene\
+              \ M\xFCnzen geh\xF6ren zu unserem Sortiment seit 25 Jahren. Wie am Anfang\
+              \ entstammt ein gro\xDFer Teil aus eigener Produktion, ein anderer aus\
+              \ jener Fabrik in der Eifel."
             geometry:
               coordinates:
-              - - - 7.629854
-                  - 51.960806
-                - - 7.62991
-                  - 51.960847
-                - - 7.629937
-                  - 51.960833
-                - - 7.629881
-                  - 51.960792
-                - - 7.629854
-                  - 51.960806
-              type: Polygon
-            goods:
-            - name: "Kleiderwaren mit Monogrammpr\xE4gung"
-            - name: Portemonnaies
-            - name: Brieftaschen
-            - name: "Schl\xFCsseletuis"
-            id: e40c766b-8c9f-4ddf-b53e-9764f51faca2
-            last_modified: 1538772130558
-            name: "Herr Udo Dre\xDFen"
-            owner:
-              name: "Herr Udo Dre\xDFen"
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        e4234d47-af20-48c0-8909-cf90cb4ec9cd:
-          data:
-            description: Frau Antje Jansen
-            geometry:
-              coordinates:
-              - - - 7.629922
-                  - 51.96184
-                - - 7.62998
-                  - 51.961827
-                - - 7.629969
-                  - 51.96181
-                - - 7.629912
-                  - 51.961823
-                - - 7.629922
-                  - 51.96184
-              type: Polygon
-            goods:
-            - name: Schmuck aus Glasperlen
-            - name: Halbedelsteine
-            - name: "Muscheln- und S\xFC\xDFwasserperlen"
-            id: e4234d47-af20-48c0-8909-cf90cb4ec9cd
-            last_modified: 1538772129305
-            name: Frau Antje Jansen
-            owner:
-              name: Frau Antje Jansen
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        e5a0c619-8cef-4c95-9dcc-161e53e83250:
-          data:
-            description: Schaustellerbetrieb Kracke, Herr Erich Kracke
-            geometry:
-              coordinates:
-              - - - 7.629303
-                  - 51.961756
-                - - 7.629261
-                  - 51.961687
-                - - 7.629227
-                  - 51.961695
-                - - 7.629269
-                  - 51.961764
-                - - 7.629276
-                  - 51.961763
-                - - 7.629303
-                  - 51.961756
-              type: Polygon
-            goods:
-            - name: "Hei\xDFgetr\xE4nke"
-            - name: "verschiedene Milchgetr\xE4nke mit und ohne Alkohol"
-            id: e5a0c619-8cef-4c95-9dcc-161e53e83250
-            last_modified: 1538772129632
-            name: Schaustellerbetrieb Kracke, Herr Erich Kracke
-            owner:
-              name: Schaustellerbetrieb Kracke, Herr Erich Kracke
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        e807506c-8c53-4f1d-ab25-26b461903770:
-          data:
-            description: null
-            geometry:
-              coordinates:
-              - - - 7.628838
-                  - 51.961368
-                - - 7.628866
-                  - 51.961362
-                - - 7.628853
-                  - 51.961341
-                - - 7.628826
-                  - 51.961347
-                - - 7.628838
-                  - 51.961368
-              type: Polygon
-            goods: []
-            id: e807506c-8c53-4f1d-ab25-26b461903770
-            last_modified: 1538772130125
-            name: null
-            owner:
-              name: null
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        eb0d272c-2162-4212-8f2e-9f21c68fbf11:
-          data:
-            description: Omelinchen, Frau Ute Dahlke
-            geometry:
-              coordinates:
-              - - - 7.629179
-                  - 51.96138
-                - - 7.629234
-                  - 51.961368
-                - - 7.629222
-                  - 51.961347
-                - - 7.629168
-                  - 51.96136
-                - - 7.629179
-                  - 51.96138
-              type: Polygon
-            goods:
-            - name: Baby- und Kleinkindbekleidung
-            - name: Kissen
-            - name: Decken
-            - name: "Zubeh\xF6r"
-            id: eb0d272c-2162-4212-8f2e-9f21c68fbf11
-            last_modified: 1538772129928
-            name: Omelinchen, Frau Ute Dahlke
-            owner:
-              name: Omelinchen, Frau Ute Dahlke
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        ee3d05aa-8340-42a9-853b-83e6646bd6ef:
-          data:
-            description: Frau Sabine Bertram
-            geometry:
-              coordinates:
-              - - - 7.629137
-                  - 51.961512
-                - - 7.629192
-                  - 51.9615
-                - - 7.629182
-                  - 51.961483
+              - - - 7.629082
+                  - 51.96271
+                - - 7.629125
+                  - 51.962711
                 - - 7.629127
-                  - 51.961495
-                - - 7.629137
-                  - 51.961512
+                  - 51.962689
+                - - 7.629083
+                  - 51.962688
+                - - 7.629082
+                  - 51.96271
               type: Polygon
             goods:
-            - name: Silberschmuck
+            - name: "H\xFCte"
+            - name: "M\xFCtzen"
             - name: Accessoires
-            - name: Antikschmuck und Schals
-            id: ee3d05aa-8340-42a9-853b-83e6646bd6ef
-            last_modified: 1538772129552
-            name: Frau Sabine Bertram
+            - name: "Filzh\xFCte"
+            - name: "Wollh\xFCte"
+            - name: "Fleeceh\xFCte"
+            - name: "Fleecem\xFCtzen"
+            - name: Beanies
+            - name: Schals
+            - name: "Muffs und Ohrenw\xE4rmer"
+            id: fa41f558-f733-456e-a798-712aa8131646
+            last_modified: 1538814736136
+            market: Lamberti
+            name: Rund um den Kopf
             owner:
-              name: Frau Sabine Bertram
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        eea6c373-804e-43c1-9d85-33927257cc89:
-          data:
-            description: "Udo + Achim Graefer, Bergstr. 19 - 20, 48143 M\xFCnster"
-            geometry:
-              coordinates:
-              - - - 7.626307
-                  - 51.964231
-                - - 7.626334
-                  - 51.96423
-                - - 7.626333
-                  - 51.964199
-                - - 7.626306
-                  - 51.964199
-                - - 7.626307
-                  - 51.964231
-              type: Polygon
-            goods:
-            - name: "Gr\xFCnkohl"
-            - name: Erbsensuppe
-            - name: Schmalzbrot
-            - name: Biermeisser
-            - name: "Gl\xFChwein mit Rum oder Amaretto"
-            - name: Kakao
-            - name: Lumumba
-            - name: Eierpunsch
-            - name: Cola
-            - name: Fanta Sprite
-            - name: Wasser
-            id: eea6c373-804e-43c1-9d85-33927257cc89
-            last_modified: 1538772128516
-            name: "Udo + Achim Graefer, Bergstr. 19 - 20, 48143 M\xFCnster"
-            owner:
-              name: "Udo + Achim Graefer, Bergstr. 19 - 20, 48143 M\xFCnster"
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        f356433c-c65f-4d52-a198-9c3e3288e5ed:
-          data:
-            description: Tom Kaiser
-            geometry:
-              coordinates:
-              - - - 7.629704
-                  - 51.9612
-                - - 7.629671
-                  - 51.961207
-                - - 7.629687
-                  - 51.961233
-                - - 7.62972
-                  - 51.961225
-                - - 7.629704
-                  - 51.9612
-              type: Polygon
-            goods:
-            - name: Siegel und Werkzeuge aus feinster Schokolade
-            id: f356433c-c65f-4d52-a198-9c3e3288e5ed
-            last_modified: 1538772128786
-            name: Tom Kaiser
-            owner:
-              name: Tom Kaiser
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        f76fecc6-2547-4cc3-969f-89f1a5a26d3c:
-          data:
-            description: Frau Ursula Wulfert
-            geometry:
-              coordinates:
-              - - - 7.629007
-                  - 51.961386
-                - - 7.629048
-                  - 51.961377
-                - - 7.629027
-                  - 51.961344
-                - - 7.628987
-                  - 51.961354
-                - - 7.629007
-                  - 51.961386
-              type: Polygon
-            goods:
-            - name: "N\xFCrnberger Blechspielzeug und nostalgisches Spielzeug aus\
-                \ aller Welt"
-            id: f76fecc6-2547-4cc3-969f-89f1a5a26d3c
-            last_modified: 1538772129696
-            name: Frau Ursula Wulfert
-            owner:
-              name: Frau Ursula Wulfert
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        f7920e71-33aa-41d1-9276-5518409eded6:
-          data:
-            description: Margret Rennspiess-Hesse
-            geometry:
-              coordinates:
-              - - - 7.629468
-                  - 51.96183
-                - - 7.629451
-                  - 51.961803
-                - - 7.629414
-                  - 51.961812
-                - - 7.62943
-                  - 51.961839
-                - - 7.629468
-                  - 51.96183
-              type: Polygon
-            goods:
-            - name: Selbstgefertigter Designerschmuck
-            - name: Bastelperlen
-            - name: Dekomagnete
-            - name: "Bord\xFCren"
-            id: f7920e71-33aa-41d1-9276-5518409eded6
-            last_modified: 1538772129134
-            name: Margret Rennspiess-Hesse
-            owner:
-              name: Margret Rennspiess-Hesse
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        f9f5a0a4-4171-4f7f-9867-814c30d98438:
-          data:
-            description: "Gro\xDFer Kiepenkerl, Spiekerhof 45, 48143 M\xFCnster, Tel\
-              \ 0251 40335, www.grosser-kiepenkerl.de"
-            geometry:
-              coordinates:
-              - - - 7.626154
-                  - 51.964195
-                - - 7.626182
-                  - 51.964194
-                - - 7.626179
-                  - 51.964139
-                - - 7.626152
-                  - 51.96414
-                - - 7.626154
-                  - 51.964195
-              type: Polygon
-            goods:
-            - name: Kiepenkerl-Punsch EUR 3.50
-            - name: Alkoholfreier Kiepenkerl-Punsch EUR 2.00
-            - name: "Kiepenkerl-Gl\xFChbier EUR 3.00"
-            id: f9f5a0a4-4171-4f7f-9867-814c30d98438
-            last_modified: 1538772128562
-            name: "Gro\xDFer Kiepenkerl, Spiekerhof 45, 48143 M\xFCnster, Tel 0251\
-              \ 40335, www.grosser-kiepenkerl.de"
-            owner:
-              name: "Gro\xDFer Kiepenkerl, Spiekerhof 45, 48143 M\xFCnster, Tel 0251\
-                \ 40335, www.grosser-kiepenkerl.de"
-            tags:
-            - Ohne
-            type: food
-          permissions: {}
-        fa3686eb-b62f-442f-b051-70b76b3b8a3f:
-          data:
-            description: Ratskeller GmbH & Co. KG
-            geometry:
-              coordinates:
-              - - - 7.628807
-                  - 51.961606
-                - - 7.628828
-                  - 51.961639
-                - - 7.628867
-                  - 51.96163
-                - - 7.628848
-                  - 51.961597
-                - - 7.628807
-                  - 51.961606
-                - - 7.628807
-                  - 51.961606
-              type: Polygon
-            goods:
-            - name: "Gl\xFChwein"
-            id: fa3686eb-b62f-442f-b051-70b76b3b8a3f
-            last_modified: 1538772130300
-            name: Ratskeller GmbH & Co. KG
-            owner:
-              name: Ratskeller GmbH & Co. KG
+              email: aapp@gmx.net
+              name: "J. Applestone, Hutstand am Lamberti, Bayenstrasse 28,  K\xF6\
+                ln"
+              telephone: null
+              web_url: null
             tags:
             - Ohne
             type: food
@@ -4577,7 +5433,6 @@ weihnachtsmarkt:
             name: Kiepenkerl
             web_url: http://www.kiepenkerl-weihnachtsmarkt.de/
           permissions: {}
-
         abc8cc2d-f193-485b-ac0b-82991a49bbb8:
           data:
             description: "Der j\xFCngste Weihnachtsmarkt M\xFCnsters erfreut seine\
