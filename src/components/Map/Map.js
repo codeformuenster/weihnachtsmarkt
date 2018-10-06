@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
-// import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import { booths, markets } from './../../helpers/client'
 
@@ -23,12 +22,21 @@ export default class Map extends Component {
   async componentDidMount() {
     this.map = new mapboxgl.Map({
       container: this.mapContainer,
-      style: 'mapbox://styles/mapbox/dark-v9',
+      // style: 'mapbox://styles/mapbox/dark-v9',
+      style: 'mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze',
       center: [this.state.viewport.longitude, this.state.viewport.latitude],
       zoom: this.state.viewport.zoom,
       attributionControl: false,
     })
     this.map.addControl(new mapboxgl.NavigationControl())
+    this.map.addControl(
+      new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true,
+        },
+        trackUserLocation: true,
+      })
+    )
     this.map.on('style.load', async () => {
       try {
         await markets.sync()
@@ -40,6 +48,7 @@ export default class Map extends Component {
             features: wat.data.map(e => ({
               ...e,
               type: 'Feature',
+              properties: e,
             })),
           },
         })
@@ -78,6 +87,7 @@ export default class Map extends Component {
             features: wat.data.map(e => ({
               ...e,
               type: 'Feature',
+              properties: e,
             })),
           },
         })
@@ -117,6 +127,7 @@ export default class Map extends Component {
     this.map.on('click', 'booths', e => {
       // eslint-disable-next-line
       console.log(e.features)
+      this.props.setSelectedBooth(e.features[0])
     })
   }
 
@@ -136,4 +147,5 @@ Map.propTypes = {
   allMarkets: PropTypes.array,
   setAllMarkets: PropTypes.func,
   setSelectedMarket: PropTypes.func,
+  setSelectedBooth: PropTypes.func,
 }
