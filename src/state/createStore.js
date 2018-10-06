@@ -50,7 +50,7 @@ const reducer = (state, action) => {
 const initialState = {
   allMarkets: [],
   allBooths: [],
-  filterData: {},
+  filterData: [],
   selectedMarket: {},
   selectedBooth: {},
   viewport: {

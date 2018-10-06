@@ -7,10 +7,11 @@ import Search from '../components/search'
 import './index.css'
 import { connect } from 'react-redux'
 
-const mapStateToProps = ({ allBooths, allMarkets, viewport }) => ({
+const mapStateToProps = ({ allBooths, allMarkets, viewport, filterData }) => ({
   allBooths,
   allMarkets,
   viewport,
+  filterData,
 })
 const mapDispatchToProps = dispatch => {
   return {

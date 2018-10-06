@@ -71,9 +71,9 @@ export default class Map extends Component {
               'interpolate',
               ['linear'],
               ['zoom'],
-              10,
+              12,
               0.8,
-              16,
+              18,
               0,
             ],
           },
@@ -93,6 +93,7 @@ export default class Map extends Component {
         } else {
           wat = this.props.allBooths
         }
+
         this.map.addSource('booths-source', {
           type: 'geojson',
           data: {
@@ -100,7 +101,10 @@ export default class Map extends Component {
             features: wat.map(e => ({
               ...e,
               type: 'Feature',
-              properties: e,
+              properties: {
+                ...e,
+                filterVisible: 0,
+              },
             })),
           },
         })
@@ -111,7 +115,10 @@ export default class Map extends Component {
           layout: {},
           minzoom: 13,
           paint: {
-            'fill-extrusion-color': '#ff0000',
+            'fill-extrusion-color': {
+              property: 'filterVisible',
+              stops: [[0, '#ff0000'], [1, '#00ff00']],
+            },
             'fill-extrusion-opacity': [
               'interpolate',
               ['linear'],
@@ -181,6 +188,33 @@ export default class Map extends Component {
   }
 
   render() {
+    if (this.props.filterData.length) {
+      this.map.getSource('booths-source').setData({
+        type: 'FeatureCollection',
+        features: this.props.allBooths.map(e => ({
+          ...e,
+          type: 'Feature',
+          properties: {
+            ...e,
+            filterVisible: this.props.filterData.includes(e.id) ? 1 : 0,
+          },
+        })),
+      })
+    } else {
+      if (this.map != null && this.map.getSource('booths-source') != null) {
+        this.map.getSource('booths-source').setData({
+          type: 'FeatureCollection',
+          features: this.props.allBooths.map(e => ({
+            ...e,
+            type: 'Feature',
+            properties: {
+              ...e,
+              filterVisible: 0,
+            },
+          })),
+        })
+      }
+    }
     return (
       <div
         className="map"
@@ -195,6 +229,7 @@ Map.propTypes = {
   allBooths: PropTypes.array,
   allMarkets: PropTypes.array,
   viewport: PropTypes.object,
+  filterData: PropTypes.array,
   setAllBooths: PropTypes.func,
   setAllMarkets: PropTypes.func,
   setSelectedMarket: PropTypes.func,
