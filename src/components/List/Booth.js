@@ -9,6 +9,7 @@ import Logo from './Logo'
 
 class Booth extends React.Component {
   static propTypes = {
+    id: PropTypes.string,
     name: PropTypes.string,
     market: PropTypes.string,
     image: PropTypes.string,
@@ -21,7 +22,7 @@ class Booth extends React.Component {
 
   render() {
     return (
-      <Link to={`/details/slug-to-be-inserted-here`}>
+      <Link to={this.createPath(this.props.name, this.props.id)}>
         <div className={'booth ' + (this.props.odd ? 'odd' : 'even')}>
           <div className="logo">
             <Logo type={this.props.type} />
@@ -36,6 +37,36 @@ class Booth extends React.Component {
 
   showTags = tags => {
     return tags.join(', ')
+  }
+
+  createPath = (name, id) => {
+    let path = '/list'
+    if (name) {
+      let slugifiedName = this.slugify(name)
+      if (slugifiedName === null) {
+        if (id) {
+          slugifiedName = id
+        }
+      }
+      path = '/details/' + slugifiedName
+    }
+
+    return path
+  }
+
+  slugify = text => {
+    if (text === undefined || text === null) {
+      return null
+    }
+
+    return text
+      .toString()
+      .toLowerCase()
+      .replace(/\s+/g, '-') // Replace spaces with -
+      .replace(/[^\w-]+/g, '') // Remove all non-word chars
+      .replace(/--+/g, '-') // Replace multiple - with single -
+      .replace(/^-+/, '') // Trim - from start of text
+      .replace(/-+$/, '') // Trim - from end of text
   }
 }
 
