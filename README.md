@@ -31,3 +31,5 @@ Optional: Import example data
 ## Deployment
 
 For some example manifests for Kubernetes see: [codeformuenster/kubernetes-deployment/manifests/weihnachtsmarkt](https://github.com/codeformuenster/kubernetes-deployment/tree/master/manifests/weihnachtsmarkt)
+
+.
