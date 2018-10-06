@@ -2,7 +2,8 @@
   "parser": "babel-eslint",
   "rules": {
     "strict": 0,
-    "no-console": "off"
+    "no-console": "off",
+    "react/prop-types": "off"
   },
   "env": {
     "browser": true,
