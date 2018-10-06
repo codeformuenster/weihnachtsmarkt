@@ -16,11 +16,13 @@ class Details extends Component {
     let tags = undefined
     let description = undefined
     let goods = undefined
+    let geometry = undefined
     if (pageContext !== undefined) {
       name = pageContext.name
       tags = pageContext.tags
       description = pageContext.description
       goods = pageContext.goods
+      geometry = pageContext.geometry
     }
 
     if (name === undefined || name === null || name === '') {
@@ -50,6 +52,7 @@ class Details extends Component {
       tags: tags,
       description: description,
       goods: goods,
+      geometry: geometry,
     }
 
     this.handleEdit = this.handleEdit.bind(this)
