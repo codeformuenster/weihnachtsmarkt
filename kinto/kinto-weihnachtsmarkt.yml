@@ -9,7 +9,7 @@ weihnachtsmarkt:
         displayFields:
         - name
         id: booths
-        last_modified: 1538748468551
+        last_modified: 1538820899476
         schema:
           definitions: {}
           properties:
@@ -107,13 +107,6 @@ weihnachtsmarkt:
               pattern: ^(.*)$
               title: The Name Schema
               type: string
-            type:
-              $id: '#/properties/type'
-              default: ''
-              minLength: 1
-              pattern: ^(.*)$
-              title: The Name Schema
-              type: string
             owner:
               $id: '#/properties/owner'
               properties:
@@ -167,6 +160,13 @@ weihnachtsmarkt:
                 type: string
               title: The Tags Schema
               type: array
+            type:
+              $id: '#/properties/type'
+              default: ''
+              minLength: 1
+              pattern: ^(.*)$
+              title: The Name Schema
+              type: string
           required:
           - id
           - owner
@@ -202,6 +202,7 @@ weihnachtsmarkt:
         - system.Authenticated
         write:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
     markets:
       data:
@@ -212,7 +213,7 @@ weihnachtsmarkt:
         displayFields:
         - name
         id: markets
-        last_modified: 1538748453852
+        last_modified: 1538820899502
         schema:
           $id: http://example.com/root.json
           $schema: http://json-schema.org/draft-07/schema#
@@ -311,11 +312,101 @@ weihnachtsmarkt:
         - system.Authenticated
         write:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
+        - system.Authenticated
+    pois:
+      data:
+        attachment:
+          enabled: true
+          required: false
+        cache_expires: 0
+        displayFields:
+        - name
+        id: pois
+        last_modified: 1538820812143
+        schema:
+          $id: http://example.com/root.json
+          $schema: http://json-schema.org/draft-07/schema#
+          definitions: {}
+          properties:
+            description:
+              $id: '#/properties/description'
+              default: ''
+              examples:
+              - ''
+              pattern: ^(.*)$
+              title: The Description Schema
+              type: string
+            geometry:
+              $id: '#/properties/geometry'
+              properties:
+                bbox:
+                  items:
+                    type: number
+                  minItems: 4
+                  type: array
+                coordinates:
+                  items:
+                    type: number
+                  minItems: 2
+                  type: array
+                type:
+                  enum:
+                  - Point
+                  type: string
+              required:
+              - type
+              - coordinates
+              title: The Geometry Schema
+              type: object
+            name:
+              $id: '#/properties/name'
+              default: ''
+              examples:
+              - Bahnhof
+              pattern: ^(.*)$
+              title: The Name Schema
+              type: string
+            type:
+              $id: '#/properties/type'
+              default: ''
+              examples:
+              - transport
+              pattern: ^(.*)$
+              title: The Type Schema
+              type: string
+          required:
+          - name
+          - type
+          - geometry
+          title: The Root Schema
+          type: object
+        sort: -name
+        uiSchema:
+          content:
+            ui:widget: textarea
+          ui:order:
+          - name
+          - type
+          - description
+          - geometry
+      permissions:
+        read:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        - system.Everyone
+        record:create:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - system.Authenticated
+        write:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
   data:
     id: weihnachtsmarkt
-    last_modified: 1538747114295
+    last_modified: 1538820899443
   groups: {}
   permissions:
     write:
     - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+    - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
