@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import PropTypes from 'prop-types'
 import { booths, markets } from './../../helpers/client'
+import * as turf from '@turf/turf'
 
 import './map.css'
 
@@ -150,7 +151,11 @@ export default class Map extends Component {
       this.props.setSelectedBooth(e.features[0])
       new mapboxgl.Popup()
         .setLngLat(
-          JSON.parse(e.features[0].properties.geometry).coordinates[0][0]
+          turf.centerOfMass(
+            turf.polygon(
+              JSON.parse(e.features[0].properties.geometry).coordinates
+            )
+          ).geometry.coordinates
         )
         .setHTML(e.features[0].properties.name)
         .addTo(this.map)
@@ -200,7 +205,6 @@ export default class Map extends Component {
         })),
       })
     } else {
-      console.log(this.map)
       if (this.map != null) {
         if (this.map.getSource('booths-source') != null) {
           this.map.getSource('booths-source').setData({
