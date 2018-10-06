@@ -5,7 +5,7 @@
 }
 
 .layout-grid {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
@@ -20,6 +20,13 @@ html {
 body {
   margin: 0;
   background: #343332;
+}
+
+html,
+body,
+#___gatsby,
+div[tabindex='-1'] {
+  height: 100%;
 }
 
 article,

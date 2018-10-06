@@ -15,13 +15,9 @@ class Booth extends React.Component {
     tags: PropTypes.array,
     type: PropTypes.string,
     odd: PropTypes.bool,
-    marketData: PropTypes.object,
-    setSelectedMarket: PropTypes.func,
   }
 
-  componentDidMount() {
-    console.log(this.props.marketData)
-  }
+  componentDidMount() {}
 
   render() {
     return (
