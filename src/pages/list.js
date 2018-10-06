@@ -4,9 +4,19 @@ import React from 'react'
 import Layout from '../components/layout'
 import ConnectedBooths from '../containers/List/Booths'
 import Search from '../components/search'
+import { connect } from 'react-redux'
 
 import './list.css'
 import '../components/List/Booth.css'
+
+const listStateToProps = ({ allBooths, allMarkets }) => ({
+  allBooths,
+  allMarkets,
+})
+const ConnectedList = connect(
+  listStateToProps,
+  null
+)(ConnectedBooths)
 
 const ListPage = () => (
   <Layout>
@@ -22,7 +32,7 @@ const ListPage = () => (
       <Search />
     </div>
     <div className="booths">
-      <ConnectedBooths />
+      <ConnectedList />
     </div>
   </Layout>
 )

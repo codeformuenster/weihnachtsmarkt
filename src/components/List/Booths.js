@@ -7,13 +7,13 @@ import Booth from './Booth'
 class Booths extends React.Component {
   static propTypes = {
     allMarkets: PropTypes.array,
-    setAllMarkets: PropTypes.func,
+    allBooths: PropTypes.array,
   }
 
   componentDidMount() {}
 
   render() {
-    return this.props.allMarkets.map(function(booth, index) {
+    return this.props.allBooths.map(function(booth, index) {
       return (
         <Booth
           key={index}
