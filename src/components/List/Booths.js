@@ -7,25 +7,46 @@ import Booth from './Booth'
 class Booths extends React.Component {
   static propTypes = {
     allMarkets: PropTypes.array,
-    setAllMarkets: PropTypes.func,
+    allBooths: PropTypes.array,
+    filterData: PropTypes.array,
   }
 
   componentDidMount() {}
 
   render() {
-    return this.props.allMarkets.map(function(booth, index) {
-      return (
-        <Booth
-          key={index}
-          id={booth.id}
-          market={booth.market}
-          name={booth.name}
-          tags={booth.tags}
-          odd={index % 2 == 0}
-          type={booth.type}
-        />
-      )
-    })
+    if (this.props.filterData.length === 0) {
+      return this.props.allBooths.map((booth, index) => {
+        return (
+          <Booth
+            key={index}
+            id={booth.id}
+            market={booth.market}
+            name={booth.name}
+            tags={booth.tags}
+            odd={index % 2 == 0}
+            type={booth.type}
+          />
+        )
+      })
+    } else {
+      return this.props.allBooths.map((booth, index) => {
+        if (this.props.filterData.includes(booth.id)) {
+          return (
+            <Booth
+              key={index}
+              id={booth.id}
+              market={booth.market}
+              name={booth.name}
+              tags={booth.tags}
+              odd={index % 2 == 0}
+              type={booth.type}
+            />
+          )
+        } else {
+          return null
+        }
+      })
+    }
   }
 
   showTags = tags => {
