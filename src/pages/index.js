@@ -1,63 +1,23 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import Map from '../components/Map/Map'
-import Search from '../components/search'
+import ConnectedMap from '../containers/Map/Map'
+import ConnectedBooths from '../containers/List/Booths'
+import Tabs from '../components/tabs'
 
 import './index.css'
-import { connect } from 'react-redux'
 
-const mapStateToProps = ({ allBooths, allMarkets, viewport, filterData }) => ({
-  allBooths,
-  allMarkets,
-  viewport,
-  filterData,
-})
-const mapDispatchToProps = dispatch => {
-  return {
-    setAllBooths: markets =>
-      dispatch({ type: 'SET_ALL_BOOTHS', payload: markets }),
-    setAllMarkets: markets =>
-      dispatch({ type: 'SET_ALL_MARKETS', payload: markets }),
-    setSelectedMarket: market =>
-      dispatch({ type: `SET_SELECTED_MARKET`, payload: market }),
-    setSelectedBooth: booth =>
-      dispatch({ type: `SET_SELECTED_BOOTH`, payload: booth }),
-    setViewport: viewport =>
-      dispatch({ type: `SET_VIEWPORT`, payload: viewport }),
-  }
-}
-const searchDispatchToProps = dispatch => {
-  return {
-    setFilterData: filterData =>
-      dispatch({ type: `SET_FILTER_DATA`, payload: filterData }),
-  }
-}
-const ConnectedMap = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Map)
-const ConnectedSearch = connect(
-  null,
-  searchDispatchToProps
-)(Search)
-
-const IndexPage = () => {
-  return (
-    <Layout>
-      <ConnectedMap />
-      <div
-        style={{
-          position: 'absolute',
-          bottom: '80px',
-          left: '0',
-          right: '0',
-        }}
-      >
-        <ConnectedSearch />
+const IndexPage = () => (
+  <Layout>
+    <Tabs>
+      <div label="map">
+        <ConnectedMap label="map" />
       </div>
-    </Layout>
-  )
-}
+      <div className="booths" label="list">
+        <ConnectedBooths />
+      </div>
+    </Tabs>
+  </Layout>
+)
 
 export default IndexPage
