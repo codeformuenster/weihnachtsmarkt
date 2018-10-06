@@ -5494,6 +5494,24 @@ weihnachtsmarkt:
             name: Lamberti
             web_url: http://www.lichtermarkt-muenster.de/
           permissions: {}
+    pois:
+      permissions:
+        write:
+        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
+      records:
+        10c7f7c2-e271-42a2-a417-5a9b3a0ee521:
+          data:
+            description: ''
+            geometry:
+              coordinates:
+              - 7.6344
+              - 51.9565
+              type: Point
+            id: 10c7f7c2-e271-42a2-a417-5a9b3a0ee521
+            last_modified: 1538819553466
+            name: Hauptbahnhof Münster/Westf.
+            type: transport
+          permissions: {}
   groups: {}
   permissions:
     write:
