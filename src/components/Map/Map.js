@@ -72,15 +72,17 @@ export default class Map extends Component {
           type: 'fill',
           source: 'markets-source',
           layout: {},
-          maxzoom: 16,
+          maxzoom: 18,
           paint: {
-            'fill-color': '#088',
+            'fill-color': '#747474',
             'fill-opacity': [
               'interpolate',
               ['linear'],
               ['zoom'],
               12,
               0.8,
+              16,
+              0.6,
               18,
               0,
             ],
@@ -125,7 +127,7 @@ export default class Map extends Component {
           paint: {
             'fill-extrusion-color': {
               property: 'filterVisible',
-              stops: [[0, '#ff0000'], [1, '#00ff00']],
+              stops: [[0, '#F60000'], [1, '#00FFFF']],
             },
             'fill-extrusion-opacity': [
               'interpolate',
