@@ -1,7 +1,7 @@
 import { createStore as reduxCreateStore } from 'redux'
 
 const reducer = (state, action) => {
-  console.log(action)
+  // console.log(action)
   if (action.type === `SET_MARKET_DATA`) {
     return {
       ...state,

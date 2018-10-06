@@ -3,6 +3,9 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import PropTypes from 'prop-types'
 import { booths, markets } from './../../helpers/client'
+import * as turf from '@turf/turf'
+import { Link } from 'gatsby'
+import ReactDOM from 'react-dom'
 
 import './map.css'
 
@@ -15,6 +18,11 @@ export default class Map extends Component {
     viewport: {
       ...this.props.viewport,
     },
+  }
+
+  constructor(props) {
+    super(props)
+    this.addPopup = this.addPopup.bind(this)
   }
 
   async componentDidMount() {
@@ -148,12 +156,26 @@ export default class Map extends Component {
       // eslint-disable-next-line
       console.log(e.features)
       this.props.setSelectedBooth(e.features[0])
-      new mapboxgl.Popup()
-        .setLngLat(
-          JSON.parse(e.features[0].properties.geometry).coordinates[0][0]
+      const Popup = () => {
+        return (
+          <div>
+            <b>{e.features[0].properties.name}</b>
+            <br />
+            <Link
+              to={this.createPath(
+                e.features[0].properties.name,
+                e.features[0].properties.id
+              )}
+            >
+              Details
+            </Link>
+          </div>
         )
-        .setHTML(e.features[0].properties.name)
-        .addTo(this.map)
+      }
+      const coords = turf.centerOfMass(
+        turf.polygon(JSON.parse(e.features[0].properties.geometry).coordinates)
+      ).geometry.coordinates
+      this.addPopup(<Popup />, coords[1], coords[0])
     })
 
     this.map.on('zoom', () => {
@@ -186,6 +208,46 @@ export default class Map extends Component {
     })
   }
 
+  addPopup(el, lat, lng) {
+    const placeholder = document.createElement('div')
+    ReactDOM.render(el, placeholder)
+
+    new mapboxgl.Popup()
+      .setDOMContent(placeholder)
+      .setLngLat({ lng: lng, lat: lat })
+      .addTo(this.map)
+  }
+
+  createPath = (name, id) => {
+    let path = '/'
+    if (name) {
+      let slugifiedName = this.slugify(name)
+      if (slugifiedName === null) {
+        if (id) {
+          slugifiedName = id
+        }
+      }
+      path = '/details/' + slugifiedName
+    }
+
+    return path
+  }
+
+  slugify = text => {
+    if (text === undefined || text === null) {
+      return null
+    }
+
+    return text
+      .toString()
+      .toLowerCase()
+      .replace(/\s+/g, '-') // Replace spaces with -
+      .replace(/[^\w-]+/g, '') // Remove all non-word chars
+      .replace(/--+/g, '-') // Replace multiple - with single -
+      .replace(/^-+/, '') // Trim - from start of text
+      .replace(/-+$/, '') // Trim - from end of text
+  }
+
   render() {
     if (this.props.filterData.length !== 0 && this.map != null) {
       this.map.getSource('booths-source').setData({
@@ -200,7 +262,6 @@ export default class Map extends Component {
         })),
       })
     } else {
-      console.log(this.map)
       if (this.map != null) {
         if (this.map.getSource('booths-source') != null) {
           this.map.getSource('booths-source').setData({

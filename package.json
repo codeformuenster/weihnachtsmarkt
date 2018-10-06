@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "author": "Code For Muenster <codeformuenster@gmail.com>",
   "dependencies": {
+    "@turf/turf": "^5.1.6",
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-netlify": "^2.0.0",
