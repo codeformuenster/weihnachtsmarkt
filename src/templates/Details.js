@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './Details.css'
-import Layout from '../layout'
+import Layout from '../components/layout'
 
 class Details extends Component {
   static propTypes = {
@@ -61,7 +61,7 @@ class Details extends Component {
             <div className={'details-imagearea'}>
               <img
                 className={'details-fit'}
-                src={require('../../images/' + this.state.image)} // eslint-disable-line no-undef
+                src={require('../images/' + this.state.image)} // eslint-disable-line no-undef
               />
             </div>
             <div className={'details-tags details-background'}>

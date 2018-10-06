@@ -15,29 +15,19 @@ exports.createPages = ({ graphql, actions }) => {
     json: true,
   })
 
-  return new Promise((resolve, reject) => {
-    client
-      .get('')
-      .then(data => {
-        for (let i in data.body.data) {
-          try {
-            let path = '/details/' + slugify(data.body.data[i].name)
-            console.log('Create path: ' + path)
-            createPage({
-              path: path,
-              component: process.cwd() + '/src/components/Details/Details.js',
-              context: data.body.data[i],
-            })
-          } catch (e) {
-            console.error(e)
-          }
-        }
+  return new Promise(resolve => {
+    client.get('').then(data => {
+      data.body.data.forEach((data, index) => {
+        let path = createPath(data, index)
+        console.log('Create path: ' + path)
+        createPage({
+          path: path,
+          component: process.cwd() + '/src/templates/Details.js',
+          context: data,
+        })
       })
-      .catch(err => {
-        console.error(err)
-        reject()
-      })
-    resolve()
+      resolve()
+    })
   })
 }
 
@@ -71,7 +61,28 @@ exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
   actions.replaceWebpackConfig(newConfig)
 }
 
+function createPath(data, index) {
+  let path = '/details/' + index
+  if ('name' in data) {
+    let slugifiedName = slugify(data.name)
+    if (slugifiedName === null) {
+      if ('id' in data) {
+        slugifiedName = data.id
+      } else {
+        slugifiedName = index
+      }
+    }
+    path = '/details/' + slugifiedName
+  }
+
+  return path
+}
+
 function slugify(text) {
+  if (text === undefined || text === null) {
+    return null
+  }
+
   return text
     .toString()
     .toLowerCase()
