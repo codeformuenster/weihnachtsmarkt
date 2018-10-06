@@ -53,6 +53,7 @@ class Details extends Component {
     ) {
       description = 'Leider keine Beschreibung :('
     }
+
     if (goods === undefined) {
       goods = []
     }
@@ -115,10 +116,12 @@ class Details extends Component {
               ''
             )}
             <div className={'details-description details-background'}>
-              {JSON.stringify(this.state.description).replace(
-                new RegExp('"', 'g'),
-                ''
-              )}
+              {(this.state.description + '').split('\\n').map(desc => (
+                <span key={desc}>
+                  {desc}
+                  <br />
+                </span>
+              ))}
             </div>
           </div>
           {this.state.center !== undefined &&
