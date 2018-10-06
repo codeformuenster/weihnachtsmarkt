@@ -13,9 +13,7 @@ mapboxgl.accessToken =
 export default class Map extends Component {
   state = {
     viewport: {
-      latitude: 51.962268,
-      longitude: 7.625788,
-      zoom: 15,
+      ...this.props.viewport,
     },
   }
 
@@ -26,6 +24,8 @@ export default class Map extends Component {
       style: 'mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze',
       center: [this.state.viewport.longitude, this.state.viewport.latitude],
       zoom: this.state.viewport.zoom,
+      bearing: this.state.viewport.bearing,
+      pitch: this.state.viewport.pitch,
       attributionControl: false,
     })
     this.map.addControl(new mapboxgl.NavigationControl())
@@ -39,13 +39,20 @@ export default class Map extends Component {
     )
     this.map.on('style.load', async () => {
       try {
-        await markets.sync()
-        const wat = await markets.list()
+        let wat = null
+        if (this.props.allMarkets.length === 0) {
+          await markets.sync()
+          wat = await markets.list()
+          wat = wat.data
+          this.props.setAllMarkets(wat)
+        } else {
+          wat = this.props.allMarkets
+        }
         this.map.addSource('markets-source', {
           type: 'geojson',
           data: {
             type: 'FeatureCollection',
-            features: wat.data.map(e => ({
+            features: wat.map(e => ({
               ...e,
               type: 'Feature',
               properties: e,
@@ -64,9 +71,9 @@ export default class Map extends Component {
               'interpolate',
               ['linear'],
               ['zoom'],
-              10,
+              12,
               0.8,
-              16,
+              18,
               0,
             ],
           },
@@ -77,17 +84,27 @@ export default class Map extends Component {
       }
 
       try {
-        await booths.sync()
-        const wat = await booths.list()
-        this.props.setAllMarkets(wat.data)
+        let wat = null
+        if (this.props.allBooths.length === 0) {
+          await booths.sync()
+          wat = await booths.list()
+          wat = wat.data
+          this.props.setAllBooths(wat)
+        } else {
+          wat = this.props.allBooths
+        }
+
         this.map.addSource('booths-source', {
           type: 'geojson',
           data: {
             type: 'FeatureCollection',
-            features: wat.data.map(e => ({
+            features: wat.map(e => ({
               ...e,
               type: 'Feature',
-              properties: e,
+              properties: {
+                ...e,
+                filterVisible: 0,
+              },
             })),
           },
         })
@@ -98,7 +115,10 @@ export default class Map extends Component {
           layout: {},
           minzoom: 13,
           paint: {
-            'fill-extrusion-color': '#ff0000',
+            'fill-extrusion-color': {
+              property: 'filterVisible',
+              stops: [[0, '#ff0000'], [1, '#00ff00']],
+            },
             'fill-extrusion-opacity': [
               'interpolate',
               ['linear'],
@@ -128,10 +148,73 @@ export default class Map extends Component {
       // eslint-disable-next-line
       console.log(e.features)
       this.props.setSelectedBooth(e.features[0])
+      new mapboxgl.Popup()
+        .setLngLat(
+          JSON.parse(e.features[0].properties.geometry).coordinates[0][0]
+        )
+        .setHTML(e.features[0].properties.name)
+        .addTo(this.map)
+    })
+
+    this.map.on('zoom', () => {
+      this.props.setViewport({
+        ...this.state.viewport,
+        zoom: this.map.getZoom(),
+      })
+    })
+
+    this.map.on('move', () => {
+      this.props.setViewport({
+        ...this.state.viewport,
+        latitude: this.map.getCenter().lat,
+        longitude: this.map.getCenter().lng,
+      })
+    })
+
+    this.map.on('pitch', () => {
+      console.log(this.map.getPitch())
+      this.props.setViewport({
+        ...this.state.viewport,
+        pitch: this.map.getPitch(),
+      })
+    })
+
+    this.map.on('rotate', () => {
+      this.props.setViewport({
+        ...this.state.viewport,
+        bearing: this.map.getBearing(),
+      })
     })
   }
 
   render() {
+    if (this.props.filterData.length) {
+      this.map.getSource('booths-source').setData({
+        type: 'FeatureCollection',
+        features: this.props.allBooths.map(e => ({
+          ...e,
+          type: 'Feature',
+          properties: {
+            ...e,
+            filterVisible: this.props.filterData.includes(e.id) ? 1 : 0,
+          },
+        })),
+      })
+    } else {
+      if (this.map != null && this.map.getSource('booths-source') != null) {
+        this.map.getSource('booths-source').setData({
+          type: 'FeatureCollection',
+          features: this.props.allBooths.map(e => ({
+            ...e,
+            type: 'Feature',
+            properties: {
+              ...e,
+              filterVisible: 0,
+            },
+          })),
+        })
+      }
+    }
     return (
       <div
         className="map"
@@ -143,9 +226,13 @@ export default class Map extends Component {
 }
 
 Map.propTypes = {
-  marketData: PropTypes.object,
+  allBooths: PropTypes.array,
   allMarkets: PropTypes.array,
+  viewport: PropTypes.object,
+  filterData: PropTypes.array,
+  setAllBooths: PropTypes.func,
   setAllMarkets: PropTypes.func,
   setSelectedMarket: PropTypes.func,
   setSelectedBooth: PropTypes.func,
+  setViewport: PropTypes.func,
 }
