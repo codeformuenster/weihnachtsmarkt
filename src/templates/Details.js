@@ -40,10 +40,19 @@ class Details extends Component {
       name = 'Leider kein Name :('
     }
     if (image === undefined || image === null) {
-      let imagepath = createPath(name)
+      // let imagepath = createPath(name)
       try {
-        image = require(imagepath)
+        if (slugify(name) == 'bekkas-glserei') {
+          image = require('../images/booths/bekkas-glserei.jpg')
+        } else if (slugify(name) == 'antiquitten-aus-fernost') {
+          image = require('../images/booths/antiquitten-aus-fernost.jpg')
+        } else if (slugify(name) == 'heidelbeer-fruchtglhwein') {
+          image = require('../images/booths/heidelbeer-fruchtglhwein.jpg')
+        } else {
+          image = require('../images/bude.jpg')
+        }
       } catch (e) {
+        console.log(e)
         image = require('../images/bude.jpg')
       }
     }
@@ -149,9 +158,9 @@ class Details extends Component {
     )
   }
 }
-
+/*
 function createPath(data) {
-  let path = '../images/booths/'
+  let path = ''
   let slugifiedName = slugify(data)
   if (slugifiedName === null) {
     slugifiedName = data.id
@@ -159,7 +168,7 @@ function createPath(data) {
   path = '../images/booths/' + slugifiedName + '.jpg'
 
   return path
-}
+}*/
 
 function slugify(text) {
   if (text === undefined || text === null) {
