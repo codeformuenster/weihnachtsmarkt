@@ -19,13 +19,14 @@
 
 .details-name{
     grid-area: details-name;
-    font-size: 24pt;
+    font-size: 16pt;
     text-align: center;
     line-height: 24pt;
     color: white;
     justify-self: center;
     border-right: solid darkgray 2px;
     align-self: stretch;
+    width: 100%;
 }
 
 .details-imagearea {
@@ -48,7 +49,7 @@
 
 .details-background{
     background-color: hsl(0, 0%, 30%);
-    padding: 5px;
+    padding: 10px;
 }
 
 .details-tags{

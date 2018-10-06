@@ -40,7 +40,12 @@ class Details extends Component {
       name = 'Leider kein Name :('
     }
     if (image === undefined || image === null) {
-      image = 'bude.jpg'
+      let imagepath = createPath(name)
+      try {
+        image = require(imagepath)
+      } catch (e) {
+        image = require('../images/bude.jpg')
+      }
     }
     if (tags === undefined || (tags.length === 1 && tags[0] === 'Ohne')) {
       tags = []
@@ -87,10 +92,7 @@ class Details extends Component {
               {this.state.name}
             </div>
             <div className={'details-imagearea'}>
-              <img
-                className={'details-fit'}
-                src={require('../images/' + this.state.image)} // eslint-disable-line no-undef
-              />
+              <img className={'details-fit'} src={this.state.image} />
             </div>
             {this.state.tags.length > 0 ? (
               <div className={'details-tags details-background'}>
@@ -130,7 +132,7 @@ class Details extends Component {
             <div className={'details-nav-button'}>
               <a
                 href={
-                  'https://maps.google.com/?q=' +
+                  'https://www.google.com/maps/search/?api=1&query=' +
                   this.state.center[1] +
                   ',' +
                   this.state.center[0]
@@ -146,6 +148,32 @@ class Details extends Component {
       </Layout>
     )
   }
+}
+
+function createPath(data) {
+  let path = '../images/booths/'
+  let slugifiedName = slugify(data)
+  if (slugifiedName === null) {
+    slugifiedName = data.id
+  }
+  path = '../images/booths/' + slugifiedName + '.jpg'
+
+  return path
+}
+
+function slugify(text) {
+  if (text === undefined || text === null) {
+    return null
+  }
+
+  return text
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, '-') // Replace spaces with -
+    .replace(/[^\w-]+/g, '') // Remove all non-word chars
+    .replace(/--+/g, '-') // Replace multiple - with single -
+    .replace(/^-+/, '') // Trim - from start of text
+    .replace(/-+$/, '') // Trim - from end of text
 }
 
 const ConnectedDetails = connect(
