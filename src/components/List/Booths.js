@@ -17,6 +17,7 @@ class Booths extends React.Component {
       return (
         <Booth
           key={index}
+          id={booth.id}
           market={booth.market}
           name={booth.name}
           tags={booth.tags}
