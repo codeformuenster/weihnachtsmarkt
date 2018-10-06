@@ -1,25 +1,10 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import Map from '../components/Map'
+import ConnectedMap from '../containers/Map/Map'
 import Search from '../components/search'
 
 import './index.css'
-import { connect } from 'react-redux'
-
-const mapStateToProps = ({ marketData }) => {
-  return { marketData }
-}
-const mapDispatchToProps = dispatch => {
-  return {
-    setSelectedMarket: market =>
-      dispatch({ type: `SET_SELECTED_MARKET`, payload: market }),
-  }
-}
-const ConnectedMap = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Map)
 
 const IndexPage = () => {
   return (

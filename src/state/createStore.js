@@ -7,6 +7,12 @@ const reducer = (state, action) => {
       marketData: action.payload,
     }
   }
+  if (action.type === `SET_ALL_MARKETS`) {
+    return {
+      ...state,
+      allMarkets: action.payload,
+    }
+  }
   if (action.type === `SET_SELECTED_MARKET`) {
     return {
       ...state,
@@ -24,6 +30,7 @@ const reducer = (state, action) => {
 
 const initialState = {
   marketData: {},
+  allMarkets: [],
   selectedMarket: {},
   selectedBooth: {},
 }
