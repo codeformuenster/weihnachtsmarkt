@@ -1,4 +1,4 @@
-import Booth from '../../components/List/Booth';
+import Booths from '../../components/List/Booths';
 import { connect } from 'react-redux';
 
 export function mapStateToProps({ allMarkets }) {
@@ -12,4 +12,4 @@ export function mapDispatchToProps(dispatch) {
     }
   }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Booth);
+export default connect(mapStateToProps, mapDispatchToProps)(Booths);
