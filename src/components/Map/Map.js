@@ -187,7 +187,7 @@ export default class Map extends Component {
   }
 
   render() {
-    if (this.props.filterData.length) {
+    if (this.props.filterData.length !== 0 && this.map != null) {
       this.map.getSource('booths-source').setData({
         type: 'FeatureCollection',
         features: this.props.allBooths.map(e => ({
@@ -200,18 +200,21 @@ export default class Map extends Component {
         })),
       })
     } else {
-      if (this.map != null && this.map.getSource('booths-source') != null) {
-        this.map.getSource('booths-source').setData({
-          type: 'FeatureCollection',
-          features: this.props.allBooths.map(e => ({
-            ...e,
-            type: 'Feature',
-            properties: {
+      console.log(this.map)
+      if (this.map != null) {
+        if (this.map.getSource('booths-source') != null) {
+          this.map.getSource('booths-source').setData({
+            type: 'FeatureCollection',
+            features: this.props.allBooths.map(e => ({
               ...e,
-              filterVisible: 0,
-            },
-          })),
-        })
+              type: 'Feature',
+              properties: {
+                ...e,
+                filterVisible: 0,
+              },
+            })),
+          })
+        }
       }
     }
     return (

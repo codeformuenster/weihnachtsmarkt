@@ -8,23 +8,43 @@ class Booths extends React.Component {
   static propTypes = {
     allMarkets: PropTypes.array,
     allBooths: PropTypes.array,
+    filterData: PropTypes.array,
   }
 
   componentDidMount() {}
 
   render() {
-    return this.props.allBooths.map(function(booth, index) {
-      return (
-        <Booth
-          key={index}
-          market={booth.market}
-          name={booth.name}
-          tags={booth.tags}
-          odd={index % 2 == 0}
-          type={booth.type}
-        />
-      )
-    })
+    if (this.props.filterData.length === 0) {
+      return this.props.allBooths.map((booth, index) => {
+        return (
+          <Booth
+            key={index}
+            market={booth.market}
+            name={booth.name}
+            tags={booth.tags}
+            odd={index % 2 == 0}
+            type={booth.type}
+          />
+        )
+      })
+    } else {
+      return this.props.allBooths.map((booth, index) => {
+        if (this.props.filterData.includes(booth.id)) {
+          return (
+            <Booth
+              key={index}
+              market={booth.market}
+              name={booth.name}
+              tags={booth.tags}
+              odd={index % 2 == 0}
+              type={booth.type}
+            />
+          )
+        } else {
+          return null
+        }
+      })
+    }
   }
 
   showTags = tags => {
