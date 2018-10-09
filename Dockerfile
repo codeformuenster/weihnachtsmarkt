@@ -13,3 +13,7 @@ RUN apk --no-cache add util-linux \
 COPY . /usr/src/app
 
 CMD ["yarn", "develop", "--host=0.0.0.0", "--port=8000"]
+
+
+# FROM caddy
+# COPY --from=0 build-dir
