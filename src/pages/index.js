@@ -2,9 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import Map from '../components/Map/Map'
-import Search from '../components/search'
 
-import './index.css'
 import { connect } from 'react-redux'
 
 const mapStateToProps = ({ allBooths, allMarkets, viewport, filterData }) => ({
@@ -27,35 +25,15 @@ const mapDispatchToProps = dispatch => {
       dispatch({ type: `SET_VIEWPORT`, payload: viewport }),
   }
 }
-const searchDispatchToProps = dispatch => {
-  return {
-    setFilterData: filterData =>
-      dispatch({ type: `SET_FILTER_DATA`, payload: filterData }),
-  }
-}
 const ConnectedMap = connect(
   mapStateToProps,
   mapDispatchToProps
 )(Map)
-const ConnectedSearch = connect(
-  null,
-  searchDispatchToProps
-)(Search)
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout layout="map">
       <ConnectedMap />
-      <div
-        style={{
-          position: 'absolute',
-          bottom: '80px',
-          left: '0',
-          right: '0',
-        }}
-      >
-        <ConnectedSearch />
-      </div>
     </Layout>
   )
 }
