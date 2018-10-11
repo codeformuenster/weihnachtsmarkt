@@ -4,6 +4,10 @@
   font-family: 'Lato';
 }
 
+a {
+  text-decoration: none;
+}
+
 #___gatsby,
 #___gatsby > * {
   height: 100%;

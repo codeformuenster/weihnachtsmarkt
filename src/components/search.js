@@ -10,6 +10,7 @@ export default class Search extends Component {
           className="search-input"
           type="search"
           placeholder="Suche nach Ständen, Produkten und Kategorien..."
+          autoComplete="off"
           onChange={e => {
             if (e.target.value === '') {
               this.props.setFilterData([])
