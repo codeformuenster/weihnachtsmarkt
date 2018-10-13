@@ -24,7 +24,7 @@ weihnachtsmarkt:
                 \ Wohl ist gesorgt und keine Auge bleibt trocken. O'zapft is!"
               minLength: 1
               pattern: ^(.*)$
-              title: The Description Schema
+              title: Standbeschreibung
               type: string
             geometry:
               $id: '#/properties/geometry'
@@ -51,7 +51,7 @@ weihnachtsmarkt:
               required:
               - type
               - coordinates
-              title: The Geometry Schema
+              title: Standgeometrie
               type: object
             goods:
               $id: '#/properties/goods'
@@ -65,20 +65,20 @@ weihnachtsmarkt:
                     - Haxn mit Kraut
                     minLength: 1
                     pattern: ^(.*)$
-                    title: The Name Schema
+                    title: Name der Ware oder Dienstleistung
                     type: string
                   price:
                     $id: '#/properties/goods/items/properties/price'
                     default: 0
                     examples:
                     - 7.9
-                    title: The Price Schema
+                    title: Preis der Ware oder Dienstleistung
                     type: number
                 required:
                 - name
-                title: The Items Schema
+                title: Ware oder Dienstleistung
                 type: object
-              title: The Goods Schema
+              title: Waren oder Dienstleistungen
               type: array
             id:
               $id: '#/properties/id'
@@ -96,7 +96,7 @@ weihnachtsmarkt:
               - "Giebelh\xFC\xFCskesmarkt"
               - Kiepenkerl
               pattern: ^(.*)$
-              title: The Market Schema
+              title: Standzugehörigkeit (Markt)
               type: string
             name:
               $id: '#/properties/name'
@@ -105,7 +105,7 @@ weihnachtsmarkt:
               - Wiesn Bratwurst & mehr
               minLength: 1
               pattern: ^(.*)$
-              title: The Name Schema
+              title: Standname
               type: string
             owner:
               $id: '#/properties/owner'
@@ -116,7 +116,7 @@ weihnachtsmarkt:
                   examples:
                   - spongebob_98@hotmail.com
                   format: email
-                  title: The Email Schema
+                  title: E-Mailadresse des Betreibers
                   type: string
                 name:
                   $id: '#/properties/owner/properties/name'
@@ -124,7 +124,7 @@ weihnachtsmarkt:
                   examples:
                   - Spongebob Schwammkopf
                   pattern: ^(.*)$
-                  title: The Name Schema
+                  title: Betreibername
                   type: string
                 telephone:
                   $id: '#/properties/owner/properties/telephone'
@@ -132,19 +132,19 @@ weihnachtsmarkt:
                   examples:
                   - '+4918091123129982'
                   pattern: \d
-                  title: The Telephone Schema
+                  title: Telefonnummer des Betreibers
                   type: string
                 web_url:
                   $id: '#/properties/owner/properties/web_url'
                   default: ''
                   examples:
                   - https://spongebob.de/weihnachtsmarkt
-                  pattern: ^(.*)$
-                  title: The Web_url Schema
+                  pattern: ^https?://(.*)$
+                  title: Internetadresse des Betreibers
                   type: string
               required:
               - name
-              title: The Owner Schema
+              title: Standbetreiber
               type: object
             tags:
               $id: '#/properties/tags'
@@ -156,16 +156,16 @@ weihnachtsmarkt:
                 - Unterhaltung
                 minLength: 1
                 pattern: ^(.*)$
-                title: The Items Schema
+                title: Kategoriename
                 type: string
-              title: The Tags Schema
+              title: Kategorien
               type: array
             type:
               $id: '#/properties/type'
               default: ''
               minLength: 1
               pattern: ^(.*)$
-              title: The Name Schema
+              title: Standtyp
               type: string
           required:
           - id
@@ -176,7 +176,7 @@ weihnachtsmarkt:
           - goods
           - description
           - geometry
-          title: The Root Schema
+          title: Weihnachtsmarktstand
           type: object
         sort: -name
         uiSchema:
