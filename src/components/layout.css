@@ -17,6 +17,8 @@ html,
 body {
   width: 100%;
   height: 100%;
+  position: fixed;
+  overflow: hidden;
 }
 
 .layout-grid {
@@ -43,6 +45,7 @@ body {
 }
 
 .main-container {
+  min-height: 0;
   background: #0c192e;
 }
 
@@ -57,7 +60,8 @@ body {
 .list-layout .main-container {
   order: 2;
   height: calc(100vh - 80px - 70px);
-  overflow: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .list-layout .searchbox-container {
@@ -70,4 +74,9 @@ body {
 
 .hidden-search-layout .searchbox-container {
   display: none;
+}
+
+.hidden-search-layout .main-container {
+  height: calc(100vh - 80px);
+  overflow: auto;
 }
