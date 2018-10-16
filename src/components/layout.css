@@ -59,7 +59,9 @@ body {
 
 .list-layout .main-container {
   order: 2;
-  height: calc(100vh - 80px - 70px);
+  /* tabs   search  ios
+     80px - 70px - 44px */
+  height: calc(100vh - 80px - 70px - 44px);
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
