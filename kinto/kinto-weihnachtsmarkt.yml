@@ -18,12 +18,10 @@ weihnachtsmarkt:
         displayFields:
         - name
         id: booths
-        last_modified: 1539717894129
+        last_modified: 1539719100672
         schema:
-          definitions: {}
           properties:
             description:
-              default: ''
               examples:
               - "Beim \"Wiesn Bratwurst & mehr\" bekommt man die volle Dr\xF6hnung!\
                 \ Leckere bayerische Spezialit\xE4ten zu z\xFCnftiger Wiesn Musik\
@@ -57,7 +55,6 @@ weihnachtsmarkt:
               items:
                 properties:
                   name:
-                    default: ''
                     examples:
                     - Haxn mit Kraut
                     minLength: 1
@@ -74,12 +71,10 @@ weihnachtsmarkt:
                 type: object
               type: array
             id:
-              default: ''
               minLength: 1
               pattern: ^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}$
               type: string
             market:
-              default: ''
               enum:
               - Rathaus
               - Aegidii
@@ -89,7 +84,6 @@ weihnachtsmarkt:
               pattern: ^(.*)$
               type: string
             name:
-              default: ''
               examples:
               - Wiesn Bratwurst & mehr
               minLength: 1
@@ -98,25 +92,21 @@ weihnachtsmarkt:
             owner:
               properties:
                 email:
-                  default: ''
                   examples:
                   - spongebob_98@hotmail.com
                   format: email
                   type: string
                 name:
-                  default: ''
                   examples:
                   - Spongebob Schwammkopf
                   pattern: ^(.*)$
                   type: string
                 telephone:
-                  default: ''
                   examples:
                   - '+4918091123129982'
                   pattern: \d
                   type: string
                 web_url:
-                  default: ''
                   examples:
                   - https://spongebob.de/weihnachtsmarkt
                   pattern: ^https?://(.*)$
@@ -126,7 +116,6 @@ weihnachtsmarkt:
               type: object
             tags:
               items:
-                default: ''
                 examples:
                 - Leibliches Wohl
                 - Unterhaltung
@@ -135,7 +124,6 @@ weihnachtsmarkt:
                 type: string
               type: array
             type:
-              default: ''
               minLength: 1
               pattern: ^(.*)$
               type: string
@@ -178,7 +166,7 @@ weihnachtsmarkt:
           id:
             ui:widget: hidden
           market:
-            ui:help: Der Weihnachtsmarkt auf der Stand steht
+            ui:help: Der Weihnachtsmarkt auf dem der Stand steht
             ui:title: Markt des Standes
             ui:widget: radio
           name:
