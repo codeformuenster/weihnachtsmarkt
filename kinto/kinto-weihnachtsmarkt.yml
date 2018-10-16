@@ -1,3 +1,12 @@
+0eddc3ec-0700-da12-1d84-fe38a8deede7:
+  collections: {}
+  data:
+    id: 0eddc3ec-0700-da12-1d84-fe38a8deede7
+    last_modified: 1539711360550
+  groups: {}
+  permissions:
+    write:
+    - account:admin
 weihnachtsmarkt:
   collections:
     booths:
@@ -9,12 +18,11 @@ weihnachtsmarkt:
         displayFields:
         - name
         id: booths
-        last_modified: 1538820899476
+        last_modified: 1539717894129
         schema:
           definitions: {}
           properties:
             description:
-              $id: '#/properties/description'
               default: ''
               examples:
               - "Beim \"Wiesn Bratwurst & mehr\" bekommt man die volle Dr\xF6hnung!\
@@ -24,16 +32,9 @@ weihnachtsmarkt:
                 \ Wohl ist gesorgt und keine Auge bleibt trocken. O'zapft is!"
               minLength: 1
               pattern: ^(.*)$
-              title: Standbeschreibung
               type: string
             geometry:
-              $id: '#/properties/geometry'
               properties:
-                bbox:
-                  items:
-                    type: number
-                  minItems: 4
-                  type: array
                 coordinates:
                   items:
                     items:
@@ -51,43 +52,33 @@ weihnachtsmarkt:
               required:
               - type
               - coordinates
-              title: Standgeometrie
               type: object
             goods:
-              $id: '#/properties/goods'
               items:
-                $id: '#/properties/goods/items'
                 properties:
                   name:
-                    $id: '#/properties/goods/items/properties/name'
                     default: ''
                     examples:
                     - Haxn mit Kraut
                     minLength: 1
                     pattern: ^(.*)$
-                    title: Name der Ware oder Dienstleistung
                     type: string
                   price:
-                    $id: '#/properties/goods/items/properties/price'
-                    default: 0
                     examples:
                     - 7.9
-                    title: Preis der Ware oder Dienstleistung
+                    minimum: 0
+                    multipleOf: 0.01
                     type: number
                 required:
                 - name
-                title: Ware oder Dienstleistung
                 type: object
-              title: Waren oder Dienstleistungen
               type: array
             id:
-              $id: '#/properties/id'
               default: ''
               minLength: 1
               pattern: ^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}$
               type: string
             market:
-              $id: '#/properties/market'
               default: ''
               enum:
               - Rathaus
@@ -96,76 +87,57 @@ weihnachtsmarkt:
               - "Giebelh\xFC\xFCskesmarkt"
               - Kiepenkerl
               pattern: ^(.*)$
-              title: Standzugehörigkeit (Markt)
               type: string
             name:
-              $id: '#/properties/name'
               default: ''
               examples:
               - Wiesn Bratwurst & mehr
               minLength: 1
               pattern: ^(.*)$
-              title: Standname
               type: string
             owner:
-              $id: '#/properties/owner'
               properties:
                 email:
-                  $id: '#/properties/owner/properties/email'
                   default: ''
                   examples:
                   - spongebob_98@hotmail.com
                   format: email
-                  title: E-Mailadresse des Betreibers
                   type: string
                 name:
-                  $id: '#/properties/owner/properties/name'
                   default: ''
                   examples:
                   - Spongebob Schwammkopf
                   pattern: ^(.*)$
-                  title: Betreibername
                   type: string
                 telephone:
-                  $id: '#/properties/owner/properties/telephone'
                   default: ''
                   examples:
                   - '+4918091123129982'
                   pattern: \d
-                  title: Telefonnummer des Betreibers
                   type: string
                 web_url:
-                  $id: '#/properties/owner/properties/web_url'
                   default: ''
                   examples:
                   - https://spongebob.de/weihnachtsmarkt
                   pattern: ^https?://(.*)$
-                  title: Internetadresse des Betreibers
                   type: string
               required:
               - name
-              title: Standbetreiber
               type: object
             tags:
-              $id: '#/properties/tags'
               items:
-                $id: '#/properties/tags/items'
                 default: ''
                 examples:
                 - Leibliches Wohl
                 - Unterhaltung
                 minLength: 1
                 pattern: ^(.*)$
-                title: Kategoriename
                 type: string
-              title: Kategorien
               type: array
             type:
-              $id: '#/properties/type'
               default: ''
               minLength: 1
               pattern: ^(.*)$
-              title: Standtyp
               type: string
           required:
           - id
@@ -176,22 +148,78 @@ weihnachtsmarkt:
           - goods
           - description
           - geometry
-          title: Weihnachtsmarktstand
           type: object
         sort: -name
         uiSchema:
-          content:
+          description:
+            ui:help: Beschreibung des Standes.
+            ui:title: Beschreibung
             ui:widget: textarea
+          geometry:
+            bbox:
+              ui:options:
+                addable: false
+              ui:widget: hidden
+            coordinates:
+              ui:options:
+                addable: false
+              ui:widget: hidden
+            type:
+              ui:widget: hidden
+            ui:disabled: true
+            ui:widget: hidden
+          goods:
+            name:
+              ui:title: Name der Ware oder Dienstleistung
+            price:
+              ui:title: Preis der Ware oder Dienstleistung
+              ui:widget: number
+            ui:title: Angebotene Waren oder Dienstleistungen
+          id:
+            ui:widget: hidden
+          market:
+            ui:help: Der Weihnachtsmarkt auf der Stand steht
+            ui:title: Markt des Standes
+            ui:widget: radio
+          name:
+            ui:title: Name des Standes
+          owner:
+            email:
+              ui:options:
+                inputType: email
+              ui:title: E-Mailadresse des Betreibers
+              ui:widget: email
+            name:
+              ui:title: Name des Standbetreibers
+            telephone:
+              ui:options:
+                inputType: tel
+              ui:title: Telefonnummer des Standbetreibers
+            ui:title: Standbetreiber
+            web_url:
+              ui:help: Internetadresse mit weiteren Informationen zum Betreiber des
+                Standes
+              ui:placeholder: https://
+              ui:title: Internetadresse des Betreibers
+              ui:widget: uri
+          tags:
+            ui:help: 'z.B.: Leibliches Wohl, Unterhaltung'
+            ui:title: Kategorien
+          type:
+            ui:help: 'z.B.: craft, beverage, food, cloths'
+            ui:title: Standtyp
+          ui:help: Ein Weihnachtsmarktstand.
           ui:order:
           - name
-          - id
           - market
-          - owner
+          - description
           - type
           - tags
           - goods
-          - description
+          - owner
+          - id
           - geometry
+          ui:title: Weihnachtsmarktstand
       permissions:
         read:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
@@ -201,6 +229,7 @@ weihnachtsmarkt:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - system.Authenticated
         write:
+        - account:admin
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
@@ -311,6 +340,7 @@ weihnachtsmarkt:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - system.Authenticated
         write:
+        - account:admin
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
@@ -399,6 +429,7 @@ weihnachtsmarkt:
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - system.Authenticated
         write:
+        - account:admin
         - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
@@ -408,5 +439,6 @@ weihnachtsmarkt:
   groups: {}
   permissions:
     write:
+    - account:admin
     - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
     - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
