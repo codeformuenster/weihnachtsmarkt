@@ -46,7 +46,8 @@ body {
 
 .main-container {
   min-height: 0;
-  background: #0c192e;
+  /* background: #20437c; */
+  background-color: #6e6e6e;
 }
 
 .footer-container {
@@ -60,8 +61,8 @@ body {
 .list-layout .main-container {
   order: 2;
   /* tabs   search  ios
-     80px - 70px - 44px */
-  height: calc(100vh - 80px - 70px - 44px);
+     80px - 70px - 77px */
+  height: calc(100vh - 80px - 70px - 77px);
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
@@ -79,6 +80,8 @@ body {
 }
 
 .hidden-search-layout .main-container {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px - 77px);
+  padding: 0 10px;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
