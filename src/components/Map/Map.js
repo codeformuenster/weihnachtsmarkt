@@ -13,6 +13,29 @@ mapboxgl.accessToken =
   'pk.eyJ1IjoiZmVsaXhhZXRlbSIsImEiOiJjajl5OWRib2c4Y3I3MzN0NG5qb3N4ZDNhIn0.ZSVnG5S1oXz2fXDoboV_RA'
 // mapboxgl.accessToken = process.env.MapboxAccessToken
 
+const boothStyling = [
+  {
+    type: 'beverage',
+    color: '#390035',
+  },
+  {
+    type: 'craft',
+    color: '#0097df',
+  },
+  {
+    type: 'food',
+    color: '#db5f62',
+  },
+  {
+    type: 'clothes',
+    color: '#00D1B2',
+  },
+  {
+    type: 'candy',
+    color: '#ffde2d',
+  },
+]
+
 export default class Map extends Component {
   state = {
     viewport: {
@@ -28,7 +51,7 @@ export default class Map extends Component {
   async componentDidMount() {
     this.map = new mapboxgl.Map({
       container: this.mapContainer,
-      // style: 'mapbox://styles/mapbox/dark-v9',
+      // style: 'mapbox://styles/mapbox/satellite-v9',
       style: 'mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze',
       center: [this.state.viewport.longitude, this.state.viewport.latitude],
       zoom: this.state.viewport.zoom,
@@ -390,11 +413,22 @@ export default class Map extends Component {
       }
     }
     return (
-      <div
-        className="map"
-        style={{ height: '100%' }}
-        ref={el => (this.mapContainer = el)}
-      />
+      <div style={{ height: '100%', position: 'relative' }}>
+        <div className="map" ref={el => (this.mapContainer = el)} />
+        <div className="legend">
+          {boothStyling.map((e, i) => (
+            <div key={i}>
+              <span
+                className="legend-color"
+                style={{
+                  backgroundColor: e.color,
+                }}
+              />
+              <span>{e.type}</span>
+            </div>
+          ))}
+        </div>
+      </div>
     )
   }
 }

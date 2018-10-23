@@ -49,9 +49,11 @@ const Layout = ({ children, layout = 'list' }) => {
           </Helmet>
           <div className={classes}>
             <div className="main-container">{children}</div>
-            <div className="searchbox-container">
-              <ConnectedSearch />
-            </div>
+            {layout !== 'hidden-search' && (
+              <div className="searchbox-container">
+                <ConnectedSearch />
+              </div>
+            )}
             <div className="footer-container">
               <Footer />
             </div>
