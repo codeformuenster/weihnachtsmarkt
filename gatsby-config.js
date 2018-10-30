@@ -25,5 +25,12 @@ module.exports = {
     },
     'gatsby-plugin-netlify',
     'gatsby-plugin-eslint',
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+        
+       }
+     },
   ],
 }
