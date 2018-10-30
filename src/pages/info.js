@@ -4,10 +4,9 @@ import Layout from '../components/layout'
 import './info.css'
 
 const SecondPage = () => (
-  <Layout>
+  <Layout layout="hidden-search">
     <div
       style={{
-        padding: '10px',
         color: '#EEEEEE',
       }}
     >
@@ -48,14 +47,14 @@ const SecondPage = () => (
           Code
         </a>{' '}
         ist unter einer freien Lizenz verfügbar.
-        <p className="info-text">
-          <strong>
-            Die enthaltenen Daten entsprechen nicht unbedingt der Realität.
-          </strong>
-        </p>
-        <p className="info-text">
-          Von rechtlichen Schritten bitten wir abzusehen.
-        </p>
+      </p>
+      <p className="info-text">
+        <strong>
+          Die enthaltenen Daten entsprechen nicht unbedingt der Realität.
+        </strong>
+      </p>
+      <p className="info-text">
+        Von rechtlichen Schritten bitten wir abzusehen.
       </p>
     </div>
   </Layout>

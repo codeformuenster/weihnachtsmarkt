@@ -13,6 +13,29 @@ mapboxgl.accessToken =
   'pk.eyJ1IjoiZmVsaXhhZXRlbSIsImEiOiJjajl5OWRib2c4Y3I3MzN0NG5qb3N4ZDNhIn0.ZSVnG5S1oXz2fXDoboV_RA'
 // mapboxgl.accessToken = process.env.MapboxAccessToken
 
+const boothStyling = [
+  {
+    type: 'beverage',
+    color: '#390035',
+  },
+  {
+    type: 'craft',
+    color: '#0097df',
+  },
+  {
+    type: 'food',
+    color: '#db5f62',
+  },
+  {
+    type: 'clothes',
+    color: '#00D1B2',
+  },
+  {
+    type: 'candy',
+    color: '#ffde2d',
+  },
+]
+
 export default class Map extends Component {
   state = {
     viewport: {
@@ -28,7 +51,7 @@ export default class Map extends Component {
   async componentDidMount() {
     this.map = new mapboxgl.Map({
       container: this.mapContainer,
-      // style: 'mapbox://styles/mapbox/dark-v9',
+      // style: 'mapbox://styles/mapbox/satellite-v9',
       style: 'mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze',
       center: [this.state.viewport.longitude, this.state.viewport.latitude],
       zoom: this.state.viewport.zoom,
@@ -125,10 +148,38 @@ export default class Map extends Component {
           layout: {},
           minzoom: 13,
           paint: {
-            'fill-extrusion-color': {
-              property: 'filterVisible',
-              stops: [[0, '#F60000'], [1, '#00FFFF']],
-            },
+            'fill-extrusion-color': [
+              'case',
+              // if filterVisible == 0
+              //color depending on type
+              ['==', ['get', 'filterVisible'], 0],
+              [
+                'match',
+                ['get', 'type'],
+                'beverage',
+                '#390035',
+                'craft',
+                '#0097df',
+                'food',
+                '#db5f62',
+                'clothes',
+                '#00D1B2',
+                'candy',
+                '#ffde2d',
+                /* other */ '#ccc',
+              ],
+              // else
+              //color white
+              ['==', ['get', 'filterVisible'], 1],
+              '#ffffff',
+              // default
+              // color white
+              '#ffffff',
+              // {
+              //   property: 'filterVisible',
+              //   stops: [[0, '#F60000'], [1, '#00FFFF']],
+              // },
+            ],
             'fill-extrusion-opacity': [
               'interpolate',
               ['linear'],
@@ -263,6 +314,54 @@ export default class Map extends Component {
           },
         })),
       })
+      this.map.setPaintProperty('booths', 'fill-extrusion-color', [
+        'case',
+        // if filterVisible == 0
+        //color depending on type
+        ['==', ['get', 'filterVisible'], 0],
+        'grey',
+        // [
+        //   'match',
+        //   ['get', 'type'],
+        //   'beverage',
+        //   '#bda4bb',
+        //   'craft',
+        //   '#c8dbe4',
+        //   'food',
+        //   '#d8babb',
+        //   'clothes',
+        //   '#aac3c0',
+        //   'candy',
+        //   '#fdfae8',
+        //   /* other */ '#ccc',
+        // ],
+        // else
+        //color white
+        ['==', ['get', 'filterVisible'], 1],
+        'red',
+        // [
+        //   'match',
+        //   ['get', 'type'],
+        //   'beverage',
+        //   '#390035',
+        //   'craft',
+        //   '#0097df',
+        //   'food',
+        //   '#db5f62',
+        //   'clothes',
+        //   '#00D1B2',
+        //   'candy',
+        //   '#ffde2d',
+        //   /* other */ '#ccc',
+        // ],
+        // default
+        // color white
+        '#ffffff',
+        // {
+        //   property: 'filterVisible',
+        //   stops: [[0, '#F60000'], [1, '#00FFFF']],
+        // },
+      ])
     } else {
       if (this.map != null) {
         if (this.map.getSource('booths-source') != null) {
@@ -277,15 +376,59 @@ export default class Map extends Component {
               },
             })),
           })
+          // set default styling
+          this.map.setPaintProperty('booths', 'fill-extrusion-color', [
+            'case',
+            // if filterVisible == 0
+            //color depending on type
+            ['==', ['get', 'filterVisible'], 0],
+            [
+              'match',
+              ['get', 'type'],
+              'beverage',
+              '#390035',
+              'craft',
+              '#0097df',
+              'food',
+              '#db5f62',
+              'clothes',
+              '#00D1B2',
+              'candy',
+              '#ffde2d',
+              /* other */ '#ccc',
+            ],
+            // else
+            //color white
+            ['==', ['get', 'filterVisible'], 1],
+            '#ffffff',
+            // default
+            // color white
+            '#ffffff',
+            // {
+            //   property: 'filterVisible',
+            //   stops: [[0, '#F60000'], [1, '#00FFFF']],
+            // },
+          ])
         }
       }
     }
     return (
-      <div
-        className="map"
-        style={{ height: '100%' }}
-        ref={el => (this.mapContainer = el)}
-      />
+      <div style={{ height: '100%', position: 'relative' }}>
+        <div className="map" ref={el => (this.mapContainer = el)} />
+        <div className="legend">
+          {boothStyling.map((e, i) => (
+            <div key={i}>
+              <span
+                className="legend-color"
+                style={{
+                  backgroundColor: e.color,
+                }}
+              />
+              <span>{e.type}</span>
+            </div>
+          ))}
+        </div>
+      </div>
     )
   }
 }

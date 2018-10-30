@@ -9,6 +9,9 @@
   padding-right: 30px;
   border-radius: 30px;
   border: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .search-input:focus {

@@ -94,7 +94,7 @@ class Details extends Component {
 
   render() {
     return (
-      <Layout>
+      <Layout layout="hidden-search">
         <div>
           <div id={'details-container'}>
             <div className={'details-name details-background'}>
@@ -105,8 +105,8 @@ class Details extends Component {
             </div>
             {this.state.tags.length > 0 ? (
               <div className={'details-tags details-background'}>
-                {this.state.tags.map(tag => (
-                  <u key={tag} className={'details-tag'}>
+                {this.state.tags.map((tag, index) => (
+                  <u key={`${tag}_${index}`} className={'details-tag'}>
                     {tag}
                   </u>
                 ))}
@@ -117,7 +117,7 @@ class Details extends Component {
             {this.state.goods.length > 0 ? (
               <div className={'details-goods details-background'}>
                 {this.state.goods.map((good, index) => (
-                  <span key={good} className={'details-good'}>
+                  <span key={`${good}_${index}`} className={'details-good'}>
                     {good.name}
                     {index < this.state.goods.length - 1 ? ' - ' : ''}
                   </span>
@@ -127,8 +127,8 @@ class Details extends Component {
               ''
             )}
             <div className={'details-description details-background'}>
-              {(this.state.description + '').split('\\n').map(desc => (
-                <span key={desc}>
+              {(this.state.description + '').split('\\n').map((desc, index) => (
+                <span key={`${desc}_${index}`}>
                   {desc}
                   <br />
                 </span>

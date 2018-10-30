@@ -3,65 +3,70 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import ConnectedSearch from '../containers/Search/Search'
+
 import Footer from './footer'
+import 'normalize.css'
 import './layout.css'
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-            longTitle
+const Layout = ({ children, layout = 'list' }) => {
+  const classes = `layout-grid ${layout}-layout`
+  return (
+    <StaticQuery
+      query={graphql`
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+              longTitle
+            }
           }
         }
-      }
-    `}
-    render={data => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: data.site.siteMetadata.longTitle },
-            {
-              name: 'keywords',
-              content: 'weihnachtsmarkt.ms, weihnachtsmarkt, christmas market',
-            },
-            { name: 'mobile-web-app-capable', content: 'yes' },
-            { name: 'apple-mobile-web-app-capable', content: 'yes' },
-            {
-              name: 'apple-mobile-web-app-title',
-              content: data.site.siteMetadata.title,
-            },
-          ]}
-        >
-          <html lang="de" />
-        </Helmet>
-        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-        <div className="layout-grid">
-          <div
-            style={{
-              width: '100%',
-              overflow: 'scroll',
-              // margin: '0 auto',
-              // maxWidth: 960,
-              // padding: '0px 1.0875rem 1.45rem',
-              // paddingTop: 0,
-              // height: 'calc(100vh - 80px)',
-            }}
+      `}
+      render={data => (
+        <>
+          <Helmet
+            title={data.site.siteMetadata.title}
+            meta={[
+              {
+                name: 'description',
+                content: data.site.siteMetadata.longTitle,
+              },
+              {
+                name: 'keywords',
+                content:
+                  'weihnachtsmarkt.ms, weihnachtsmarkt, christmas market',
+              },
+              { name: 'mobile-web-app-capable', content: 'yes' },
+              { name: 'apple-mobile-web-app-capable', content: 'yes' },
+              {
+                name: 'apple-mobile-web-app-title',
+                content: data.site.siteMetadata.title,
+              },
+            ]}
           >
-            {children}
+            <html lang="de" />
+          </Helmet>
+          <div className={classes}>
+            <div className="main-container">{children}</div>
+            {layout !== 'hidden-search' && (
+              <div className="searchbox-container">
+                <ConnectedSearch />
+              </div>
+            )}
+            <div className="footer-container">
+              <Footer />
+            </div>
           </div>
-          <Footer siteTitle={data.site.siteMetadata.title} />
-        </div>
-      </>
-    )}
-  />
-)
+        </>
+      )}
+    />
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  layout: PropTypes.node.isRequired,
 }
 
 export default Layout

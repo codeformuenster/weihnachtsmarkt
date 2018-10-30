@@ -1,5 +1,9 @@
-.footer {
-  display: flex;
-  justify-content: space-around;
-  height: 100%;
+.footer-link {
+  color: white;
+  text-decoration: 'none';
+  height: 80px;
+  line-height: 80px;
+  width: 33%;
+  vertical-align: middle;
+  text-align: center;
 }
