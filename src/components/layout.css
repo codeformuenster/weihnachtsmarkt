@@ -28,8 +28,8 @@ body {
 }
 
 .main-container {
-  /* height: calc(100% - 150px); */
-  height: fit-content;
+  height: calc(100% - 150px);
+  /* height: fit-content; */
   flex-grow: 1;
   background-color: #6e6e6e;
 }
