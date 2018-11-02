@@ -10,7 +10,7 @@ const SecondPage = () => (
         color: '#EEEEEE',
       }}
     >
-      <h2>Weihnachtsmärkte in Münster</h2>
+      <h2 className="info-text" >Weihnachtsmärkte in Münster</h2>
       <p className="info-text">
         Jedes Jahr, eine Woche vor dem ersten Advent, beginnen die fünf
         Weihnachtsmärkte in Münster. Die über 300 Buden laden Besucher und
