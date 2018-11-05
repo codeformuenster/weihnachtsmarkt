@@ -57,7 +57,7 @@ export default class Map extends Component {
       zoom: this.state.viewport.zoom,
       bearing: this.state.viewport.bearing,
       pitch: this.state.viewport.pitch,
-      attributionControl: false,
+      // attributionControl: false,
     })
     this.map.addControl(new mapboxgl.NavigationControl())
     this.map.addControl(
