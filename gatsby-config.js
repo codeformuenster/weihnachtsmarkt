@@ -17,7 +17,12 @@ module.exports = {
         icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        cacheId: 'weihnachtsmarkt-ms',
+      },
+    },
     'gatsby-plugin-netlify',
     'gatsby-plugin-eslint',
   ],
