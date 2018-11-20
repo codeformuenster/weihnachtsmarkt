@@ -11,4 +11,4 @@ const client = new Kinto({
 })
 
 export const booths = client.collection('booths')
-export const markets = client.collection('markets')
+export const pois = client.collection('pois')

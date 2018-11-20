@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import PropTypes from 'prop-types'
-import { booths, markets } from './../../helpers/client'
+import { booths, pois } from './../../helpers/client'
 import * as turf from '@turf/turf'
 import { Link } from 'gatsby'
 import ReactDOM from 'react-dom'
@@ -70,20 +70,17 @@ export default class Map extends Component {
     )
     this.map.on('style.load', async () => {
       try {
-        let wat = null
+        let marketsFeatures = this.props.allMarkets
         if (this.props.allMarkets.length === 0) {
-          await markets.sync()
-          wat = await markets.list()
-          wat = wat.data
-          this.props.setAllMarkets(wat)
-        } else {
-          wat = this.props.allMarkets
+          await pois.sync()
+          const { data } = await pois.list({ filters: { type: 'market' } })
+          this.props.setAllMarkets(data)
         }
         this.map.addSource('markets-source', {
           type: 'geojson',
           data: {
             type: 'FeatureCollection',
-            features: wat.map(e => ({
+            features: marketsFeatures.map(e => ({
               ...e,
               type: 'Feature',
               properties: e,
@@ -117,21 +114,18 @@ export default class Map extends Component {
       }
 
       try {
-        let wat = null
+        let boothsFeatures = this.props.allBooths
         if (this.props.allBooths.length === 0) {
           await booths.sync()
-          wat = await booths.list()
-          wat = wat.data
-          this.props.setAllBooths(wat)
-        } else {
-          wat = this.props.allBooths
+          const { data } = await booths.list()
+          this.props.setAllBooths(data)
         }
 
         this.map.addSource('booths-source', {
           type: 'geojson',
           data: {
             type: 'FeatureCollection',
-            features: wat.map(e => ({
+            features: boothsFeatures.map(e => ({
               ...e,
               type: 'Feature',
               properties: {
