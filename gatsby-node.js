@@ -4,10 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
+const got = require('got')
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-
-  const got = require('got')
 
   const client = got.extend({
     baseUrl:
@@ -15,9 +15,10 @@ exports.createPages = ({ graphql, actions }) => {
     json: true,
   })
 
-  return new Promise(resolve => {
-    client.get('').then(data => {
-      data.body.data.forEach((data, index) => {
+  return client
+    .get('')
+    .then(({ body }) => {
+      body.data.forEach((data, index) => {
         let path = createPath(data, index)
         console.log('Create path: ' + path)
         createPage({
@@ -26,9 +27,8 @@ exports.createPages = ({ graphql, actions }) => {
           context: data,
         })
       })
-      resolve()
     })
-  })
+    .catch(() => {})
 }
 
 exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
