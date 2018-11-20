@@ -10,6 +10,7 @@
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-typography": "^2.2.1",
     "got": "^9.2.2",
     "kinto": "^12.0.2",
     "mapbox-gl": "0.51.0",
@@ -17,7 +18,9 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "react-redux": "^5.0.7"
+    "react-redux": "^5.0.7",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17"
   },
   "license": "Apache-2.0",
   "scripts": {
