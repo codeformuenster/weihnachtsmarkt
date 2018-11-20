@@ -408,6 +408,9 @@ export default class Map extends Component {
     }
     return (
       <div style={{ height: '100%', position: 'relative' }}>
+        <div className="welcome-sign">
+          <span className="welcome-sign-text">Weihnachtsmärkte in Münster</span>
+        </div>
         <div className="map" ref={el => (this.mapContainer = el)} />
         <div className="legend">
           {boothStyling.map((e, i) => (
