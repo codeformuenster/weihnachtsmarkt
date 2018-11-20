@@ -3,13 +3,12 @@ weihnachtsmarkt:
     booths:
       data:
         attachment:
-          enabled: true
+          enabled: false
           required: false
         cache_expires: 0
         displayFields:
           - name
         id: booths
-        last_modified: 1539719100672
         schema:
           properties:
             description:
@@ -140,19 +139,23 @@ weihnachtsmarkt:
                 addable: false
               ui:widget: hidden
             coordinates:
-              ui:options:
-                addable: false
-              ui:widget: hidden
+              items:
+                items:
+                  ui:options:
+                    addable: false
+                  ui:widget: hidden
             type:
               ui:widget: hidden
             ui:disabled: true
             ui:widget: hidden
           goods:
-            name:
-              ui:title: Name der Ware oder Dienstleistung
-            price:
-              ui:title: Preis der Ware oder Dienstleistung
-              ui:widget: number
+            items:
+              name:
+                ui:title: Name der Ware oder Dienstleistung
+              price:
+                ui:options:
+                  inputType: number
+                ui:title: Preis der Ware oder Dienstleistung
             ui:title: Angebotene Waren oder Dienstleistungen
           id:
             ui:widget: hidden
@@ -207,6 +210,7 @@ weihnachtsmarkt:
         record:create:
           - system.Authenticated
         write:
+          - account:admin
           - system.Authenticated
     pois:
       data:
@@ -217,7 +221,6 @@ weihnachtsmarkt:
         displayFields:
           - name
         id: pois
-        last_modified: 1540929066286
         schema:
           properties:
             description:
@@ -340,10 +343,10 @@ weihnachtsmarkt:
         record:create:
           - system.Authenticated
         write:
+          - account:admin
           - system.Authenticated
   data:
     id: weihnachtsmarkt
-    last_modified: 1538820899443
   groups: {}
   permissions:
     write:
