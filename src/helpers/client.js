@@ -1,9 +1,14 @@
 import Kinto from 'kinto'
 
+const baseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://kinto-weihnachtsmarkt.codeformuenster.org'
+    : 'http://localhost:8888'
+
 const client = new Kinto({
-  remote: 'https://kinto-weihnachtsmarkt.codeformuenster.org/v1',
+  remote: `${baseUrl}/v1`,
   bucket: 'weihnachtsmarkt',
 })
 
 export const booths = client.collection('booths')
-export const markets = client.collection('markets')
+export const pois = client.collection('pois')
