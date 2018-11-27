@@ -17,7 +17,7 @@ export default class Search extends Component {
               return
             }
             fetch(
-              `https://kinto-weihnachtsmarkt.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/search?q=*${
+              `https://kinto.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/search?q=*${
                 e.target.value
               }*`
             )

@@ -11,7 +11,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   const client = got.extend({
     baseUrl:
-      'https://kinto-weihnachtsmarkt.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/records',
+      'https://kinto.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/records',
     json: true,
   })
 

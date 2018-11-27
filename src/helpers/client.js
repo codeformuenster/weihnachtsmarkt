@@ -1,7 +1,7 @@
 import Kinto from 'kinto'
 
 const client = new Kinto({
-  remote: 'https://kinto-weihnachtsmarkt.codeformuenster.org/v1',
+  remote: 'https://kinto.codeformuenster.org/v1',
   bucket: 'weihnachtsmarkt',
 })
 
