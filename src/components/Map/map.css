@@ -31,3 +31,24 @@
 .legend span {
   text-transform: capitalize;
 }
+
+.welcome-sign {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.welcome-sign-text {
+  background: #0c192e;
+  color: white;
+  padding: 10px;
+  font-size: 120%;
+  font-weight: bold;
+  border-radius: 0px 0px 10px 10px;
+  user-select: none;
+  cursor: default;
+}

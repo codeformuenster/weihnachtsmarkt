@@ -3,20 +3,23 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
-
 const got = require('got')
+
+const baseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://kinto.codeformuenster.org'
+    : 'http://localhost:8888'
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const client = got.extend({
-    baseUrl:
-      'https://kinto.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/records',
+    baseUrl,
     json: true,
   })
 
   return client
-    .get('')
+    .get('/v1/buckets/weihnachtsmarkt/collections/booths/records')
     .then(({ body }) => {
       body.data.forEach((data, index) => {
         let path = createPath(data, index)

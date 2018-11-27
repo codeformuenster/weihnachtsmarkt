@@ -3,15 +3,11 @@ weihnachtsmarkt:
     booths:
       permissions:
         read:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - system.Authenticated
         - system.Everyone
         record:create:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - system.Authenticated
         write:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
-        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
       records:
         01810f58-73ec-48fa-8837-4ce43ad5faef:
@@ -141,14 +137,13 @@ weihnachtsmarkt:
           permissions: {}
         05802df6-dc2c-4c97-91a5-24f8e5f71416:
           data:
-            description:
-            - "Herstellung und Verkauf von Emaille-Handarbeiten.\nAuf Kupfer und Silber\
+            description: "Herstellung und Verkauf von Emaille-Handarbeiten.\nAuf Kupfer und Silber\
               \ stellen wir haupts\xE4chlich Schmuck, Bilder, Schalen und Dosen her.\
               \ Unser Schwerpunkt liegt in der alten Cloisonn\xE9-Technik (oder auch\
               \ Stegdraht), matt geschliffen. Ebenso bei den Schalen, die in den Formen\
               \ und Gr\xF6\xDFen gedr\xFCckt und in den unterschiedlichsten Farben\
-              \ und Techniken bearbeitet werden."
-            - "Zitat aus Wikipedia.org: \"Cloisonn\xE9 (frz. \xE9mail cloisonn\xE9\
+              \ und Techniken bearbeitet werden.\n
+              \ Zitat aus Wikipedia.org: \"Cloisonn\xE9 (frz. \xE9mail cloisonn\xE9\
               , kurz cloisonn\xE9; zu cloison \u201EScheidewand\u201C) auch Zellenschmelz\
               \ oder Zellenemail genannt, ist eine kunsthandwerkliche Technik bei\
               \ Emailarbeiten. Zur Fertigung werden auf den meist aus Kupfer bestehenden\
@@ -182,7 +177,6 @@ weihnachtsmarkt:
               email: Spessart-Email-Evers@gmx.de
               name: Georg Evers, Spessart-Email, Am Humelsee 16,  Karlstein a.M.
               telephone: 06188 9143820
-              web_url: null
             tags:
             - Ohne
             type: food
@@ -227,8 +221,6 @@ weihnachtsmarkt:
               email: rios.suess@gmx.de
               name: "Giovanni S\xFCss, Su\u0308ss\u2019 Weihnachtsgenuss, Schimmek\
                 \ 26,  Alfeld"
-              telephone: null
-              web_url: null
             tags:
             - Ohne
             type: food
@@ -640,15 +632,12 @@ weihnachtsmarkt:
               email: gustav-jennebach@gmx.de
               name: "Gustav Jennebach, Heidelbeer-Fruchtgl\xFChwein, Gustav Jennebach,\
                 \ Bernhardstra\xDFe 43,  Ennigerloh"
-              telephone: null
-              web_url: null
             tags:
             - Ohne
             type: food
           permissions: {}
         17e189c4-3a19-400b-b9c5-ff37f3767f54:
           data:
-            description: null
             geometry:
               coordinates:
               - - - 7.626256
@@ -673,9 +662,6 @@ weihnachtsmarkt:
             - name: Weihnachtsmarkt-Pott
             id: 17e189c4-3a19-400b-b9c5-ff37f3767f54
             last_modified: 1538772128485
-            name: null
-            owner:
-              name: null
             tags:
             - Ohne
             type: food
@@ -2127,7 +2113,6 @@ weihnachtsmarkt:
           permissions: {}
         5dc11d14-6e2d-4803-9afa-fb0981a76ccb:
           data:
-            description: null
             geometry:
               coordinates:
               - - - 7.626306
@@ -3905,7 +3890,6 @@ weihnachtsmarkt:
               name: Achim Katter und Andreas Beckmann, SchafeSachen - Achim Katter
                 & Andreas Beckmann, Vechtrup 14,  Telgte
               telephone: 0175 3864483
-              web_url: null
             tags:
             - Ohne
             type: food
@@ -4560,26 +4544,26 @@ weihnachtsmarkt:
           permissions: {}
         c4ef9e24-287a-4fa8-9ebe-3336055c923a:
           data:
-            description:
-            - "Qualit\xE4t, Einzigartigkeit & echte Handarbeit!"
-            - "Lange Brenndauer, romantisches Licht und ein angenehmer, nat\xFCrlicher\
-              \ Duft zeichnen die von uns hergestellten Kerzen aus.\nWir fertigen\
-              \ Kerzen aus reinem Bienenwachs oder auf Wunsch mit einem Bienenwachsanteil\
-              \ von 25\_%. Bei diesen Kerzen wird hochwertiges knetbares Parafin mitverarbeitet.\n\
-              Die Wachse kommen aus vielen Teilen der Erde, vom tiefdunklen Wachs\
-              \ aus Asien \xFCber goldgelben aus S\xFCdamerika bis hin zum hellen\
-              \ Bienenwachs aus Afrika.\nGrunds\xE4tzlich liegt jeder Lieferung ein\
-              \ Zertifikat \xFCber die Reinheit des Bienenwachses bei. Au\xDFerdem\
-              \ finden regelm\xE4\xDFig Brenn- und Geruchsproben statt.\nUm die unverwechselbar\
-              \ lebhaften Maserungen der Kerzen zu erzielen, werden die farblich unterschiedlichen\
-              \ Wachse gemischt und intensiv von Hand geknetet. Dadurch wird jede\
-              \ Kerze ein Unikat."
-            - "Ein qualitativ hochwertiger, geflochtener Docht gew\xE4hrleistet, bei\
-              \ Beachten der Brennanleitung, ein gleichm\xE4\xDFiges Abbrennen."
-            - "Echte Handarbeit! Die Kerzen-Manufaktur blickt zur\xFCck auf eine mehr\
-              \ als 40-j\xE4hrige Tradition und verf\xFCgt \xFCber einen entsprechenden\
-              \ Schatz an Wissen und Erfahrung. Sie ist heute europaweit einer der\
-              \ f\xFChrenden Hersteller von handgekneteten Bienenwachskerzen."
+            description: |
+              Qualit\xE4t, Einzigartigkeit & echte Handarbeit!
+              Lange Brenndauer, romantisches Licht und ein angenehmer, nat\xFCrlicher
+              Duft zeichnen die von uns hergestellten Kerzen aus.
+              Wir fertigen Kerzen aus reinem Bienenwachs oder auf Wunsch mit einem Bienenwachsanteil
+              von 25\_%. Bei diesen Kerzen wird hochwertiges knetbares Parafin mitverarbeitet.
+              Die Wachse kommen aus vielen Teilen der Erde, vom tiefdunklen Wachs
+              aus Asien \xFCber goldgelben aus S\xFCdamerika bis hin zum hellen
+              Bienenwachs aus Afrika.\nGrunds\xE4tzlich liegt jeder Lieferung ein
+              Zertifikat \xFCber die Reinheit des Bienenwachses bei. Au\xDFerdem
+              finden regelm\xE4\xDFig Brenn- und Geruchsproben statt.
+              Um die unverwechselbar lebhaften Maserungen der Kerzen zu erzielen, werden die farblich unterschiedlichen
+              Wachse gemischt und intensiv von Hand geknetet. Dadurch wird jede
+              Kerze ein Unikat.
+              Ein qualitativ hochwertiger, geflochtener Docht gew\xE4hrleistet, bei
+              Beachten der Brennanleitung, ein gleichm\xE4\xDFiges Abbrennen.
+              Echte Handarbeit! Die Kerzen-Manufaktur blickt zur\xFCck auf eine mehr
+              als 40-j\xE4hrige Tradition und verf\xFCgt \xFCber einen entsprechenden
+              Schatz an Wissen und Erfahrung. Sie ist heute europaweit einer der
+              f\xFChrenden Hersteller von handgekneteten Bienenwachskerzen.
             geometry:
               coordinates:
               - - - 7.628731
@@ -4992,8 +4976,6 @@ weihnachtsmarkt:
               email: Konditor.cr@gmail.com
               name: "Claudia Rosengarth, Louises Leckereien, Manfred-von-Richthofen\
                 \ Str. 84,  M\xFCnster"
-              telephone: null
-              web_url: null
             tags:
             - Ohne
             type: food
@@ -5320,22 +5302,19 @@ weihnachtsmarkt:
             - Ohne
             type: food
           permissions: {}
-    markets:
+    pois:
       permissions:
         read:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - system.Authenticated
         - system.Everyone
         record:create:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
         - system.Authenticated
         write:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
-        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
         - system.Authenticated
       records:
         083bc102-1eda-4015-bd4d-c947b4e0d63c:
           data:
+            type: market
             description: "Unter einem romantischen Lichterhimmel begr\xFC\xDFt auf\
               \ dem Platz des Westf\xE4lischen Friedens (Rathausinnenhof) der gr\xF6\
               \xDFte und \xE4lteste Weihnachtsmarkt in M\xFCnster seine G\xE4ste.\
@@ -5370,6 +5349,7 @@ weihnachtsmarkt:
           permissions: {}
         9b885a8c-92b1-4529-8c8b-423e4ae69378:
           data:
+            type: market
             description: "Mit seiner pr\xE4chtigen Krippe, einer sechs Meter hohen\
               \ Holzpyramide, einer M\xE4rchenwelt und vielen attraktiven Verkaufsst\xE4\
               nden l\xE4dt der Aegidii-Weihnachtsmarkt die ganze Familie zum entspannten\
@@ -5405,6 +5385,7 @@ weihnachtsmarkt:
           permissions: {}
         a4f8dad0-0423-4985-bf41-387dd6e9fbe5:
           data:
+            type: market
             description: "\xDCber den Drubbel kommt man zum Weihnachtsdorf am Kiepenkerl:\
               \ In dem kleinen Weihnachtsdorf rund um das Denkmal des m\xFCnsterschen\
               \ Kiepenkerls laden urige St\xE4nde mit westf\xE4lischen Spezialit\xE4\
@@ -5435,6 +5416,7 @@ weihnachtsmarkt:
           permissions: {}
         abc8cc2d-f193-485b-ac0b-82991a49bbb8:
           data:
+            type: market
             description: "Der j\xFCngste Weihnachtsmarkt M\xFCnsters erfreut seine\
               \ Besucher mit jeder Menge Handwerkskunst und einer Vielzahl besonderer\
               \ Leckereien. Das besonders romantische Ambiente verdankt der Giebelh\xFC\
@@ -5466,6 +5448,7 @@ weihnachtsmarkt:
           permissions: {}
         c076d7dd-e995-4d55-81ee-dafd97747573:
           data:
+            type: market
             description: "Die kleinen blauen Spitzdachh\xE4uschen des Lichtermarkts\
               \ am Fu\xDFe von St. Lamberti setzen glanzvolle Akzente. Umgeben von\
               \ historischen Bogenh\xE4usern und neben einer gro\xDFen Weihnachtstanne\
@@ -5494,20 +5477,6 @@ weihnachtsmarkt:
             name: Lamberti
             web_url: http://www.lichtermarkt-muenster.de/
           permissions: {}
-    pois:
-      permissions:
-        read:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
-        - system.Authenticated
-        - system.Everyone
-        record:create:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
-        - system.Authenticated
-        write:
-        - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
-        - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
-        - system.Authenticated
-      records:
         18a82497-e31d-4263-8f70-0a7835239181:
           data:
             description: 'Barrierefrei: ja'
@@ -5614,7 +5583,6 @@ weihnachtsmarkt:
           permissions: {}
         b0c00d0d-e6e7-461c-b2a9-4d6136f5f393:
           data:
-            description: ''
             geometry:
               coordinates:
               - 7.6344
@@ -5665,7 +5633,4 @@ weihnachtsmarkt:
             type: toilet
           permissions: {}
   groups: {}
-  permissions:
-    write:
-    - basicauth:3f9f434af005926444d9ed7203c0d50b32ba367fae9a82ffeb2f06ed1f294ff7
-    - basicauth:d6cd83c67cfbf70be40987e0ed0886b63fcac90dc155372b0276f891cb671801
+  permissions: {}

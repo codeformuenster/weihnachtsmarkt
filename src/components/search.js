@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './search.css'
 
+const baseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://kinto.codeformuenster.org'
+    : 'http://localhost:8888'
+
 export default class Search extends Component {
   render() {
     return (
@@ -17,7 +22,7 @@ export default class Search extends Component {
               return
             }
             fetch(
-              `https://kinto.codeformuenster.org/v1/buckets/weihnachtsmarkt/collections/booths/search?q=*${
+              `${baseUrl}/v1/buckets/weihnachtsmarkt/collections/booths/search?q=*${
                 e.target.value
               }*`
             )
