@@ -4,7 +4,7 @@ import './search.css'
 
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://kinto-weihnachtsmarkt.codeformuenster.org'
+    ? 'https://kinto.codeformuenster.org'
     : 'http://localhost:8888'
 
 export default class Search extends Component {
