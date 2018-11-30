@@ -19,7 +19,6 @@ weihnachtsmarkt:
                   \ wichtige Dinge werden nicht au\xDFer Acht gelassen. F\xFCr das leibliche\
                   \ Wohl ist gesorgt und keine Auge bleibt trocken. O'zapft is!"
               minLength: 1
-              pattern: ^(.*)$
               type: string
             geometry:
               properties:
@@ -48,7 +47,6 @@ weihnachtsmarkt:
                     examples:
                       - Haxn mit Kraut
                     minLength: 1
-                    pattern: ^(.*)$
                     type: string
                   price:
                     examples:
@@ -71,13 +69,11 @@ weihnachtsmarkt:
                 - Lamberti
                 - "Giebelh\xFC\xFCskesmarkt"
                 - Kiepenkerl
-              pattern: ^(.*)$
               type: string
             name:
               examples:
                 - Wiesn Bratwurst & mehr
               minLength: 1
-              pattern: ^(.*)$
               type: string
             owner:
               properties:
@@ -89,7 +85,6 @@ weihnachtsmarkt:
                 name:
                   examples:
                     - Spongebob Schwammkopf
-                  pattern: ^(.*)$
                   type: string
                 telephone:
                   examples:
@@ -101,8 +96,6 @@ weihnachtsmarkt:
                     - https://spongebob.de/weihnachtsmarkt
                   pattern: ^https?://(.*)$
                   type: string
-              required:
-                - name
               type: object
             tags:
               items:
@@ -110,12 +103,10 @@ weihnachtsmarkt:
                   - Leibliches Wohl
                   - Unterhaltung
                 minLength: 1
-                pattern: ^(.*)$
                 type: string
               type: array
             type:
               minLength: 1
-              pattern: ^(.*)$
               type: string
           required:
             - id
@@ -124,7 +115,6 @@ weihnachtsmarkt:
             - tags
             - market
             - goods
-            - description
             - geometry
           type: object
         sort: -name
@@ -225,7 +215,6 @@ weihnachtsmarkt:
           properties:
             description:
               minLength: 1
-              pattern: ^(.*)$
               type: string
             geometry:
               dependencies:
@@ -276,13 +265,11 @@ weihnachtsmarkt:
               examples:
                 - Bahnhof
               minLength: 1
-              pattern: ^(.*)$
               type: string
             type:
               examples:
                 - transport
               minLength: 1
-              pattern: ^(.*)$
               type: string
             web_url:
               examples:
