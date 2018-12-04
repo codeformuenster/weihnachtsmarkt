@@ -13,7 +13,7 @@ export const boothStyle = {
       '#0097df',
       'food',
       '#db5f62',
-      'clothes',
+      'Textilien', // clothes
       '#00D1B2',
       'candy',
       '#ffde2d',

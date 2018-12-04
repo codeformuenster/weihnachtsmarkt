@@ -5,10 +5,11 @@ import PropTypes from 'prop-types'
 import { booths, pois } from './../../helpers/client'
 import * as turf from '@turf/turf'
 import { Link } from 'gatsby'
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import Legend from './Legend/Legend'
-import ReactMapGL, { NavigationControl } from 'react-map-gl'
+import ReactMapGL, { NavigationControl, Popup } from 'react-map-gl'
 import { boothStyle, marketStyle } from './styling'
+// import DeckGL, { GeoJsonLayer } from 'deck.gl'
 
 import './map.css'
 
@@ -20,13 +21,14 @@ const MAPBOX_ACCESS_TOKEN =
 export default class Map extends Component {
   constructor(props) {
     super(props)
-    this.addPopup = this.addPopup.bind(this)
+    this.state = {
+      popupInfo: null,
+    }
+    this.renderPopup = this.renderPopup.bind(this)
     this._onLoad = this._onLoad.bind(this)
   }
 
-  async componentDidMount() {
-    await this.fetchData()
-
+  componentDidMount() {
     this.map = this.themap.getMap()
 
     this.map.addControl(
@@ -84,63 +86,87 @@ export default class Map extends Component {
     }
   }
 
-  _onLoad() {
-    if (this.map != undefined) {
-      // add Markets from POI Collection
-      this.map.addSource('markets-source', {
-        type: 'geojson',
-        data: {
-          type: 'FeatureCollection',
-          features: this.props.allMarkets.map(e => ({
-            ...e,
-            type: 'Feature',
-            properties: e,
-          })),
-        },
-      })
-      this.map.addLayer({
-        id: 'markets',
-        type: 'fill',
-        source: 'markets-source',
-        layout: {},
-        maxzoom: 18,
-        paint: marketStyle,
-      })
+  async _onLoad() {
+    await this.fetchData()
+    // add Markets from POI Collection
+    this.map.addSource('markets-source', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: this.props.allMarkets.map(e => ({
+          ...e,
+          type: 'Feature',
+          properties: e,
+        })),
+      },
+    })
+    this.map.addLayer({
+      id: 'markets',
+      type: 'fill',
+      source: 'markets-source',
+      layout: {},
+      maxzoom: 18,
+      paint: marketStyle,
+    })
 
-      // add Booths from Booth from Booth Collection
-      this.map.addSource('booths-source', {
-        type: 'geojson',
-        data: {
-          type: 'FeatureCollection',
-          features: this.props.allBooths.map(e => ({
+    // add Booths from Booth from Booth Collection
+    this.map.addSource('booths-source', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: this.props.allBooths.map(e => ({
+          ...e,
+          type: 'Feature',
+          properties: {
             ...e,
-            type: 'Feature',
-            properties: {
-              ...e,
-              filterVisible: 0,
-            },
-          })),
-        },
-      })
-      this.map.addLayer({
-        id: 'booths',
-        type: 'fill-extrusion',
-        source: 'booths-source',
-        layout: {},
-        minzoom: 13,
-        paint: boothStyle,
-      })
-    }
+            filterVisible: 0,
+          },
+        })),
+      },
+    })
+    this.map.addLayer({
+      id: 'booths',
+      type: 'fill-extrusion',
+      source: 'booths-source',
+      layout: {},
+      minzoom: 13,
+      paint: boothStyle,
+    })
+
+    // const mapStyle = defaultMapStyle
+    //   // Add geojson source to map
+    //   .setIn(['sources', 'booths-source'], fromJS({ type: 'geojson', data }))
+    //   // Add point layer to map
+    //   .set('layers', defaultMapStyle.get('layers').push(boothLayer))
+
+    // this.setState({ mapStyle })
   }
 
-  addPopup(el, lat, lng) {
-    const placeholder = document.createElement('div')
-    ReactDOM.render(el, placeholder)
+  renderPopup() {
+    // const placeholder = document.createElement('div')
+    // ReactDOM.render(el, placeholder)
 
-    new mapboxgl.Popup()
-      .setDOMContent(placeholder)
-      .setLngLat({ lng: lng, lat: lat })
-      .addTo(this.map)
+    // new mapboxgl.Popup()
+    //   .setDOMContent(placeholder)
+    //   .setLngLat({ lng: lng, lat: lat })
+    //   .addTo(this.map)
+
+    const { popupInfo } = this.state
+
+    return (
+      popupInfo && (
+        <Popup
+          tipSize={5}
+          anchor="bottom"
+          longitude={popupInfo.longitude}
+          latitude={popupInfo.latitude}
+          closeOnClick={false}
+          onClose={() => this.setState({ popupInfo: null })}
+        >
+          <div>You are here</div>
+        </Popup>
+      )
+    )
   }
 
   createPath = (name, id) => {
@@ -174,6 +200,7 @@ export default class Map extends Component {
   }
 
   render() {
+    // console.log(this.props.filterData)
     // this.map = this.themap == undefined ? null : this.themap.getMap()
     // if (this.props.filterData.length !== 0 && this.map != null) {
     //   this.map.getSource('booths-source').setData({
@@ -299,7 +326,17 @@ export default class Map extends Component {
           onLoad={this._onLoad}
           mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
           mapStyle="mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze"
+          onClick={e => {
+            const popupInfo = {
+              latitude: e.lngLat[1],
+              longitude: e.lngLat[0],
+            }
+            this.setState({
+              popupInfo,
+            })
+          }}
         >
+          {this.renderPopup()}
           <div
             style={{
               position: 'absolute',
