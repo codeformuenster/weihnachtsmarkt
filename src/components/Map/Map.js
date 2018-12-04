@@ -6,35 +6,13 @@ import { booths, pois } from './../../helpers/client'
 import * as turf from '@turf/turf'
 import { Link } from 'gatsby'
 import ReactDOM from 'react-dom'
+import Legend from './Legend/Legend'
 
 import './map.css'
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiZmVsaXhhZXRlbSIsImEiOiJjajl5OWRib2c4Y3I3MzN0NG5qb3N4ZDNhIn0.ZSVnG5S1oXz2fXDoboV_RA'
 // mapboxgl.accessToken = process.env.MapboxAccessToken
-
-const boothStyling = [
-  {
-    type: 'beverage',
-    color: '#390035',
-  },
-  {
-    type: 'craft',
-    color: '#0097df',
-  },
-  {
-    type: 'food',
-    color: '#db5f62',
-  },
-  {
-    type: 'clothes',
-    color: '#00D1B2',
-  },
-  {
-    type: 'candy',
-    color: '#ffde2d',
-  },
-]
 
 export default class Map extends Component {
   state = {
@@ -412,19 +390,7 @@ export default class Map extends Component {
           <span className="welcome-sign-text">Weihnachtsmärkte in Münster</span>
         </div>
         <div className="map" ref={el => (this.mapContainer = el)} />
-        <div className="legend">
-          {boothStyling.map((e, i) => (
-            <div key={i}>
-              <span
-                className="legend-color"
-                style={{
-                  backgroundColor: e.color,
-                }}
-              />
-              <span>{e.type}</span>
-            </div>
-          ))}
-        </div>
+        <Legend />
       </div>
     )
   }
