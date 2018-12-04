@@ -7,37 +7,23 @@ import * as turf from '@turf/turf'
 import { Link } from 'gatsby'
 import ReactDOM from 'react-dom'
 import Legend from './Legend/Legend'
+import ReactMapGL, { NavigationControl } from 'react-map-gl'
 
 import './map.css'
 
-mapboxgl.accessToken =
+// mapboxgl.accessToken =
+const MAPBOX_ACCESS_TOKEN =
   'pk.eyJ1IjoiZmVsaXhhZXRlbSIsImEiOiJjajl5OWRib2c4Y3I3MzN0NG5qb3N4ZDNhIn0.ZSVnG5S1oXz2fXDoboV_RA'
 // mapboxgl.accessToken = process.env.MapboxAccessToken
 
 export default class Map extends Component {
-  state = {
-    viewport: {
-      ...this.props.viewport,
-    },
-  }
-
   constructor(props) {
     super(props)
     this.addPopup = this.addPopup.bind(this)
   }
 
   async componentDidMount() {
-    this.map = new mapboxgl.Map({
-      container: this.mapContainer,
-      // style: 'mapbox://styles/mapbox/satellite-v9',
-      style: 'mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze',
-      center: [this.state.viewport.longitude, this.state.viewport.latitude],
-      zoom: this.state.viewport.zoom,
-      bearing: this.state.viewport.bearing,
-      pitch: this.state.viewport.pitch,
-      // attributionControl: false,
-    })
-    this.map.addControl(new mapboxgl.NavigationControl())
+    this.map = this.themap.getMap()
     this.map.addControl(
       new mapboxgl.GeolocateControl({
         positionOptions: {
@@ -90,7 +76,6 @@ export default class Map extends Component {
         // eslint-disable-next-line
         console.log('error', err)
       }
-
       try {
         let boothsFeatures = this.props.allBooths
         if (this.props.allBooths.length === 0) {
@@ -98,7 +83,6 @@ export default class Map extends Component {
           const { data } = await booths.list()
           this.props.setAllBooths(data)
         }
-
         this.map.addSource('booths-source', {
           type: 'geojson',
           data: {
@@ -170,13 +154,11 @@ export default class Map extends Component {
         console.log('error', err)
       }
     })
-
     this.map.on('click', 'markets', e => {
       // eslint-disable-next-line
       console.log(e.features)
       this.props.setSelectedMarket(e.features[0])
     })
-
     this.map.on('click', 'booths', e => {
       // eslint-disable-next-line
       console.log(e.features)
@@ -201,35 +183,6 @@ export default class Map extends Component {
         turf.polygon(JSON.parse(e.features[0].properties.geometry).coordinates)
       ).geometry.coordinates
       this.addPopup(<Popup />, coords[1], coords[0])
-    })
-
-    this.map.on('zoom', () => {
-      this.props.setViewport({
-        ...this.state.viewport,
-        zoom: this.map.getZoom(),
-      })
-    })
-
-    this.map.on('move', () => {
-      this.props.setViewport({
-        ...this.state.viewport,
-        latitude: this.map.getCenter().lat,
-        longitude: this.map.getCenter().lng,
-      })
-    })
-
-    this.map.on('pitch', () => {
-      this.props.setViewport({
-        ...this.state.viewport,
-        pitch: this.map.getPitch(),
-      })
-    })
-
-    this.map.on('rotate', () => {
-      this.props.setViewport({
-        ...this.state.viewport,
-        bearing: this.map.getBearing(),
-      })
     })
   }
 
@@ -274,6 +227,7 @@ export default class Map extends Component {
   }
 
   render() {
+    this.map = this.themap == undefined ? null : this.themap.getMap()
     if (this.props.filterData.length !== 0 && this.map != null) {
       this.map.getSource('booths-source').setData({
         type: 'FeatureCollection',
@@ -389,7 +343,29 @@ export default class Map extends Component {
         <div className="welcome-sign">
           <span className="welcome-sign-text">Weihnachtsmärkte in Münster</span>
         </div>
-        <div className="map" ref={el => (this.mapContainer = el)} />
+        <ReactMapGL
+          ref={el => (this.themap = el)}
+          {...this.props.viewport}
+          width="100%"
+          height="100%"
+          onViewportChange={viewport => this.props.setViewport(viewport)}
+          mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
+          reuseMaps={true}
+          mapStyle="mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze"
+        >
+          <div
+            style={{
+              position: 'absolute',
+              right: 0,
+              top: '40px',
+              margin: '10px',
+            }}
+          >
+            <NavigationControl
+              onViewportChange={viewport => this.props.setViewport(viewport)}
+            />
+          </div>
+        </ReactMapGL>
         <Legend />
       </div>
     )
