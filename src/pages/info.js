@@ -10,7 +10,7 @@ const SecondPage = () => (
         color: '#EEEEEE',
       }}
     >
-      <h2 className="info-text" >Weihnachtsmärkte in Münster</h2>
+      <h2 className="info-text">Weihnachtsmärkte in Münster</h2>
       <p className="info-text">
         Jedes Jahr, eine Woche vor dem ersten Advent, beginnen die fünf
         Weihnachtsmärkte in Münster. Die über 300 Buden laden Besucher und
@@ -49,9 +49,19 @@ const SecondPage = () => (
         ist unter einer freien Lizenz verfügbar.
       </p>
       <p className="info-text">
-        <strong>
-          Die enthaltenen Daten entsprechen nicht unbedingt der Realität.
-        </strong>
+        <strong>Quelle Standgeometrien:</strong>
+        Pilotprojekt Weihnachtsmarkt Münster – Weiterentwicklung der APP vom
+        MÜNSTERHACK 2018, Daten der Stadt Münster.
+      </p>
+      <p className="info-text">
+        Weitere Informationen zu den Daten:{' '}
+        <a
+          href="https://github.com/codeformuenster/weihnachtsmarkt-data"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Link
+        </a>
       </p>
       <p className="info-text">
         Von rechtlichen Schritten bitten wir abzusehen.
