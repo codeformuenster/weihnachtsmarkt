@@ -322,6 +322,7 @@ export default class Map extends Component {
           {...this.props.viewport}
           width="100%"
           height="100%"
+          touchRotate={true}
           onViewportChange={viewport => this.props.setViewport(viewport)}
           onLoad={this._onLoad}
           mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
