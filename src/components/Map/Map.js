@@ -51,6 +51,12 @@ export default class Map extends Component {
     )
   }
 
+  componentWillUnmount() {
+    this.setState({
+      mapInitialized: false,
+    })
+  }
+
   async fetchData() {
     if (this.props.allMarkets.length === 0) {
       await pois.sync()
@@ -115,6 +121,9 @@ export default class Map extends Component {
     this.setState({
       mapInitialized: true,
     })
+    if (this.props.filterData.length > 0) {
+      this._filterBooths(this.props.filterData)
+    }
   }
 
   renderPopup() {
@@ -241,14 +250,16 @@ export default class Map extends Component {
   }
 
   render() {
-    if (this.props.filterData.length > 0) {
-      this._filterBooths(this.props.filterData)
-    } else if (this.state.mapInitialized) {
-      this.map.setPaintProperty(
-        'booths',
-        'fill-extrusion-color',
-        defaultBoothColors
-      )
+    if (this.state.mapInitialized) {
+      if (this.props.filterData.length > 0) {
+        this._filterBooths(this.props.filterData)
+      } else {
+        this.map.setPaintProperty(
+          'booths',
+          'fill-extrusion-color',
+          defaultBoothColors
+        )
+      }
     }
     return (
       <div style={{ height: '100%', position: 'relative' }}>
