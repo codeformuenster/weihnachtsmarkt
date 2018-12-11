@@ -8,7 +8,12 @@ import { Link } from 'gatsby'
 // import ReactDOM from 'react-dom'
 import Legend from './Legend/Legend'
 import ReactMapGL, { NavigationControl, Popup } from 'react-map-gl'
-import { boothStyle, marketStyle } from './styling'
+import {
+  boothStyle,
+  marketStyle,
+  filterBoothStyle,
+  defaultBoothColors,
+} from './styling'
 // import DeckGL, { GeoJsonLayer } from 'deck.gl'
 
 import './map.css'
@@ -25,10 +30,12 @@ export default class Map extends Component {
     super(props)
     this.state = {
       popupInfo: null,
+      mapInitialized: false,
     }
     this.renderPopup = this.renderPopup.bind(this)
     this._onLoad = this._onLoad.bind(this)
     this._handleClick = this._handleClick.bind(this)
+    this._filterBooths = this._filterBooths.bind(this)
   }
 
   componentDidMount() {
@@ -103,6 +110,10 @@ export default class Map extends Component {
       layout: {},
       minzoom: 13,
       paint: boothStyle,
+    })
+
+    this.setState({
+      mapInitialized: true,
     })
   }
 
@@ -180,6 +191,25 @@ export default class Map extends Component {
     }
   }
 
+  _filterBooths(filter) {
+    this.map.getSource('booths-source').setData({
+      type: 'FeatureCollection',
+      features: this.props.allBooths.map(e => ({
+        ...e,
+        type: 'Feature',
+        properties: {
+          ...e,
+          filterVisible: filter.includes(e.id) ? 1 : 0,
+        },
+      })),
+    })
+    this.map.setPaintProperty(
+      'booths',
+      'fill-extrusion-color',
+      filterBoothStyle
+    )
+  }
+
   createPath = (name, id) => {
     let path = '/'
     if (name) {
@@ -211,6 +241,15 @@ export default class Map extends Component {
   }
 
   render() {
+    if (this.props.filterData.length > 0) {
+      this._filterBooths(this.props.filterData)
+    } else if (this.state.mapInitialized) {
+      this.map.setPaintProperty(
+        'booths',
+        'fill-extrusion-color',
+        defaultBoothColors
+      )
+    }
     return (
       <div style={{ height: '100%', position: 'relative' }}>
         <div className="welcome-sign">
