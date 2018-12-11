@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './search.css'
 
-const baseUrl =
-  process.env.NODE_ENV === 'production'
-    ? 'https://kinto.codeformuenster.org'
-    : 'http://localhost:8888'
+const baseUrl = 'https://kinto.codeformuenster.org'
+// process.env.NODE_ENV === 'production'
+//   ? 'https://kinto.codeformuenster.org'
+//   : 'http://localhost:8888'
 
 export default class Search extends Component {
   render() {

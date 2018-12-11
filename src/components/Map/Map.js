@@ -18,6 +18,8 @@ const MAPBOX_ACCESS_TOKEN =
   'pk.eyJ1IjoiZmVsaXhhZXRlbSIsImEiOiJjajl5OWRib2c4Y3I3MzN0NG5qb3N4ZDNhIn0.ZSVnG5S1oXz2fXDoboV_RA'
 // mapboxgl.accessToken = process.env.MapboxAccessToken
 
+const MARKET_BOOTH_CLICK_ZOOM_TRESHOLD = 16
+
 export default class Map extends Component {
   constructor(props) {
     super(props)
@@ -26,6 +28,7 @@ export default class Map extends Component {
     }
     this.renderPopup = this.renderPopup.bind(this)
     this._onLoad = this._onLoad.bind(this)
+    this._handleClick = this._handleClick.bind(this)
   }
 
   componentDidMount() {
@@ -39,37 +42,6 @@ export default class Map extends Component {
         trackUserLocation: true,
       })
     )
-
-    this.map.on('click', 'markets', e => {
-      // eslint-disable-next-line
-      console.log(e.features)
-      this.props.setSelectedMarket(e.features[0])
-    })
-    this.map.on('click', 'booths', e => {
-      // eslint-disable-next-line
-      console.log(e.features)
-      this.props.setSelectedBooth(e.features[0])
-      const Popup = () => {
-        return (
-          <div>
-            <b>{e.features[0].properties.name}</b>
-            <br />
-            <Link
-              to={this.createPath(
-                e.features[0].properties.name,
-                e.features[0].properties.id
-              )}
-            >
-              Details
-            </Link>
-          </div>
-        )
-      }
-      const coords = turf.centerOfMass(
-        turf.polygon(JSON.parse(e.features[0].properties.geometry).coordinates)
-      ).geometry.coordinates
-      this.addPopup(<Popup />, coords[1], coords[0])
-    })
   }
 
   async fetchData() {
@@ -132,25 +104,9 @@ export default class Map extends Component {
       minzoom: 13,
       paint: boothStyle,
     })
-
-    // const mapStyle = defaultMapStyle
-    //   // Add geojson source to map
-    //   .setIn(['sources', 'booths-source'], fromJS({ type: 'geojson', data }))
-    //   // Add point layer to map
-    //   .set('layers', defaultMapStyle.get('layers').push(boothLayer))
-
-    // this.setState({ mapStyle })
   }
 
   renderPopup() {
-    // const placeholder = document.createElement('div')
-    // ReactDOM.render(el, placeholder)
-
-    // new mapboxgl.Popup()
-    //   .setDOMContent(placeholder)
-    //   .setLngLat({ lng: lng, lat: lat })
-    //   .addTo(this.map)
-
     const { popupInfo } = this.state
 
     return (
@@ -163,10 +119,65 @@ export default class Map extends Component {
           closeOnClick={false}
           onClose={() => this.setState({ popupInfo: null })}
         >
-          <div>You are here</div>
+          <div
+            style={{
+              fontWeight: 600,
+              marginTop: '1rem',
+            }}
+          >
+            {popupInfo.link ? (
+              <Link to={this.createPath(popupInfo.title, popupInfo.id)}>
+                {popupInfo.title}
+              </Link>
+            ) : (
+              popupInfo.title
+            )}
+          </div>
+          <p>{popupInfo.description}</p>
         </Popup>
       )
     )
+  }
+
+  _handleClick(e) {
+    const features = this.map.queryRenderedFeatures(e.point)
+    if (features.length > 0) {
+      let feature = null
+      if (this.props.viewport.zoom <= MARKET_BOOTH_CLICK_ZOOM_TRESHOLD) {
+        feature = features.filter(e => e.source === 'markets-source')[0]
+        this.props.setSelectedMarket(feature)
+      } else {
+        feature = features.filter(e => e.source === 'booths-source')[0]
+        this.props.setSelectedBooth(feature)
+      }
+
+      if (feature == null) {
+        this.setState({
+          popupInfo: null,
+        })
+        return
+      }
+
+      const coords = turf.centerOfMass(
+        turf.polygon(JSON.parse(feature.properties.geometry).coordinates)
+      ).geometry.coordinates
+
+      const popupInfo = {
+        latitude: coords[1],
+        longitude: coords[0],
+        title: feature.properties.name || '',
+        description: feature.properties.description || '',
+        id: feature.properties.id,
+        link: feature.source === 'booths-source',
+      }
+      this.setState({
+        popupInfo,
+      })
+    } else {
+      this.setState({
+        popupInfo: null,
+      })
+    }
   }
 
   createPath = (name, id) => {
@@ -200,118 +211,6 @@ export default class Map extends Component {
   }
 
   render() {
-    // console.log(this.props.filterData)
-    // this.map = this.themap == undefined ? null : this.themap.getMap()
-    // if (this.props.filterData.length !== 0 && this.map != null) {
-    //   this.map.getSource('booths-source').setData({
-    //     type: 'FeatureCollection',
-    //     features: this.props.allBooths.map(e => ({
-    //       ...e,
-    //       type: 'Feature',
-    //       properties: {
-    //         ...e,
-    //         filterVisible: this.props.filterData.includes(e.id) ? 1 : 0,
-    //       },
-    //     })),
-    //   })
-    //   this.map.setPaintProperty('booths', 'fill-extrusion-color', [
-    //     'case',
-    //     // if filterVisible == 0
-    //     //color depending on type
-    //     ['==', ['get', 'filterVisible'], 0],
-    //     'grey',
-    //     // [
-    //     //   'match',
-    //     //   ['get', 'type'],
-    //     //   'beverage',
-    //     //   '#bda4bb',
-    //     //   'craft',
-    //     //   '#c8dbe4',
-    //     //   'food',
-    //     //   '#d8babb',
-    //     //   'clothes',
-    //     //   '#aac3c0',
-    //     //   'candy',
-    //     //   '#fdfae8',
-    //     //   /* other */ '#ccc',
-    //     // ],
-    //     // else
-    //     //color white
-    //     ['==', ['get', 'filterVisible'], 1],
-    //     'red',
-    //     // [
-    //     //   'match',
-    //     //   ['get', 'type'],
-    //     //   'beverage',
-    //     //   '#390035',
-    //     //   'craft',
-    //     //   '#0097df',
-    //     //   'food',
-    //     //   '#db5f62',
-    //     //   'clothes',
-    //     //   '#00D1B2',
-    //     //   'candy',
-    //     //   '#ffde2d',
-    //     //   /* other */ '#ccc',
-    //     // ],
-    //     // default
-    //     // color white
-    //     '#ffffff',
-    //     // {
-    //     //   property: 'filterVisible',
-    //     //   stops: [[0, '#F60000'], [1, '#00FFFF']],
-    //     // },
-    //   ])
-    // } else {
-    //   if (this.map != null) {
-    //     if (this.map.getSource('booths-source') != null) {
-    //       this.map.getSource('booths-source').setData({
-    //         type: 'FeatureCollection',
-    //         features: this.props.allBooths.map(e => ({
-    //           ...e,
-    //           type: 'Feature',
-    //           properties: {
-    //             ...e,
-    //             filterVisible: 0,
-    //           },
-    //         })),
-    //       })
-    //       // set default styling
-    //       this.map.setPaintProperty('booths', 'fill-extrusion-color', [
-    //         'case',
-    //         // if filterVisible == 0
-    //         //color depending on type
-    //         ['==', ['get', 'filterVisible'], 0],
-    //         [
-    //           'match',
-    //           ['get', 'type'],
-    //           'beverage',
-    //           '#390035',
-    //           'craft',
-    //           '#0097df',
-    //           'food',
-    //           '#db5f62',
-    //           'clothes',
-    //           '#00D1B2',
-    //           'candy',
-    //           '#ffde2d',
-    //           /* other */ '#ccc',
-    //         ],
-    //         // else
-    //         //color white
-    //         ['==', ['get', 'filterVisible'], 1],
-    //         '#ffffff',
-    //         // default
-    //         // color white
-    //         '#ffffff',
-    //         // {
-    //         //   property: 'filterVisible',
-    //         //   stops: [[0, '#F60000'], [1, '#00FFFF']],
-    //         // },
-    //       ])
-    //     }
-    //   }
-    // }
     return (
       <div style={{ height: '100%', position: 'relative' }}>
         <div className="welcome-sign">
@@ -323,19 +222,13 @@ export default class Map extends Component {
           width="100%"
           height="100%"
           touchRotate={true}
-          onViewportChange={viewport => this.props.setViewport(viewport)}
+          onViewportChange={viewport => {
+            this.props.setViewport(viewport)
+          }}
           onLoad={this._onLoad}
           mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
           mapStyle="mapbox://styles/felixaetem/cjmwkrak403hr2snrjunbuvze"
-          onClick={e => {
-            const popupInfo = {
-              latitude: e.lngLat[1],
-              longitude: e.lngLat[0],
-            }
-            this.setState({
-              popupInfo,
-            })
-          }}
+          onClick={this._handleClick}
         >
           {this.renderPopup()}
           <div
