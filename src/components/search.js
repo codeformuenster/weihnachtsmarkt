@@ -16,8 +16,11 @@ export default class Search extends Component {
           type="search"
           placeholder="Suche nach Ständen, Produkten und Kategorien..."
           autoComplete="off"
+          value={this.props.searchTerm}
           onChange={e => {
-            if (e.target.value === '') {
+            this.props.setSearchTerm(e.target.value)
+            let emptyRegEx = /^\s+$/
+            if (emptyRegEx.test(e.target.value) || e.target.value === '') {
               this.props.setFilterData([])
               return
             }
@@ -38,5 +41,7 @@ export default class Search extends Component {
 }
 
 Search.propTypes = {
+  searchTerm: PropTypes.string,
   setFilterData: PropTypes.func,
+  setSearchTerm: PropTypes.func,
 }

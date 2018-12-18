@@ -41,14 +41,21 @@ export default class Map extends Component {
   componentDidMount() {
     this.map = this.themap.getMap()
 
-    this.map.addControl(
-      new mapboxgl.GeolocateControl({
-        positionOptions: {
-          enableHighAccuracy: true,
-        },
-        trackUserLocation: true,
+    const geolocate = new mapboxgl.GeolocateControl({
+      positionOptions: {
+        enableHighAccuracy: true,
+      },
+      trackUserLocation: false,
+    })
+
+    geolocate.on('geolocate', e => {
+      this.props.setViewport({
+        latitude: e.coords.latitude,
+        longitude: e.coords.longitude,
       })
-    )
+    })
+
+    this.map.addControl(geolocate)
   }
 
   componentWillUnmount() {
@@ -201,22 +208,41 @@ export default class Map extends Component {
   }
 
   _filterBooths(filter) {
-    this.map.getSource('booths-source').setData({
-      type: 'FeatureCollection',
-      features: this.props.allBooths.map(e => ({
-        ...e,
-        type: 'Feature',
-        properties: {
+    if (filter.length > 0) {
+      this.map.getSource('booths-source').setData({
+        type: 'FeatureCollection',
+        features: this.props.allBooths.map(e => ({
           ...e,
-          filterVisible: filter.includes(e.id) ? 1 : 0,
-        },
-      })),
-    })
-    this.map.setPaintProperty(
-      'booths',
-      'fill-extrusion-color',
-      filterBoothStyle
-    )
+          type: 'Feature',
+          properties: {
+            ...e,
+            filterVisible: filter.includes(e.id) ? 1 : 0,
+          },
+        })),
+      })
+      this.map.setPaintProperty(
+        'booths',
+        'fill-extrusion-color',
+        filterBoothStyle
+      )
+    } else {
+      this.map.getSource('booths-source').setData({
+        type: 'FeatureCollection',
+        features: this.props.allBooths.map(e => ({
+          ...e,
+          type: 'Feature',
+          properties: {
+            ...e,
+            filterVisible: 0,
+          },
+        })),
+      })
+      this.map.setPaintProperty(
+        'booths',
+        'fill-extrusion-color',
+        defaultBoothColors
+      )
+    }
   }
 
   createPath = (name, id) => {
@@ -251,15 +277,7 @@ export default class Map extends Component {
 
   render() {
     if (this.state.mapInitialized) {
-      if (this.props.filterData.length > 0) {
-        this._filterBooths(this.props.filterData)
-      } else {
-        this.map.setPaintProperty(
-          'booths',
-          'fill-extrusion-color',
-          defaultBoothColors
-        )
-      }
+      this._filterBooths(this.props.filterData)
     }
     return (
       <div style={{ height: '100%', position: 'relative' }}>
