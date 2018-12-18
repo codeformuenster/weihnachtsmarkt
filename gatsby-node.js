@@ -8,7 +8,7 @@ const got = require('got')
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  graphql(
+  return graphql(
     `
       {
         site {
@@ -21,6 +21,7 @@ exports.createPages = ({ graphql, actions }) => {
   )
     .then(result => {
       const baseUrl = result.data.site.siteMetadata.baseUrl
+      console.log(`Using '${baseUrl}'`)
 
       const client = got.extend({
         baseUrl,
@@ -41,7 +42,6 @@ exports.createPages = ({ graphql, actions }) => {
           })
         })
     })
-    .catch(() => {})
 }
 
 exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {

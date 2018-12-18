@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import PropTypes from 'prop-types'
-import Client from './../../helpers/client'
 import * as turf from '@turf/turf'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 // import ReactDOM from 'react-dom'
 import Legend from './Legend/Legend'
 import ReactMapGL, { NavigationControl, Popup } from 'react-map-gl'
@@ -25,9 +24,6 @@ const MAPBOX_ACCESS_TOKEN =
 
 const MARKET_BOOTH_CLICK_ZOOM_TRESHOLD = 16
 
-const pois = []
-const booths = []
-
 export default class Map extends Component {
   constructor(props) {
     super(props)
@@ -39,18 +35,7 @@ export default class Map extends Component {
     this._onLoad = this._onLoad.bind(this)
     this._handleClick = this._handleClick.bind(this)
     this._filterBooths = this._filterBooths.bind(this)
-
-    const test = graphql`
-      {
-        site {
-          siteMetadata {
-            baseUrl
-          }
-        }
-      }
-    `
-    console.log(test)
-    Client()
+    this.client = props.client
   }
 
   componentDidMount() {
@@ -81,14 +66,16 @@ export default class Map extends Component {
 
   async fetchData() {
     if (this.props.allMarkets.length === 0) {
-      await pois.sync()
-      const { data } = await pois.list({ filters: { type: 'market' } })
+      await this.client.pois.sync()
+      const { data } = await this.client.pois.list({
+        filters: { type: 'market' },
+      })
       this.props.setAllMarkets(data)
     }
 
     if (this.props.allBooths.length === 0) {
-      await booths.sync()
-      const { data } = await booths.list()
+      await this.client.booths.sync()
+      const { data } = await this.client.booths.list()
       this.props.setAllBooths(data)
     }
   }
@@ -323,6 +310,7 @@ export default class Map extends Component {
 }
 
 Map.propTypes = {
+  client: PropTypes.object,
   allBooths: PropTypes.array,
   allMarkets: PropTypes.array,
   viewport: PropTypes.object,
