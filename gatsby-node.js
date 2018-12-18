@@ -5,8 +5,6 @@
  */
 const got = require('got')
 
-console.log(process.env)
-
 const baseUrl =
   process.env.NODE_ENV === 'production'
     ? 'https://kinto.codeformuenster.org'
