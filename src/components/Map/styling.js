@@ -1,16 +1,22 @@
 export const defaultBoothColors = [
   'match',
   ['get', 'type'],
-  'beverage',
+  'Ausschank',
   '#390035',
-  'craft',
+  'Dekoration',
   '#0097df',
   'food',
   '#db5f62',
-  'Textilien', // clothes
+  'Herzhaftes',
+  '#db5f62',
+  'Delikatessen & feine Köstlichkeiten als Geschenkartikel',
+  '#db5f62',
+  'Textilien',
   '#00D1B2',
-  'candy',
+  'Süßes',
   '#ffde2d',
+  'Kinder',
+  '#ff9966',
   /* other */ '#ccc',
 ]
 

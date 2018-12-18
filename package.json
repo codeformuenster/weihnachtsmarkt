@@ -13,7 +13,6 @@
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-typography": "^2.2.1",
     "got": "^9.2.2",
-    "immutable": "^4.0.0-rc.12",
     "kinto": "^12.0.2",
     "lodash.camelcase": "^4.3.0",
     "mapbox-gl": "0.51.0",

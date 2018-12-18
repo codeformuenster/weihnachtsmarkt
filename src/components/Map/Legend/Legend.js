@@ -4,24 +4,28 @@ import './Legend.css'
 
 const boothStyling = [
   {
-    type: 'beverage',
+    type: 'Getränke',
     color: '#390035',
   },
   {
-    type: 'craft',
+    type: 'Dekoration',
     color: '#0097df',
   },
   {
-    type: 'food',
+    type: 'Essen',
     color: '#db5f62',
   },
   {
-    type: 'clothes',
+    type: 'Kleidung',
     color: '#00D1B2',
   },
   {
-    type: 'candy',
+    type: 'Süßes',
     color: '#ffde2d',
+  },
+  {
+    type: 'Kinder',
+    color: '#ff9966',
   },
 ]
 
