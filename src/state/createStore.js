@@ -26,6 +26,12 @@ const reducer = (state, action) => {
       filterData: action.payload,
     }
   }
+  if (action.type === `SET_SEARCH_TERM`) {
+    return {
+      ...state,
+      searchTerm: action.payload,
+    }
+  }
   if (action.type === `SET_SELECTED_MARKET`) {
     return {
       ...state,
@@ -41,7 +47,10 @@ const reducer = (state, action) => {
   if (action.type === `SET_VIEWPORT`) {
     return {
       ...state,
-      viewport: action.payload,
+      viewport: {
+        ...state.viewport,
+        ...action.payload,
+      },
     }
   }
   return state
@@ -51,6 +60,7 @@ const initialState = {
   allMarkets: [],
   allBooths: [],
   filterData: [],
+  searchTerm: '',
   selectedMarket: {},
   selectedBooth: {},
   viewport: {

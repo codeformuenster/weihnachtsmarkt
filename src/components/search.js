@@ -1,42 +1,54 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import './search.css'
+import { StaticQuery, graphql } from 'gatsby'
 
-const baseUrl =
-  process.env.NODE_ENV === 'production'
-    ? 'https://kinto.codeformuenster.org'
-    : 'http://localhost:8888'
-
-export default class Search extends Component {
-  render() {
-    return (
+const Search = ({ searchTerm, setFilterData, setSearchTerm }) => (
+  <StaticQuery
+    query={graphql`
+      {
+        site {
+          siteMetadata {
+            baseUrl
+          }
+        }
+      }
+    `}
+    render={data => (
       <div className="search-container">
         <input
           className="search-input"
           type="search"
           placeholder="Suche nach Ständen, Produkten und Kategorien..."
           autoComplete="off"
+          value={searchTerm}
           onChange={e => {
-            if (e.target.value === '') {
-              this.props.setFilterData([])
+            setSearchTerm(e.target.value)
+            let emptyRegEx = /^\s+$/
+            if (emptyRegEx.test(e.target.value) || e.target.value === '') {
+              setFilterData([])
               return
             }
             fetch(
-              `${baseUrl}/v1/buckets/weihnachtsmarkt/collections/booths/search?q=*${
+              `${
+                data.site.siteMetadata.baseUrl
+              }/v1/buckets/weihnachtsmarkt/collections/booths/search?q=*${
                 e.target.value
               }*`
             )
               .then(response => response.json())
-              .then(data =>
-                this.props.setFilterData(data.hits.hits.map(hit => hit._id))
-              )
+              .then(data => setFilterData(data.hits.hits.map(hit => hit._id)))
           }}
         />
       </div>
-    )
-  }
-}
+    )}
+  />
+)
+
+export default Search
 
 Search.propTypes = {
+  searchTerm: PropTypes.string,
   setFilterData: PropTypes.func,
+  setSearchTerm: PropTypes.func,
 }
