@@ -2,6 +2,10 @@ module.exports = {
   siteMetadata: {
     title: 'Weihnachtsmarkt.ms',
     longTitle: 'Weihnachtsmarkt.ms Münster - Mobile App',
+    baseUrl:
+      process.env.NODE_ENV === 'production'
+        ? 'https://kinto.codeformuenster.org'
+        : 'http://localhost:8888',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -29,8 +33,7 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
-        
-       }
-     },
+      },
+    },
   ],
 }

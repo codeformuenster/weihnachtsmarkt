@@ -5,31 +5,41 @@
  */
 const got = require('got')
 
-const baseUrl =
-  process.env.NODE_ENV === 'production'
-    ? 'https://kinto.codeformuenster.org'
-    : 'http://localhost:8888'
-
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const client = got.extend({
-    baseUrl,
-    json: true,
-  })
+  graphql(
+    `
+      {
+        site {
+          siteMetadata {
+            baseUrl
+          }
+        }
+      }
+    `
+  )
+    .then(result => {
+      const baseUrl = result.data.site.siteMetadata.baseUrl
 
-  return client
-    .get('/v1/buckets/weihnachtsmarkt/collections/booths/records')
-    .then(({ body }) => {
-      body.data.forEach((data, index) => {
-        let path = createPath(data, index)
-        console.log('Create path: ' + path)
-        createPage({
-          path: path,
-          component: process.cwd() + '/src/templates/Details.js',
-          context: data,
-        })
+      const client = got.extend({
+        baseUrl,
+        json: true,
       })
+
+      return client
+        .get('/v1/buckets/weihnachtsmarkt/collections/booths/records')
+        .then(({ body }) => {
+          body.data.forEach((data, index) => {
+            let path = createPath(data, index)
+            console.log('Create path: ' + path)
+            createPage({
+              path: path,
+              component: process.cwd() + '/src/templates/Details.js',
+              context: data,
+            })
+          })
+        })
     })
     .catch(() => {})
 }
