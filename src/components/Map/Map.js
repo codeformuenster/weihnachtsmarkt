@@ -226,17 +226,6 @@ export default class Map extends Component {
         filterBoothStyle
       )
     } else {
-      this.map.getSource('booths-source').setData({
-        type: 'FeatureCollection',
-        features: this.props.allBooths.map(e => ({
-          ...e,
-          type: 'Feature',
-          properties: {
-            ...e,
-            filterVisible: 0,
-          },
-        })),
-      })
       this.map.setPaintProperty(
         'booths',
         'fill-extrusion-color',
