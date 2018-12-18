@@ -1,9 +1,9 @@
 import Kinto from 'kinto'
 
-const baseUrl = 'https://kinto.codeformuenster.org'
-// process.env.NODE_ENV === 'production'
-//   ? 'https://kinto.codeformuenster.org'
-//   : 'http://localhost:8888'
+const baseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://kinto.codeformuenster.org'
+    : 'http://localhost:8888'
 
 const client = new Kinto({
   remote: `${baseUrl}/v1`,

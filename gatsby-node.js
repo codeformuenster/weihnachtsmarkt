@@ -7,10 +7,10 @@ const got = require('got')
 
 console.log(process.env)
 
-const baseUrl = 'https://kinto.codeformuenster.org'
-// process.env.NODE_ENV === 'production'
-//   ? 'https://kinto.codeformuenster.org'
-//   : 'http://localhost:8888'
+const baseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://kinto.codeformuenster.org'
+    : 'http://localhost:8888'
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
