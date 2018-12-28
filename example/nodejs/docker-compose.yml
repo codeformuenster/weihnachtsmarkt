@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    command: node --es_staging --experimental-modules ./src/test1.mjs
+    environment:
+      KINTO_URL: https://kinto.codeformuenster.org/v1
+      # NODE_OPTIONS              set CLI options in the environment via a space-separated list
+    volumes:
+      - ./src:/usr/src/app/src

@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "kinto-http": "4.6.1"
+  }
+}
